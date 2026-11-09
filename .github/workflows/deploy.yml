@@ -1,0 +1,30 @@
+name: Deploy to EnxadaHost Server
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Sync mods, resourcepacks, shaderpacks and config to EnxadaHost
+        env:
+          ENXADA_API_KEY: ${{ secrets.ENXADA_API_KEY }}
+          ENXADA_SERVER_ID: "b31b9e05"
+        run: python scripts/deploy_enxadahost.py

@@ -1,0 +1,17 @@
+# Ignore runtime, world saves, caches, and local user files
+/*
+!/mods/
+!/resourcepacks/
+!/shaderpacks/
+!/config/
+!/scripts/
+!/.github/
+!/.gitignore
+!/README.md
+!/sincronizar-github.bat
+
+# Ignore disabled mods and connector cache inside mods/
+/mods/.connector/
+/mods/*.disabled
+/mods/*.tmp
+/mods/*.bak
