@@ -15,3 +15,9 @@
 /mods/*.disabled
 /mods/*.tmp
 /mods/*.bak
+
+# Ignore local backups and Xaero client settings
+/config/*.bak
+/config/xaero/
+/config/xaerohud.txt
+/config/xaeropatreon.txt
