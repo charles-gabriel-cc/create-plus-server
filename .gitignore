@@ -1,6 +1,7 @@
 # Ignore runtime, world saves, caches, and local user files
 /*
 !/mods/
+!/server-mods/
 !/resourcepacks/
 !/shaderpacks/
 !/config/

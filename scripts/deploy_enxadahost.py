@@ -237,6 +237,14 @@ def main():
             else:
                 expected_srv_mods[fname] = fpath
 
+    # Server-only mods (e.g. DirectAuth) live outside mods/ so they never load in the client instance.
+    server_only_dir = os.path.join(repo_root, "server-mods")
+    if os.path.isdir(server_only_dir):
+        for fname in sorted(os.listdir(server_only_dir)):
+            fpath = os.path.join(server_only_dir, fname)
+            if fname.endswith(".jar") and os.path.isfile(fpath):
+                expected_srv_mods[fname] = fpath
+
     print(f"Classified local mods: {len(expected_srv_mods)} server/both mods, {len(expected_cli_mods)} client-only mods.")
 
     server_mods_changed = False
