@@ -2,87 +2,41 @@ import os
 import sys
 import json
 import time
-import zipfile
-import hashlib
 import subprocess
 import requests
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import sync_packwiz
 
 SERVER_ID = os.environ.get("ENXADA_SERVER_ID", "b31b9e05")
 API_KEY = os.environ.get("ENXADA_API_KEY", "").strip()
 BASE_URL = f"https://painel.enxadahost.com/api/client/servers/{SERVER_ID}"
 
-KNOWN_CLIENT_PREFIXES = (
-    "asyncparticles",
-    "badoptimizations",
-    "controlling",
-    "cutthrough",
-    "detailarmorbar",
-    "ding-",
-    "eclipseui",
-    "essential_",
-    "gpubooster",
-    "immediatelyfast",
-    "ixeris",
-    "kerria",
-    "mousetweaks",
-    "particleeffects",
-    "resourcify",
-    "searchables",
-    "smartblockplacement",
-    "toadlib",
-    "updating world icon",
-    "betterbiomeblend",
-    "chat_heads",
-    "colorwheel",
-    "continuity",
-    "dynamic-fps",
-    "eatinganimation",
-    "eg-inventory-blur",
-    "entity_model_features",
-    "entity_texture_features",
-    "entityculling",
-    "explosiveenhancement",
-    "flerovium",
-    "iris-",
-    "lambdynamiclights",
-    "modelfix",
-    "moreculling",
-    "notenoughanimations",
-    "nowheel",
-    "polytone",
-    "progresspeek",
-    "reeses-sodium-options",
-    "remi-",
-    "roxy-",
-    "smart_bounds",
-    "smoothswapping",
-    "sodium-extra",
-    "sodium-neoforge",
-    "sounds-",
-    "statuseffectbars",
-    "toomanyrecipeviewers",
-    "voxy-",
-    "yeetusexperimentus",
-    "zume-",
-)
+sha1_file = sync_packwiz.sha1_file
 
 
-def sha1_file(path: str) -> str:
-    h = hashlib.sha1()
-    with open(path, "rb") as f:
-        while chunk := f.read(65536):
-            h.update(chunk)
-    return h.hexdigest()
+def load_mod_pw_sides(repo_root: str) -> dict[str, str]:
+    """Map mod filename -> side ('client', 'server', 'both') from mods/*.pw.toml."""
+    sides: dict[str, str] = {}
+    for rel_path, data in sync_packwiz.scan_pw_files(repo_root).items():
+        if rel_path.startswith("mods/") and data.get("filename"):
+            sides[data["filename"]] = data.get("side", "both")
+    return sides
 
 
-def is_client_only_mod(jar_path: str, remote_srv_mods: dict, remote_cli_mods: dict) -> bool:
+def is_client_only_mod(
+    jar_path: str,
+    remote_srv_mods: dict,
+    remote_cli_mods: dict,
+    pw_sides: dict[str, str] | None = None,
+) -> bool:
     fname_orig = os.path.basename(jar_path)
     fname = fname_orig.lower()
     if "automodpack" in fname:
         return False
-    for prefix in KNOWN_CLIENT_PREFIXES:
-        if fname.startswith(prefix):
-            return True
+
+    if pw_sides and pw_sides.get(fname_orig) == "client":
+        return True
 
     # Fast path if already classified on server
     if fname_orig in remote_cli_mods:
@@ -90,20 +44,8 @@ def is_client_only_mod(jar_path: str, remote_srv_mods: dict, remote_cli_mods: di
     if fname_orig in remote_srv_mods:
         return False
 
-    # Inspect jar metadata (fabric.mod.json / neoforge.mods.toml) for newly added mods
-    try:
-        with zipfile.ZipFile(jar_path, "r") as z:
-            names = z.namelist()
-            if "fabric.mod.json" in names and "META-INF/neoforge.mods.toml" not in names:
-                data = json.loads(z.read("fabric.mod.json").decode("utf-8", errors="ignore"))
-                if data.get("environment") == "client":
-                    return True
-            if "META-INF/neoforge.mods.toml" in names:
-                toml_text = z.read("META-INF/neoforge.mods.toml").decode("utf-8", errors="ignore")
-                if "clientSideOnly=true" in toml_text.replace(" ", "") or "clientSideOnly = true" in toml_text:
-                    return True
-    except Exception:
-        pass
+    if sync_packwiz.has_client_only_jar_metadata(jar_path):
+        return True
 
     # Fallback for newly added mods: query Modrinth API by SHA1
     try:
@@ -202,6 +144,8 @@ def main():
         sys.exit(1)
 
     repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    sync_packwiz.ensure_local_binaries_from_pw_toml(repo_root, allow_prune=False)
+    pw_sides = load_mod_pw_sides(repo_root)
     client = EnxadaClient(API_KEY)
 
     remote_sha1 = {}
@@ -232,7 +176,7 @@ def main():
             fpath = os.path.join(local_mods_dir, fname)
             if not os.path.isfile(fpath):
                 continue
-            if is_client_only_mod(fpath, remote_srv_mods, remote_cli_mods):
+            if is_client_only_mod(fpath, remote_srv_mods, remote_cli_mods, pw_sides=pw_sides):
                 expected_cli_mods[fname] = fpath
             else:
                 expected_srv_mods[fname] = fpath

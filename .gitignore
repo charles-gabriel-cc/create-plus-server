@@ -8,8 +8,20 @@
 !/scripts/
 !/.github/
 !/.gitignore
+!/.gitattributes
+!/pack.toml
+!/index.toml
+!/.packwizignore
 !/README.md
 !/sincronizar-github.bat
+!/packwiz-installer-bootstrap.jar
+!/atualizar-mods.bat
+
+# Ignore exported modpack archives
+/*.mrpack
+
+# Ignore Python bytecode cache
+/scripts/__pycache__/
 
 # Ignore disabled mods and connector cache inside mods/
 /mods/.connector/
@@ -17,8 +29,13 @@
 /mods/*.tmp
 /mods/*.bak
 
-# Ignore local backups and Xaero client settings
+# Ignore unpacked shaderpack folders (e.g. Euphoria Patcher runtime folder)
+/shaderpacks/*/
+
+# Ignore local backups, Spark temp files, and Xaero client settings
 /config/*.bak
+/config/**/*.bak
+/config/spark/tmp*
 /config/xaero/
 /config/xaerohud.txt
 /config/xaeropatreon.txt

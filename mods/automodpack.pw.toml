@@ -1,0 +1,13 @@
+name = "AutoModpack"
+filename = "automodpack-mc1.21.1-neoforge-4.0.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/k68glP2e/versions/QpFRQTSU/automodpack-mc1.21.1-neoforge-4.0.7.jar"
+hash-format = "sha512"
+hash = "30a37438215c7cbee43f5761fc53d92f07a2a19094800df612647d77257850de65d7d66f19205e13ece7c85f41719bed2714d67504c2da6e5d483abfbf0361fd"
+
+[update]
+[update.modrinth]
+mod-id = "k68glP2e"
+version = "QpFRQTSU"

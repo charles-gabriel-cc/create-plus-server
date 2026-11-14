@@ -1,0 +1,13 @@
+name = "Create: Circuit Board"
+filename = "create-circuit-board-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AXwSxoUG/versions/clWXRR6e/create-circuit-board-1.21.1.jar"
+hash-format = "sha512"
+hash = "e6096b63418c63e07a28c9f4ec1fa4b0d8a5b48c3d9f90a37e32ee5aa492eaa03ccaf449912643fb904b259e315eca72c0af0dd1fb17e610cda538390a988f41"
+
+[update]
+[update.modrinth]
+mod-id = "AXwSxoUG"
+version = "clWXRR6e"

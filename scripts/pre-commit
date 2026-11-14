@@ -1,0 +1,23 @@
+#!/bin/sh
+set -e
+
+export PATH="/c/Users/charl/.local/bin:/c/Python313:/c/Python313/Scripts:$PATH"
+
+if command -v python >/dev/null 2>&1; then
+    PYTHON_BIN="python"
+elif [ -x "/c/Python313/python.exe" ]; then
+    PYTHON_BIN="/c/Python313/python.exe"
+else
+    echo "[Packwiz pre-commit] ERRO: Python nao encontrado." >&2
+    exit 1
+fi
+
+echo "[Packwiz pre-commit] Sincronizando Modrinth App <-> Packwiz..."
+"$PYTHON_BIN" scripts/sync_packwiz.py
+
+git add -A -- pack.toml index.toml .packwizignore mods/ resourcepacks/ shaderpacks/
+for extra in packwiz-installer-bootstrap.jar atualizar-mods.bat; do
+    if [ -e "$extra" ] || git ls-files --error-unmatch "$extra" >/dev/null 2>&1; then
+        git add -A -- "$extra"
+    fi
+done

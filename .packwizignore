@@ -1,0 +1,37 @@
+# Managed by scripts/sync_packwiz.py (keep LF line endings)
+*
+!mods
+!mods/**
+!resourcepacks
+!resourcepacks/**
+!shaderpacks
+!shaderpacks/**
+!config
+!config/**
+
+mods/.connector
+mods/.connector/**
+mods/*.disabled
+mods/*.tmp
+mods/*.bak
+shaderpacks/*
+!shaderpacks/*.pw.toml
+
+config/*.bak
+config/**/*.bak
+config/xaero
+config/xaero/**
+config/xaerohud.txt
+config/xaeropatreon.txt
+config/spark/tmp
+config/spark/tmp/**
+config/spark/tmp-client
+config/spark/tmp-client/**
+
+mods/*.jar
+resourcepacks/*.zip
+
+# Non-Modrinth files included directly in Packwiz index / .mrpack overrides:
+!mods/let_it_walk-0.1.5.jar
+!mods/toomanyrecipeviewers-0.9.0\+mc.21.1.jar
+!resourcepacks/Visual Effects\+.zip

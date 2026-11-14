@@ -1,0 +1,5 @@
+.packwizignore text eol=lf
+pack.toml text eol=lf
+index.toml text eol=lf
+*.pw.toml text eol=lf
+scripts/pre-commit text eol=lf

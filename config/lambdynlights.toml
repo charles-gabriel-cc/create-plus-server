@@ -187,14 +187,6 @@ chunk_rebuild_scheduler = "culling"
 				bag_of_grapeshot = true
 				he_shell = true
 
-			[light_sources.settings.entities.simulated]
-				launched_plunger = true
-				honey_glue = true
-				contraption_diagram = true
-
-			[light_sources.settings.entities.sophisticatedbackpacks]
-				everlasting_backpack_item = true
-
 			[light_sources.settings.entities.connectiblechains]
 				chain_knot = true
 				chain_collision = true
@@ -205,33 +197,15 @@ chunk_rebuild_scheduler = "culling"
 				medium_fireball = true
 
 			[light_sources.settings.entities.bits_n_bobs]
+				cogwheel_chain_carriage_contraption = true
 				inert_stationary_contraption = true
 
 			[light_sources.settings.entities.another_furniture]
 				seat = true
 
-			[light_sources.settings.entities.lootr]
-				lootr_minecart = true
-				item_frame = true
-
-			[light_sources.settings.entities.railways]
-				conductor = true
-				benchcart = true
-				jukeboxcart = true
-
 			[light_sources.settings.entities.aeronautics]
 				propeller_bearing_contraption = true
 				gust = true
-
-			[light_sources.settings.entities.spelunkery]
-				dust_bunny = true
-				pebble = true
-				falling_layer = true
-				glowstick = true
-				pick = true
-				egg_plither = true
-				mineomite = true
-				eggplant = true
 
 			[light_sources.settings.entities.quark]
 				quark_boat = true
@@ -255,23 +229,6 @@ chunk_rebuild_scheduler = "culling"
 				soul_bead = true
 				flamerang = true
 
-			[light_sources.settings.entities.supplementaries]
-				dispenser_minecart = true
-				slingshot_projectile = true
-				brick_projectile = true
-				plunderer = true
-				falling_sack = true
-				pearl_marker = true
-				hat_stand = true
-				bomb = true
-				falling_ash = true
-				cannonball = true
-				falling_urn = true
-				red_merchant = true
-				cannon_boat = true
-				rope_arrow = true
-				slimeball_projectile = true
-
 			[light_sources.settings.entities.create]
 				carriage_contraption = true
 				seat = true
@@ -293,6 +250,64 @@ chunk_rebuild_scheduler = "culling"
 			[light_sources.settings.entities.mynethersdelight]
 				strider_rock = true
 
+			[light_sources.settings.entities.powergrid]
+				cord = true
+				block_wire = true
+				string_light_cord = true
+				hanging_wire = true
+				zap_projectile = true
+
+			[light_sources.settings.entities.create_radar]
+				sky_radar_contraption = true
+
+			[light_sources.settings.entities.simulated]
+				launched_plunger = true
+				honey_glue = true
+				contraption_diagram = true
+
+			[light_sources.settings.entities.sophisticatedbackpacks]
+				everlasting_backpack_item = true
+
+			[light_sources.settings.entities.createdieselgenerators]
+				chemical_sprayer_projectile = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
+				item_frame = true
+
+			[light_sources.settings.entities.railways]
+				conductor = true
+				benchcart = true
+				jukeboxcart = true
+
+			[light_sources.settings.entities.spelunkery]
+				dust_bunny = true
+				pebble = true
+				falling_layer = true
+				glowstick = true
+				pick = true
+				egg_plither = true
+				mineomite = true
+				eggplant = true
+
+			[light_sources.settings.entities.supplementaries]
+				dispenser_minecart = true
+				slingshot_projectile = true
+				brick_projectile = true
+				plunderer = true
+				falling_sack = true
+				pearl_marker = true
+				hat_stand = true
+				pignata = true
+				bomb = true
+				falling_ash = true
+				cannonball = true
+				falling_urn = true
+				red_merchant = true
+				cannon_boat = true
+				rope_arrow = true
+				slimeball_projectile = true
+
 			[light_sources.settings.entities.enchancement]
 				brimstone = true
 				ice_shard = true
@@ -302,6 +317,29 @@ chunk_rebuild_scheduler = "culling"
 
 			[light_sources.settings.entities.offroad]
 				borehead_contraption_entity = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				copper_golem = true
+				illusioner = true
+				ice_chunk = true
+				moobloom = true
+				barnacle = true
+				iceologer = true
+				glare = true
+				player_illusion = true
+				tuff_golem = true
+				mauler = true
+				wildfire = true
+				crab = true
+				penguin = true
+				rascal = true
+
+			[light_sources.settings.entities.createthrusters]
+				launched_claw = true
+				player_mannequin = true
+
+			[light_sources.settings.entities.pocket]
+				the_moon_package = true
 
 [debug]
 	active_dynamic_lighting_cells = false
