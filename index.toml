@@ -1679,6 +1679,10 @@ hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
+file = "mods/createlanterns-alpha-20.45.jar"
+hash = "c0f9577c30b874360cdc25c777f5dcdf5af704bd0ca586e0a21ba514c126cefe"
+
+[[files]]
 file = "mods/cut-through.pw.toml"
 hash = "4c16ee75d3b04443e96d854eec79344293963e9f4beaaf8e7215023e8ef53b88"
 metafile = true
