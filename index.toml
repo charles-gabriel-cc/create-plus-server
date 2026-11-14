@@ -849,6 +849,70 @@ file = "config/friendsandfoes.json"
 hash = "c9517fc0bbf4c4052db7689755ea94bef982dff968d59ab23f3b0c7212106b2d"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "7d03a9e65db7f33be947a3f8b555a0543d23bf0442ad69a52db6c06cc49391c5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/01_primeiros_passos.snbt"
+hash = "ba705e1a42dbfa4ca4dbc22361f80babe26b364b8c99a000478c79e59b172e85"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/02_create_era_andesito.snbt"
+hash = "2912f9d25edee3b9911d716ea255b296b91fda48c2abec9c8d3df34e884c1c7f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/03_create_era_latao_e_logistica.snbt"
+hash = "3941a93cf379fe89065977dee948c634c12e393dee242356ba2a6c8cf0ec961b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/04_create_ferrovias_e_circuitos.snbt"
+hash = "9ef28aae7aa4cb6661cc57a17e79ad0ce175272cde8f727da81f65695f0bb87a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/05_create_energia_e_industria.snbt"
+hash = "a01c18f3214f6e26313fb9918efdba59bfb2078f71e025cc651069f800f04888"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/06_aeronautica_propulsao_e_fisica.snbt"
+hash = "ad498a5b4c157981fed6dfe3e3898029b582d78b4f2bd0a30d5be3394c713ff7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/07_artilharia_e_radares.snbt"
+hash = "03ccd69fe7aecb88fc75e5906566e11ec98bcfe0c1daf3a4cc794d132c2848bb"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_gastronomia_delight.snbt"
+hash = "00c0aed34186eddc45116b3882c4a9afdf100b93379a3147b8884f0b4c215875"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/09_arquitetura_decoracao_e_economia.snbt"
+hash = "fe02f79b9fe3a668d3dfe4f6c7c111b1e519e62075c04f47c17514fdddacc751"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/10_exploracao_biomas_e_estruturas.snbt"
+hash = "60e714b8535f667bec793e8f019384212733c10241feffc96f01dff07047f670"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/11_catalogo_mods_parte_1.snbt"
+hash = "4b567775829240ab86f7f1eab23a12e4450c115ed414481d8bb0e800265c6613"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/12_catalogo_mods_parte_2.snbt"
+hash = "dfb909f4d0d155c21551126823bb672c35aa3989175b58e8cc08cf5938f52f61"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "5fa25183ecae09f498807eef9049eb095c6c247c187be8c9c17e9c2a358fd4d7"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "97245c6923b1f39cefc41add800efffbe5860c04b642fee2a543263349340187"
+
+[[files]]
+file = "config/ftbquests/quests/lang/pt_br.snbt"
+hash = "97245c6923b1f39cefc41add800efffbe5860c04b642fee2a543263349340187"
+
+[[files]]
 file = "config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
@@ -1972,6 +2036,26 @@ metafile = true
 file = "mods/friends-and-foes-forge.pw.toml"
 hash = "dd747d8f87a5cbff501a4c59f5ac06faec2cc03c416cbff5dc3b920157552dc0"
 metafile = true
+
+[[files]]
+file = "mods/ftb-filter-system-neoforge-21.1.4.jar"
+hash = "b8700e8bfd9c78b09bc7819cb28a6318b20d2bf68969bc6894a0bfa39581a99b"
+
+[[files]]
+file = "mods/ftb-library-neoforge-2101.1.39.jar"
+hash = "ca64bd1b5f335406900f74eeafacea5a3580a3933d61de6b6600a64eb12a9a95"
+
+[[files]]
+file = "mods/ftb-quests-neoforge-2101.1.38.jar"
+hash = "3752657a82c69b0a80c034700df86f1a3d7c5f3e3aad814b5af748b9082a834b"
+
+[[files]]
+file = "mods/ftb-teams-neoforge-2101.1.12.jar"
+hash = "b3f33436070b7ae4a706280561f1d2f1d1eb1a089cb13ec9851e99646165aed2"
+
+[[files]]
+file = "mods/ftb-xmod-compat-neoforge-21.1.14.jar"
+hash = "143c79710af4e17dbff7bb933f2e17c667091353e188e5d53fdaab4220a5ff64"
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"

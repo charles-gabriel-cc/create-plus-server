@@ -1,0 +1,505 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "09_arquitetura_decoracao_e_economia"
+	group: "1000000000000004"
+	icon: {
+		id: "supplementaries:globe"
+	}
+	id: "2000000000000009"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "copycats:copycat_block"
+			}
+			id: "300000000000005F"
+			rewards: [
+				{
+					id: "5000000000000069"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [
+				{
+					count: 4L
+					id: "4000000000000137"
+					item: {
+						count: 1
+						id: "copycats:copycat_block"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000138"
+					item: {
+						count: 1
+						id: "copycats:copycat_slab"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000139"
+					item: {
+						count: 1
+						id: "copycats:copycat_beam"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "400000000000013A"
+					item: {
+						count: 1
+						id: "copycats:copycat_catwalk"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "400000000000013B"
+					item: {
+						count: 1
+						id: "createframed:andesite_alloy_window"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "300000000000005F" ]
+			icon: {
+				id: "bits_n_bobs:andesite_tiles"
+			}
+			id: "3000000000000060"
+			rewards: [
+				{
+					id: "500000000000006A"
+					type: "xp"
+					xp: 65
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "400000000000013C"
+					item: {
+						count: 1
+						id: "bits_n_bobs:andesite_tiles"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000013D"
+					item: {
+						count: 1
+						id: "bits_n_bobs:black_chair"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000013E"
+					item: {
+						count: 1
+						id: "bits_n_bobs:brass_lamp"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "400000000000013F"
+					item: {
+						count: 1
+						id: "createprism:andesite_clear_glass_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000140"
+					item: {
+						count: 1
+						id: "createprism:andesite_illumination_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000141"
+					item: {
+						count: 1
+						id: "createlanterns:gold_display_case"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "brick_and_mortar:algal_tiles"
+			}
+			id: "3000000000000061"
+			rewards: [
+				{
+					id: "500000000000006B"
+					type: "xp"
+					xp: 55
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "4000000000000142"
+					item: {
+						count: 1
+						id: "brick_and_mortar:algal_tiles"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4000000000000143"
+					item: {
+						count: 1
+						id: "brick_and_mortar:black_ash_bricks"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000144"
+					item: {
+						count: 1
+						id: "another_furniture:oak_chair"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000145"
+					item: {
+						count: 1
+						id: "another_furniture:oak_table"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000146"
+					item: {
+						count: 1
+						id: "another_furniture:oak_drawer"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000147"
+					item: {
+						count: 1
+						id: "another_furniture:oak_shelf"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "supplementaries:globe"
+			}
+			id: "3000000000000062"
+			rewards: [
+				{
+					id: "500000000000006C"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000148"
+					item: {
+						count: 1
+						id: "supplementaries:globe"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000149"
+					item: {
+						count: 1
+						id: "supplementaries:hourglass"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000014A"
+					item: {
+						count: 1
+						id: "supplementaries:sack"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000014B"
+					item: {
+						count: 1
+						id: "supplementaries:safe"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000014C"
+					item: {
+						count: 1
+						id: "supplementaries:jar"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000014D"
+					item: {
+						count: 1
+						id: "supplementaries:faucet"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000014E"
+					item: {
+						count: 1
+						id: "supplementaries:turn_table"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000014F"
+					item: {
+						count: 1
+						id: "supplementaries:spring_launcher"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000150"
+					item: {
+						count: 1
+						id: "supplementaries:speaker_block"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000151"
+					item: {
+						count: 1
+						id: "supplementaries:blackboard"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "quark:pickarang"
+			}
+			id: "3000000000000063"
+			rewards: [
+				{
+					id: "500000000000006D"
+					type: "xp"
+					xp: 85
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000152"
+					item: {
+						count: 1
+						id: "quark:pickarang"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000153"
+					item: {
+						count: 1
+						id: "quark:trowel"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000154"
+					item: {
+						count: 1
+						id: "quark:abacus"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000155"
+					item: {
+						count: 1
+						id: "quark:bottled_cloud"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000156"
+					item: {
+						count: 1
+						id: "quark:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000157"
+					item: {
+						count: 1
+						id: "quark:seed_pouch"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "numismatics:banking_guide"
+			}
+			id: "3000000000000064"
+			rewards: [
+				{
+					id: "500000000000006E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			size: 1.4d
+			tasks: [
+				{
+					id: "4000000000000158"
+					item: {
+						count: 1
+						id: "numismatics:banking_guide"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4000000000000159"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "400000000000015A"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000015B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000015C"
+					item: {
+						count: 1
+						id: "numismatics:bank_terminal"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000015D"
+					item: {
+						count: 1
+						id: "numismatics:vendor"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000015E"
+					item: {
+						count: 1
+						id: "numismatics:blaze_banker"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000015F"
+					item: {
+						count: 1
+						id: "numismatics:andesite_depositor"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "netherite_horse_armor:netherite_horse_armor"
+			}
+			id: "3000000000000065"
+			rewards: [
+				{
+					id: "500000000000006F"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000160"
+					item: {
+						count: 1
+						id: "netherite_horse_armor:netherite_horse_armor"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000161"
+					item: {
+						count: 1
+						id: "azimuth:ponder_coordinate"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+	]
+}

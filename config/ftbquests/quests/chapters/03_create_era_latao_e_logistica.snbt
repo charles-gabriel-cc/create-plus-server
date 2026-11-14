@@ -1,0 +1,619 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "03_create_era_latao_e_logistica"
+	group: "1000000000000002"
+	icon: {
+		id: "create:precision_mechanism"
+	}
+	id: "2000000000000003"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:polished_rose_quartz"
+			}
+			id: "3000000000000024"
+			rewards: [
+				{
+					id: "500000000000002B"
+					type: "xp"
+					xp: 45
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [
+				{
+					id: "4000000000000043"
+					item: {
+						count: 1
+						id: "create:polished_rose_quartz"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000044"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "3000000000000024" ]
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "3000000000000025"
+			rewards: [
+				{
+					id: "500000000000002C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					count: 8L
+					id: "4000000000000045"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4000000000000046"
+					item: {
+						count: 1
+						id: "create:brass_casing"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "3000000000000025" ]
+			icon: {
+				id: "create:deployer"
+			}
+			id: "3000000000000026"
+			rewards: [
+				{
+					id: "500000000000002D"
+					type: "xp"
+					xp: 65
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000047"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000048"
+					item: {
+						count: 1
+						id: "create:brass_hand"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "3000000000000026" ]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "3000000000000027"
+			rewards: [
+				{
+					id: "500000000000002E"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "500000000000002F"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "4000000000000049"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "3000000000000027" ]
+			icon: {
+				id: "create:crushing_wheel"
+			}
+			id: "3000000000000028"
+			rewards: [
+				{
+					id: "5000000000000030"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "400000000000004A"
+					item: {
+						count: 1
+						id: "create:crushing_wheel"
+					}
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "400000000000004B"
+					item: {
+						count: 1
+						id: "create:mechanical_crafter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "3000000000000027" ]
+			icon: {
+				id: "create:rotation_speed_controller"
+			}
+			id: "3000000000000029"
+			rewards: [
+				{
+					id: "5000000000000031"
+					type: "xp"
+					xp: 90
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000004C"
+					item: {
+						count: 1
+						id: "create:rotation_speed_controller"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000004D"
+					item: {
+						count: 1
+						id: "create:mechanical_arm"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [ "3000000000000025" ]
+			icon: {
+				id: "create:brass_funnel"
+			}
+			id: "300000000000002A"
+			rewards: [
+				{
+					id: "5000000000000032"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000004E"
+					item: {
+						count: 1
+						id: "create:brass_funnel"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000004F"
+					item: {
+						count: 1
+						id: "create:brass_tunnel"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000050"
+					item: {
+						count: 1
+						id: "create:smart_chute"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000051"
+					item: {
+						count: 1
+						id: "create:smart_fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000052"
+					item: {
+						count: 1
+						id: "create:content_observer"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000053"
+					item: {
+						count: 1
+						id: "create:stockpile_switch"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000054"
+					item: {
+						count: 1
+						id: "create:redstone_contact"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000055"
+					item: {
+						count: 1
+						id: "create:redstone_link"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000056"
+					item: {
+						count: 1
+						id: "create:nixie_tube"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000057"
+					item: {
+						count: 1
+						id: "create:display_link"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000058"
+					item: {
+						count: 1
+						id: "create:display_board"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [ "3000000000000025" ]
+			icon: {
+				id: "create:steam_engine"
+			}
+			id: "300000000000002B"
+			rewards: [
+				{
+					id: "5000000000000033"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "5000000000000034"
+					item: {
+						count: 1
+						id: "create:steam_whistle"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					id: "4000000000000059"
+					item: {
+						count: 1
+						id: "create:steam_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [ "3000000000000025" ]
+			icon: {
+				id: "create:track"
+			}
+			id: "300000000000002C"
+			rewards: [
+				{
+					id: "5000000000000035"
+					type: "xp"
+					xp: 130
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [
+				{
+					count: 16L
+					id: "400000000000005A"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "400000000000005B"
+					item: {
+						count: 1
+						id: "create:railway_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "400000000000005C"
+					item: {
+						count: 1
+						id: "create:track_station"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000005D"
+					item: {
+						count: 1
+						id: "create:controls"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "400000000000005E"
+					item: {
+						count: 1
+						id: "create:track_signal"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000005F"
+					item: {
+						count: 1
+						id: "create:track_observer"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000060"
+					item: {
+						count: 1
+						id: "create:schedule"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [ "3000000000000027" ]
+			icon: {
+				id: "create:packager"
+			}
+			id: "300000000000002D"
+			rewards: [
+				{
+					id: "5000000000000036"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [
+				{
+					id: "4000000000000061"
+					item: {
+						count: 1
+						id: "create:packager"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4000000000000062"
+					item: {
+						count: 1
+						id: "create:cardboard"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000063"
+					item: {
+						count: 1
+						id: "create:cardboard_block"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000064"
+					item: {
+						count: 1
+						id: "create:bound_cardboard_block"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000065"
+					item: {
+						count: 1
+						id: "create:repackager"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000066"
+					item: {
+						count: 1
+						id: "create:package_frogport"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [ "300000000000002D" ]
+			icon: {
+				id: "create:stock_ticker"
+			}
+			id: "300000000000002E"
+			rewards: [
+				{
+					id: "5000000000000037"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "octagon"
+			size: 1.4d
+			tasks: [
+				{
+					id: "4000000000000067"
+					item: {
+						count: 1
+						id: "create:stock_ticker"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000068"
+					item: {
+						count: 1
+						id: "create:stock_link"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000069"
+					item: {
+						count: 1
+						id: "create:redstone_requester"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "400000000000006A"
+					item: {
+						count: 1
+						id: "create:factory_gauge"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000006B"
+					item: {
+						count: 1
+						id: "create:brass_table_cloth"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "400000000000006C"
+					item: {
+						count: 1
+						id: "create:chain_conveyor"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000006D"
+					item: {
+						count: 1
+						id: "create:transmitter"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000006E"
+					item: {
+						count: 1
+						id: "cardboarded_conveynience:invisible_package"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.5d
+		}
+	]
+}

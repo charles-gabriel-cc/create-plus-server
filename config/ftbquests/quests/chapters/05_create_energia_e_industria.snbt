@@ -1,0 +1,648 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "05_create_energia_e_industria"
+	group: "1000000000000002"
+	icon: {
+		id: "powergrid:electric_motor"
+	}
+	id: "2000000000000005"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "createdieselgenerators:asphalt_block"
+			}
+			id: "300000000000003B"
+			rewards: [
+				{
+					id: "5000000000000044"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [
+				{
+					count: 4L
+					id: "40000000000000A1"
+					item: {
+						count: 1
+						id: "createdieselgenerators:asphalt_block"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000A2"
+					item: {
+						count: 1
+						id: "createdieselgenerators:basin_lid"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40000000000000A3"
+					item: {
+						count: 1
+						id: "createdieselgenerators:oil_barrel"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000A4"
+					item: {
+						count: 1
+						id: "createdieselgenerators:canister"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "300000000000003B" ]
+			icon: {
+				id: "createdieselgenerators:pumpjack_head"
+			}
+			id: "300000000000003C"
+			rewards: [
+				{
+					id: "5000000000000045"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000000A5"
+					item: {
+						count: 1
+						id: "createdieselgenerators:pumpjack_head"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000A6"
+					item: {
+						count: 1
+						id: "createdieselgenerators:pumpjack_crank"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000A7"
+					item: {
+						count: 1
+						id: "createdieselgenerators:pumpjack_bearing"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "300000000000003C" ]
+			icon: {
+				id: "createdieselgenerators:distillation_controller"
+			}
+			id: "300000000000003D"
+			rewards: [
+				{
+					id: "5000000000000046"
+					type: "xp"
+					xp: 110
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000000A8"
+					item: {
+						count: 1
+						id: "createdieselgenerators:distillation_controller"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "300000000000003D" ]
+			icon: {
+				id: "createdieselgenerators:diesel_engine"
+			}
+			id: "300000000000003E"
+			rewards: [
+				{
+					id: "5000000000000047"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "octagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "40000000000000A9"
+					item: {
+						count: 1
+						id: "createdieselgenerators:diesel_engine"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000AA"
+					item: {
+						count: 1
+						id: "createdieselgenerators:large_diesel_engine"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000AB"
+					item: {
+						count: 1
+						id: "createdieselgenerators:huge_diesel_engine"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000AC"
+					item: {
+						count: 1
+						id: "createdieselgenerators:chemical_sprayer"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "powergrid:wire_cutter"
+			}
+			id: "300000000000003F"
+			rewards: [
+				{
+					id: "5000000000000048"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [
+				{
+					id: "40000000000000AD"
+					item: {
+						count: 1
+						id: "powergrid:wire_cutter"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "40000000000000AE"
+					item: {
+						count: 1
+						id: "powergrid:insulated_copper_wire"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40000000000000AF"
+					item: {
+						count: 1
+						id: "powergrid:copper_coil"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40000000000000B0"
+					item: {
+						count: 1
+						id: "powergrid:cord_junction"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [ "300000000000003F" ]
+			icon: {
+				id: "powergrid:generator_housing"
+			}
+			id: "3000000000000040"
+			rewards: [
+				{
+					id: "5000000000000049"
+					type: "xp"
+					xp: 110
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000000B1"
+					item: {
+						count: 1
+						id: "powergrid:generator_housing"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000B2"
+					item: {
+						count: 1
+						id: "powergrid:generator_induction_rotor"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000B3"
+					item: {
+						count: 1
+						id: "powergrid:generator_commutator"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000B4"
+					item: {
+						count: 1
+						id: "powergrid:electric_motor"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [ "3000000000000040" ]
+			icon: {
+				id: "powergrid:multimeter"
+			}
+			id: "3000000000000041"
+			rewards: [
+				{
+					id: "500000000000004A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000000B5"
+					item: {
+						count: 1
+						id: "powergrid:multimeter"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000B6"
+					item: {
+						count: 1
+						id: "powergrid:battery"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000B7"
+					item: {
+						count: 1
+						id: "powergrid:solar_panel"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000B8"
+					item: {
+						count: 1
+						id: "powergrid:transformer_core"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000B9"
+					item: {
+						count: 1
+						id: "powergrid:hv_switch"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000BA"
+					item: {
+						count: 1
+						id: "powergrid:voltage_gauge"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000BB"
+					item: {
+						count: 1
+						id: "powergrid:light_fixture"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [ "3000000000000041" ]
+			icon: {
+				id: "powergrid:portable_drill"
+			}
+			id: "3000000000000042"
+			rewards: [
+				{
+					id: "500000000000004B"
+					type: "xp"
+					xp: 90
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000000BC"
+					item: {
+						count: 1
+						id: "powergrid:portable_drill"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000BD"
+					item: {
+						count: 1
+						id: "powergrid:portable_saw"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000BE"
+					item: {
+						count: 1
+						id: "powergrid:circuit_design_table"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "alloyed:steel_ingot"
+			}
+			id: "3000000000000043"
+			rewards: [
+				{
+					id: "500000000000004C"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "40000000000000BF"
+					item: {
+						count: 1
+						id: "alloyed:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "40000000000000C0"
+					item: {
+						count: 1
+						id: "alloyed:bronze_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40000000000000C1"
+					item: {
+						count: 1
+						id: "alloyed:steel_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40000000000000C2"
+					item: {
+						count: 1
+						id: "alloyed:steel_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000C3"
+					item: {
+						count: 1
+						id: "alloyed:steel_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000C4"
+					item: {
+						count: 1
+						id: "alloyed:bronze_bell"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "create_enchantment_industry:blaze_enchanter"
+			}
+			id: "3000000000000044"
+			rewards: [
+				{
+					id: "500000000000004D"
+					type: "xp"
+					xp: 140
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000000C5"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:blaze_enchanter"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000C6"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:mechanical_grindstone"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000C7"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:grindstone_drain"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000C8"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:blaze_forger"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000C9"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:printer"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000CA"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:experience_hatch"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000CB"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:super_experience_block"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000CC"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:experience_cake"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "create_dragons_plus:dragon_breath_bucket"
+			}
+			id: "3000000000000045"
+			rewards: [
+				{
+					id: "500000000000004E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000000CD"
+					item: {
+						count: 1
+						id: "create_dragons_plus:dragon_breath_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000CE"
+					item: {
+						count: 1
+						id: "create_dragons_plus:fluid_hatch"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000CF"
+					item: {
+						count: 1
+						id: "create_dragons_plus:fragile_fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000D0"
+					item: {
+						count: 1
+						id: "create_dragons_plus:blaze_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000D1"
+					item: {
+						count: 1
+						id: "create_factory:cake_paste"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40000000000000D2"
+					item: {
+						count: 1
+						id: "create_factory:chocolate_waffle"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000000D3"
+					item: {
+						count: 1
+						id: "create_factory:caramel_apple"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+	]
+}

@@ -1,0 +1,386 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "08_gastronomia_delight"
+	group: "1000000000000004"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "2000000000000008"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "3000000000000058"
+			rewards: [
+				{
+					id: "5000000000000061"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "400000000000011C"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000011D"
+					item: {
+						count: 1
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000011E"
+					item: {
+						count: 1
+						id: "farmersdelight:skillet"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000011F"
+					item: {
+						count: 1
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000120"
+					item: {
+						count: 1
+						id: "farmersdelight:iron_knife"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "3000000000000058" ]
+			icon: {
+				id: "farmersdelight:rich_soil"
+			}
+			id: "3000000000000059"
+			rewards: [
+				{
+					id: "5000000000000062"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "4000000000000121"
+					item: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000122"
+					item: {
+						count: 1
+						id: "farmersdelight:organic_compost"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000123"
+					item: {
+						count: 1
+						id: "farmersdelight:bamboo_basket"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4000000000000124"
+					item: {
+						count: 1
+						id: "farmersdelight:rope"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000125"
+					item: {
+						count: 1
+						id: "farmersdelight:canvas"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "3000000000000059" ]
+			icon: {
+				id: "farmersdelight:roast_chicken_block"
+			}
+			id: "300000000000005A"
+			rewards: [
+				{
+					id: "5000000000000063"
+					type: "xp"
+					xp: 80
+				}
+				{
+					count: 4
+					id: "5000000000000064"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [
+				{
+					id: "4000000000000126"
+					item: {
+						count: 1
+						id: "farmersdelight:roast_chicken_block"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "3000000000000058" ]
+			icon: {
+				id: "sliceanddice:slicer"
+			}
+			id: "300000000000005B"
+			rewards: [
+				{
+					id: "5000000000000065"
+					type: "xp"
+					xp: 85
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000127"
+					item: {
+						count: 1
+						id: "sliceanddice:slicer"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000128"
+					item: {
+						count: 1
+						id: "sliceanddice:sprinkler"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000129"
+					item: {
+						count: 1
+						id: "sliceanddice:fertilizer_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [ "3000000000000058" ]
+			icon: {
+				id: "mynethersdelight:nether_bricks_stove"
+			}
+			id: "300000000000005C"
+			rewards: [
+				{
+					id: "5000000000000066"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000012A"
+					item: {
+						count: 1
+						id: "mynethersdelight:nether_bricks_stove"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000012B"
+					item: {
+						count: 1
+						id: "mynethersdelight:blackstone_cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "400000000000012C"
+					item: {
+						count: 1
+						id: "mynethersdelight:bullet_pepper"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000012D"
+					item: {
+						count: 1
+						id: "mynethersdelight:strider_slice"
+					}
+					type: "item"
+				}
+				{
+					id: "400000000000012E"
+					item: {
+						count: 1
+						id: "mynethersdelight:breakfast_sampler"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [ "3000000000000058" ]
+			icon: {
+				id: "minersdelight:copper_pot"
+			}
+			id: "300000000000005D"
+			rewards: [
+				{
+					id: "5000000000000067"
+					type: "xp"
+					xp: 70
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000012F"
+					item: {
+						count: 1
+						id: "minersdelight:copper_pot"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4000000000000130"
+					item: {
+						count: 1
+						id: "minersdelight:copper_cup"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4000000000000131"
+					item: {
+						count: 1
+						id: "minersdelight:cave_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000132"
+					item: {
+						count: 1
+						id: "minersdelight:baked_tentacles"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [ "3000000000000058" ]
+			icon: {
+				id: "ends_delight:end_stove"
+			}
+			id: "300000000000005E"
+			rewards: [
+				{
+					id: "5000000000000068"
+					type: "xp"
+					xp: 110
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000133"
+					item: {
+						count: 1
+						id: "ends_delight:end_stove"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000134"
+					item: {
+						count: 1
+						id: "ends_delight:dragon_egg_shell_knife"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000135"
+					item: {
+						count: 1
+						id: "ends_delight:chorus_fruit_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "4000000000000136"
+					item: {
+						count: 1
+						id: "ends_delight:dragon_breath_soda"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+	]
+}

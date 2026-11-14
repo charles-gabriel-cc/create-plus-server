@@ -1,0 +1,3603 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "12_catalogo_mods_parte_2"
+	group: "1000000000000005"
+	icon: {
+		id: "minecraft:chiseled_bookshelf"
+	}
+	id: "200000000000000C"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000010A"
+			rewards: [
+				{
+					id: "5000000000000115"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000020D"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000010B"
+			rewards: [
+				{
+					id: "5000000000000116"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000020E"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000010C"
+			rewards: [
+				{
+					id: "5000000000000117"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000020F"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000010D"
+			rewards: [
+				{
+					id: "5000000000000118"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000210"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000010E"
+			rewards: [
+				{
+					id: "5000000000000119"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000211"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000010F"
+			rewards: [
+				{
+					id: "500000000000011A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000212"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000110"
+			rewards: [
+				{
+					id: "500000000000011B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000213"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000111"
+			rewards: [
+				{
+					id: "500000000000011C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000214"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000112"
+			rewards: [
+				{
+					id: "500000000000011D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000215"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000113"
+			rewards: [
+				{
+					id: "500000000000011E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000216"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000114"
+			rewards: [
+				{
+					id: "500000000000011F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000217"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000115"
+			rewards: [
+				{
+					id: "5000000000000120"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000218"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 1.6d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "3000000000000116"
+			rewards: [
+				{
+					id: "5000000000000121"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000219"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 1.6d
+		}
+		{
+			icon: {
+				id: "minecraft:painting"
+			}
+			id: "3000000000000117"
+			rewards: [
+				{
+					id: "5000000000000122"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000021A"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 1.6d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_block"
+			}
+			id: "3000000000000118"
+			rewards: [
+				{
+					id: "5000000000000123"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000021B"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 1.6d
+		}
+		{
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "3000000000000119"
+			rewards: [
+				{
+					id: "5000000000000124"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000021C"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 1.6d
+		}
+		{
+			icon: {
+				id: "friendsandfoes:buttercup"
+			}
+			id: "300000000000011A"
+			rewards: [
+				{
+					id: "5000000000000125"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000021D"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 1.6d
+		}
+		{
+			icon: {
+				id: "create:flywheel"
+			}
+			id: "300000000000011B"
+			rewards: [
+				{
+					id: "5000000000000126"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000021E"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 1.6d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000011C"
+			rewards: [
+				{
+					id: "5000000000000127"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000021F"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 1.6d
+		}
+		{
+			icon: {
+				id: "friendsandfoes:totem_of_freezing"
+			}
+			id: "300000000000011D"
+			rewards: [
+				{
+					id: "5000000000000128"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000220"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 1.6d
+		}
+		{
+			icon: {
+				id: "ftbfiltersystem:smart_filter"
+			}
+			id: "300000000000011E"
+			rewards: [
+				{
+					id: "5000000000000129"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000221"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			icon: {
+				id: "ftblibrary:icon_item"
+			}
+			id: "300000000000011F"
+			rewards: [
+				{
+					id: "500000000000012A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000222"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 3.2d
+		}
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "3000000000000120"
+			rewards: [
+				{
+					id: "500000000000012B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000223"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 3.2d
+		}
+		{
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "3000000000000121"
+			rewards: [
+				{
+					id: "500000000000012C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000224"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 3.2d
+		}
+		{
+			icon: {
+				id: "minecraft:comparator"
+			}
+			id: "3000000000000122"
+			rewards: [
+				{
+					id: "500000000000012D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000225"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 3.2d
+		}
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "3000000000000123"
+			rewards: [
+				{
+					id: "500000000000012E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000226"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 3.2d
+		}
+		{
+			icon: {
+				id: "createthrusters:aileron_bearing"
+			}
+			id: "3000000000000124"
+			rewards: [
+				{
+					id: "500000000000012F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000227"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 3.2d
+		}
+		{
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "3000000000000125"
+			rewards: [
+				{
+					id: "5000000000000130"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000228"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 3.2d
+		}
+		{
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "3000000000000126"
+			rewards: [
+				{
+					id: "5000000000000131"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000229"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 3.2d
+		}
+		{
+			icon: {
+				id: "minecraft:redstone_block"
+			}
+			id: "3000000000000127"
+			rewards: [
+				{
+					id: "5000000000000132"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000022A"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 3.2d
+		}
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "3000000000000128"
+			rewards: [
+				{
+					id: "5000000000000133"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000022B"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 4.800000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:lightning_rod"
+			}
+			id: "3000000000000129"
+			rewards: [
+				{
+					id: "5000000000000134"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000022C"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 4.800000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "300000000000012A"
+			rewards: [
+				{
+					id: "5000000000000135"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000022D"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 4.800000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "300000000000012B"
+			rewards: [
+				{
+					id: "5000000000000136"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000022E"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 4.800000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "300000000000012C"
+			rewards: [
+				{
+					id: "5000000000000137"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000022F"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 4.800000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:redstone_torch"
+			}
+			id: "300000000000012D"
+			rewards: [
+				{
+					id: "5000000000000138"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000230"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 4.800000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "300000000000012E"
+			rewards: [
+				{
+					id: "5000000000000139"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000231"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 4.800000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "300000000000012F"
+			rewards: [
+				{
+					id: "500000000000013A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000232"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 4.800000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "3000000000000130"
+			rewards: [
+				{
+					id: "500000000000013B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000233"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 4.800000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "3000000000000131"
+			rewards: [
+				{
+					id: "500000000000013C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000234"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 4.800000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000132"
+			rewards: [
+				{
+					id: "500000000000013D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000235"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000133"
+			rewards: [
+				{
+					id: "500000000000013E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000236"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 6.4d
+		}
+		{
+			icon: {
+				id: "let_it_walk:articulation_unit"
+			}
+			id: "3000000000000134"
+			rewards: [
+				{
+					id: "500000000000013F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000237"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 6.4d
+		}
+		{
+			icon: {
+				id: "minecraft:redstone"
+			}
+			id: "3000000000000135"
+			rewards: [
+				{
+					id: "5000000000000140"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000238"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 6.4d
+		}
+		{
+			icon: {
+				id: "minecraft:stone"
+			}
+			id: "3000000000000136"
+			rewards: [
+				{
+					id: "5000000000000141"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000239"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 6.4d
+		}
+		{
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "3000000000000137"
+			rewards: [
+				{
+					id: "5000000000000142"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000023A"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 6.4d
+		}
+		{
+			icon: {
+				id: "lootr:trophy"
+			}
+			id: "3000000000000138"
+			rewards: [
+				{
+					id: "5000000000000143"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000023B"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 6.4d
+		}
+		{
+			icon: {
+				id: "map_atlases:atlas"
+			}
+			id: "3000000000000139"
+			rewards: [
+				{
+					id: "5000000000000144"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000023C"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 6.4d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000013A"
+			rewards: [
+				{
+					id: "5000000000000145"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000023D"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 6.4d
+		}
+		{
+			icon: {
+				id: "minersdelight:copper_pot"
+			}
+			id: "300000000000013B"
+			rewards: [
+				{
+					id: "5000000000000146"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000023E"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 6.4d
+		}
+		{
+			icon: {
+				id: "minecraft:item_frame"
+			}
+			id: "300000000000013C"
+			rewards: [
+				{
+					id: "5000000000000147"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000023F"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:anvil"
+			}
+			id: "300000000000013D"
+			rewards: [
+				{
+					id: "5000000000000148"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000240"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "300000000000013E"
+			rewards: [
+				{
+					id: "5000000000000149"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000241"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "moonlight:placeable_item"
+			}
+			id: "300000000000013F"
+			rewards: [
+				{
+					id: "500000000000014A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000242"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:note_block"
+			}
+			id: "3000000000000140"
+			rewards: [
+				{
+					id: "500000000000014B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000243"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:glass"
+			}
+			id: "3000000000000141"
+			rewards: [
+				{
+					id: "500000000000014C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000244"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "3000000000000142"
+			rewards: [
+				{
+					id: "500000000000014D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000245"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "3000000000000143"
+			rewards: [
+				{
+					id: "500000000000014E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000246"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "mynethersdelight:nether_bricks_stove"
+			}
+			id: "3000000000000144"
+			rewards: [
+				{
+					id: "500000000000014F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000247"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:honeycomb"
+			}
+			id: "3000000000000145"
+			rewards: [
+				{
+					id: "5000000000000150"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000248"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:knowledge_book"
+			}
+			id: "3000000000000146"
+			rewards: [
+				{
+					id: "5000000000000151"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000249"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 9.600000000000001d
+		}
+		{
+			icon: {
+				id: "netherite_horse_armor:netherite_horse_armor"
+			}
+			id: "3000000000000147"
+			rewards: [
+				{
+					id: "5000000000000152"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000024A"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 9.600000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "3000000000000148"
+			rewards: [
+				{
+					id: "5000000000000153"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000024B"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 9.600000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "3000000000000149"
+			rewards: [
+				{
+					id: "5000000000000154"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000024C"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 9.600000000000001d
+		}
+		{
+			icon: {
+				id: "create:large_cogwheel"
+			}
+			id: "300000000000014A"
+			rewards: [
+				{
+					id: "5000000000000155"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000024D"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 9.600000000000001d
+		}
+		{
+			icon: {
+				id: "numismatics:cog"
+			}
+			id: "300000000000014B"
+			rewards: [
+				{
+					id: "5000000000000156"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000024E"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 9.600000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "300000000000014C"
+			rewards: [
+				{
+					id: "5000000000000157"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000024F"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 9.600000000000001d
+		}
+		{
+			icon: {
+				id: "offroad:tire"
+			}
+			id: "300000000000014D"
+			rewards: [
+				{
+					id: "5000000000000158"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000250"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 9.600000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "300000000000014E"
+			rewards: [
+				{
+					id: "5000000000000159"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000251"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 9.600000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000014F"
+			rewards: [
+				{
+					id: "500000000000015A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000252"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 9.600000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000150"
+			rewards: [
+				{
+					id: "500000000000015B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000253"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 11.200000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000151"
+			rewards: [
+				{
+					id: "500000000000015C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000254"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 11.200000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000152"
+			rewards: [
+				{
+					id: "500000000000015D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000255"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 11.200000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000153"
+			rewards: [
+				{
+					id: "500000000000015E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000256"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 11.200000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000154"
+			rewards: [
+				{
+					id: "500000000000015F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000257"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 11.200000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000155"
+			rewards: [
+				{
+					id: "5000000000000160"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000258"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 11.200000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000156"
+			rewards: [
+				{
+					id: "5000000000000161"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000259"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 11.200000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000157"
+			rewards: [
+				{
+					id: "5000000000000162"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000025A"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 11.200000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000158"
+			rewards: [
+				{
+					id: "5000000000000163"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000025B"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 11.200000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "3000000000000159"
+			rewards: [
+				{
+					id: "5000000000000164"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000025C"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 11.200000000000001d
+		}
+		{
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "300000000000015A"
+			rewards: [
+				{
+					id: "5000000000000165"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000025D"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "pocket:compression_gun"
+			}
+			id: "300000000000015B"
+			rewards: [
+				{
+					id: "5000000000000166"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000025E"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "minecraft:painting"
+			}
+			id: "300000000000015C"
+			rewards: [
+				{
+					id: "5000000000000167"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000025F"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "create:wrench"
+			}
+			id: "300000000000015D"
+			rewards: [
+				{
+					id: "5000000000000168"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000260"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "minecraft:honey_bottle"
+			}
+			id: "300000000000015E"
+			rewards: [
+				{
+					id: "5000000000000169"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000261"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "powerchip:chip"
+			}
+			id: "300000000000015F"
+			rewards: [
+				{
+					id: "500000000000016A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000262"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "powergrid:electric_motor"
+			}
+			id: "3000000000000160"
+			rewards: [
+				{
+					id: "500000000000016B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000263"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "3000000000000161"
+			rewards: [
+				{
+					id: "500000000000016C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000264"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000162"
+			rewards: [
+				{
+					id: "500000000000016D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000265"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "3000000000000163"
+			rewards: [
+				{
+					id: "500000000000016E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000266"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "3000000000000164"
+			rewards: [
+				{
+					id: "500000000000016F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000267"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 14.4d
+		}
+		{
+			icon: {
+				id: "quark:pickarang"
+			}
+			id: "3000000000000165"
+			rewards: [
+				{
+					id: "5000000000000170"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000268"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 14.4d
+		}
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "3000000000000166"
+			rewards: [
+				{
+					id: "5000000000000171"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000269"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 14.4d
+		}
+		{
+			icon: {
+				id: "railways:conductor_whistle"
+			}
+			id: "3000000000000167"
+			rewards: [
+				{
+					id: "5000000000000172"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000026A"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 14.4d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000168"
+			rewards: [
+				{
+					id: "5000000000000173"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000026B"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 14.4d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "3000000000000169"
+			rewards: [
+				{
+					id: "5000000000000174"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000026C"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 14.4d
+		}
+		{
+			icon: {
+				id: "minecraft:knowledge_book"
+			}
+			id: "300000000000016A"
+			rewards: [
+				{
+					id: "5000000000000175"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000026D"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 14.4d
+		}
+		{
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "300000000000016B"
+			rewards: [
+				{
+					id: "5000000000000176"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000026E"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 14.4d
+		}
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "300000000000016C"
+			rewards: [
+				{
+					id: "5000000000000177"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000026F"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 14.4d
+		}
+		{
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "300000000000016D"
+			rewards: [
+				{
+					id: "5000000000000178"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000270"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 14.4d
+		}
+		{
+			icon: {
+				id: "minecraft:painting"
+			}
+			id: "300000000000016E"
+			rewards: [
+				{
+					id: "5000000000000179"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000271"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "createbigcannons:ap_shell"
+			}
+			id: "300000000000016F"
+			rewards: [
+				{
+					id: "500000000000017A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000272"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "3000000000000170"
+			rewards: [
+				{
+					id: "500000000000017B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000273"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "3000000000000171"
+			rewards: [
+				{
+					id: "500000000000017C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000274"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "3000000000000172"
+			rewards: [
+				{
+					id: "500000000000017D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000275"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "3000000000000173"
+			rewards: [
+				{
+					id: "500000000000017E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000276"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "minecraft:stone"
+			}
+			id: "3000000000000174"
+			rewards: [
+				{
+					id: "500000000000017F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000277"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "3000000000000175"
+			rewards: [
+				{
+					id: "5000000000000180"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000278"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "minecraft:red_bed"
+			}
+			id: "3000000000000176"
+			rewards: [
+				{
+					id: "5000000000000181"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000279"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "3000000000000177"
+			rewards: [
+				{
+					id: "5000000000000182"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000027A"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "3000000000000178"
+			rewards: [
+				{
+					id: "5000000000000183"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000027B"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 17.6d
+		}
+		{
+			icon: {
+				id: "simulated_gauges:altitude_gauge"
+			}
+			id: "3000000000000179"
+			rewards: [
+				{
+					id: "5000000000000184"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000027C"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 17.6d
+		}
+		{
+			icon: {
+				id: "simulatedcoasters:coaster_cart"
+			}
+			id: "300000000000017A"
+			rewards: [
+				{
+					id: "5000000000000185"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000027D"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 17.6d
+		}
+		{
+			icon: {
+				id: "sliceanddice:slicer"
+			}
+			id: "300000000000017B"
+			rewards: [
+				{
+					id: "5000000000000186"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000027E"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 17.6d
+		}
+		{
+			icon: {
+				id: "create:andesite_casing"
+			}
+			id: "300000000000017C"
+			rewards: [
+				{
+					id: "5000000000000187"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000027F"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 17.6d
+		}
+		{
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "300000000000017D"
+			rewards: [
+				{
+					id: "5000000000000188"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000280"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 17.6d
+		}
+		{
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "300000000000017E"
+			rewards: [
+				{
+					id: "5000000000000189"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000281"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 17.6d
+		}
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "300000000000017F"
+			rewards: [
+				{
+					id: "500000000000018A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000282"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 17.6d
+		}
+		{
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "3000000000000180"
+			rewards: [
+				{
+					id: "500000000000018B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000283"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 17.6d
+		}
+		{
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "3000000000000181"
+			rewards: [
+				{
+					id: "500000000000018C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000284"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 17.6d
+		}
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "3000000000000182"
+			rewards: [
+				{
+					id: "500000000000018D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000285"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 19.200000000000003d
+		}
+		{
+			icon: {
+				id: "sophisticatedcore:xp_bucket"
+			}
+			id: "3000000000000183"
+			rewards: [
+				{
+					id: "500000000000018E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000286"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 19.200000000000003d
+		}
+		{
+			icon: {
+				id: "minecraft:jukebox"
+			}
+			id: "3000000000000184"
+			rewards: [
+				{
+					id: "500000000000018F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000287"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 19.200000000000003d
+		}
+		{
+			icon: {
+				id: "minecraft:redstone"
+			}
+			id: "3000000000000185"
+			rewards: [
+				{
+					id: "5000000000000190"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000288"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 19.200000000000003d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000186"
+			rewards: [
+				{
+					id: "5000000000000191"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000289"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 19.200000000000003d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000187"
+			rewards: [
+				{
+					id: "5000000000000192"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000028A"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 19.200000000000003d
+		}
+		{
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "3000000000000188"
+			rewards: [
+				{
+					id: "5000000000000193"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000028B"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 19.200000000000003d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "3000000000000189"
+			rewards: [
+				{
+					id: "5000000000000194"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000028C"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 19.200000000000003d
+		}
+		{
+			icon: {
+				id: "create:metal_girder"
+			}
+			id: "300000000000018A"
+			rewards: [
+				{
+					id: "5000000000000195"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000028D"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 19.200000000000003d
+		}
+		{
+			icon: {
+				id: "supplementaries:globe"
+			}
+			id: "300000000000018B"
+			rewards: [
+				{
+					id: "5000000000000196"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000028E"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 19.200000000000003d
+		}
+		{
+			icon: {
+				id: "minecraft:stone"
+			}
+			id: "300000000000018C"
+			rewards: [
+				{
+					id: "5000000000000197"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000028F"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 20.8d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "300000000000018D"
+			rewards: [
+				{
+					id: "5000000000000198"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000290"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 20.8d
+		}
+		{
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "300000000000018E"
+			rewards: [
+				{
+					id: "5000000000000199"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000291"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 20.8d
+		}
+		{
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "300000000000018F"
+			rewards: [
+				{
+					id: "500000000000019A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000292"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 20.8d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000190"
+			rewards: [
+				{
+					id: "500000000000019B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000293"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 20.8d
+		}
+		{
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "3000000000000191"
+			rewards: [
+				{
+					id: "500000000000019C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000294"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 20.8d
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_axe"
+			}
+			id: "3000000000000192"
+			rewards: [
+				{
+					id: "500000000000019D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000295"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 20.8d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000193"
+			rewards: [
+				{
+					id: "500000000000019E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000296"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 20.8d
+		}
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "3000000000000194"
+			rewards: [
+				{
+					id: "500000000000019F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000297"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 20.8d
+		}
+		{
+			icon: {
+				id: "minecraft:painting"
+			}
+			id: "3000000000000195"
+			rewards: [
+				{
+					id: "50000000000001A0"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000298"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 20.8d
+		}
+		{
+			icon: {
+				id: "minecraft:beacon"
+			}
+			id: "3000000000000196"
+			rewards: [
+				{
+					id: "50000000000001A1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000299"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 22.400000000000002d
+		}
+		{
+			icon: {
+				id: "minecraft:note_block"
+			}
+			id: "3000000000000197"
+			rewards: [
+				{
+					id: "50000000000001A2"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000029A"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 22.400000000000002d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "3000000000000198"
+			rewards: [
+				{
+					id: "50000000000001A3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000029B"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 22.400000000000002d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "3000000000000199"
+			rewards: [
+				{
+					id: "50000000000001A4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000029C"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 22.400000000000002d
+		}
+		{
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "300000000000019A"
+			rewards: [
+				{
+					id: "50000000000001A5"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000029D"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 22.400000000000002d
+		}
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "300000000000019B"
+			rewards: [
+				{
+					id: "50000000000001A6"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000029E"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 22.400000000000002d
+		}
+		{
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "300000000000019C"
+			rewards: [
+				{
+					id: "50000000000001A7"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000029F"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 22.400000000000002d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000019D"
+			rewards: [
+				{
+					id: "50000000000001A8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000002A0"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 22.400000000000002d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000019E"
+			rewards: [
+				{
+					id: "50000000000001A9"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000002A1"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 22.400000000000002d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "300000000000019F"
+			rewards: [
+				{
+					id: "50000000000001AA"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000002A2"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
+			y: 22.400000000000002d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "30000000000001A0"
+			rewards: [
+				{
+					id: "50000000000001AB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000002A3"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "30000000000001A1"
+			rewards: [
+				{
+					id: "50000000000001AC"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000002A4"
+					type: "checkmark"
+				}
+			]
+			x: 1.6d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "minecraft:cobblestone"
+			}
+			id: "30000000000001A2"
+			rewards: [
+				{
+					id: "50000000000001AD"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000002A5"
+					type: "checkmark"
+				}
+			]
+			x: 3.2d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "30000000000001A3"
+			rewards: [
+				{
+					id: "50000000000001AE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000002A6"
+					type: "checkmark"
+				}
+			]
+			x: 4.800000000000001d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "minecraft:sand"
+			}
+			id: "30000000000001A4"
+			rewards: [
+				{
+					id: "50000000000001AF"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000002A7"
+					type: "checkmark"
+				}
+			]
+			x: 6.4d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "30000000000001A5"
+			rewards: [
+				{
+					id: "50000000000001B0"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "40000000000002A8"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 24.0d
+		}
+	]
+}
