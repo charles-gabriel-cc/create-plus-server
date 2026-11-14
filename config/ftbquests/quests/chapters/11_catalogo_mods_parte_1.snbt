@@ -3580,28 +3580,5 @@
 			x: 6.4d
 			y: 24.0d
 		}
-		{
-			icon: {
-				id: "minecraft:book"
-			}
-			id: "3000000000000109"
-			rewards: [
-				{
-					id: "5000000000000114"
-					type: "xp"
-					xp: 5
-				}
-			]
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000020C"
-					type: "checkmark"
-				}
-			]
-			x: 8.0d
-			y: 24.0d
-		}
 	]
 }

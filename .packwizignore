@@ -34,11 +34,9 @@ resourcepacks/*.zip
 
 # Non-Modrinth files included directly in Packwiz index / .mrpack overrides:
 !mods/createlanterns-alpha-20.45.jar
-!mods/ftb-filter-system-neoforge-21.1.4.jar
 !mods/ftb-library-neoforge-2101.1.39.jar
 !mods/ftb-quests-neoforge-2101.1.38.jar
 !mods/ftb-teams-neoforge-2101.1.12.jar
-!mods/ftb-xmod-compat-neoforge-21.1.14.jar
 !mods/let_it_walk-0.1.5.jar
 !mods/toomanyrecipeviewers-0.9.0\+mc.21.1.jar
 !resourcepacks/Visual Effects\+.zip

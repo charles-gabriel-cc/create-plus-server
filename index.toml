@@ -894,11 +894,11 @@ hash = "60e714b8535f667bec793e8f019384212733c10241feffc96f01dff07047f670"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_catalogo_mods_parte_1.snbt"
-hash = "4b567775829240ab86f7f1eab23a12e4450c115ed414481d8bb0e800265c6613"
+hash = "f8521d8b4ced51022646c94bf73fcf95483213b19516dede219cc33ac6a4c35c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/12_catalogo_mods_parte_2.snbt"
-hash = "dfb909f4d0d155c21551126823bb672c35aa3989175b58e8cc08cf5938f52f61"
+hash = "a0fbf2675d5b66693ba6a1da5295766d02a2f5d8fa1d403d4439a726e0dc2eb0"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -906,11 +906,11 @@ hash = "5fa25183ecae09f498807eef9049eb095c6c247c187be8c9c17e9c2a358fd4d7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "97245c6923b1f39cefc41add800efffbe5860c04b642fee2a543263349340187"
+hash = "833b26899c7e2468c83b6f453c9ba2fd78ba73f569a38117c6d1ef7624886e56"
 
 [[files]]
 file = "config/ftbquests/quests/lang/pt_br.snbt"
-hash = "97245c6923b1f39cefc41add800efffbe5860c04b642fee2a543263349340187"
+hash = "833b26899c7e2468c83b6f453c9ba2fd78ba73f569a38117c6d1ef7624886e56"
 
 [[files]]
 file = "config/fzzy_config/keybinds.toml"
@@ -2038,10 +2038,6 @@ hash = "dd747d8f87a5cbff501a4c59f5ac06faec2cc03c416cbff5dc3b920157552dc0"
 metafile = true
 
 [[files]]
-file = "mods/ftb-filter-system-neoforge-21.1.4.jar"
-hash = "b8700e8bfd9c78b09bc7819cb28a6318b20d2bf68969bc6894a0bfa39581a99b"
-
-[[files]]
 file = "mods/ftb-library-neoforge-2101.1.39.jar"
 hash = "ca64bd1b5f335406900f74eeafacea5a3580a3933d61de6b6600a64eb12a9a95"
 
@@ -2052,10 +2048,6 @@ hash = "3752657a82c69b0a80c034700df86f1a3d7c5f3e3aad814b5af748b9082a834b"
 [[files]]
 file = "mods/ftb-teams-neoforge-2101.1.12.jar"
 hash = "b3f33436070b7ae4a706280561f1d2f1d1eb1a089cb13ec9851e99646165aed2"
-
-[[files]]
-file = "mods/ftb-xmod-compat-neoforge-21.1.14.jar"
-hash = "143c79710af4e17dbff7bb933f2e17c667091353e188e5d53fdaab4220a5ff64"
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"

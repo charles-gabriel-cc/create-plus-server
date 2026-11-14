@@ -19,9 +19,9 @@
 	chapter.2000000000000009.title: "Arquitetura, Decoração & Economia"
 	chapter.200000000000000A.chapter_subtitle: [ "Terralith, Tectonic, Ecologics, Friends&Foes e todas as 10 super-estruturas do YUNG!" ]
 	chapter.200000000000000A.title: "Exploração, Dimensões & Estruturas"
-	chapter.200000000000000B.chapter_subtitle: [ "Enciclopédia completa cobrindo os primeiros 156 mods instalados no Create+." ]
+	chapter.200000000000000B.chapter_subtitle: [ "Enciclopédia completa cobrindo os primeiros 155 mods instalados no Create+." ]
 	chapter.200000000000000B.title: "Catálogo de Mods (A – L)"
-	chapter.200000000000000C.chapter_subtitle: [ "Enciclopédia completa cobrindo os demais 156 mods instalados no Create+." ]
+	chapter.200000000000000C.chapter_subtitle: [ "Enciclopédia completa cobrindo os demais 155 mods instalados no Create+." ]
 	chapter.200000000000000C.title: "Catálogo de Mods (M – Z)"
 	chapter_group.1000000000000001.title: "Início & Sobrevivência"
 	chapter_group.1000000000000002.title: "Engenharia Create"
@@ -2004,16 +2004,6 @@
 	quest.300000000000011D.quest_subtitle: "[Mundo & Mobs] ID: friendsandfoes"
 	quest.300000000000011D.title: "Friends&Foes"
 	quest.300000000000011E.quest_desc: [
-		"&bMod ID:&r &eftbfiltersystem&r  |  &bCategoria:&r FTB Quests"
-		"&bArquivo(s):&r ftb-filter-system-neoforge-21.1.4.jar"
-		""
-		"Sistema inteligente de filtros compostos por tags, mod, NBT e nome."
-		""
-		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
-	]
-	quest.300000000000011E.quest_subtitle: "[FTB Quests] ID: ftbfiltersystem"
-	quest.300000000000011E.title: "FTB Filter System"
-	quest.300000000000011F.quest_desc: [
 		"&bMod ID:&r &eftblibrary&r  |  &bCategoria:&r FTB Quests"
 		"&bArquivo(s):&r ftb-library-neoforge-2101.1.39.jar"
 		""
@@ -2021,9 +2011,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.300000000000011F.quest_subtitle: "[FTB Quests] ID: ftblibrary"
-	quest.300000000000011F.title: "FTB Library"
-	quest.3000000000000120.quest_desc: [
+	quest.300000000000011E.quest_subtitle: "[FTB Quests] ID: ftblibrary"
+	quest.300000000000011E.title: "FTB Library"
+	quest.300000000000011F.quest_desc: [
 		"&bMod ID:&r &eftbquests&r  |  &bCategoria:&r FTB Quests"
 		"&bArquivo(s):&r ftb-quests-neoforge-2101.1.38.jar"
 		""
@@ -2031,9 +2021,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000120.quest_subtitle: "[FTB Quests] ID: ftbquests"
-	quest.3000000000000120.title: "FTB Quests"
-	quest.3000000000000121.quest_desc: [
+	quest.300000000000011F.quest_subtitle: "[FTB Quests] ID: ftbquests"
+	quest.300000000000011F.title: "FTB Quests"
+	quest.3000000000000120.quest_desc: [
 		"&bMod ID:&r &eftbteams&r  |  &bCategoria:&r FTB Quests"
 		"&bArquivo(s):&r ftb-teams-neoforge-2101.1.12.jar"
 		""
@@ -2041,27 +2031,17 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000121.quest_subtitle: "[FTB Quests] ID: ftbteams"
-	quest.3000000000000121.title: "FTB Teams"
-	quest.3000000000000122.quest_desc: [
-		"&bMod ID:&r &eftbxmodcompat&r  |  &bCategoria:&r FTB Quests"
-		"&bArquivo(s):&r ftb-xmod-compat-neoforge-21.1.14.jar"
-		""
-		"Integracao automatica do FTB Quests com EMI, Lootr e Open Parties & Claims."
-		""
-		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
-	]
-	quest.3000000000000122.quest_subtitle: "[FTB Quests] ID: ftbxmodcompat"
-	quest.3000000000000122.title: "FTB XMod Compat"
-	quest.3000000000000123.quest_desc: [
+	quest.3000000000000120.quest_subtitle: "[FTB Quests] ID: ftbteams"
+	quest.3000000000000120.title: "FTB Teams"
+	quest.3000000000000121.quest_desc: [
 		"&bMod ID:&r &efzzy_config&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r fzzy_config-0.7.7+fix1+1.21+neoforge.jar"
 		""
 		"Motor de configuracao automatica cliente-servidor usado por mods do pack."
 	]
-	quest.3000000000000123.quest_subtitle: "[Biblioteca] ID: fzzy_config"
-	quest.3000000000000123.title: "Fzzy Config"
-	quest.3000000000000124.quest_desc: [
+	quest.3000000000000121.quest_subtitle: "[Biblioteca] ID: fzzy_config"
+	quest.3000000000000121.title: "Fzzy Config"
+	quest.3000000000000122.quest_desc: [
 		"&bMod ID:&r &egadgetsngizmos&r  |  &bCategoria:&r Aeronautica & Fisica"
 		"&bArquivo(s):&r gadgets-and-gizmos-bundled-2.0.3.jar!gadgetsngizmos-2.0.0.jar"
 		""
@@ -2069,65 +2049,65 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAeronáutica, Veículos & Física Real&r."
 	]
-	quest.3000000000000124.quest_subtitle: "[Aeronautica & Fisica] ID: gadgetsngizmos"
-	quest.3000000000000124.title: "Gadgets & Gizmos Library"
-	quest.3000000000000125.quest_desc: [
+	quest.3000000000000122.quest_subtitle: "[Aeronautica & Fisica] ID: gadgetsngizmos"
+	quest.3000000000000122.title: "Gadgets & Gizmos Library"
+	quest.3000000000000123.quest_desc: [
 		"&bMod ID:&r &egeckolib&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r geckolib-neoforge-1.21.1-4.9.3.jar"
 		""
 		"Motor de animacoes 3D por keyframes usado por entidades e blocos customizados."
 	]
-	quest.3000000000000125.quest_subtitle: "[Biblioteca] ID: geckolib"
-	quest.3000000000000125.title: "GeckoLib 4"
-	quest.3000000000000126.quest_desc: [
+	quest.3000000000000123.quest_subtitle: "[Biblioteca] ID: geckolib"
+	quest.3000000000000123.title: "GeckoLib 4"
+	quest.3000000000000124.quest_desc: [
 		"&bMod ID:&r &egml&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r gml-6.0.2.jar"
 		""
 		"GroovyModLoader: suporte a mods escritos em Groovy."
 	]
-	quest.3000000000000126.quest_subtitle: "[Biblioteca] ID: gml"
-	quest.3000000000000126.title: "GroovyModLoader"
-	quest.3000000000000127.quest_desc: [
+	quest.3000000000000124.quest_subtitle: "[Biblioteca] ID: gml"
+	quest.3000000000000124.title: "GroovyModLoader"
+	quest.3000000000000125.quest_desc: [
 		"&bMod ID:&r &egpu_booster&r  |  &bCategoria:&r Performance & Render"
 		"&bArquivo(s):&r GPUBooster-1.3.2-1.21.1-neo.jar"
 		""
 		"Aplica recursos modernos de OpenGL 4+ para acelerar renderizacao na placa de video."
 	]
-	quest.3000000000000127.quest_subtitle: "[Performance & Render] ID: gpu_booster"
-	quest.3000000000000127.title: "GPUBooster"
-	quest.3000000000000128.quest_desc: [
+	quest.3000000000000125.quest_subtitle: "[Performance & Render] ID: gpu_booster"
+	quest.3000000000000125.title: "GPUBooster"
+	quest.3000000000000126.quest_desc: [
 		"&bMod ID:&r &eichunutil&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r iChunUtil-1.21-NeoForge-1.0.3.jar"
 		""
 		"Biblioteca base exigida por mods da familia iChun."
 	]
-	quest.3000000000000128.quest_subtitle: "[Biblioteca] ID: ichunutil"
-	quest.3000000000000128.title: "iChunUtil"
-	quest.3000000000000129.quest_desc: [
+	quest.3000000000000126.quest_subtitle: "[Biblioteca] ID: ichunutil"
+	quest.3000000000000126.title: "iChunUtil"
+	quest.3000000000000127.quest_desc: [
 		"&bMod ID:&r &eimmediatelyfast&r  |  &bCategoria:&r Performance & Render"
 		"&bArquivo(s):&r ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar"
 		""
 		"Otimiza renderizacao imediata (HUD, textos, mapas, entidades e inventarios) aumentando FPS."
 	]
-	quest.3000000000000129.quest_subtitle: "[Performance & Render] ID: immediatelyfast"
-	quest.3000000000000129.title: "ImmediatelyFast"
-	quest.300000000000012A.quest_desc: [
+	quest.3000000000000127.quest_subtitle: "[Performance & Render] ID: immediatelyfast"
+	quest.3000000000000127.title: "ImmediatelyFast"
+	quest.3000000000000128.quest_desc: [
 		"&bMod ID:&r &eiris&r  |  &bCategoria:&r Visual & Shaders"
 		"&bArquivo(s):&r iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
 		""
 		"Suporte nativo e otimizado a Shader Packs modernos com alta compatibilidade com Sodium."
 	]
-	quest.300000000000012A.quest_subtitle: "[Visual & Shaders] ID: iris"
-	quest.300000000000012A.title: "Iris"
-	quest.300000000000012B.quest_desc: [
+	quest.3000000000000128.quest_subtitle: "[Visual & Shaders] ID: iris"
+	quest.3000000000000128.title: "Iris"
+	quest.3000000000000129.quest_desc: [
 		"&bMod ID:&r &eixeris&r  |  &bCategoria:&r Performance & Input"
 		"&bArquivo(s):&r Ixeris-4.6.11+1.21.1-neoforge.jar!Ixeris-4.6.11+1.21.1-neoforge-mod.jar"
 		""
 		"Processa eventos de mouse e teclado em thread separada para resposta mais fluida."
 	]
-	quest.300000000000012B.quest_subtitle: "[Performance & Input] ID: ixeris"
-	quest.300000000000012B.title: "Ixeris"
-	quest.300000000000012C.quest_desc: [
+	quest.3000000000000129.quest_subtitle: "[Performance & Input] ID: ixeris"
+	quest.3000000000000129.title: "Ixeris"
+	quest.300000000000012A.quest_desc: [
 		"&bMod ID:&r &ejei&r  |  &bCategoria:&r Compatibilidade"
 		"&bArquivo(s):&r toomanyrecipeviewers-0.9.0+mc.21.1.jar"
 		""
@@ -2135,65 +2115,65 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.300000000000012C.quest_subtitle: "[Compatibilidade] ID: jei"
-	quest.300000000000012C.title: "TMRV JEI Stub"
-	quest.300000000000012D.quest_desc: [
+	quest.300000000000012A.quest_subtitle: "[Compatibilidade] ID: jei"
+	quest.300000000000012A.title: "TMRV JEI Stub"
+	quest.300000000000012B.quest_desc: [
 		"&bMod ID:&r &ekerria&r  |  &bCategoria:&r Performance & Render"
 		"&bArquivo(s):&r Kerria-1.3.2+1.21.1-neoforge.jar"
 		""
 		"Acelera a atualizacao de texturas animadas na VRAM (lava, agua, engrenagens)."
 	]
-	quest.300000000000012D.quest_subtitle: "[Performance & Render] ID: kerria"
-	quest.300000000000012D.title: "Kerria"
-	quest.300000000000012E.quest_desc: [
+	quest.300000000000012B.quest_subtitle: "[Performance & Render] ID: kerria"
+	quest.300000000000012B.title: "Kerria"
+	quest.300000000000012C.quest_desc: [
 		"&bMod ID:&r &ekiwi&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r Kiwi-1.21.1-NeoForge-15.8.7.jar"
 		""
 		"Biblioteca de utilitarios e configuracao para varios mods NeoForge."
 	]
-	quest.300000000000012E.quest_subtitle: "[Biblioteca] ID: kiwi"
-	quest.300000000000012E.title: "Kiwi Library"
-	quest.300000000000012F.quest_desc: [
+	quest.300000000000012C.quest_subtitle: "[Biblioteca] ID: kiwi"
+	quest.300000000000012C.title: "Kiwi Library"
+	quest.300000000000012D.quest_desc: [
 		"&bMod ID:&r &ekonkrete&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r konkrete_neoforge_1.9.9_MC_1.21.jar"
 		""
 		"Biblioteca base para UI e utilitarios."
 	]
-	quest.300000000000012F.quest_subtitle: "[Biblioteca] ID: konkrete"
-	quest.300000000000012F.title: "Konkrete"
-	quest.3000000000000130.quest_desc: [
+	quest.300000000000012D.quest_subtitle: "[Biblioteca] ID: konkrete"
+	quest.300000000000012D.title: "Konkrete"
+	quest.300000000000012E.quest_desc: [
 		"&bMod ID:&r &ekotlinforforge&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r kotlinforforge-5.12.0-all.jar!thedarkcolour.kffmod-5.12.0.jar"
 		""
 		"Runtime da linguagem Kotlin para mods NeoForge/Create."
 	]
-	quest.3000000000000130.quest_subtitle: "[Biblioteca] ID: kotlinforforge"
-	quest.3000000000000130.title: "Kotlin For Forge"
-	quest.3000000000000131.quest_desc: [
+	quest.300000000000012E.quest_subtitle: "[Biblioteca] ID: kotlinforforge"
+	quest.300000000000012E.title: "Kotlin For Forge"
+	quest.300000000000012F.quest_desc: [
 		"&bMod ID:&r &elambdynlights&r  |  &bCategoria:&r Visual & Iluminacao"
 		"&bArquivo(s):&r lambdynamiclights-4.8.11+1.21.1.jar"
 		""
 		"Iluminacao dinamica: segurar tochas, lanternas ou itens em chamas ilumina o caminho em tempo real."
 	]
-	quest.3000000000000131.quest_subtitle: "[Visual & Iluminacao] ID: lambdynlights"
-	quest.3000000000000131.title: "LambDynamicLights"
-	quest.3000000000000132.quest_desc: [
+	quest.300000000000012F.quest_subtitle: "[Visual & Iluminacao] ID: lambdynlights"
+	quest.300000000000012F.title: "LambDynamicLights"
+	quest.3000000000000130.quest_desc: [
 		"&bMod ID:&r &elambdynlights_api&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1-neoforge.jar!lambdynamiclights-api-4.8.11+1.21.1-mojmap.jar, lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-api-4.8.11+1.21.1.jar"
 		""
 		"Library to provide dynamic lighting to Minecraft through LambDynamicLights."
 	]
-	quest.3000000000000132.quest_subtitle: "[Mod / Componente do Pack] ID: lambdynlights_api"
-	quest.3000000000000132.title: "LambDynamicLights (API)"
-	quest.3000000000000133.quest_desc: [
+	quest.3000000000000130.quest_subtitle: "[Mod / Componente do Pack] ID: lambdynlights_api"
+	quest.3000000000000130.title: "LambDynamicLights (API)"
+	quest.3000000000000131.quest_desc: [
 		"&bMod ID:&r &elambdynlights_runtime&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1-neoforge.jar, lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1.jar"
 		""
 		"The runtime of the most feature-complete dynamic lighting mod."
 	]
-	quest.3000000000000133.quest_subtitle: "[Mod / Componente do Pack] ID: lambdynlights_runtime"
-	quest.3000000000000133.title: "LambDynamicLights (Runtime)"
-	quest.3000000000000134.quest_desc: [
+	quest.3000000000000131.quest_subtitle: "[Mod / Componente do Pack] ID: lambdynlights_runtime"
+	quest.3000000000000131.title: "LambDynamicLights (Runtime)"
+	quest.3000000000000132.quest_desc: [
 		"&bMod ID:&r &elet_it_walk&r  |  &bCategoria:&r Aeronautica & Fisica"
 		"&bArquivo(s):&r let_it_walk-0.1.5.jar"
 		""
@@ -2201,17 +2181,17 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAeronáutica, Veículos & Física Real&r."
 	]
-	quest.3000000000000134.quest_subtitle: "[Aeronautica & Fisica] ID: let_it_walk"
-	quest.3000000000000134.title: "Let it Walk!"
-	quest.3000000000000135.quest_desc: [
+	quest.3000000000000132.quest_subtitle: "[Aeronautica & Fisica] ID: let_it_walk"
+	quest.3000000000000132.title: "Let it Walk!"
+	quest.3000000000000133.quest_desc: [
 		"&bMod ID:&r &elithium&r  |  &bCategoria:&r Performance & Server"
 		"&bArquivo(s):&r lithium-neoforge-0.15.4+mc1.21.1.jar"
 		""
 		"Otimiza logica do servidor e tick (IA de mobs, colisao, funis, redstone) sem quebrar mecanicas vanilla."
 	]
-	quest.3000000000000135.quest_subtitle: "[Performance & Server] ID: lithium"
-	quest.3000000000000135.title: "Lithium"
-	quest.3000000000000136.quest_desc: [
+	quest.3000000000000133.quest_subtitle: "[Performance & Server] ID: lithium"
+	quest.3000000000000133.title: "Lithium"
+	quest.3000000000000134.quest_desc: [
 		"&bMod ID:&r &elithostitched&r  |  &bCategoria:&r Mundo & Biblioteca"
 		"&bArquivo(s):&r lithostitched-1.8.1-neoforge-21.1.jar"
 		""
@@ -2219,17 +2199,17 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eExploração, Dimensões & Estruturas&r."
 	]
-	quest.3000000000000136.quest_subtitle: "[Mundo & Biblioteca] ID: lithostitched"
-	quest.3000000000000136.title: "Lithostitched"
-	quest.3000000000000137.quest_desc: [
+	quest.3000000000000134.quest_subtitle: "[Mundo & Biblioteca] ID: lithostitched"
+	quest.3000000000000134.title: "Lithostitched"
+	quest.3000000000000135.quest_desc: [
 		"&bMod ID:&r &elodestone&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r lodestone-1.21.1-1.8.2.jar"
 		""
 		"Biblioteca de efeitos visuais e utilitarios."
 	]
-	quest.3000000000000137.quest_subtitle: "[Biblioteca] ID: lodestone"
-	quest.3000000000000137.title: "Lodestone"
-	quest.3000000000000138.quest_desc: [
+	quest.3000000000000135.quest_subtitle: "[Biblioteca] ID: lodestone"
+	quest.3000000000000135.title: "Lodestone"
+	quest.3000000000000136.quest_desc: [
 		"&bMod ID:&r &elootr&r  |  &bCategoria:&r Multiplayer & Exploracao"
 		"&bArquivo(s):&r lootr-neoforge-1.21.1-1.11.38.127.jar"
 		""
@@ -2237,9 +2217,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000138.quest_subtitle: "[Multiplayer & Exploracao] ID: lootr"
-	quest.3000000000000138.title: "Lootr"
-	quest.3000000000000139.quest_desc: [
+	quest.3000000000000136.quest_subtitle: "[Multiplayer & Exploracao] ID: lootr"
+	quest.3000000000000136.title: "Lootr"
+	quest.3000000000000137.quest_desc: [
 		"&bMod ID:&r &emap_atlases&r  |  &bCategoria:&r Exploracao & Mapas"
 		"&bArquivo(s):&r map_atlases-1.21-7.0.1-neoforge.jar"
 		""
@@ -2247,17 +2227,17 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000139.quest_subtitle: "[Exploracao & Mapas] ID: map_atlases"
-	quest.3000000000000139.title: "Map Atlases"
-	quest.300000000000013A.quest_desc: [
+	quest.3000000000000137.quest_subtitle: "[Exploracao & Mapas] ID: map_atlases"
+	quest.3000000000000137.title: "Map Atlases"
+	quest.3000000000000138.quest_desc: [
 		"&bMod ID:&r &emidnightlib&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r aileron-1.21.1-neoforge-1.1.4.jar!midnightlib-1.6.9+1.21-neoforge.jar"
 		""
 		"Common Library for Team MidnightDust's mods."
 	]
-	quest.300000000000013A.quest_subtitle: "[Mod / Componente do Pack] ID: midnightlib"
-	quest.300000000000013A.title: "MidnightLib"
-	quest.300000000000013B.quest_desc: [
+	quest.3000000000000138.quest_subtitle: "[Mod / Componente do Pack] ID: midnightlib"
+	quest.3000000000000138.title: "MidnightLib"
+	quest.3000000000000139.quest_desc: [
 		"&bMod ID:&r &eminersdelight&r  |  &bCategoria:&r Gastronomia"
 		"&bArquivo(s):&r minersdelight-1.21.1-1.4.5.jar"
 		""
@@ -2265,33 +2245,33 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eGastronomia & Fazendas (Farmer's Delight)&r."
 	]
-	quest.300000000000013B.quest_subtitle: "[Gastronomia] ID: minersdelight"
-	quest.300000000000013B.title: "Miners Delight"
-	quest.300000000000013C.quest_desc: [
+	quest.3000000000000139.quest_subtitle: "[Gastronomia] ID: minersdelight"
+	quest.3000000000000139.title: "Miners Delight"
+	quest.300000000000013A.quest_desc: [
 		"&bMod ID:&r &emodelfix&r  |  &bCategoria:&r Visual & Texturas"
 		"&bArquivo(s):&r modelfix-1.21-1.10.jar"
 		""
 		"Elimina pequenas frestas transparentes nos cantos de itens segurados na mao e modelos."
 	]
-	quest.300000000000013C.quest_subtitle: "[Visual & Texturas] ID: modelfix"
-	quest.300000000000013C.title: "Model Gap Fix"
-	quest.300000000000013D.quest_desc: [
+	quest.300000000000013A.quest_subtitle: "[Visual & Texturas] ID: modelfix"
+	quest.300000000000013A.title: "Model Gap Fix"
+	quest.300000000000013B.quest_desc: [
 		"&bMod ID:&r &emodernfix&r  |  &bCategoria:&r Performance & Memoria"
 		"&bArquivo(s):&r modernfix-neoforge-5.27.27+mc1.21.1.jar"
 		""
 		"Grandes melhorias de carregamento, uso de memoria RAM e correcoes de bugs de engine."
 	]
-	quest.300000000000013D.quest_subtitle: "[Performance & Memoria] ID: modernfix"
-	quest.300000000000013D.title: "ModernFix"
-	quest.300000000000013E.quest_desc: [
+	quest.300000000000013B.quest_subtitle: "[Performance & Memoria] ID: modernfix"
+	quest.300000000000013B.title: "ModernFix"
+	quest.300000000000013C.quest_desc: [
 		"&bMod ID:&r &emodmenu&r  |  &bCategoria:&r Compatibilidade"
 		"&bArquivo(s):&r ConnectorExtras-1.12.1+1.21.1.jar!modmenu-bridge-1.12.1+1.21.1.jar"
 		""
 		"Ponte de telas de configuracao de mods Fabric adaptadas ao NeoForge."
 	]
-	quest.300000000000013E.quest_subtitle: "[Compatibilidade] ID: modmenu"
-	quest.300000000000013E.title: "ModMenu (Connector Extras)"
-	quest.300000000000013F.quest_desc: [
+	quest.300000000000013C.quest_subtitle: "[Compatibilidade] ID: modmenu"
+	quest.300000000000013C.title: "ModMenu (Connector Extras)"
+	quest.300000000000013D.quest_desc: [
 		"&bMod ID:&r &emoonlight&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r moonlight-1.21.1-3.8.3-neoforge.jar"
 		""
@@ -2299,25 +2279,25 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eArquitetura, Decoração & Economia&r."
 	]
-	quest.300000000000013F.quest_subtitle: "[Biblioteca] ID: moonlight"
-	quest.300000000000013F.title: "Moonlight Lib"
-	quest.3000000000000140.quest_desc: [
+	quest.300000000000013D.quest_subtitle: "[Biblioteca] ID: moonlight"
+	quest.300000000000013D.title: "Moonlight Lib"
+	quest.300000000000013E.quest_desc: [
 		"&bMod ID:&r &emore_sounds&r  |  &bCategoria:&r Audio & Imersao"
 		"&bArquivo(s):&r more_sounds-1.21.x-0.3.0-beta.jar"
 		""
 		"Expande o mod Sounds adicionando efeitos sonoros personalizados para blocos de mods."
 	]
-	quest.3000000000000140.quest_subtitle: "[Audio & Imersao] ID: more_sounds"
-	quest.3000000000000140.title: "More Sounds"
-	quest.3000000000000141.quest_desc: [
+	quest.300000000000013E.quest_subtitle: "[Audio & Imersao] ID: more_sounds"
+	quest.300000000000013E.title: "More Sounds"
+	quest.300000000000013F.quest_desc: [
 		"&bMod ID:&r &emoreculling&r  |  &bCategoria:&r Performance & Render"
 		"&bArquivo(s):&r moreculling-neoforge-1.21.1-1.0.11.jar"
 		""
 		"Evita renderizar faces escondidas de folhas, molduras e blocos translucidos para ganhar FPS."
 	]
-	quest.3000000000000141.quest_subtitle: "[Performance & Render] ID: moreculling"
-	quest.3000000000000141.title: "More Culling"
-	quest.3000000000000142.quest_desc: [
+	quest.300000000000013F.quest_subtitle: "[Performance & Render] ID: moreculling"
+	quest.300000000000013F.title: "More Culling"
+	quest.3000000000000140.quest_desc: [
 		"&bMod ID:&r &emousetweaks&r  |  &bCategoria:&r Interface & QoL"
 		"&bArquivo(s):&r MouseTweaks-neoforge-mc1.21-2.26.1.jar"
 		""
@@ -2325,17 +2305,17 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000142.quest_subtitle: "[Interface & QoL] ID: mousetweaks"
-	quest.3000000000000142.title: "Mouse Tweaks"
-	quest.3000000000000143.quest_desc: [
+	quest.3000000000000140.quest_subtitle: "[Interface & QoL] ID: mousetweaks"
+	quest.3000000000000140.title: "Mouse Tweaks"
+	quest.3000000000000141.quest_desc: [
 		"&bMod ID:&r &emru&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r mru-1.0.41+1.21.1-neoforge.jar"
 		""
 		"Biblioteca de utilitarios usada pelos mods da familia Mineblock/Cassian."
 	]
-	quest.3000000000000143.quest_subtitle: "[Biblioteca] ID: mru"
-	quest.3000000000000143.title: "MRU"
-	quest.3000000000000144.quest_desc: [
+	quest.3000000000000141.quest_subtitle: "[Biblioteca] ID: mru"
+	quest.3000000000000141.title: "MRU"
+	quest.3000000000000142.quest_desc: [
 		"&bMod ID:&r &emynethersdelight&r  |  &bCategoria:&r Gastronomia"
 		"&bArquivo(s):&r MyNethersDelight-1.21.1-1.10.4.1.jar"
 		""
@@ -2343,25 +2323,25 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eGastronomia & Fazendas (Farmer's Delight)&r."
 	]
-	quest.3000000000000144.quest_subtitle: "[Gastronomia] ID: mynethersdelight"
-	quest.3000000000000144.title: "My Nether's Delight"
-	quest.3000000000000145.quest_desc: [
+	quest.3000000000000142.quest_subtitle: "[Gastronomia] ID: mynethersdelight"
+	quest.3000000000000142.title: "My Nether's Delight"
+	quest.3000000000000143.quest_desc: [
 		"&bMod ID:&r &eneobeefix&r  |  &bCategoria:&r Correcao de Bugs"
 		"&bArquivo(s):&r neobeefix-1.21.1-2.0.1.jar"
 		""
 		"Corrige problemas classicos de pathfinding e comportamento de abelhas no 1.21.1."
 	]
-	quest.3000000000000145.quest_subtitle: "[Correcao de Bugs] ID: neobeefix"
-	quest.3000000000000145.title: "Neo Bee Fix"
-	quest.3000000000000146.quest_desc: [
+	quest.3000000000000143.quest_subtitle: "[Correcao de Bugs] ID: neobeefix"
+	quest.3000000000000143.title: "Neo Bee Fix"
+	quest.3000000000000144.quest_desc: [
 		"&bMod ID:&r &enerb&r  |  &bCategoria:&r Performance & Receitas"
 		"&bArquivo(s):&r nerb-neoforge-0.6+1.21.1.jar"
 		""
 		"Remove o livro de receitas pesado do vanilla (substituido com folga pelo EMI), liberando RAM/CPU."
 	]
-	quest.3000000000000146.quest_subtitle: "[Performance & Receitas] ID: nerb"
-	quest.3000000000000146.title: "Not Enough Recipe Book"
-	quest.3000000000000147.quest_desc: [
+	quest.3000000000000144.quest_subtitle: "[Performance & Receitas] ID: nerb"
+	quest.3000000000000144.title: "Not Enough Recipe Book"
+	quest.3000000000000145.quest_desc: [
 		"&bMod ID:&r &enetherite_horse_armor&r  |  &bCategoria:&r Equipamentos"
 		"&bArquivo(s):&r netherite_horse_armor-neoforge-1.21.1-2.0a.jar"
 		""
@@ -2369,9 +2349,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eArquitetura, Decoração & Economia&r."
 	]
-	quest.3000000000000147.quest_subtitle: "[Equipamentos] ID: netherite_horse_armor"
-	quest.3000000000000147.title: "Netherite Horse Armor"
-	quest.3000000000000148.quest_desc: [
+	quest.3000000000000145.quest_subtitle: "[Equipamentos] ID: netherite_horse_armor"
+	quest.3000000000000145.title: "Netherite Horse Armor"
+	quest.3000000000000146.quest_desc: [
 		"&bMod ID:&r &enetherportalfix&r  |  &bCategoria:&r Multiplayer & QoL"
 		"&bArquivo(s):&r netherportalfix-neoforge-1.21.1-21.1.1.jar"
 		""
@@ -2379,25 +2359,25 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000148.quest_subtitle: "[Multiplayer & QoL] ID: netherportalfix"
-	quest.3000000000000148.title: "NetherPortalFix"
-	quest.3000000000000149.quest_desc: [
+	quest.3000000000000146.quest_subtitle: "[Multiplayer & QoL] ID: netherportalfix"
+	quest.3000000000000146.title: "NetherPortalFix"
+	quest.3000000000000147.quest_desc: [
 		"&bMod ID:&r &enotenoughanimations&r  |  &bCategoria:&r Visual & Imersao"
 		"&bArquivo(s):&r notenoughanimations-neoforge-1.12.7-mc1.21.1.jar"
 		""
 		"Adiciona animacoes realistas em terceira pessoa ao segurar mapas, comer, navegar de barco e mais."
 	]
-	quest.3000000000000149.quest_subtitle: "[Visual & Imersao] ID: notenoughanimations"
-	quest.3000000000000149.title: "NotEnoughAnimations"
-	quest.300000000000014A.quest_desc: [
+	quest.3000000000000147.quest_subtitle: "[Visual & Imersao] ID: notenoughanimations"
+	quest.3000000000000147.title: "NotEnoughAnimations"
+	quest.3000000000000148.quest_desc: [
 		"&bMod ID:&r &enowheel&r  |  &bCategoria:&r Performance & Create"
 		"&bArquivo(s):&r nowheel-2.1.1+1.21.1neoforge.jar"
 		""
 		"Otimiza drasticamente Flywheel + Entity Culling para fabricas enormes do Create rodarem lisas."
 	]
-	quest.300000000000014A.quest_subtitle: "[Performance & Create] ID: nowheel"
-	quest.300000000000014A.title: "Nowheel"
-	quest.300000000000014B.quest_desc: [
+	quest.3000000000000148.quest_subtitle: "[Performance & Create] ID: nowheel"
+	quest.3000000000000148.title: "Nowheel"
+	quest.3000000000000149.quest_desc: [
 		"&bMod ID:&r &enumismatics&r  |  &bCategoria:&r Economia & Create"
 		"&bArquivo(s):&r CreateNumismatics-1.1.0+neoforge-mc1.21.1.jar"
 		""
@@ -2405,17 +2385,17 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eArquitetura, Decoração & Economia&r."
 	]
-	quest.300000000000014B.quest_subtitle: "[Economia & Create] ID: numismatics"
-	quest.300000000000014B.title: "Create: Numismatics"
-	quest.300000000000014C.quest_desc: [
+	quest.3000000000000149.quest_subtitle: "[Economia & Create] ID: numismatics"
+	quest.3000000000000149.title: "Create: Numismatics"
+	quest.300000000000014A.quest_desc: [
 		"&bMod ID:&r &eoctolib&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r OctoLib-NEOFORGE-0.6.3+1.21.jar"
 		""
 		"Biblioteca compartilhada de recursos."
 	]
-	quest.300000000000014C.quest_subtitle: "[Biblioteca] ID: octolib"
-	quest.300000000000014C.title: "OctoLib"
-	quest.300000000000014D.quest_desc: [
+	quest.300000000000014A.quest_subtitle: "[Biblioteca] ID: octolib"
+	quest.300000000000014A.title: "OctoLib"
+	quest.300000000000014B.quest_desc: [
 		"&bMod ID:&r &eoffroad&r  |  &bCategoria:&r Aeronautica & Fisica"
 		"&bArquivo(s):&r create-aeronautics-bundled-1.21.1-1.3.2.jar!dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.2.jar"
 		""
@@ -2423,9 +2403,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAeronáutica, Veículos & Física Real&r."
 	]
-	quest.300000000000014D.quest_subtitle: "[Aeronautica & Fisica] ID: offroad"
-	quest.300000000000014D.title: "Create Offroad"
-	quest.300000000000014E.quest_desc: [
+	quest.300000000000014B.quest_subtitle: "[Aeronautica & Fisica] ID: offroad"
+	quest.300000000000014B.title: "Create Offroad"
+	quest.300000000000014C.quest_desc: [
 		"&bMod ID:&r &eopenpartiesandclaims&r  |  &bCategoria:&r Multiplayer & Protecao"
 		"&bArquivo(s):&r open-parties-and-claims-neoforge-1.21.1-0.33.0.jar"
 		""
@@ -2433,97 +2413,97 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.300000000000014E.quest_subtitle: "[Multiplayer & Protecao] ID: openpartiesandclaims"
-	quest.300000000000014E.title: "Open Parties and Claims"
-	quest.300000000000014F.quest_desc: [
+	quest.300000000000014C.quest_subtitle: "[Multiplayer & Protecao] ID: openpartiesandclaims"
+	quest.300000000000014C.title: "Open Parties and Claims"
+	quest.300000000000014D.quest_desc: [
 		"&bMod ID:&r &eorg_apache_commons_commons-pool2&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar!commons-pool2-2.12.0.jar"
 		""
 		"Componente integrado ao modpack Create+."
 	]
-	quest.300000000000014F.quest_subtitle: "[Mod / Componente do Pack] ID: org_apache_commons_commons-pool2"
-	quest.300000000000014F.title: "commons-pool2"
-	quest.3000000000000150.quest_desc: [
+	quest.300000000000014D.quest_subtitle: "[Mod / Componente do Pack] ID: org_apache_commons_commons-pool2"
+	quest.300000000000014D.title: "commons-pool2"
+	quest.300000000000014E.quest_desc: [
 		"&bMod ID:&r &eorg_lwjgl_lwjgl-lmdb&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar!lwjgl-lmdb-3.3.3.jar"
 		""
 		"Componente integrado ao modpack Create+."
 	]
-	quest.3000000000000150.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-lmdb"
-	quest.3000000000000150.title: "lwjgl-lmdb"
-	quest.3000000000000151.quest_desc: [
+	quest.300000000000014E.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-lmdb"
+	quest.300000000000014E.title: "lwjgl-lmdb"
+	quest.300000000000014F.quest_desc: [
 		"&bMod ID:&r &eorg_lwjgl_lwjgl-lmdb_natives-linux&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar!lwjgl-lmdb-3.3.3-natives-linux.jar"
 		""
 		"Componente integrado ao modpack Create+."
 	]
-	quest.3000000000000151.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-lmdb_natives-linux"
-	quest.3000000000000151.title: "lwjgl-lmdb"
-	quest.3000000000000152.quest_desc: [
+	quest.300000000000014F.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-lmdb_natives-linux"
+	quest.300000000000014F.title: "lwjgl-lmdb"
+	quest.3000000000000150.quest_desc: [
 		"&bMod ID:&r &eorg_lwjgl_lwjgl-lmdb_natives-windows&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar!lwjgl-lmdb-3.3.3-natives-windows.jar"
 		""
 		"Componente integrado ao modpack Create+."
 	]
-	quest.3000000000000152.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-lmdb_natives-windows"
-	quest.3000000000000152.title: "lwjgl-lmdb"
-	quest.3000000000000153.quest_desc: [
+	quest.3000000000000150.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-lmdb_natives-windows"
+	quest.3000000000000150.title: "lwjgl-lmdb"
+	quest.3000000000000151.quest_desc: [
 		"&bMod ID:&r &eorg_lwjgl_lwjgl-zstd&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar!lwjgl-zstd-3.3.3.jar"
 		""
 		"Componente integrado ao modpack Create+."
 	]
-	quest.3000000000000153.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-zstd"
-	quest.3000000000000153.title: "lwjgl-zstd"
-	quest.3000000000000154.quest_desc: [
+	quest.3000000000000151.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-zstd"
+	quest.3000000000000151.title: "lwjgl-zstd"
+	quest.3000000000000152.quest_desc: [
 		"&bMod ID:&r &eorg_lwjgl_lwjgl-zstd_natives-linux&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar!lwjgl-zstd-3.3.3-natives-linux.jar"
 		""
 		"Componente integrado ao modpack Create+."
 	]
-	quest.3000000000000154.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-zstd_natives-linux"
-	quest.3000000000000154.title: "lwjgl-zstd"
-	quest.3000000000000155.quest_desc: [
+	quest.3000000000000152.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-zstd_natives-linux"
+	quest.3000000000000152.title: "lwjgl-zstd"
+	quest.3000000000000153.quest_desc: [
 		"&bMod ID:&r &eorg_lwjgl_lwjgl-zstd_natives-windows&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar!lwjgl-zstd-3.3.3-natives-windows.jar"
 		""
 		"Componente integrado ao modpack Create+."
 	]
-	quest.3000000000000155.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-zstd_natives-windows"
-	quest.3000000000000155.title: "lwjgl-zstd"
-	quest.3000000000000156.quest_desc: [
+	quest.3000000000000153.quest_subtitle: "[Mod / Componente do Pack] ID: org_lwjgl_lwjgl-zstd_natives-windows"
+	quest.3000000000000153.title: "lwjgl-zstd"
+	quest.3000000000000154.quest_desc: [
 		"&bMod ID:&r &eorg_lz4_lz4-java&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar!lz4-java-1.8.0.jar"
 		""
 		"Componente integrado ao modpack Create+."
 	]
-	quest.3000000000000156.quest_subtitle: "[Mod / Componente do Pack] ID: org_lz4_lz4-java"
-	quest.3000000000000156.title: "lz4-java"
-	quest.3000000000000157.quest_desc: [
+	quest.3000000000000154.quest_subtitle: "[Mod / Componente do Pack] ID: org_lz4_lz4-java"
+	quest.3000000000000154.title: "lz4-java"
+	quest.3000000000000155.quest_desc: [
 		"&bMod ID:&r &eorg_rocksdb_rocksdbjni&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar!rocksdbjni-10.2.1.jar"
 		""
 		"Componente integrado ao modpack Create+."
 	]
-	quest.3000000000000157.quest_subtitle: "[Mod / Componente do Pack] ID: org_rocksdb_rocksdbjni"
-	quest.3000000000000157.title: "rocksdbjni"
-	quest.3000000000000158.quest_desc: [
+	quest.3000000000000155.quest_subtitle: "[Mod / Componente do Pack] ID: org_rocksdb_rocksdbjni"
+	quest.3000000000000155.title: "rocksdbjni"
+	quest.3000000000000156.quest_desc: [
 		"&bMod ID:&r &eorg_tukaani_xz&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar!xz-1.10.jar"
 		""
 		"Componente integrado ao modpack Create+."
 	]
-	quest.3000000000000158.quest_subtitle: "[Mod / Componente do Pack] ID: org_tukaani_xz"
-	quest.3000000000000158.title: "xz"
-	quest.3000000000000159.quest_desc: [
+	quest.3000000000000156.quest_subtitle: "[Mod / Componente do Pack] ID: org_tukaani_xz"
+	quest.3000000000000156.title: "xz"
+	quest.3000000000000157.quest_desc: [
 		"&bMod ID:&r &eparticle_effects&r  |  &bCategoria:&r Visual & Imersao"
 		"&bArquivo(s):&r ParticleEffects-1.6.0+1.21.1+neoforge.jar"
 		""
 		"Exibe particulas tematizadas exclusivas sobre voce para cada efeito de pocao ativo."
 	]
-	quest.3000000000000159.quest_subtitle: "[Visual & Imersao] ID: particle_effects"
-	quest.3000000000000159.title: "Particle Effects"
-	quest.300000000000015A.quest_desc: [
+	quest.3000000000000157.quest_subtitle: "[Visual & Imersao] ID: particle_effects"
+	quest.3000000000000157.title: "Particle Effects"
+	quest.3000000000000158.quest_desc: [
 		"&bMod ID:&r &epehkui&r  |  &bCategoria:&r Biblioteca & Fisica"
 		"&bArquivo(s):&r Pehkui-3.8.3+1.21-neoforge.jar"
 		""
@@ -2531,9 +2511,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAeronáutica, Veículos & Física Real&r."
 	]
-	quest.300000000000015A.quest_subtitle: "[Biblioteca & Fisica] ID: pehkui"
-	quest.300000000000015A.title: "Pehkui"
-	quest.300000000000015B.quest_desc: [
+	quest.3000000000000158.quest_subtitle: "[Biblioteca & Fisica] ID: pehkui"
+	quest.3000000000000158.title: "Pehkui"
+	quest.3000000000000159.quest_desc: [
 		"&bMod ID:&r &epocket&r  |  &bCategoria:&r Engenharia Create"
 		"&bArquivo(s):&r pocket-0.24.1.jar"
 		""
@@ -2541,25 +2521,25 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAddons: Ferrovias, Circuitos & Utilitários&r."
 	]
-	quest.300000000000015B.quest_subtitle: "[Engenharia Create] ID: pocket"
-	quest.300000000000015B.title: "Create: Pocket Sized"
-	quest.300000000000015C.quest_desc: [
+	quest.3000000000000159.quest_subtitle: "[Engenharia Create] ID: pocket"
+	quest.3000000000000159.title: "Create: Pocket Sized"
+	quest.300000000000015A.quest_desc: [
 		"&bMod ID:&r &epolytone&r  |  &bCategoria:&r Visual & Texturas"
 		"&bArquivo(s):&r polytone-1.21-5.3.8-neoforge.jar"
 		""
 		"Motor customizavel de cores, mapas de luz e som para Resource Packs."
 	]
-	quest.300000000000015C.quest_subtitle: "[Visual & Texturas] ID: polytone"
-	quest.300000000000015C.title: "Polytone"
-	quest.300000000000015D.quest_desc: [
+	quest.300000000000015A.quest_subtitle: "[Visual & Texturas] ID: polytone"
+	quest.300000000000015A.title: "Polytone"
+	quest.300000000000015B.quest_desc: [
 		"&bMod ID:&r &eponder&r  |  &bCategoria:&r Engenharia Create"
 		"&bArquivo(s):&r create-1.21.1-6.0.10.jar!ponder-neoforge-1.0.82+mc1.21.1.jar, sliceanddice-4.3.4-neoforge.jar!atmosphere-1.21.1-neoforge-1.0.18.jar!ponder-neoforge-1.0.87+mc1.21.1.jar"
 		""
 		"Sistema interativo de tutoriais 3D animado! Segure [W] sobre qualquer peca do Create no inventario."
 	]
-	quest.300000000000015D.quest_subtitle: "[Engenharia Create] ID: ponder"
-	quest.300000000000015D.title: "Ponder"
-	quest.300000000000015E.quest_desc: [
+	quest.300000000000015B.quest_subtitle: "[Engenharia Create] ID: ponder"
+	quest.300000000000015B.title: "Ponder"
+	quest.300000000000015C.quest_desc: [
 		"&bMod ID:&r &epotionstacks&r  |  &bCategoria:&r Sobrevivencia & QoL"
 		"&bArquivo(s):&r potionstacks-1.0.0.jar"
 		""
@@ -2567,9 +2547,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.300000000000015E.quest_subtitle: "[Sobrevivencia & QoL] ID: potionstacks"
-	quest.300000000000015E.title: "Potion Stacks"
-	quest.300000000000015F.quest_desc: [
+	quest.300000000000015C.quest_subtitle: "[Sobrevivencia & QoL] ID: potionstacks"
+	quest.300000000000015C.title: "Potion Stacks"
+	quest.300000000000015D.quest_desc: [
 		"&bMod ID:&r &epowerchip&r  |  &bCategoria:&r Engenharia Create"
 		"&bArquivo(s):&r powerchip-2.1.2.jar"
 		""
@@ -2577,9 +2557,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAddons: Ferrovias, Circuitos & Utilitários&r."
 	]
-	quest.300000000000015F.quest_subtitle: "[Engenharia Create] ID: powerchip"
-	quest.300000000000015F.title: "Create: Power Chip"
-	quest.3000000000000160.quest_desc: [
+	quest.300000000000015D.quest_subtitle: "[Engenharia Create] ID: powerchip"
+	quest.300000000000015D.title: "Create: Power Chip"
+	quest.300000000000015E.quest_desc: [
 		"&bMod ID:&r &epowergrid&r  |  &bCategoria:&r Energia & Eletricidade"
 		"&bArquivo(s):&r powergrid-mc1.21.1-0.6.2.jar"
 		""
@@ -2587,41 +2567,41 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eIndústria Pesada: Diesel, Eletricidade, Aço & XP&r."
 	]
-	quest.3000000000000160.quest_subtitle: "[Energia & Eletricidade] ID: powergrid"
-	quest.3000000000000160.title: "Create: Power Grid"
-	quest.3000000000000161.quest_desc: [
+	quest.300000000000015E.quest_subtitle: "[Energia & Eletricidade] ID: powergrid"
+	quest.300000000000015E.title: "Create: Power Grid"
+	quest.300000000000015F.quest_desc: [
 		"&bMod ID:&r &eprickle&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r prickle-neoforge-1.21.1-21.1.11.jar"
 		""
 		"Biblioteca de configuracao JSON usada por mods."
 	]
-	quest.3000000000000161.quest_subtitle: "[Biblioteca] ID: prickle"
-	quest.3000000000000161.title: "PrickleMC"
-	quest.3000000000000162.quest_desc: [
+	quest.300000000000015F.quest_subtitle: "[Biblioteca] ID: prickle"
+	quest.300000000000015F.title: "PrickleMC"
+	quest.3000000000000160.quest_desc: [
 		"&bMod ID:&r &epride&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1-neoforge.jar!pridelib-1.2.4+1.21.1-mojmap.jar, lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1.jar!pridelib-1.2.4+1.21.1.jar"
 		""
 		"A unified library for data-driven flags."
 	]
-	quest.3000000000000162.quest_subtitle: "[Mod / Componente do Pack] ID: pride"
-	quest.3000000000000162.title: "Pride Lib"
-	quest.3000000000000163.quest_desc: [
+	quest.3000000000000160.quest_subtitle: "[Mod / Componente do Pack] ID: pride"
+	quest.3000000000000160.title: "Pride Lib"
+	quest.3000000000000161.quest_desc: [
 		"&bMod ID:&r &eprogresspeek&r  |  &bCategoria:&r Interface & QoL"
 		"&bArquivo(s):&r progresspeek-1.2.2+1.21.1-neoforge.jar, progresspeek-1.2.2+1.21.1-neoforge.jar!progresspeek-1.2.2+1.21.1-neoforge-mod.jar"
 		""
 		"Exibe barra de progresso verde do carregamento do Minecraft direto no icone da barra de tarefas do Windows."
 	]
-	quest.3000000000000163.quest_subtitle: "[Interface & QoL] ID: progresspeek"
-	quest.3000000000000163.title: "Progress Peek"
-	quest.3000000000000164.quest_desc: [
+	quest.3000000000000161.quest_subtitle: "[Interface & QoL] ID: progresspeek"
+	quest.3000000000000161.title: "Progress Peek"
+	quest.3000000000000162.quest_desc: [
 		"&bMod ID:&r &epuzzleslib&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r puzzleslib-v21.1.66-mc1.21.1+neoforge.jar"
 		""
 		"Biblioteca base usada por Easy Anvils, Armor Statues, Cut Through e outros mods de Fuzs."
 	]
-	quest.3000000000000164.quest_subtitle: "[Biblioteca] ID: puzzleslib"
-	quest.3000000000000164.title: "Puzzles Lib"
-	quest.3000000000000165.quest_desc: [
+	quest.3000000000000162.quest_subtitle: "[Biblioteca] ID: puzzleslib"
+	quest.3000000000000162.title: "Puzzles Lib"
+	quest.3000000000000163.quest_desc: [
 		"&bMod ID:&r &equark&r  |  &bCategoria:&r Decoracao & Vanilla+"
 		"&bArquivo(s):&r Quark-4.1-488.jar"
 		""
@@ -2629,17 +2609,17 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eArquitetura, Decoração & Economia&r."
 	]
-	quest.3000000000000165.quest_subtitle: "[Decoracao & Vanilla+] ID: quark"
-	quest.3000000000000165.title: "Quark"
-	quest.3000000000000166.quest_desc: [
+	quest.3000000000000163.quest_subtitle: "[Decoracao & Vanilla+] ID: quark"
+	quest.3000000000000163.title: "Quark"
+	quest.3000000000000164.quest_desc: [
 		"&bMod ID:&r &equick_pack&r  |  &bCategoria:&r Performance & Loader"
 		"&bArquivo(s):&r quick-pack-neoforge-1.5.1+1.21.1.jar"
 		""
 		"Acelera a leitura de datapacks e resource packs durante a inicializacao."
 	]
-	quest.3000000000000166.quest_subtitle: "[Performance & Loader] ID: quick_pack"
-	quest.3000000000000166.title: "quick-pack"
-	quest.3000000000000167.quest_desc: [
+	quest.3000000000000164.quest_subtitle: "[Performance & Loader] ID: quick_pack"
+	quest.3000000000000164.title: "quick-pack"
+	quest.3000000000000165.quest_desc: [
 		"&bMod ID:&r &erailways&r  |  &bCategoria:&r Ferrovias Create"
 		"&bArquivo(s):&r railways-0.3.0-beta.2+neoforge-mc1.21.1.jar"
 		""
@@ -2647,33 +2627,33 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAddons: Ferrovias, Circuitos & Utilitários&r."
 	]
-	quest.3000000000000167.quest_subtitle: "[Ferrovias Create] ID: railways"
-	quest.3000000000000167.title: "Create: Steam 'n' Rails 1.21.1"
-	quest.3000000000000168.quest_desc: [
+	quest.3000000000000165.quest_subtitle: "[Ferrovias Create] ID: railways"
+	quest.3000000000000165.title: "Create: Steam 'n' Rails 1.21.1"
+	quest.3000000000000166.quest_desc: [
 		"&bMod ID:&r &eredis_clients_jedis&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar!jedis-5.1.0.jar"
 		""
 		"Componente integrado ao modpack Create+."
 	]
-	quest.3000000000000168.quest_subtitle: "[Mod / Componente do Pack] ID: redis_clients_jedis"
-	quest.3000000000000168.title: "jedis"
-	quest.3000000000000169.quest_desc: [
+	quest.3000000000000166.quest_subtitle: "[Mod / Componente do Pack] ID: redis_clients_jedis"
+	quest.3000000000000166.title: "jedis"
+	quest.3000000000000167.quest_desc: [
 		"&bMod ID:&r &ereeses_sodium_options&r  |  &bCategoria:&r Interface & Config"
 		"&bArquivo(s):&r reeses-sodium-options-neoforge-2.2.4+mc1.21.1.jar"
 		""
 		"Reorganiza a tela de configuracoes graficas do Sodium para ficar limpa e navegavel."
 	]
-	quest.3000000000000169.quest_subtitle: "[Interface & Config] ID: reeses_sodium_options"
-	quest.3000000000000169.title: "Reese's Sodium Options"
-	quest.300000000000016A.quest_desc: [
+	quest.3000000000000167.quest_subtitle: "[Interface & Config] ID: reeses_sodium_options"
+	quest.3000000000000167.title: "Reese's Sodium Options"
+	quest.3000000000000168.quest_desc: [
 		"&bMod ID:&r &ereliable_advancements&r  |  &bCategoria:&r Interface & QoL"
 		"&bArquivo(s):&r reliable_advancements-6.3.3+1.21.1-neoforge.jar"
 		""
 		"Melhora a interface de conquistas (Advancements) com visualizacao limpa."
 	]
-	quest.300000000000016A.quest_subtitle: "[Interface & QoL] ID: reliable_advancements"
-	quest.300000000000016A.title: "Reliable Advancements"
-	quest.300000000000016B.quest_desc: [
+	quest.3000000000000168.quest_subtitle: "[Interface & QoL] ID: reliable_advancements"
+	quest.3000000000000168.title: "Reliable Advancements"
+	quest.3000000000000169.quest_desc: [
 		"&bMod ID:&r &eremi&r  |  &bCategoria:&r Interface & Receitas"
 		"&bArquivo(s):&r remi-neoforge-1.21.1-4.8.1.jar"
 		""
@@ -2681,33 +2661,33 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.300000000000016B.quest_subtitle: "[Interface & Receitas] ID: remi"
-	quest.300000000000016B.title: "Reliable EMI"
-	quest.300000000000016C.quest_desc: [
+	quest.3000000000000169.quest_subtitle: "[Interface & Receitas] ID: remi"
+	quest.3000000000000169.title: "Reliable EMI"
+	quest.300000000000016A.quest_desc: [
 		"&bMod ID:&r &eresourcefulconfig&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r resourcefulconfig-neoforge-1.21-3.0.11.jar"
 		""
 		"Biblioteca de menus de configuracao multi-plataforma."
 	]
-	quest.300000000000016C.quest_subtitle: "[Biblioteca] ID: resourcefulconfig"
-	quest.300000000000016C.title: "Resourcefulconfig"
-	quest.300000000000016D.quest_desc: [
+	quest.300000000000016A.quest_subtitle: "[Biblioteca] ID: resourcefulconfig"
+	quest.300000000000016A.title: "Resourcefulconfig"
+	quest.300000000000016B.quest_desc: [
 		"&bMod ID:&r &eresourcefullib&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r resourcefullib-neoforge-1.21-3.0.12.jar"
 		""
 		"Biblioteca base utilizada pelo Friends&Foes e derivados."
 	]
-	quest.300000000000016D.quest_subtitle: "[Biblioteca] ID: resourcefullib"
-	quest.300000000000016D.title: "Resourceful Lib"
-	quest.300000000000016E.quest_desc: [
+	quest.300000000000016B.quest_subtitle: "[Biblioteca] ID: resourcefullib"
+	quest.300000000000016B.title: "Resourceful Lib"
+	quest.300000000000016C.quest_desc: [
 		"&bMod ID:&r &eresourcify&r  |  &bCategoria:&r Interface & Packs"
 		"&bArquivo(s):&r Resourcify (1.21.1-neoforge)-1.8.7.jar"
 		""
 		"Navegador in-game direto para baixar Resource Packs e Shader Packs do Modrinth/CurseForge."
 	]
-	quest.300000000000016E.quest_subtitle: "[Interface & Packs] ID: resourcify"
-	quest.300000000000016E.title: "Resourcify"
-	quest.300000000000016F.quest_desc: [
+	quest.300000000000016C.quest_subtitle: "[Interface & Packs] ID: resourcify"
+	quest.300000000000016C.title: "Resourcify"
+	quest.300000000000016D.quest_desc: [
 		"&bMod ID:&r &eritchiesprojectilelib&r  |  &bCategoria:&r Artilharia & Fisica"
 		"&bArquivo(s):&r ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar"
 		""
@@ -2715,17 +2695,17 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eArtilharia Pesada & Radares&r."
 	]
-	quest.300000000000016F.quest_subtitle: "[Artilharia & Fisica] ID: ritchiesprojectilelib"
-	quest.300000000000016F.title: "Ritchie's Projectile Library"
-	quest.3000000000000170.quest_desc: [
+	quest.300000000000016D.quest_subtitle: "[Artilharia & Fisica] ID: ritchiesprojectilelib"
+	quest.300000000000016D.title: "Ritchie's Projectile Library"
+	quest.300000000000016E.quest_desc: [
 		"&bMod ID:&r &eroxy&r  |  &bCategoria:&r Performance & Render"
 		"&bArquivo(s):&r roxy-1.21.1-NeoForge-0.4.1.jar"
 		""
 		"Ponte NeoForge para carregar o Voxy (renderizacao de distancias extremas LoD)."
 	]
-	quest.3000000000000170.quest_subtitle: "[Performance & Render] ID: roxy"
-	quest.3000000000000170.title: "Roxy"
-	quest.3000000000000171.quest_desc: [
+	quest.300000000000016E.quest_subtitle: "[Performance & Render] ID: roxy"
+	quest.300000000000016E.title: "Roxy"
+	quest.300000000000016F.quest_desc: [
 		"&bMod ID:&r &esable&r  |  &bCategoria:&r Aeronautica & Fisica"
 		"&bArquivo(s):&r sable-neoforge-1.21.1-2.0.6.jar"
 		""
@@ -2733,9 +2713,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAeronáutica, Veículos & Física Real&r."
 	]
-	quest.3000000000000171.quest_subtitle: "[Aeronautica & Fisica] ID: sable"
-	quest.3000000000000171.title: "Sable"
-	quest.3000000000000172.quest_desc: [
+	quest.300000000000016F.quest_subtitle: "[Aeronautica & Fisica] ID: sable"
+	quest.300000000000016F.title: "Sable"
+	quest.3000000000000170.quest_desc: [
 		"&bMod ID:&r &esable_beyond&r  |  &bCategoria:&r Aeronautica & Fisica"
 		"&bArquivo(s):&r sablebeyond-neoforge-1.21.1-v0.5.0.jar"
 		""
@@ -2743,9 +2723,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAeronáutica, Veículos & Física Real&r."
 	]
-	quest.3000000000000172.quest_subtitle: "[Aeronautica & Fisica] ID: sable_beyond"
-	quest.3000000000000172.title: "Sable Beyond"
-	quest.3000000000000173.quest_desc: [
+	quest.3000000000000170.quest_subtitle: "[Aeronautica & Fisica] ID: sable_beyond"
+	quest.3000000000000170.title: "Sable Beyond"
+	quest.3000000000000171.quest_desc: [
 		"&bMod ID:&r &esablecompanion&r  |  &bCategoria:&r Aeronautica & Fisica"
 		"&bArquivo(s):&r bits_n_bobs-2.3.5.jar!sable-companion-common-1.21.1-1.4.2.jar, connectiblechains-2.5.0+1.21.1-neoforge.jar!sable-companion-common-1.21.1-1.6.0.jar"
 		""
@@ -2753,9 +2733,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAeronáutica, Veículos & Física Real&r."
 	]
-	quest.3000000000000173.quest_subtitle: "[Aeronautica & Fisica] ID: sablecompanion"
-	quest.3000000000000173.title: "Sable Companion"
-	quest.3000000000000174.quest_desc: [
+	quest.3000000000000171.quest_subtitle: "[Aeronautica & Fisica] ID: sablecompanion"
+	quest.3000000000000171.title: "Sable Companion"
+	quest.3000000000000172.quest_desc: [
 		"&bMod ID:&r &esablephysicscompat&r  |  &bCategoria:&r Aeronautica & Fisica"
 		"&bArquivo(s):&r sablephysicscompat-1.3.0.jar"
 		""
@@ -2763,9 +2743,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAeronáutica, Veículos & Física Real&r."
 	]
-	quest.3000000000000174.quest_subtitle: "[Aeronautica & Fisica] ID: sablephysicscompat"
-	quest.3000000000000174.title: "Sable: Physics Compat"
-	quest.3000000000000175.quest_desc: [
+	quest.3000000000000172.quest_subtitle: "[Aeronautica & Fisica] ID: sablephysicscompat"
+	quest.3000000000000172.title: "Sable: Physics Compat"
+	quest.3000000000000173.quest_desc: [
 		"&bMod ID:&r &escholar&r  |  &bCategoria:&r Interface & Livros"
 		"&bArquivo(s):&r scholar-neoforge-1.21.1-1.2.10.jar"
 		""
@@ -2773,9 +2753,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eArquitetura, Decoração & Economia&r."
 	]
-	quest.3000000000000175.quest_subtitle: "[Interface & Livros] ID: scholar"
-	quest.3000000000000175.title: "Scholar"
-	quest.3000000000000176.quest_desc: [
+	quest.3000000000000173.quest_subtitle: "[Interface & Livros] ID: scholar"
+	quest.3000000000000173.title: "Scholar"
+	quest.3000000000000174.quest_desc: [
 		"&bMod ID:&r &eseamlesssleep&r  |  &bCategoria:&r Sobrevivencia & QoL"
 		"&bArquivo(s):&r seamlesssleep-neoforge-1.21-2.5.3.jar"
 		""
@@ -2783,9 +2763,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000176.quest_subtitle: "[Sobrevivencia & QoL] ID: seamlesssleep"
-	quest.3000000000000176.title: "Seamless Sleep"
-	quest.3000000000000177.quest_desc: [
+	quest.3000000000000174.quest_subtitle: "[Sobrevivencia & QoL] ID: seamlesssleep"
+	quest.3000000000000174.title: "Seamless Sleep"
+	quest.3000000000000175.quest_desc: [
 		"&bMod ID:&r &esearchables&r  |  &bCategoria:&r Interface & QoL"
 		"&bArquivo(s):&r Searchables-neoforge-1.21.1-1.0.2.jar"
 		""
@@ -2793,9 +2773,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000177.quest_subtitle: "[Interface & QoL] ID: searchables"
-	quest.3000000000000177.title: "Searchables"
-	quest.3000000000000178.quest_desc: [
+	quest.3000000000000175.quest_subtitle: "[Interface & QoL] ID: searchables"
+	quest.3000000000000175.title: "Searchables"
+	quest.3000000000000176.quest_desc: [
 		"&bMod ID:&r &esimulated&r  |  &bCategoria:&r Aeronautica & Fisica"
 		"&bArquivo(s):&r create-aeronautics-bundled-1.21.1-1.3.2.jar!dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar"
 		""
@@ -2803,9 +2783,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAeronáutica, Veículos & Física Real&r."
 	]
-	quest.3000000000000178.quest_subtitle: "[Aeronautica & Fisica] ID: simulated"
-	quest.3000000000000178.title: "Create Simulated"
-	quest.3000000000000179.quest_desc: [
+	quest.3000000000000176.quest_subtitle: "[Aeronautica & Fisica] ID: simulated"
+	quest.3000000000000176.title: "Create Simulated"
+	quest.3000000000000177.quest_desc: [
 		"&bMod ID:&r &esimulated_gauges&r  |  &bCategoria:&r Engenharia Create"
 		"&bArquivo(s):&r simulated_gauges-1.1.0.jar"
 		""
@@ -2813,9 +2793,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAddons: Ferrovias, Circuitos & Utilitários&r."
 	]
-	quest.3000000000000179.quest_subtitle: "[Engenharia Create] ID: simulated_gauges"
-	quest.3000000000000179.title: "Simulated Gauges"
-	quest.300000000000017A.quest_desc: [
+	quest.3000000000000177.quest_subtitle: "[Engenharia Create] ID: simulated_gauges"
+	quest.3000000000000177.title: "Simulated Gauges"
+	quest.3000000000000178.quest_desc: [
 		"&bMod ID:&r &esimulatedcoasters&r  |  &bCategoria:&r Ferrovias Create"
 		"&bArquivo(s):&r simulatedcoasters-0.1.5.jar"
 		""
@@ -2823,9 +2803,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAddons: Ferrovias, Circuitos & Utilitários&r."
 	]
-	quest.300000000000017A.quest_subtitle: "[Ferrovias Create] ID: simulatedcoasters"
-	quest.300000000000017A.title: "Create: Coasters Simulated"
-	quest.300000000000017B.quest_desc: [
+	quest.3000000000000178.quest_subtitle: "[Ferrovias Create] ID: simulatedcoasters"
+	quest.3000000000000178.title: "Create: Coasters Simulated"
+	quest.3000000000000179.quest_desc: [
 		"&bMod ID:&r &esliceanddice&r  |  &bCategoria:&r Gastronomia & Create"
 		"&bArquivo(s):&r sliceanddice-4.3.4-neoforge.jar"
 		""
@@ -2833,25 +2813,25 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eGastronomia & Fazendas (Farmer's Delight)&r."
 	]
-	quest.300000000000017B.quest_subtitle: "[Gastronomia & Create] ID: sliceanddice"
-	quest.300000000000017B.title: "Create Slice & Dice"
-	quest.300000000000017C.quest_desc: [
+	quest.3000000000000179.quest_subtitle: "[Gastronomia & Create] ID: sliceanddice"
+	quest.3000000000000179.title: "Create Slice & Dice"
+	quest.300000000000017A.quest_desc: [
 		"&bMod ID:&r &esmart_bounds&r  |  &bCategoria:&r Performance & Create"
 		"&bArquivo(s):&r smart_bounds-1.0.0.jar"
 		""
 		"Otimiza limites de renderizacao de Block Entities do Create para melhorar FPS em fabricas."
 	]
-	quest.300000000000017C.quest_subtitle: "[Performance & Create] ID: smart_bounds"
-	quest.300000000000017C.title: "Create: Smart Bounds"
-	quest.300000000000017D.quest_desc: [
+	quest.300000000000017A.quest_subtitle: "[Performance & Create] ID: smart_bounds"
+	quest.300000000000017A.title: "Create: Smart Bounds"
+	quest.300000000000017B.quest_desc: [
 		"&bMod ID:&r &esmartblockplacement&r  |  &bCategoria:&r Construcao & QoL"
 		"&bArquivo(s):&r SmartBlockPlacement-2.0.jar"
 		""
 		"Construa rapidamente enfileirando blocos com precisao sem errar alinhamento."
 	]
-	quest.300000000000017D.quest_subtitle: "[Construcao & QoL] ID: smartblockplacement"
-	quest.300000000000017D.title: "SmartBlockPlacement"
-	quest.300000000000017E.quest_desc: [
+	quest.300000000000017B.quest_subtitle: "[Construcao & QoL] ID: smartblockplacement"
+	quest.300000000000017B.title: "SmartBlockPlacement"
+	quest.300000000000017C.quest_desc: [
 		"&bMod ID:&r &esmarterfarmers&r  |  &bCategoria:&r Mundo & Aldeoes"
 		"&bArquivo(s):&r smarterfarmers-1.21-2.2.4-neoforge.jar"
 		""
@@ -2859,33 +2839,33 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eGastronomia & Fazendas (Farmer's Delight)&r."
 	]
-	quest.300000000000017E.quest_subtitle: "[Mundo & Aldeoes] ID: smarterfarmers"
-	quest.300000000000017E.title: "Smarter Farmers"
-	quest.300000000000017F.quest_desc: [
+	quest.300000000000017C.quest_subtitle: "[Mundo & Aldeoes] ID: smarterfarmers"
+	quest.300000000000017C.title: "Smarter Farmers"
+	quest.300000000000017D.quest_desc: [
 		"&bMod ID:&r &esmoothswapping&r  |  &bCategoria:&r Interface & QoL"
 		"&bArquivo(s):&r smoothswapping-0.9.3.2-1.21.1-neoforge.jar"
 		""
 		"Animacao suave de movimento de itens ao clicar/transferir no inventario."
 	]
-	quest.300000000000017F.quest_subtitle: "[Interface & QoL] ID: smoothswapping"
-	quest.300000000000017F.title: "Smooth Swapping"
-	quest.3000000000000180.quest_desc: [
+	quest.300000000000017D.quest_subtitle: "[Interface & QoL] ID: smoothswapping"
+	quest.300000000000017D.title: "Smooth Swapping"
+	quest.300000000000017E.quest_desc: [
 		"&bMod ID:&r &esodium&r  |  &bCategoria:&r Performance & Render"
 		"&bArquivo(s):&r sodium-neoforge-0.8.13+mc1.21.1.jar, sodium-neoforge-0.8.13+mc1.21.1.jar!net.caffeinemc.sodium-neoforge-0.8.13+mc1.21.1-mod.jar"
 		""
 		"Principal motor de renderizacao ultra-rapido do Minecraft, multiplicando o FPS."
 	]
-	quest.3000000000000180.quest_subtitle: "[Performance & Render] ID: sodium"
-	quest.3000000000000180.title: "Sodium"
-	quest.3000000000000181.quest_desc: [
+	quest.300000000000017E.quest_subtitle: "[Performance & Render] ID: sodium"
+	quest.300000000000017E.title: "Sodium"
+	quest.300000000000017F.quest_desc: [
 		"&bMod ID:&r &esodium_extra&r  |  &bCategoria:&r Performance & Render"
 		"&bArquivo(s):&r sodium-extra-neoforge-0.9.5+mc1.21.1.jar"
 		""
 		"Controles extras de animacoes, nuvens, clima e detalhes graficos para o Sodium."
 	]
-	quest.3000000000000181.quest_subtitle: "[Performance & Render] ID: sodium_extra"
-	quest.3000000000000181.title: "Sodium Extra"
-	quest.3000000000000182.quest_desc: [
+	quest.300000000000017F.quest_subtitle: "[Performance & Render] ID: sodium_extra"
+	quest.300000000000017F.title: "Sodium Extra"
+	quest.3000000000000180.quest_desc: [
 		"&bMod ID:&r &esophisticatedbackpacks&r  |  &bCategoria:&r Armazenamento & Exploracao"
 		"&bArquivo(s):&r sophisticatedbackpacks-1.21.1-3.26.21.2249.jar"
 		""
@@ -2893,9 +2873,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000182.quest_subtitle: "[Armazenamento & Exploracao] ID: sophisticatedbackpacks"
-	quest.3000000000000182.title: "Sophisticated Backpacks"
-	quest.3000000000000183.quest_desc: [
+	quest.3000000000000180.quest_subtitle: "[Armazenamento & Exploracao] ID: sophisticatedbackpacks"
+	quest.3000000000000180.title: "Sophisticated Backpacks"
+	quest.3000000000000181.quest_desc: [
 		"&bMod ID:&r &esophisticatedcore&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r sophisticatedcore-1.21.1-1.5.32.2464.jar"
 		""
@@ -2903,65 +2883,65 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000183.quest_subtitle: "[Biblioteca] ID: sophisticatedcore"
-	quest.3000000000000183.title: "Sophisticated Core"
-	quest.3000000000000184.quest_desc: [
+	quest.3000000000000181.quest_subtitle: "[Biblioteca] ID: sophisticatedcore"
+	quest.3000000000000181.title: "Sophisticated Core"
+	quest.3000000000000182.quest_desc: [
 		"&bMod ID:&r &esounds&r  |  &bCategoria:&r Audio & Imersao"
 		"&bArquivo(s):&r sounds-2.4.22+lts+1.21.1-neoforge.jar"
 		""
 		"Reformula efeitos sonoros dinamicos ao abrir inventarios, caminhar, usar itens e interagir no mundo."
 	]
-	quest.3000000000000184.quest_subtitle: "[Audio & Imersao] ID: sounds"
-	quest.3000000000000184.title: "Sounds"
-	quest.3000000000000185.quest_desc: [
+	quest.3000000000000182.quest_subtitle: "[Audio & Imersao] ID: sounds"
+	quest.3000000000000182.title: "Sounds"
+	quest.3000000000000183.quest_desc: [
 		"&bMod ID:&r &espark&r  |  &bCategoria:&r Performance & Diagnostico"
 		"&bArquivo(s):&r spark-1.10.124-neoforge.jar"
 		""
 		"Profiler profissional de servidor e cliente (/spark tps, /spark profiler) para detectar gargalos."
 	]
-	quest.3000000000000185.quest_subtitle: "[Performance & Diagnostico] ID: spark"
-	quest.3000000000000185.title: "spark"
-	quest.3000000000000186.quest_desc: [
+	quest.3000000000000183.quest_subtitle: "[Performance & Diagnostico] ID: spark"
+	quest.3000000000000183.title: "spark"
+	quest.3000000000000184.quest_desc: [
 		"&bMod ID:&r &espruceui&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1-neoforge.jar!spruceui-6.2.5+1.21.1-mojmap.jar, lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1.jar!spruceui-6.2.5+1.21.1.jar"
 		""
 		"Just a Minecraft GUI library."
 	]
-	quest.3000000000000186.quest_subtitle: "[Mod / Componente do Pack] ID: spruceui"
-	quest.3000000000000186.title: "SpruceUI"
-	quest.3000000000000187.quest_desc: [
+	quest.3000000000000184.quest_subtitle: "[Mod / Componente do Pack] ID: spruceui"
+	quest.3000000000000184.title: "SpruceUI"
+	quest.3000000000000185.quest_desc: [
 		"&bMod ID:&r &estatuemenus&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r ArmorStatues-v21.1.0-1.21.1-NeoForge.jar!statuemenus-neoforge-21.1.0.jar"
 		""
 		"A library for creating configuration screens for armor stand-like entities."
 	]
-	quest.3000000000000187.quest_subtitle: "[Mod / Componente do Pack] ID: statuemenus"
-	quest.3000000000000187.title: "Statue Menus"
-	quest.3000000000000188.quest_desc: [
+	quest.3000000000000185.quest_subtitle: "[Mod / Componente do Pack] ID: statuemenus"
+	quest.3000000000000185.title: "Statue Menus"
+	quest.3000000000000186.quest_desc: [
 		"&bMod ID:&r &estatuseffectbars&r  |  &bCategoria:&r Interface & QoL"
 		"&bArquivo(s):&r statuseffectbars-1.21.1-NeoForge-1.0.2.jar"
 		""
 		"Mostra uma barra de duracao restante sob os icones de efeitos de pocao na tela."
 	]
-	quest.3000000000000188.quest_subtitle: "[Interface & QoL] ID: statuseffectbars"
-	quest.3000000000000188.title: "Status Effect Bars"
-	quest.3000000000000189.quest_desc: [
+	quest.3000000000000186.quest_subtitle: "[Interface & QoL] ID: statuseffectbars"
+	quest.3000000000000186.title: "Status Effect Bars"
+	quest.3000000000000187.quest_desc: [
 		"&bMod ID:&r &estructure_layout_optimizer&r  |  &bCategoria:&r Performance & Mundo"
 		"&bArquivo(s):&r structure_layout_optimizer-neoforge-1.0.12.jar"
 		""
 		"Acelera a geracao de estruturas complexas (jigsaw) ao explorar novos chunks."
 	]
-	quest.3000000000000189.quest_subtitle: "[Performance & Mundo] ID: structure_layout_optimizer"
-	quest.3000000000000189.title: "Structure Layout Optimizer"
-	quest.300000000000018A.quest_desc: [
+	quest.3000000000000187.quest_subtitle: "[Performance & Mundo] ID: structure_layout_optimizer"
+	quest.3000000000000187.title: "Structure Layout Optimizer"
+	quest.3000000000000188.quest_desc: [
 		"&bMod ID:&r &estruts&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r struts-1.3.1.jar"
 		""
 		"Biblioteca de vigas e trelicas estruturais para addons do Create."
 	]
-	quest.300000000000018A.quest_subtitle: "[Biblioteca] ID: struts"
-	quest.300000000000018A.title: "Strut Your Stuff"
-	quest.300000000000018B.quest_desc: [
+	quest.3000000000000188.quest_subtitle: "[Biblioteca] ID: struts"
+	quest.3000000000000188.title: "Strut Your Stuff"
+	quest.3000000000000189.quest_desc: [
 		"&bMod ID:&r &esupplementaries&r  |  &bCategoria:&r Decoracao & Vanilla+"
 		"&bArquivo(s):&r supplementaries-1.21.1-4.0.2-neoforge.jar"
 		""
@@ -2969,9 +2949,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eArquitetura, Decoração & Economia&r."
 	]
-	quest.300000000000018B.quest_subtitle: "[Decoracao & Vanilla+] ID: supplementaries"
-	quest.300000000000018B.title: "Supplementaries"
-	quest.300000000000018C.quest_desc: [
+	quest.3000000000000189.quest_subtitle: "[Decoracao & Vanilla+] ID: supplementaries"
+	quest.3000000000000189.title: "Supplementaries"
+	quest.300000000000018A.quest_desc: [
 		"&bMod ID:&r &etectonic&r  |  &bCategoria:&r Mundo & Terreno"
 		"&bArquivo(s):&r tectonic-3.0.28-neoforge-21.1.jar"
 		""
@@ -2979,9 +2959,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eExploração, Dimensões & Estruturas&r."
 	]
-	quest.300000000000018C.quest_subtitle: "[Mundo & Terreno] ID: tectonic"
-	quest.300000000000018C.title: "Tectonic"
-	quest.300000000000018D.quest_desc: [
+	quest.300000000000018A.quest_subtitle: "[Mundo & Terreno] ID: tectonic"
+	quest.300000000000018A.title: "Tectonic"
+	quest.300000000000018B.quest_desc: [
 		"&bMod ID:&r &eterralith&r  |  &bCategoria:&r Mundo & Biomas"
 		"&bArquivo(s):&r Terralith_1.21.1_v2.6.2_Neoforge.jar"
 		""
@@ -2989,17 +2969,17 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eExploração, Dimensões & Estruturas&r."
 	]
-	quest.300000000000018D.quest_subtitle: "[Mundo & Biomas] ID: terralith"
-	quest.300000000000018D.title: "Terralith"
-	quest.300000000000018E.quest_desc: [
+	quest.300000000000018B.quest_subtitle: "[Mundo & Biomas] ID: terralith"
+	quest.300000000000018B.title: "Terralith"
+	quest.300000000000018C.quest_desc: [
 		"&bMod ID:&r &etoadlib&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r Toadlib-1.3.2-1.21-1.21.1.jar"
 		""
 		"Biblioteca de suporte para mods."
 	]
-	quest.300000000000018E.quest_subtitle: "[Biblioteca] ID: toadlib"
-	quest.300000000000018E.title: "ToadLib"
-	quest.300000000000018F.quest_desc: [
+	quest.300000000000018C.quest_subtitle: "[Biblioteca] ID: toadlib"
+	quest.300000000000018C.title: "ToadLib"
+	quest.300000000000018D.quest_desc: [
 		"&bMod ID:&r &etoomanyrecipeviewers&r  |  &bCategoria:&r Compatibilidade"
 		"&bArquivo(s):&r toomanyrecipeviewers-0.9.0+mc.21.1.jar"
 		""
@@ -3007,17 +2987,17 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.300000000000018F.quest_subtitle: "[Compatibilidade] ID: toomanyrecipeviewers"
-	quest.300000000000018F.title: "TooManyRecipeViewers"
-	quest.3000000000000190.quest_desc: [
+	quest.300000000000018D.quest_subtitle: "[Compatibilidade] ID: toomanyrecipeviewers"
+	quest.300000000000018D.title: "TooManyRecipeViewers"
+	quest.300000000000018E.quest_desc: [
 		"&bMod ID:&r &etransition&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r entityculling-neoforge-1.11.3-mc1.21.1.jar!TRansition-1.0.26-1.21.1-neoforge-SNAPSHOT.jar, notenoughanimations-neoforge-1.12.7-mc1.21.1.jar!TRansition-1.0.28-1.21.1-neoforge-SNAPSHOT.jar"
 		""
 		"Library to transition between Modloaders and Minecraft versions"
 	]
-	quest.3000000000000190.quest_subtitle: "[Mod / Componente do Pack] ID: transition"
-	quest.3000000000000190.title: "TRansition"
-	quest.3000000000000191.quest_desc: [
+	quest.300000000000018E.quest_subtitle: "[Mod / Componente do Pack] ID: transition"
+	quest.300000000000018E.title: "TRansition"
+	quest.300000000000018F.quest_desc: [
 		"&bMod ID:&r &etrashslot&r  |  &bCategoria:&r Interface & QoL"
 		"&bArquivo(s):&r trashslot-neoforge-1.21.1-21.1.11.jar"
 		""
@@ -3025,9 +3005,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000191.quest_subtitle: "[Interface & QoL] ID: trashslot"
-	quest.3000000000000191.title: "TrashSlot"
-	quest.3000000000000192.quest_desc: [
+	quest.300000000000018F.quest_subtitle: "[Interface & QoL] ID: trashslot"
+	quest.300000000000018F.title: "TrashSlot"
+	quest.3000000000000190.quest_desc: [
 		"&bMod ID:&r &etreeharvester&r  |  &bCategoria:&r Sobrevivencia & QoL"
 		"&bArquivo(s):&r treeharvester-1.21.1-11.1.jar"
 		""
@@ -3035,33 +3015,33 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000192.quest_subtitle: "[Sobrevivencia & QoL] ID: treeharvester"
-	quest.3000000000000192.title: "Tree Harvester"
-	quest.3000000000000193.quest_desc: [
+	quest.3000000000000190.quest_subtitle: "[Sobrevivencia & QoL] ID: treeharvester"
+	quest.3000000000000190.title: "Tree Harvester"
+	quest.3000000000000191.quest_desc: [
 		"&bMod ID:&r &etrender&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r entityculling-neoforge-1.11.3-mc1.21.1.jar!TRender-1.0.17-1.21.1-neoforge-SNAPSHOT.jar, notenoughanimations-neoforge-1.12.7-mc1.21.1.jar!TRender-1.0.17-1.21.1-neoforge-SNAPSHOT.jar"
 		""
 		"Multi version rendering library based on CottonMC LibGui"
 	]
-	quest.3000000000000193.quest_subtitle: "[Mod / Componente do Pack] ID: trender"
-	quest.3000000000000193.title: "TRender"
-	quest.3000000000000194.quest_desc: [
+	quest.3000000000000191.quest_subtitle: "[Mod / Componente do Pack] ID: trender"
+	quest.3000000000000191.title: "TRender"
+	quest.3000000000000192.quest_desc: [
 		"&bMod ID:&r &etxnilib&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r txnilib-neoforge-1.0.24-1.21.1.jar"
 		""
 		"Biblioteca de utilitarios TxniLib."
 	]
-	quest.3000000000000194.quest_subtitle: "[Biblioteca] ID: txnilib"
-	quest.3000000000000194.title: "TxniLib"
-	quest.3000000000000195.quest_desc: [
+	quest.3000000000000192.quest_subtitle: "[Biblioteca] ID: txnilib"
+	quest.3000000000000192.title: "TxniLib"
+	quest.3000000000000193.quest_desc: [
 		"&bMod ID:&r &eupdatingworldicon&r  |  &bCategoria:&r Interface & QoL"
 		"&bArquivo(s):&r Updating World Icon-neoforge-1.21.1-1.0.1.jar"
 		""
 		"Atualiza automaticamente a miniatura do mundo ao sair do singleplayer."
 	]
-	quest.3000000000000195.quest_subtitle: "[Interface & QoL] ID: updatingworldicon"
-	quest.3000000000000195.title: "Updating World Icon"
-	quest.3000000000000196.quest_desc: [
+	quest.3000000000000193.quest_subtitle: "[Interface & QoL] ID: updatingworldicon"
+	quest.3000000000000193.title: "Updating World Icon"
+	quest.3000000000000194.quest_desc: [
 		"&bMod ID:&r &eveil&r  |  &bCategoria:&r Biblioteca Grafica"
 		"&bArquivo(s):&r sable-neoforge-1.21.1-2.0.6.jar!veil-neoforge-1.21.1-4.3.2.jar"
 		""
@@ -3069,9 +3049,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eAeronáutica, Veículos & Física Real&r."
 	]
-	quest.3000000000000196.quest_subtitle: "[Biblioteca Grafica] ID: veil"
-	quest.3000000000000196.title: "Veil"
-	quest.3000000000000197.quest_desc: [
+	quest.3000000000000194.quest_subtitle: "[Biblioteca Grafica] ID: veil"
+	quest.3000000000000194.title: "Veil"
+	quest.3000000000000195.quest_desc: [
 		"&bMod ID:&r &evoicechat&r  |  &bCategoria:&r Multiplayer & Audio"
 		"&bArquivo(s):&r voicechat-neoforge-1.21.1-2.6.27.jar"
 		""
@@ -3079,17 +3059,17 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000197.quest_subtitle: "[Multiplayer & Audio] ID: voicechat"
-	quest.3000000000000197.title: "Simple Voice Chat"
-	quest.3000000000000198.quest_desc: [
+	quest.3000000000000195.quest_subtitle: "[Multiplayer & Audio] ID: voicechat"
+	quest.3000000000000195.title: "Simple Voice Chat"
+	quest.3000000000000196.quest_desc: [
 		"&bMod ID:&r &evoxy&r  |  &bCategoria:&r Performance & Render"
 		"&bArquivo(s):&r voxy-0.2.16-beta+1.21.11.jar"
 		""
 		"Renderiza distancias absurdamente longas usando Levels of Detail (LoDs) em altissimo FPS!"
 	]
-	quest.3000000000000198.quest_subtitle: "[Performance & Render] ID: voxy"
-	quest.3000000000000198.title: "Voxy"
-	quest.3000000000000199.quest_desc: [
+	quest.3000000000000196.quest_subtitle: "[Performance & Render] ID: voxy"
+	quest.3000000000000196.title: "Voxy"
+	quest.3000000000000197.quest_desc: [
 		"&bMod ID:&r &exaerominimap&r  |  &bCategoria:&r Exploracao & Mapas"
 		"&bArquivo(s):&r xaerominimap-neoforge-1.21.1-26.6.0.jar"
 		""
@@ -3097,9 +3077,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.3000000000000199.quest_subtitle: "[Exploracao & Mapas] ID: xaerominimap"
-	quest.3000000000000199.title: "Xaero's Minimap"
-	quest.300000000000019A.quest_desc: [
+	quest.3000000000000197.quest_subtitle: "[Exploracao & Mapas] ID: xaerominimap"
+	quest.3000000000000197.title: "Xaero's Minimap"
+	quest.3000000000000198.quest_desc: [
 		"&bMod ID:&r &exaeroworldmap&r  |  &bCategoria:&r Exploracao & Mapas"
 		"&bArquivo(s):&r xaeroworldmap-neoforge-1.21.1-1.47.0.jar"
 		""
@@ -3107,57 +3087,57 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &ePrimeiros Passos & Sobrevivência&r."
 	]
-	quest.300000000000019A.quest_subtitle: "[Exploracao & Mapas] ID: xaeroworldmap"
-	quest.300000000000019A.title: "Xaero's World Map"
-	quest.300000000000019B.quest_desc: [
+	quest.3000000000000198.quest_subtitle: "[Exploracao & Mapas] ID: xaeroworldmap"
+	quest.3000000000000198.title: "Xaero's World Map"
+	quest.3000000000000199.quest_desc: [
 		"&bMod ID:&r &eyeetusexperimentus&r  |  &bCategoria:&r Interface & QoL"
 		"&bArquivo(s):&r yeetusexperimentus-neoforge-87.0.0.jar"
 		""
 		"Remove o aviso chato de 'Configuracoes Experimentais' ao entrar no mundo."
 	]
-	quest.300000000000019B.quest_subtitle: "[Interface & QoL] ID: yeetusexperimentus"
-	quest.300000000000019B.title: "Yeetus Experimentus"
-	quest.300000000000019C.quest_desc: [
+	quest.3000000000000199.quest_subtitle: "[Interface & QoL] ID: yeetusexperimentus"
+	quest.3000000000000199.title: "Yeetus Experimentus"
+	quest.300000000000019A.quest_desc: [
 		"&bMod ID:&r &eyet_another_config_lib_v3&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar"
 		""
 		"YACL v3: biblioteca moderna de telas de configuracao para mods NeoForge."
 	]
-	quest.300000000000019C.quest_subtitle: "[Biblioteca] ID: yet_another_config_lib_v3"
-	quest.300000000000019C.title: "YetAnotherConfigLib"
-	quest.300000000000019D.quest_desc: [
+	quest.300000000000019A.quest_subtitle: "[Biblioteca] ID: yet_another_config_lib_v3"
+	quest.300000000000019A.title: "YetAnotherConfigLib"
+	quest.300000000000019B.quest_desc: [
 		"&bMod ID:&r &eyumi_commons_collections&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1-neoforge.jar!yumi-mc-foundation-1.0.0-beta.1+1.21.1-mojmap.jar!yumi-commons-collections-1.0.0.jar, lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1-neoforge.jar!lambdynamiclights-api-4.8.11+1.21.1-mojmap.jar!yumi-commons-collections-1.0.0.jar"
 		""
 		"A library of collections-related utilities."
 	]
-	quest.300000000000019D.quest_subtitle: "[Mod / Componente do Pack] ID: yumi_commons_collections"
-	quest.300000000000019D.title: "Yumi Commons: Collections"
-	quest.300000000000019E.quest_desc: [
+	quest.300000000000019B.quest_subtitle: "[Mod / Componente do Pack] ID: yumi_commons_collections"
+	quest.300000000000019B.title: "Yumi Commons: Collections"
+	quest.300000000000019C.quest_desc: [
 		"&bMod ID:&r &eyumi_commons_core&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1-neoforge.jar!yumi-mc-foundation-1.0.0-beta.1+1.21.1-mojmap.jar!yumi-commons-core-1.0.0.jar, lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1-neoforge.jar!lambdynamiclights-api-4.8.11+1.21.1-mojmap.jar!yumi-commons-core-1.0.0.jar"
 		""
 		"A library containing core utilities for the Yumi ecosystem."
 	]
-	quest.300000000000019E.quest_subtitle: "[Mod / Componente do Pack] ID: yumi_commons_core"
-	quest.300000000000019E.title: "Yumi Commons: Core"
-	quest.300000000000019F.quest_desc: [
+	quest.300000000000019C.quest_subtitle: "[Mod / Componente do Pack] ID: yumi_commons_core"
+	quest.300000000000019C.title: "Yumi Commons: Core"
+	quest.300000000000019D.quest_desc: [
 		"&bMod ID:&r &eyumi_commons_event&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1-neoforge.jar!yumi-mc-foundation-1.0.0-beta.1+1.21.1-mojmap.jar!yumi-commons-event-1.0.0.jar, lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1-neoforge.jar!lambdynamiclights-api-4.8.11+1.21.1-mojmap.jar!yumi-commons-event-1.0.0.jar"
 		""
 		"An event framework designed to be flexible and easy to use."
 	]
-	quest.300000000000019F.quest_subtitle: "[Mod / Componente do Pack] ID: yumi_commons_event"
-	quest.300000000000019F.title: "Yumi Commons: Event"
-	quest.30000000000001A0.quest_desc: [
+	quest.300000000000019D.quest_subtitle: "[Mod / Componente do Pack] ID: yumi_commons_event"
+	quest.300000000000019D.title: "Yumi Commons: Event"
+	quest.300000000000019E.quest_desc: [
 		"&bMod ID:&r &eyumi_mc_core&r  |  &bCategoria:&r Mod / Componente do Pack"
 		"&bArquivo(s):&r lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1-neoforge.jar!yumi-mc-foundation-1.0.0-beta.1+1.21.1-mojmap.jar, lambdynamiclights-4.8.11+1.21.1.jar!lambdynamiclights-4.8.11+1.21.1.jar!yumi-mc-foundation-1.0.0-beta.1+1.21.1.jar"
 		""
 		"A core library offering entrypoints and environment-related utilities to Minecraft mods."
 	]
-	quest.30000000000001A0.quest_subtitle: "[Mod / Componente do Pack] ID: yumi_mc_core"
-	quest.30000000000001A0.title: "Yumi Minecraft Libraries: Foundation"
-	quest.30000000000001A1.quest_desc: [
+	quest.300000000000019E.quest_subtitle: "[Mod / Componente do Pack] ID: yumi_mc_core"
+	quest.300000000000019E.title: "Yumi Minecraft Libraries: Foundation"
+	quest.300000000000019F.quest_desc: [
 		"&bMod ID:&r &eyungsapi&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r YungsApi-1.21.1-NeoForge-5.1.9.jar"
 		""
@@ -3165,9 +3145,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eExploração, Dimensões & Estruturas&r."
 	]
-	quest.30000000000001A1.quest_subtitle: "[Biblioteca] ID: yungsapi"
-	quest.30000000000001A1.title: "YUNG's API"
-	quest.30000000000001A2.quest_desc: [
+	quest.300000000000019F.quest_subtitle: "[Biblioteca] ID: yungsapi"
+	quest.300000000000019F.title: "YUNG's API"
+	quest.30000000000001A0.quest_desc: [
 		"&bMod ID:&r &eyungsextras&r  |  &bCategoria:&r Mundo & Estruturas"
 		"&bArquivo(s):&r YungsExtras-1.21.1-NeoForge-5.1.1.jar"
 		""
@@ -3175,9 +3155,9 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eExploração, Dimensões & Estruturas&r."
 	]
-	quest.30000000000001A2.quest_subtitle: "[Mundo & Estruturas] ID: yungsextras"
-	quest.30000000000001A2.title: "YUNG's Extras"
-	quest.30000000000001A3.quest_desc: [
+	quest.30000000000001A0.quest_subtitle: "[Mundo & Estruturas] ID: yungsextras"
+	quest.30000000000001A0.title: "YUNG's Extras"
+	quest.30000000000001A1.quest_desc: [
 		"&bMod ID:&r &ezeta&r  |  &bCategoria:&r Biblioteca"
 		"&bArquivo(s):&r Zeta-1.1-40.jar"
 		""
@@ -3185,24 +3165,24 @@
 		""
 		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eArquitetura, Decoração & Economia&r."
 	]
-	quest.30000000000001A3.quest_subtitle: "[Biblioteca] ID: zeta"
-	quest.30000000000001A3.title: "Zeta"
-	quest.30000000000001A4.quest_desc: [
+	quest.30000000000001A1.quest_subtitle: "[Biblioteca] ID: zeta"
+	quest.30000000000001A1.title: "Zeta"
+	quest.30000000000001A2.quest_desc: [
 		"&bMod ID:&r &ezfastnoise&r  |  &bCategoria:&r Performance & Mundo"
 		"&bArquivo(s):&r zfastnoise-1.0.13+1.21.1+neoforge.jar"
 		""
 		"Otimizacao rapida do algoritmo FastNoise para acelerar a geracao de terreno."
 	]
-	quest.30000000000001A4.quest_subtitle: "[Performance & Mundo] ID: zfastnoise"
-	quest.30000000000001A4.title: "Fast Noise Mod"
-	quest.30000000000001A5.quest_desc: [
+	quest.30000000000001A2.quest_subtitle: "[Performance & Mundo] ID: zfastnoise"
+	quest.30000000000001A2.title: "Fast Noise Mod"
+	quest.30000000000001A3.quest_desc: [
 		"&bMod ID:&r &ezume&r  |  &bCategoria:&r Interface & QoL"
 		"&bArquivo(s):&r zume-1.2.2.jar"
 		""
 		"Zoom suave estilo OptiFine configuravel (padrao na tecla [Z] ou [C], veja em Controles)."
 	]
-	quest.30000000000001A5.quest_subtitle: "[Interface & QoL] ID: zume"
-	quest.30000000000001A5.title: "Zume"
+	quest.30000000000001A3.quest_subtitle: "[Interface & QoL] ID: zume"
+	quest.30000000000001A3.title: "Zume"
 	task.4000000000000001.title: "Marcar como lido / entendido"
 	task.400000000000000E.title: "Marcar como lido / entendido"
 	task.400000000000000F.title: "Marcar como lido / entendido"
@@ -3391,140 +3371,138 @@
 	task.400000000000021E.title: "Conhecer Flywheel"
 	task.400000000000021F.title: "Conhecer Forge Config API Port"
 	task.4000000000000220.title: "Conhecer Friends&Foes"
-	task.4000000000000221.title: "Conhecer FTB Filter System"
-	task.4000000000000222.title: "Conhecer FTB Library"
-	task.4000000000000223.title: "Conhecer FTB Quests"
-	task.4000000000000224.title: "Conhecer FTB Teams"
-	task.4000000000000225.title: "Conhecer FTB XMod Compat"
-	task.4000000000000226.title: "Conhecer Fzzy Config"
-	task.4000000000000227.title: "Conhecer Gadgets & Gizmos Library"
-	task.4000000000000228.title: "Conhecer GeckoLib 4"
-	task.4000000000000229.title: "Conhecer GroovyModLoader"
-	task.400000000000022A.title: "Conhecer GPUBooster"
-	task.400000000000022B.title: "Conhecer iChunUtil"
-	task.400000000000022C.title: "Conhecer ImmediatelyFast"
-	task.400000000000022D.title: "Conhecer Iris"
-	task.400000000000022E.title: "Conhecer Ixeris"
-	task.400000000000022F.title: "Conhecer TMRV JEI Stub"
-	task.4000000000000230.title: "Conhecer Kerria"
-	task.4000000000000231.title: "Conhecer Kiwi Library"
-	task.4000000000000232.title: "Conhecer Konkrete"
-	task.4000000000000233.title: "Conhecer Kotlin For Forge"
-	task.4000000000000234.title: "Conhecer LambDynamicLights"
-	task.4000000000000235.title: "Conhecer LambDynamicLights (API)"
-	task.4000000000000236.title: "Conhecer LambDynamicLights (Runtime)"
-	task.4000000000000237.title: "Conhecer Let it Walk!"
-	task.4000000000000238.title: "Conhecer Lithium"
-	task.4000000000000239.title: "Conhecer Lithostitched"
-	task.400000000000023A.title: "Conhecer Lodestone"
-	task.400000000000023B.title: "Conhecer Lootr"
-	task.400000000000023C.title: "Conhecer Map Atlases"
-	task.400000000000023D.title: "Conhecer MidnightLib"
-	task.400000000000023E.title: "Conhecer Miners Delight"
-	task.400000000000023F.title: "Conhecer Model Gap Fix"
-	task.4000000000000240.title: "Conhecer ModernFix"
-	task.4000000000000241.title: "Conhecer ModMenu (Connector Extras)"
-	task.4000000000000242.title: "Conhecer Moonlight Lib"
-	task.4000000000000243.title: "Conhecer More Sounds"
-	task.4000000000000244.title: "Conhecer More Culling"
-	task.4000000000000245.title: "Conhecer Mouse Tweaks"
-	task.4000000000000246.title: "Conhecer MRU"
-	task.4000000000000247.title: "Conhecer My Nether's Delight"
-	task.4000000000000248.title: "Conhecer Neo Bee Fix"
-	task.4000000000000249.title: "Conhecer Not Enough Recipe Book"
-	task.400000000000024A.title: "Conhecer Netherite Horse Armor"
-	task.400000000000024B.title: "Conhecer NetherPortalFix"
-	task.400000000000024C.title: "Conhecer NotEnoughAnimations"
-	task.400000000000024D.title: "Conhecer Nowheel"
-	task.400000000000024E.title: "Conhecer Create: Numismatics"
-	task.400000000000024F.title: "Conhecer OctoLib"
-	task.4000000000000250.title: "Conhecer Create Offroad"
-	task.4000000000000251.title: "Conhecer Open Parties and Claims"
-	task.4000000000000252.title: "Conhecer commons-pool2"
+	task.4000000000000221.title: "Conhecer FTB Library"
+	task.4000000000000222.title: "Conhecer FTB Quests"
+	task.4000000000000223.title: "Conhecer FTB Teams"
+	task.4000000000000224.title: "Conhecer Fzzy Config"
+	task.4000000000000225.title: "Conhecer Gadgets & Gizmos Library"
+	task.4000000000000226.title: "Conhecer GeckoLib 4"
+	task.4000000000000227.title: "Conhecer GroovyModLoader"
+	task.4000000000000228.title: "Conhecer GPUBooster"
+	task.4000000000000229.title: "Conhecer iChunUtil"
+	task.400000000000022A.title: "Conhecer ImmediatelyFast"
+	task.400000000000022B.title: "Conhecer Iris"
+	task.400000000000022C.title: "Conhecer Ixeris"
+	task.400000000000022D.title: "Conhecer TMRV JEI Stub"
+	task.400000000000022E.title: "Conhecer Kerria"
+	task.400000000000022F.title: "Conhecer Kiwi Library"
+	task.4000000000000230.title: "Conhecer Konkrete"
+	task.4000000000000231.title: "Conhecer Kotlin For Forge"
+	task.4000000000000232.title: "Conhecer LambDynamicLights"
+	task.4000000000000233.title: "Conhecer LambDynamicLights (API)"
+	task.4000000000000234.title: "Conhecer LambDynamicLights (Runtime)"
+	task.4000000000000235.title: "Conhecer Let it Walk!"
+	task.4000000000000236.title: "Conhecer Lithium"
+	task.4000000000000237.title: "Conhecer Lithostitched"
+	task.4000000000000238.title: "Conhecer Lodestone"
+	task.4000000000000239.title: "Conhecer Lootr"
+	task.400000000000023A.title: "Conhecer Map Atlases"
+	task.400000000000023B.title: "Conhecer MidnightLib"
+	task.400000000000023C.title: "Conhecer Miners Delight"
+	task.400000000000023D.title: "Conhecer Model Gap Fix"
+	task.400000000000023E.title: "Conhecer ModernFix"
+	task.400000000000023F.title: "Conhecer ModMenu (Connector Extras)"
+	task.4000000000000240.title: "Conhecer Moonlight Lib"
+	task.4000000000000241.title: "Conhecer More Sounds"
+	task.4000000000000242.title: "Conhecer More Culling"
+	task.4000000000000243.title: "Conhecer Mouse Tweaks"
+	task.4000000000000244.title: "Conhecer MRU"
+	task.4000000000000245.title: "Conhecer My Nether's Delight"
+	task.4000000000000246.title: "Conhecer Neo Bee Fix"
+	task.4000000000000247.title: "Conhecer Not Enough Recipe Book"
+	task.4000000000000248.title: "Conhecer Netherite Horse Armor"
+	task.4000000000000249.title: "Conhecer NetherPortalFix"
+	task.400000000000024A.title: "Conhecer NotEnoughAnimations"
+	task.400000000000024B.title: "Conhecer Nowheel"
+	task.400000000000024C.title: "Conhecer Create: Numismatics"
+	task.400000000000024D.title: "Conhecer OctoLib"
+	task.400000000000024E.title: "Conhecer Create Offroad"
+	task.400000000000024F.title: "Conhecer Open Parties and Claims"
+	task.4000000000000250.title: "Conhecer commons-pool2"
+	task.4000000000000251.title: "Conhecer lwjgl-lmdb"
+	task.4000000000000252.title: "Conhecer lwjgl-lmdb"
 	task.4000000000000253.title: "Conhecer lwjgl-lmdb"
-	task.4000000000000254.title: "Conhecer lwjgl-lmdb"
-	task.4000000000000255.title: "Conhecer lwjgl-lmdb"
+	task.4000000000000254.title: "Conhecer lwjgl-zstd"
+	task.4000000000000255.title: "Conhecer lwjgl-zstd"
 	task.4000000000000256.title: "Conhecer lwjgl-zstd"
-	task.4000000000000257.title: "Conhecer lwjgl-zstd"
-	task.4000000000000258.title: "Conhecer lwjgl-zstd"
-	task.4000000000000259.title: "Conhecer lz4-java"
-	task.400000000000025A.title: "Conhecer rocksdbjni"
-	task.400000000000025B.title: "Conhecer xz"
-	task.400000000000025C.title: "Conhecer Particle Effects"
-	task.400000000000025D.title: "Conhecer Pehkui"
-	task.400000000000025E.title: "Conhecer Create: Pocket Sized"
-	task.400000000000025F.title: "Conhecer Polytone"
-	task.4000000000000260.title: "Conhecer Ponder"
-	task.4000000000000261.title: "Conhecer Potion Stacks"
-	task.4000000000000262.title: "Conhecer Create: Power Chip"
-	task.4000000000000263.title: "Conhecer Create: Power Grid"
-	task.4000000000000264.title: "Conhecer PrickleMC"
-	task.4000000000000265.title: "Conhecer Pride Lib"
-	task.4000000000000266.title: "Conhecer Progress Peek"
-	task.4000000000000267.title: "Conhecer Puzzles Lib"
-	task.4000000000000268.title: "Conhecer Quark"
-	task.4000000000000269.title: "Conhecer quick-pack"
-	task.400000000000026A.title: "Conhecer Create: Steam 'n' Rails 1.21.1"
-	task.400000000000026B.title: "Conhecer jedis"
-	task.400000000000026C.title: "Conhecer Reese's Sodium Options"
-	task.400000000000026D.title: "Conhecer Reliable Advancements"
-	task.400000000000026E.title: "Conhecer Reliable EMI"
-	task.400000000000026F.title: "Conhecer Resourcefulconfig"
-	task.4000000000000270.title: "Conhecer Resourceful Lib"
-	task.4000000000000271.title: "Conhecer Resourcify"
-	task.4000000000000272.title: "Conhecer Ritchie's Projectile Library"
-	task.4000000000000273.title: "Conhecer Roxy"
-	task.4000000000000274.title: "Conhecer Sable"
-	task.4000000000000275.title: "Conhecer Sable Beyond"
-	task.4000000000000276.title: "Conhecer Sable Companion"
-	task.4000000000000277.title: "Conhecer Sable: Physics Compat"
-	task.4000000000000278.title: "Conhecer Scholar"
-	task.4000000000000279.title: "Conhecer Seamless Sleep"
-	task.400000000000027A.title: "Conhecer Searchables"
-	task.400000000000027B.title: "Conhecer Create Simulated"
-	task.400000000000027C.title: "Conhecer Simulated Gauges"
-	task.400000000000027D.title: "Conhecer Create: Coasters Simulated"
-	task.400000000000027E.title: "Conhecer Create Slice & Dice"
-	task.400000000000027F.title: "Conhecer Create: Smart Bounds"
-	task.4000000000000280.title: "Conhecer SmartBlockPlacement"
-	task.4000000000000281.title: "Conhecer Smarter Farmers"
-	task.4000000000000282.title: "Conhecer Smooth Swapping"
-	task.4000000000000283.title: "Conhecer Sodium"
-	task.4000000000000284.title: "Conhecer Sodium Extra"
-	task.4000000000000285.title: "Conhecer Sophisticated Backpacks"
-	task.4000000000000286.title: "Conhecer Sophisticated Core"
-	task.4000000000000287.title: "Conhecer Sounds"
-	task.4000000000000288.title: "Conhecer spark"
-	task.4000000000000289.title: "Conhecer SpruceUI"
-	task.400000000000028A.title: "Conhecer Statue Menus"
-	task.400000000000028B.title: "Conhecer Status Effect Bars"
-	task.400000000000028C.title: "Conhecer Structure Layout Optimizer"
-	task.400000000000028D.title: "Conhecer Strut Your Stuff"
-	task.400000000000028E.title: "Conhecer Supplementaries"
-	task.400000000000028F.title: "Conhecer Tectonic"
-	task.4000000000000290.title: "Conhecer Terralith"
-	task.4000000000000291.title: "Conhecer ToadLib"
-	task.4000000000000292.title: "Conhecer TooManyRecipeViewers"
-	task.4000000000000293.title: "Conhecer TRansition"
-	task.4000000000000294.title: "Conhecer TrashSlot"
-	task.4000000000000295.title: "Conhecer Tree Harvester"
-	task.4000000000000296.title: "Conhecer TRender"
-	task.4000000000000297.title: "Conhecer TxniLib"
-	task.4000000000000298.title: "Conhecer Updating World Icon"
-	task.4000000000000299.title: "Conhecer Veil"
-	task.400000000000029A.title: "Conhecer Simple Voice Chat"
-	task.400000000000029B.title: "Conhecer Voxy"
-	task.400000000000029C.title: "Conhecer Xaero's Minimap"
-	task.400000000000029D.title: "Conhecer Xaero's World Map"
-	task.400000000000029E.title: "Conhecer Yeetus Experimentus"
-	task.400000000000029F.title: "Conhecer YetAnotherConfigLib"
-	task.40000000000002A0.title: "Conhecer Yumi Commons: Collections"
-	task.40000000000002A1.title: "Conhecer Yumi Commons: Core"
-	task.40000000000002A2.title: "Conhecer Yumi Commons: Event"
-	task.40000000000002A3.title: "Conhecer Yumi Minecraft Libraries: Foundation"
-	task.40000000000002A4.title: "Conhecer YUNG's API"
-	task.40000000000002A5.title: "Conhecer YUNG's Extras"
-	task.40000000000002A6.title: "Conhecer Zeta"
-	task.40000000000002A7.title: "Conhecer Fast Noise Mod"
-	task.40000000000002A8.title: "Conhecer Zume"
+	task.4000000000000257.title: "Conhecer lz4-java"
+	task.4000000000000258.title: "Conhecer rocksdbjni"
+	task.4000000000000259.title: "Conhecer xz"
+	task.400000000000025A.title: "Conhecer Particle Effects"
+	task.400000000000025B.title: "Conhecer Pehkui"
+	task.400000000000025C.title: "Conhecer Create: Pocket Sized"
+	task.400000000000025D.title: "Conhecer Polytone"
+	task.400000000000025E.title: "Conhecer Ponder"
+	task.400000000000025F.title: "Conhecer Potion Stacks"
+	task.4000000000000260.title: "Conhecer Create: Power Chip"
+	task.4000000000000261.title: "Conhecer Create: Power Grid"
+	task.4000000000000262.title: "Conhecer PrickleMC"
+	task.4000000000000263.title: "Conhecer Pride Lib"
+	task.4000000000000264.title: "Conhecer Progress Peek"
+	task.4000000000000265.title: "Conhecer Puzzles Lib"
+	task.4000000000000266.title: "Conhecer Quark"
+	task.4000000000000267.title: "Conhecer quick-pack"
+	task.4000000000000268.title: "Conhecer Create: Steam 'n' Rails 1.21.1"
+	task.4000000000000269.title: "Conhecer jedis"
+	task.400000000000026A.title: "Conhecer Reese's Sodium Options"
+	task.400000000000026B.title: "Conhecer Reliable Advancements"
+	task.400000000000026C.title: "Conhecer Reliable EMI"
+	task.400000000000026D.title: "Conhecer Resourcefulconfig"
+	task.400000000000026E.title: "Conhecer Resourceful Lib"
+	task.400000000000026F.title: "Conhecer Resourcify"
+	task.4000000000000270.title: "Conhecer Ritchie's Projectile Library"
+	task.4000000000000271.title: "Conhecer Roxy"
+	task.4000000000000272.title: "Conhecer Sable"
+	task.4000000000000273.title: "Conhecer Sable Beyond"
+	task.4000000000000274.title: "Conhecer Sable Companion"
+	task.4000000000000275.title: "Conhecer Sable: Physics Compat"
+	task.4000000000000276.title: "Conhecer Scholar"
+	task.4000000000000277.title: "Conhecer Seamless Sleep"
+	task.4000000000000278.title: "Conhecer Searchables"
+	task.4000000000000279.title: "Conhecer Create Simulated"
+	task.400000000000027A.title: "Conhecer Simulated Gauges"
+	task.400000000000027B.title: "Conhecer Create: Coasters Simulated"
+	task.400000000000027C.title: "Conhecer Create Slice & Dice"
+	task.400000000000027D.title: "Conhecer Create: Smart Bounds"
+	task.400000000000027E.title: "Conhecer SmartBlockPlacement"
+	task.400000000000027F.title: "Conhecer Smarter Farmers"
+	task.4000000000000280.title: "Conhecer Smooth Swapping"
+	task.4000000000000281.title: "Conhecer Sodium"
+	task.4000000000000282.title: "Conhecer Sodium Extra"
+	task.4000000000000283.title: "Conhecer Sophisticated Backpacks"
+	task.4000000000000284.title: "Conhecer Sophisticated Core"
+	task.4000000000000285.title: "Conhecer Sounds"
+	task.4000000000000286.title: "Conhecer spark"
+	task.4000000000000287.title: "Conhecer SpruceUI"
+	task.4000000000000288.title: "Conhecer Statue Menus"
+	task.4000000000000289.title: "Conhecer Status Effect Bars"
+	task.400000000000028A.title: "Conhecer Structure Layout Optimizer"
+	task.400000000000028B.title: "Conhecer Strut Your Stuff"
+	task.400000000000028C.title: "Conhecer Supplementaries"
+	task.400000000000028D.title: "Conhecer Tectonic"
+	task.400000000000028E.title: "Conhecer Terralith"
+	task.400000000000028F.title: "Conhecer ToadLib"
+	task.4000000000000290.title: "Conhecer TooManyRecipeViewers"
+	task.4000000000000291.title: "Conhecer TRansition"
+	task.4000000000000292.title: "Conhecer TrashSlot"
+	task.4000000000000293.title: "Conhecer Tree Harvester"
+	task.4000000000000294.title: "Conhecer TRender"
+	task.4000000000000295.title: "Conhecer TxniLib"
+	task.4000000000000296.title: "Conhecer Updating World Icon"
+	task.4000000000000297.title: "Conhecer Veil"
+	task.4000000000000298.title: "Conhecer Simple Voice Chat"
+	task.4000000000000299.title: "Conhecer Voxy"
+	task.400000000000029A.title: "Conhecer Xaero's Minimap"
+	task.400000000000029B.title: "Conhecer Xaero's World Map"
+	task.400000000000029C.title: "Conhecer Yeetus Experimentus"
+	task.400000000000029D.title: "Conhecer YetAnotherConfigLib"
+	task.400000000000029E.title: "Conhecer Yumi Commons: Collections"
+	task.400000000000029F.title: "Conhecer Yumi Commons: Core"
+	task.40000000000002A0.title: "Conhecer Yumi Commons: Event"
+	task.40000000000002A1.title: "Conhecer Yumi Minecraft Libraries: Foundation"
+	task.40000000000002A2.title: "Conhecer YUNG's API"
+	task.40000000000002A3.title: "Conhecer YUNG's Extras"
+	task.40000000000002A4.title: "Conhecer Zeta"
+	task.40000000000002A5.title: "Conhecer Fast Noise Mod"
+	task.40000000000002A6.title: "Conhecer Zume"
 }

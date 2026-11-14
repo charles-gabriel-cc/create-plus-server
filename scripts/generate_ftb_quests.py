@@ -802,7 +802,7 @@ def build_chapters(mods_info: dict[str, dict[str, Any]], all_items: set[str]) ->
                 size=1.8,
                 xp=50,
                 reward_item=("minecraft:bread", 8),
-                mod_refs=["ftbquests", "ftblibrary", "ftbteams", "ftbxmodcompat", "ftbfiltersystem"],
+                mod_refs=["ftbquests", "ftblibrary", "ftbteams"],
                 desc=[
                     "Bem-vindo ao &bCreate+&r (Minecraft 1.21.1 NeoForge)!",
                     "",
