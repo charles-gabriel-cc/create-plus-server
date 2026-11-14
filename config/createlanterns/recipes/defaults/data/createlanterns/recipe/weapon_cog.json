@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "accept_mirrored": false,
+  "pattern": [
+    " SSS ",
+    "SIGIS",
+    "SGPGS",
+    "SIGIS",
+    " SSS "
+  ],
+  "key": {
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "G": {
+      "item": "simulated:gyroscopic_mechanism"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "createlanterns:weapon_cog",
+    "count": 1
+  },
+  "show_notification": false
+}

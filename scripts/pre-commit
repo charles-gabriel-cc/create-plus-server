@@ -15,7 +15,7 @@ fi
 echo "[Packwiz pre-commit] Sincronizando Modrinth App <-> Packwiz..."
 "$PYTHON_BIN" scripts/sync_packwiz.py
 
-git add -A -- pack.toml index.toml .packwizignore mods/ resourcepacks/ shaderpacks/
+git add -A -- pack.toml index.toml .packwizignore mods/ resourcepacks/ shaderpacks/ config/
 for extra in packwiz-installer-bootstrap.jar atualizar-mods.bat; do
     if [ -e "$extra" ] || git ls-files --error-unmatch "$extra" >/dev/null 2>&1; then
         git add -A -- "$extra"

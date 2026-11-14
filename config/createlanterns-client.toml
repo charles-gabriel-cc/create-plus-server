@@ -1,0 +1,93 @@
+#How dense the ring's energy effects are. The vanilla particle setting scales it too.
+#Allowed Values: FULL, REDUCED, MINIMAL
+effects = "FULL"
+#How much the ring moves your view, in percent. That's the dip of a landing, the jolt of a crash, the kick of a
+#gear shift, the lean into a turn and the shake of a hit. 0 keeps your view still. View turns also follow
+#the game's Distortion Effects, and the widening and narrowing follows FOV Effects. With View Bobbing off the eye moves half as far.
+# Default: 100
+# Range: 0 ~ 100
+cameraMotion = 100
+#How your view follows a barrel roll. TURN_OVER rolls it right over with you. TIP only tips it
+#toward the roll and back. LEVEL keeps it level. It only turns over when Camera motion and Distortion Effects are both at
+#full. If either's turned down it tips instead. At 0 it stays level.
+#Allowed Values: TURN_OVER, TIP, LEVEL
+rollView = "TURN_OVER"
+
+#How rings and their light look to you.
+[visuals]
+	#How solid hard light looks, in percent. 100 is how each light is normally drawn. Go lower to see
+	#through it more, higher to make it stand out.
+	# Default: 100
+	# Range: 25 ~ 150
+	hologramOpacity = 100
+	#If true, other players carried by a ring glow in their light's aura, same as you. If false, you only
+	#see your own aura.
+	otherAuras = true
+	#How strongly worn rings glow for you, on your hand and everyone else's. The
+	#ring itself always shines in its own colours in the dark. 0 is no glow, 1 is a faint light just behind it,
+	#2 is the light and halo rings used to have. A ring coming for its bearer, and the light of powers and flight, keep their glow.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	ringGlow = 1.0
+	#If true, worn rings stand a lot further out of the hand, so some of the band shows around the
+	#signet (on every ring you see, yours too). If false, a ring sits low on the hand with only its signet showing.
+	tallRings = false
+	#How far a tall ring stands out of the hand, in pixels of the player's skin (a hand is 4 pixels wide,
+	#3 on a slim arm). It's measured from the hand to the front of the ring, and only used while tallRings is true. At 0.8
+	#the front of the band shows. Past about 1.4 (1 on a slim arm) the ring floats clear of the hand.
+	# Default: 0.8
+	# Range: 0.0 ~ 4.0
+	tallRingHeight = 0.8
+	#How strongly the emblem on a suit's chest glows for you, on yours and everyone else's.
+	#The emblem itself always shines in its own colours in the dark. 0 is no glow, 1 is a faint light just
+	#behind it, 2 is the light and halo emblems used to have.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	suitGlow = 1.0
+	#If true, every suit drawn with a mask wears it, the way the artists drew it. If false, no suit has a mask
+	#and the bearer's own face shows (on every suit you see, yours too).
+	masks = true
+	#If true, a suit of two lights wears one whole mask. It uses the first ring's light, or the other one
+	#if the first one's suit hasn't got a mask. If false, each light's half of the suit wears its own half mask, split down the
+	#middle like the rest of the suit.
+	wholeMask = false
+	#If true, a suit is drawn on the bearer's skin, so it fits like a skin tight suit. The skin's own
+	#outer layer (jacket, sleeves, trouser legs and hat) is hidden where the suit covers it. If false, the suit is drawn over
+	#the skin like armour (on every suit you see, yours too).
+	skinTightSuits = false
+	#If true, a lit ring makes a helmet of its light around its bearer's head while it breathes for them
+	#under water (on everyone you see, yours too). In first person you only see a faint tint of the light at the edge of the
+	#screen. If false, there's no helmet and no tint.
+	diveHelmet = true
+
+#Hard light constructs. You design, copy and summon them with the construct wheel.
+[constructs]
+	#If true, lamps on a construct or any other moving body, like an Aeronautics ship (glowstone, torches,
+	#sea lanterns and the like), light up the ground and everything around it, and the light moves with it. It's only on your
+	#screen. If false, their light doesn't reach past the body.
+	castLight = true
+
+#Weapons that Create's rotation drives, like the Laser Rifle.
+[weapons]
+	#If true, a laser's beam, the spot it hits and its charge light up the ground and everything around
+	#them, and an overcharged laser lights up the ground round itself. It's only on your screen.
+	laserLight = true
+
+#What the ring puts on your screen.
+[hud]
+	#If true, the bar above the experience bar shows how strongly each worn ring's light shows in what
+	#you do (its deed points, compared to the points where its ring comes) while you're wearing a ring. It's also the design
+	#meter while you're designing.
+	willpowerBar = true
+	#If true, a slot to the right of the hotbar shows your ring's charge in percent while you're wearing one,
+	#in its light (with two rings, both lights blend across it).
+	chargeSlot = true
+	#If true, the ring's big moments pop up as titles below the crosshair.
+	titles = true
+	#How big the ring's titles are, in percent.
+	# Default: 100
+	# Range: 50 ~ 200
+	textScale = 100
+	#If true, you get asked for a name and a summon key when you save a construct, copy it or make it from
+	#a schematic. If false, it names itself.
+	nameConstructs = true

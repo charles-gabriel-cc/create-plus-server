@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "accept_mirrored": true,
+  "pattern": [
+    "SIIIIIIIS",
+    "DLDPBPDLA",
+    "SIIIIIIIS"
+  ],
+  "key": {
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "minecraft:light_blue_stained_glass"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "B": {
+      "item": "minecraft:beacon"
+    },
+    "A": {
+      "item": "simulated:laser_pointer"
+    }
+  },
+  "result": {
+    "id": "createlanterns:laser_rifle",
+    "count": 1
+  },
+  "show_notification": false
+}

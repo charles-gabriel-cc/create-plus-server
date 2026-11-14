@@ -17,6 +17,7 @@ FOLDER_EXTENSIONS = {
     "shaderpacks": (".zip",),
 }
 IGNORED_SUFFIXES = (".disabled", ".tmp", ".bak", ".pw.toml")
+CONFIG_TEXT_EXTENSIONS = (".toml", ".properties", ".json", ".json5", ".txt", ".cfg", ".snbt", ".mcmeta")
 
 KNOWN_CLIENT_PREFIXES = (
     "asyncparticles",
@@ -590,6 +591,7 @@ def write_packwizignore(repo_root: str) -> None:
         "config/spark/tmp/**",
         "config/spark/tmp-client",
         "config/spark/tmp-client/**",
+        ".prelaunch_ok",
         "",
         "mods/*.jar",
         "resourcepacks/*.zip",
@@ -614,6 +616,39 @@ def _is_ignored_config_rel(rel_path: str) -> bool:
         if parts[1] == "spark" and len(parts) >= 3 and parts[2] in ("tmp", "tmp-client"):
             return True
     return False
+
+
+def normalize_config_line_endings(repo_root: str) -> int:
+    """Convert CRLF to LF in tracked config text files so disk bytes match Git blobs."""
+    config_root = os.path.join(repo_root, "config")
+    if not os.path.isdir(config_root):
+        return 0
+
+    converted = 0
+    for root, dirs, files in os.walk(config_root):
+        rel_dir = os.path.relpath(root, repo_root).replace("\\", "/")
+        if rel_dir == "config/xaero" or rel_dir.startswith("config/xaero/"):
+            dirs[:] = []
+            continue
+        if rel_dir in ("config/spark/tmp", "config/spark/tmp-client"):
+            dirs[:] = []
+            continue
+        for fname in files:
+            if not fname.lower().endswith(CONFIG_TEXT_EXTENSIONS):
+                continue
+            fpath = os.path.join(root, fname)
+            rel_path = os.path.relpath(fpath, repo_root).replace("\\", "/")
+            if _is_ignored_config_rel(rel_path):
+                continue
+            with open(fpath, "rb") as f:
+                raw = f.read()
+            if b"\r\n" in raw:
+                with open(fpath, "wb") as f:
+                    f.write(raw.replace(b"\r\n", b"\n"))
+                converted += 1
+    if converted:
+        print(f"Normalized CRLF -> LF in {converted} config file(s).")
+    return converted
 
 
 def refresh_index_python(repo_root: str) -> None:
@@ -792,6 +827,7 @@ def export_mrpack(repo_root: str, output_path: str, session: requests.Session | 
 
 
 def sync_packwiz(repo_root: str, allow_prune: bool = True) -> None:
+    normalize_config_line_endings(repo_root)
     session = requests.Session()
     added_pw, modified_pw, _ = ensure_local_binaries_from_pw_toml(
         repo_root, session=session, allow_prune=allow_prune

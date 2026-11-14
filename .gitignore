@@ -17,8 +17,9 @@
 !/packwiz-installer-bootstrap.jar
 !/atualizar-mods.bat
 
-# Ignore exported modpack archives
+# Ignore exported modpack archives and local prelaunch marker
 /*.mrpack
+/.prelaunch_ok
 
 # Ignore Python bytecode cache
 /scripts/__pycache__/

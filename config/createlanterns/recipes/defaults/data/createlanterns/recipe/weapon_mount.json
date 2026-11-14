@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "accept_mirrored": false,
+  "pattern": [
+    "ISVSI",
+    "HXWXH",
+    "ISPSI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "V": {
+      "item": "create:item_vault"
+    },
+    "H": {
+      "item": "simulated:black_handle"
+    },
+    "X": {
+      "item": "create:shaft"
+    },
+    "W": {
+      "item": "simulated:swivel_bearing"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "createlanterns:weapon_mount",
+    "count": 1
+  },
+  "show_notification": false
+}

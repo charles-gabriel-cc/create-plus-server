@@ -27,6 +27,7 @@ config/spark/tmp
 config/spark/tmp/**
 config/spark/tmp-client
 config/spark/tmp-client/**
+.prelaunch_ok
 
 mods/*.jar
 resourcepacks/*.zip
