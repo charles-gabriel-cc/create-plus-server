@@ -665,6 +665,10 @@ file = "config/createthrusters-tablet-apps-server.toml"
 hash = "9682a15bf34e509182bdf2daaf51e0259f03b7518c7b0b79b6d9dbac4a58cc27"
 
 [[files]]
+file = "config/createthrusters_physics_goggles_overlays.json"
+hash = "780e27b7e67a9c4e4e65079a4c74f97f8b355a24e33462804b61fb22034b94dd"
+
+[[files]]
 file = "config/cutthrough-client.toml"
 hash = "16bc1f998738810cae793b1dc272122dde8b246bffa408f227357803e16ba692"
 
@@ -847,6 +851,14 @@ hash = "cc127c6067eb9e23289edc1c774afd71456456eef06c688af6731a72d3bba5e5"
 [[files]]
 file = "config/friendsandfoes.json"
 hash = "c9517fc0bbf4c4052db7689755ea94bef982dff968d59ab23f3b0c7212106b2d"
+
+[[files]]
+file = "config/ftblibrary-client.snbt"
+hash = "9b7124c3ffaa632aa12da91cc1be593de93b418910fafe4c7d0d6df196e7e305"
+
+[[files]]
+file = "config/ftbquests-client.snbt"
+hash = "1aad536e4bf4ac32fd3f994e43af2792e5347ac37e40d1f8430dde45c9468f5c"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -2412,6 +2424,10 @@ metafile = true
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
+
+[[files]]
+file = "mods/spectral_hub-v4.jar"
+hash = "654a91376c32c45fcea482ff577e79ef94925481af960347c109943883a36677"
 
 [[files]]
 file = "mods/status-effect-bars-reforged.pw.toml"
