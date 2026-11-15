@@ -154,7 +154,7 @@ hash = "e8e49ebdfeea56c09b38ec5bf9e5ae79ff815556373f978d61635a9a61228c52"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "2792f8f22445dc8e775e3954a761c84d51d8780e9867f0ce57d53519e3131a94"
+hash = "4896eaaac47d14f8398fd3cbeeecb75161a4f389f7148ec01995e9c00527d664"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -503,6 +503,10 @@ hash = "8da42027902df03b6f7eca79a290e0fc3f60ef107faa53dc13143e52499858b4"
 [[files]]
 file = "config/createlanterns-common.toml"
 hash = "84fb94d093a477f2a32993eb47417ae34ce9516a0fee0349af873dffd9f058a8"
+
+[[files]]
+file = "config/createlanterns-server.toml"
+hash = "1eb60938998272e0ee98bb2feb9d1b2fd07ce3fe92ace0392a3e3ca9df4f53d4"
 
 [[files]]
 file = "config/createlanterns/recipes/README.md"
@@ -873,6 +877,14 @@ file = "config/easyanvils-server.toml"
 hash = "61228450bef35c2871f9438b12f4dfba2f52aa740038a8a27ffbf2fc659592a2"
 
 [[files]]
+file = "config/easymagic-client.toml"
+hash = "541675df333589853c40092d5d978861fa9dd3ba134e5670f8179ce363462698"
+
+[[files]]
+file = "config/easymagic-common.toml"
+hash = "1831109fee7afc163f381d19d57f45db6ad9a8574da583437f5a1e91beb85478"
+
+[[files]]
 file = "config/ec_ad/server_config.json"
 hash = "a0f79fba549eebaa8c28877eb536cbe63e396ec0abdfdef53c9fa2eb42efde34"
 
@@ -966,7 +978,7 @@ hash = "6967be2354a821d42b93572dc97f725ce16e704fb7fca1412f4981c12331ddd5"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "28475fedd8d8faf4790ca1e0c7b7a9d450e2d910ba335f601066182ac929f556"
+hash = "df78b17e14923cfd9cc588ea4b58bc70e37d44e33022ac4d9dc2bdb365858714"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1170,7 +1182,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "e29e03361784f8ab7afea5b7f887c80494200c8c9a01ff914a94b8c630f5664e"
+hash = "480d5eb2bd1390b36728f26a4b10c85cc1acef858d6dc71f1f5a12f3e2c31dae"
 
 [[files]]
 file = "config/irisflw-client.toml"
@@ -1517,6 +1529,14 @@ file = "config/serilum/treeharvester.json"
 hash = "4e2f107c82525ff20826afb1a835b1a88c8ed2fbeacaf5b6665cf03976cb9cc1"
 
 [[files]]
+file = "config/simplyspeakers-common.toml"
+hash = "e362dad0c9deed5f15a6906cc1bb9b349b98c18294af039d80527856d5b5af7b"
+
+[[files]]
+file = "config/simplyspeakers-ui.properties"
+hash = "001c7ee18a64f1bd5b3fa5d72bd5acaa825fa171ac6fdde43db7ce85283d153e"
+
+[[files]]
 file = "config/simulated-client.toml"
 hash = "944ba0d36dfe00436e814fffd736acdd51292da18a01a060ea6ffbcf3dc7388b"
 
@@ -1673,6 +1693,10 @@ file = "config/trender.json"
 hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
 
 [[files]]
+file = "config/visualworkbench-client.toml"
+hash = "1890069f63baa9eca78bf5013ea591d70f8a29eb8d95437b4094b6de4b14abd1"
+
+[[files]]
 file = "config/voicechat/category-volumes.properties"
 hash = "3747c48bcb3a60834f88f056ee9b3a025153b11f6ca88652b4bddebb77cea009"
 
@@ -1710,7 +1734,7 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "config/zfastnoise.mixin.properties"
-hash = "bcb7242db3dba48945c4700143964729d7a3a4eecdcc666cef2d2af6046c7209"
+hash = "f9e8f2dd15a473947bc5e3c684e29f0402c4073919bc8a25eedf70589ee9c59c"
 
 [[files]]
 file = "config/zume.json5"
@@ -1974,6 +1998,11 @@ metafile = true
 [[files]]
 file = "mods/create-coasters-simulated.pw.toml"
 hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
+metafile = true
+
+[[files]]
+file = "mods/create-cosmonatics.pw.toml"
+hash = "1f2d7a0dbc88261f7849be33a7418e5f59ac8408580fbce27b972e2021d87596"
 metafile = true
 
 [[files]]

@@ -1,0 +1,14 @@
+#The max range of the speaker block
+# Default: 64
+# Range: 1 ~ 512
+speakerRange = 64
+#Whether to disable audio uploads
+disableUpload = false
+#The maximum upload size in bytes
+# Default: 5242880
+# Range: 1024 ~ 104857600
+maxUploadSize = 5242880
+#Whether clients may stream remote HTTP(S) audio URLs through this server
+allowRemoteStreams = false
+#Enable debug logging for troubleshooting audio/settings issues
+debugLogging = false
