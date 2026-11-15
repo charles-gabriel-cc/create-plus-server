@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createlanterns:incomplete_emitter_plating"
+    },
+    {
+      "type": "createlanterns:any_fluid",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "createlanterns:pile_of_junk"
+    }
+  ]
+}

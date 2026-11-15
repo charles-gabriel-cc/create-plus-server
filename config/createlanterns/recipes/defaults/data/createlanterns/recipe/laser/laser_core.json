@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:nether_star"
+  },
+  "loops": 16,
+  "results": [
+    {
+      "id": "createlanterns:laser_core"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_laser_core"
+        },
+        {
+          "item": "createlanterns:star_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_laser_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_laser_core"
+        },
+        {
+          "item": "createlanterns:beam_coil"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_laser_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_laser_core"
+        },
+        {
+          "item": "createlanterns:focusing_lens"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_laser_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_laser_core"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_laser_core"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_laser_core"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_laser_core"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_laser_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_laser_core"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createlanterns:incomplete_laser_core"
+  }
+}

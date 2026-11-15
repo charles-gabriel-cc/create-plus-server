@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createlanterns:incomplete_laser_cell"
+    },
+    {
+      "type": "createlanterns:any_item"
+    }
+  ],
+  "results": [
+    {
+      "id": "createlanterns:pile_of_junk"
+    }
+  ]
+}

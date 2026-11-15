@@ -1,0 +1,79 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "createlanterns:focusing_lens"
+    },
+    {
+      "chance": 8.0,
+      "id": "minecraft:diamond"
+    },
+    {
+      "chance": 6.0,
+      "id": "create:polished_rose_quartz"
+    },
+    {
+      "chance": 5.0,
+      "id": "minecraft:amethyst_shard"
+    },
+    {
+      "chance": 3.0,
+      "id": "create:rose_quartz"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_focusing_lens"
+        },
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_focusing_lens"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_focusing_lens"
+        },
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_focusing_lens"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_focusing_lens"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_focusing_lens"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createlanterns:incomplete_focusing_lens"
+  }
+}

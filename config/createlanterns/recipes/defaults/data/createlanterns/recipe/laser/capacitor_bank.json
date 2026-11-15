@@ -1,0 +1,99 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "simulated:redstone_accumulator"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "createlanterns:capacitor_bank"
+    },
+    {
+      "chance": 8.0,
+      "id": "create:brass_sheet"
+    },
+    {
+      "chance": 6.0,
+      "id": "minecraft:glowstone_dust"
+    },
+    {
+      "chance": 5.0,
+      "id": "create:brass_nugget"
+    },
+    {
+      "chance": 3.0,
+      "id": "create:electron_tube"
+    },
+    {
+      "chance": 2.0,
+      "id": "minecraft:redstone"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_capacitor_bank"
+        },
+        {
+          "item": "create:brass_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_capacitor_bank"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_capacitor_bank"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_capacitor_bank"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_capacitor_bank"
+        },
+        {
+          "item": "minecraft:glowstone_dust"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_capacitor_bank"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_capacitor_bank"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_capacitor_bank"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createlanterns:incomplete_capacitor_bank"
+  }
+}

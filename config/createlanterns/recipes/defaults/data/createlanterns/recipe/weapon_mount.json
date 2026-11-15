@@ -3,13 +3,13 @@
   "category": "misc",
   "accept_mirrored": false,
   "pattern": [
-    "ISVSI",
-    "HXWXH",
-    "ISPSI"
+    "ESVSE",
+    "HQWQH",
+    "IXCXI"
   ],
   "key": {
-    "I": {
-      "item": "minecraft:iron_block"
+    "E": {
+      "item": "createlanterns:emitter_plating"
     },
     "S": {
       "item": "create:sturdy_sheet"
@@ -20,14 +20,20 @@
     "H": {
       "item": "simulated:black_handle"
     },
-    "X": {
-      "item": "create:shaft"
+    "Q": {
+      "item": "createlanterns:capacitor_bank"
     },
     "W": {
       "item": "simulated:swivel_bearing"
     },
-    "P": {
-      "item": "create:precision_mechanism"
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "X": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "createlanterns:beam_coil"
     }
   },
   "result": {

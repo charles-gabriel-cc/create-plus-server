@@ -1,0 +1,117 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "createlanterns:emitter_plating"
+    },
+    {
+      "chance": 8.0,
+      "id": "create:sturdy_sheet"
+    },
+    {
+      "chance": 6.0,
+      "id": "minecraft:netherite_scrap"
+    },
+    {
+      "chance": 5.0,
+      "id": "create:powdered_obsidian"
+    },
+    {
+      "chance": 3.0,
+      "id": "minecraft:quartz"
+    },
+    {
+      "chance": 2.0,
+      "id": "minecraft:gold_nugget"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_emitter_plating"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_emitter_plating"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_emitter_plating"
+        },
+        {
+          "item": "minecraft:quartz"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_emitter_plating"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_emitter_plating"
+        },
+        {
+          "item": "minecraft:obsidian"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_emitter_plating"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_emitter_plating"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_emitter_plating"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_emitter_plating"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_emitter_plating"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createlanterns:incomplete_emitter_plating"
+  }
+}

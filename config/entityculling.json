@@ -12,6 +12,7 @@
     "botania:falling_star"
   ],
   "entityWhitelist": [
+    "minecraft:player",
     "botania:mana_burst",
     "drg_flares:drg_flares",
     "quark:soul_bead"
@@ -21,8 +22,9 @@
   "sleepDelay": 10,
   "hitboxLimit": 50,
   "captureRate": 5,
-  "tickCulling": true,
+  "tickCulling": false,
   "tickCullingWhitelist": [
+    "minecraft:player",
     "minecraft:block_display",
     "alexscaves:gum_worm",
     "minecraft:jungle_boat",
@@ -70,7 +72,7 @@
     "cinematiccataclysm:ignis_cutscene"
   ],
   "disableF3": true,
-  "skipEntityCulling": false,
+  "skipEntityCulling": true,
   "skipBlockEntityCulling": false,
   "blockEntityFrustumCulling": true,
   "forceDisplayCulling": false,

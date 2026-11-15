@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createlanterns:incomplete_capacitor_bank"
+    }
+  ],
+  "processing_time": 50,
+  "results": [
+    {
+      "id": "createlanterns:pile_of_junk"
+    }
+  ]
+}

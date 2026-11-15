@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createlanterns:incomplete_emitter_plating"
+    }
+  ],
+  "results": [
+    {
+      "id": "createlanterns:pile_of_junk"
+    }
+  ]
+}

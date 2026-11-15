@@ -1,27 +1,117 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "QTQ",
-    "RDR",
-    "QTQ"
-  ],
-  "key": {
-    "Q": {
-      "item": "create:polished_rose_quartz"
-    },
-    "T": {
-      "item": "create:electron_tube"
-    },
-    "R": {
-      "item": "minecraft:redstone_block"
-    },
-    "D": {
-      "item": "minecraft:diamond"
-    }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createlanterns:laser_cell_casing"
   },
-  "result": {
-    "id": "createlanterns:laser_cell",
-    "count": 2
+  "loops": 8,
+  "results": [
+    {
+      "chance": 50.0,
+      "id": "createlanterns:laser_cell"
+    },
+    {
+      "chance": 16.0,
+      "id": "create:brass_nugget"
+    },
+    {
+      "chance": 12.0,
+      "id": "minecraft:glowstone_dust"
+    },
+    {
+      "chance": 10.0,
+      "id": "create:electron_tube"
+    },
+    {
+      "chance": 8.0,
+      "id": "minecraft:diamond"
+    },
+    {
+      "chance": 4.0,
+      "id": "minecraft:nether_star"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_laser_cell"
+        },
+        {
+          "item": "minecraft:nether_star"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_laser_cell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_laser_cell"
+        },
+        {
+          "item": "createlanterns:capacitor_bank"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_laser_cell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_laser_cell"
+        },
+        {
+          "item": "createlanterns:focusing_lens"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_laser_cell"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_laser_cell"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_laser_cell"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_laser_cell"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_laser_cell"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createlanterns:incomplete_laser_cell"
   }
 }

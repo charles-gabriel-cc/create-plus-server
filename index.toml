@@ -154,7 +154,7 @@ hash = "e8e49ebdfeea56c09b38ec5bf9e5ae79ff815556373f978d61635a9a61228c52"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "bd411f8743bd3eb0c6089080faf5a39220cc0ea6dedad314b3e804e4a5e2b880"
+hash = "2792f8f22445dc8e775e3954a761c84d51d8780e9867f0ce57d53519e3131a94"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -401,6 +401,10 @@ file = "config/create_aeronautics_automated_logistics-common.toml"
 hash = "5f64bc1089e541d4e05e834e082c33f10fd9a78bcee4c4b09e56bc82fc52a1cf"
 
 [[files]]
+file = "config/create_aeronautics_throwable_rope_connector-common.toml"
+hash = "7fa52ef7398ad8457fbf0ac45b0f37e86b93c5e19c22ee30c9c7d81b92797f84"
+
+[[files]]
 file = "config/create_aeronautics_toolgun-container.toml"
 hash = "2d359c3727fe82c97f7e6b7656e79ee3c9a82d6975758895746d6f295e225a05"
 
@@ -411,6 +415,10 @@ hash = "5a1db58c09ee713691e456cf4b517f93dc8e74be0ce216c6fca26d014f373a51"
 [[files]]
 file = "config/create_cardboarded_conveynience-common.toml"
 hash = "4bf687bc0c7a53e91efe6c5f4d49f58adb33cd5f0f9f5c8c4e0cb3b5e4691ce1"
+
+[[files]]
+file = "config/create_deep_dark-common.toml"
+hash = "613452e58a23d20a098f59d5f3cfc023b399a8b73c57bb719aefef09c5a45a8d"
 
 [[files]]
 file = "config/create_dragons_plus-client.toml"
@@ -490,7 +498,7 @@ hash = "bb9da0f55c9e3d6cfeea47506caaa5725df6cf1526c9dd431bb738fc45756b81"
 
 [[files]]
 file = "config/createlanterns-client.toml"
-hash = "2e112659937703c31d49757f8a9ffff40c63bca42759f9e5739fe030f79e470c"
+hash = "8da42027902df03b6f7eca79a290e0fc3f60ef107faa53dc13143e52499858b4"
 
 [[files]]
 file = "config/createlanterns-common.toml"
@@ -505,8 +513,20 @@ file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/black_
 hash = "d739fcd2ad64056965ce46a789d93bf8e95ee246dc06badbc76bdae1decb7a3e"
 
 [[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/black_power_battery.json"
+hash = "d608bf50b94b1b44f72ef0ddb35a91f00f0882be1bddeeb95f3c9bb6c889ca97"
+
+[[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/blue_power_battery.json"
 hash = "d5c97bc3e9489a4c8182ed5d80e1ccd76381c81f654beebc751fad35b3242991"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/black_dust_smelting.json"
+hash = "bfd1d385d31feaa8cddb8b8e4870b15730db97ff4e00b4e94076302cfefae647"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/black_dust_smoking.json"
+hash = "b0cdb9b4da8b276ec541683fc83603f4d1bae34350bbe090ead0d95f58c82043"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/blue_dust_smelting.json"
@@ -557,6 +577,14 @@ file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/v
 hash = "0bf3400e0f62fc183e65abe4cd75fe82e8c7e714dc29e7fb3fee43e6f0aea2d2"
 
 [[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/white_dust_smelting.json"
+hash = "5285d6652618b6ad7e79a1e430265af9f092bfa6afef283bcf8bc8b5258d7e91"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/white_dust_smoking.json"
+hash = "b48dfacd83701bfab174c3968c38f371daa8d40316e9c65fb564eaf95e87dc75"
+
+[[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/yellow_dust_smelting.json"
 hash = "f166dae005bd2c5dbe4e9f1b69263114eb1ee22a42b85e093848c8e9dd405c29"
 
@@ -577,12 +605,136 @@ file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/indigo
 hash = "4421d071a16cc7f70191535538e939eb8490b79554c34c72ca5d50a32fca795e"
 
 [[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/beam_coil_cutting.json"
+hash = "220dde2b132710fc488779ed996fbf7dfe6165dc4501a2403d3e74173915b8a6"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/beam_coil_deploying.json"
+hash = "528f6d5852ed64f30ae41dc81a064b04a08f50eca2342c896fb62d84b856ed6a"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/beam_coil_filling.json"
+hash = "c8acd9294b8673655511a115c6e55a983cd76f1e15e71d17d655c819c0ed0b60"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/beam_coil_pressing.json"
+hash = "aa5a7e5c6f77d3eaff910cdd8af0e810d24c61487ab892059ca21a42311ca71f"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/capacitor_bank_cutting.json"
+hash = "680f91d06118cff0e7a49f6a395d1533997a461030bad227f9182a6f9b213f62"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/capacitor_bank_deploying.json"
+hash = "94aaadd4d7b4b9d4555dd737d8fc2690690fb6253f3a5eb37dd7d977172f81e5"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/capacitor_bank_filling.json"
+hash = "887d23438371548e35a35474c328a358e79d310cecd859be4787f0d12d6d7dd4"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/capacitor_bank_pressing.json"
+hash = "9031b6c2025785ae957f077d48b36c7d5625608c6f1ec2b9d8e339a9cc137146"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/emitter_plating_cutting.json"
+hash = "bf4d00bee0c57137a2d4fab0dcfcc78db138ffcc6f657476a1fd002e315f4ff6"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/emitter_plating_deploying.json"
+hash = "6b959f3cdb8c52dae9cb97ef385894b47c4f841d6fa1e9b8b6e1991331d01cd0"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/emitter_plating_filling.json"
+hash = "8e15e7514725eb1c697f72ea649d43adf0d6c5c1bd1d4abe043d7749e451e139"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/emitter_plating_pressing.json"
+hash = "250a8c3ba8a099a4b97175f19f6b3a8539d2b7517e40c25ee9c9ae0a90f5732d"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/focusing_lens_cutting.json"
+hash = "e376063b2bd046643a8efb862d9bc29f2cdc81dfa853a856d2315a09098b43c6"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/focusing_lens_deploying.json"
+hash = "751019eb56fb348af6cab92cb1dcdae8d5aa5d98d8c79a248e8c18bff61e1d83"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/focusing_lens_filling.json"
+hash = "e2dc58b63e8defb0b6729dd02cff744ea7ec5293fb110d79399e7245decd7d60"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/focusing_lens_pressing.json"
+hash = "d2cd2b28323901cb9919c126a7404a0cf8cfb2195d158d1acc9c0c558f8e0436"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/laser_cell_cutting.json"
+hash = "93ddb09d251df71ec43b5e2e1cda5aafb21c1e938ff8b6f047633a4ac0e4bc5b"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/laser_cell_deploying.json"
+hash = "883861b20613fb4629169653d6d0a801250c1e56ea14dea9ba2f59baaee4a4cf"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/laser_cell_filling.json"
+hash = "b996759fe782824178641736e9e2c7c144948b27cefad548f7e48ab9a1070f56"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/laser_cell_pressing.json"
+hash = "63c4cd0e28101c73ad31526a8b59ae9554b3915d252c43b93419beaf614f6a77"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/laser_core_cutting.json"
+hash = "95d5fdd53292757f1b8115d34e5d251c654a67b34de0a03ff3f4147374836cbb"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/laser_core_deploying.json"
+hash = "861d623132d16fae6be99a43111095955c72b5ee764d497b1a881d19e325730e"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/laser_core_filling.json"
+hash = "3c766f58d0ccc1329633f2d3c95c1a64cf528e291dcdeab89ee16557a9d4b88e"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/junk/laser_core_pressing.json"
+hash = "1859614e1fbfda7e4973462011314dfc0ae07dcd3adc8721ac7e6fd56e221a81"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/laser/beam_coil.json"
+hash = "4a9097b19f897c460e90ebf679b7d08284538426d379082303777233c06f8cdc"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/laser/capacitor_bank.json"
+hash = "eb57f66d1f1dcf9d78c3cad73b2069212e95271be1c1a8cb3f7a7968a5aeb3b4"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/laser/emitter_plating.json"
+hash = "927a4d27c4f11eac6612b32205252d0710008b69654121bca7c07be00a310d2e"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/laser/focusing_lens.json"
+hash = "eb31d815a5ba22b4201a45b202e26d75e16a319160bd1360ddda0a86472eaf74"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/laser/laser_cell_casing.json"
+hash = "bbd0f7e242380792c2db52851033cd207cd019f84d80107c9eac8c06fa8b27a6"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/laser/laser_core.json"
+hash = "bbdc79d449a150afc22f7b1e9ea67b596bdf0b762363e3e1c8f8535f1893e2da"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/laser/star_shard.json"
+hash = "7c39b12309df589dc02ab8704ed31e6f3358a7a4c8b9f0a2598f8a68f7a29ffc"
+
+[[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/laser_cell.json"
-hash = "8af9f9d610a5be818c42616ba92638d51da1ea129a4d0bdd8bee81f6a89f9d5b"
+hash = "7bd2da4fc4547d9d39cca80a8613708406cec2ae936e162344ebccf15af644b6"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/laser_rifle.json"
-hash = "3b698d674a4b37b892bd016fb0cfe5bba74c4c1fed4055ca76114d96ccfdf338"
+hash = "a6130f3f8450b5556f953acebe90e6753b7a9c8bab81fdb95cb1a9b273ca8e7d"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/orange_power_battery.json"
@@ -610,11 +762,15 @@ hash = "c6cbbeab1a4e73c61c0a740d5fca6e5248e87257fe6349f0a4d6fd70f6a68854"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/weapon_cog.json"
-hash = "f0a8908c5213a289b803d6cdf4e9570ee7f4f192bd552d1f6016197999cb9a75"
+hash = "4cde7f55ab8b603f5f58b5cc4f99a872a2fbff660b4f632f6280cca9fa068b83"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/weapon_mount.json"
-hash = "61c544f1fbaf563fc571a25e768062053aaa0c43cf5cbe9b7e9c7e2a0f20976a"
+hash = "abff22d4acd79eb868c83ebd5002bec4afdfc524746642c1ebc3521bee87c730"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/white_power_battery.json"
+hash = "8021eb82f62ed2618f814c68ce02d4777d0295394e47f54937023d9f5d93a399"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/yellow_power_battery.json"
@@ -673,6 +829,10 @@ file = "config/cutthrough-client.toml"
 hash = "16bc1f998738810cae793b1dc272122dde8b246bffa408f227357803e16ba692"
 
 [[files]]
+file = "config/deeperdarker-common.toml"
+hash = "6fc0146c17f0e2c53509f79dd77a6d1d8e6a50a122ceee0bd0cd24befc4e2e26"
+
+[[files]]
 file = "config/deployer-server.toml"
 hash = "9516e91a51a89d1e0d6c1f4d502833883332a040c153a51b12fe04dbdb7ca3ec"
 
@@ -711,6 +871,10 @@ hash = "643de42a3b9cd02a9c0d82d2b2119daa3373d51b7394baeba6b98332de6ecb8d"
 [[files]]
 file = "config/easyanvils-server.toml"
 hash = "61228450bef35c2871f9438b12f4dfba2f52aa740038a8a27ffbf2fc659592a2"
+
+[[files]]
+file = "config/ec_ad/server_config.json"
+hash = "a0f79fba549eebaa8c28877eb536cbe63e396ec0abdfdef53c9fa2eb42efde34"
 
 [[files]]
 file = "config/ecologics-common.toml"
@@ -754,7 +918,7 @@ hash = "3518ceefb467631775957588db1f0ff6fc44c203a8d00c28e07f1813bbf06f1d"
 
 [[files]]
 file = "config/entity_model_features.json"
-hash = "4d13dfd4a71e0f9b0e6f673233856185f10bc2465916d7e43ace4e3621334067"
+hash = "aa56ff30704bb492110a46100cb850f27851b9e10eddcbef729a4ca18c944a38"
 
 [[files]]
 file = "config/entity_texture_features.json"
@@ -762,7 +926,7 @@ hash = "bd66edf9d1a72cd717bbe9b17b41ffd16963b089493e5ddae3d3ad69153105ba"
 
 [[files]]
 file = "config/entityculling.json"
-hash = "730eaacb93fd3827dc146941e7c65cdbefe0ff550732524dc6ddcd6b19c51b1b"
+hash = "443c304d3fadccc5a54f61cedcbc33f51f4907af22f62a038c4730a3ec2af59b"
 
 [[files]]
 file = "config/escalated-server.toml"
@@ -802,7 +966,7 @@ hash = "6967be2354a821d42b93572dc97f725ce16e704fb7fca1412f4981c12331ddd5"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "26fef838e761034bb0e25d28dde8770dece22a43e148a046f925ad83841d4bd3"
+hash = "28475fedd8d8faf4790ca1e0c7b7a9d450e2d910ba335f601066182ac929f556"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1006,7 +1170,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "2d8c5474e361ef17710e4d1f28c1aca4f8b1383c49276efbfd6ddec6e7afcaa4"
+hash = "e29e03361784f8ab7afea5b7f887c80494200c8c9a01ff914a94b8c630f5664e"
 
 [[files]]
 file = "config/irisflw-client.toml"
@@ -1067,6 +1231,14 @@ hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
 [[files]]
 file = "config/lithostitched.json"
 hash = "ce8ab190281862b0554c92043c2bf8af106fbe4116bcd6dab433f6506781dbc0"
+
+[[files]]
+file = "config/loconautics-client.toml"
+hash = "13c8ff84fccbda6383fad46fc317d7ce98b8a628dc8ea94aa1e74ab6221ac1c9"
+
+[[files]]
+file = "config/loconautics-experimental.toml"
+hash = "ead9b5e4388412ef4f15d54e301114980a5987cf821035d0d151b9e3054f3dd8"
 
 [[files]]
 file = "config/lodestone-client.toml"
@@ -1166,7 +1338,7 @@ hash = "eba72106c5f1797e02acdc587ebaf8a6f770c5a8ce33622d97b4f81ba72f09a2"
 
 [[files]]
 file = "config/notenoughanimations.json"
-hash = "f72dc2bce12a55066bd33e50c47b1ad33b1bdda65778cb5653d876e1fec3694d"
+hash = "427b73dc77e029376b475557ee394c09d7aa3be4eb29d5c799b836ec4666dac7"
 
 [[files]]
 file = "config/nowheel.json"
@@ -1398,7 +1570,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "ef3242a314c4311b64b88ce016acea790d42a35f7c81f0a02934841e64efcda1"
+hash = "f3364bf487fad6cc0b36e5ff0b7f6453f7b14919c3e01cbd8664c2dd9d5fb84f"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -1538,7 +1710,7 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "config/zfastnoise.mixin.properties"
-hash = "1884d71d975de495364a68bc8dee1216905c4ead3c130c4c2acd5a7a84084baa"
+hash = "bcb7242db3dba48945c4700143964729d7a3a4eecdcc666cef2d2af6046c7209"
 
 [[files]]
 file = "config/zume.json5"
@@ -1567,6 +1739,11 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
+metafile = true
+
+[[files]]
+file = "mods/archies-dinosaurs.pw.toml"
+hash = "094a4701a650c27ddc1e3ce84c87d4d373c3638464cc73c64d191c4e9f8127c0"
 metafile = true
 
 [[files]]
@@ -1735,6 +1912,11 @@ hash = "4e4bb32e791138bc1e32354e062af294d6cf86ba7170eedf4631c831a58c3a8c"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-throwable-rope-connector.pw.toml"
+hash = "ede459754df771b7fed0268f983b67f9f98ccccd60df8958ffa49d28f0481106"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-toolgun.pw.toml"
 hash = "d985bd49fb5d6d937f70e3bbf2bae5dfc45bc5666823c98c8389b810abae1465"
 metafile = true
@@ -1792,6 +1974,11 @@ metafile = true
 [[files]]
 file = "mods/create-coasters-simulated.pw.toml"
 hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
+metafile = true
+
+[[files]]
+file = "mods/create-deep-dark.pw.toml"
+hash = "59ca697b09cd2339e6bbd524828fed73fa842083846e950a555aa081fedb6c63"
 metafile = true
 
 [[files]]
@@ -1904,6 +2091,11 @@ hash = "4c16ee75d3b04443e96d854eec79344293963e9f4beaaf8e7215023e8ef53b88"
 metafile = true
 
 [[files]]
+file = "mods/deeperdarker.pw.toml"
+hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
+metafile = true
+
+[[files]]
 file = "mods/deployer.pw.toml"
 hash = "0e4942ab12e496d3649dc35f1734c20c9fb46e235265f7076a2465eb1b139473"
 metafile = true
@@ -1936,6 +2128,11 @@ metafile = true
 [[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "9f511e824978b45d8d90244e921dafcbb9bc01d1e4aced66afac71740ffa5ff6"
+metafile = true
+
+[[files]]
+file = "mods/easy-magic.pw.toml"
+hash = "1aa75105514780685caab9b945db2a2ea7c0594ced8c01e12f2a3e331f1af4e6"
 metafile = true
 
 [[files]]
@@ -2086,6 +2283,16 @@ hash = "772ca226b885e1dd59f2ad34501727798be4edcc8fcf151e3b8c2a0943c59d19"
 metafile = true
 
 [[files]]
+file = "mods/hybrid-api.pw.toml"
+hash = "fdc55b26800127cafd9a88b2bd03615fc49ced589cffb036145d98c029af437f"
+metafile = true
+
+[[files]]
+file = "mods/hybrid-aquatic.pw.toml"
+hash = "af60f4cd6512a46528cc606f854354c6a261a79bdf2ced261b89b42905bbd7c0"
+metafile = true
+
+[[files]]
 file = "mods/ichunutil.pw.toml"
 hash = "4dcfc94168c8681f207b0124d574a970472601cd1b5e9b215a37265c753b7b47"
 metafile = true
@@ -2143,6 +2350,10 @@ metafile = true
 file = "mods/lithostitched.pw.toml"
 hash = "c0611d8448bc043f372a008a435e14aa238ba8fca52fd1d79634424576ea9e12"
 metafile = true
+
+[[files]]
+file = "mods/loconautics-0.1.3BETA.jar"
+hash = "2cd0b33189b2ebdb3551b59aa8fb5cfef6b4b89d238b99b0185cf45bec05e5de"
 
 [[files]]
 file = "mods/lodestonelib.pw.toml"
@@ -2233,6 +2444,14 @@ metafile = true
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "299ed58980f5c02afbaabcc52d5e573e8b8ab0c2c30fd688d6d7e86e7ac6bf6d"
 metafile = true
+
+[[files]]
+file = "mods/openui-mc-neoforge-1.21.1-0.0.16.jar"
+hash = "cc2ba4e10cc4e5aeca8589d7305148c8379a5b9f9198a0e17cceefdb94c75894"
+
+[[files]]
+file = "mods/packetweave-neoforge-1.21.1-0.1.5.jar"
+hash = "9afcf3f619cc9c7fef09f3b44527c61630ad273c29f72d204e7dc7e301267bb2"
 
 [[files]]
 file = "mods/particle-effects.pw.toml"
@@ -2375,6 +2594,10 @@ hash = "6f9502735fcac7a35468358e2aa0fd9333b12df885db3325c472d298ce315a72"
 metafile = true
 
 [[files]]
+file = "mods/simplyspeakers-neoforge-1.21.1-0.10.2.jar"
+hash = "a064d1f6c87ee0b412d2f7fd4f19c501d5926bd15310315ae3e0950dcf78fbb0"
+
+[[files]]
 file = "mods/simulated-gauges.pw.toml"
 hash = "b131faa1c8ca8217f5d52612d4b41f8f8f019488f6b1e3bfee065ca82c21bdfb"
 metafile = true
@@ -2493,6 +2716,11 @@ hash = "049242d53616cd1cafd66ef3f122ab9faa52c9e0713cb5ad751e1a9339ba94a1"
 metafile = true
 
 [[files]]
+file = "mods/visual-workbench.pw.toml"
+hash = "2684f71394862cff4c20d0f4d8491c0f86f12e66879381295e9088e0eded025d"
+metafile = true
+
+[[files]]
 file = "mods/voxy.pw.toml"
 hash = "1b15aa249e728fe7af88899bfa08ca4a7a629b0f440750138f74a9b36c607292"
 metafile = true
@@ -2594,16 +2822,6 @@ hash = "3e20cd894938aed27fa11314ac83116f984b17d1f8fb9406567e96b8f84c70d8"
 [[files]]
 file = "resourcepacks/better-leaves.pw.toml"
 hash = "eb0b5f269171cd5b891d9bdf2c5da89698e21a71ffec1172ead75bc19411cbdc"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fa-player-extension.pw.toml"
-hash = "2e1a6866e4366cebe200dcf71ab52923b7653f76dc48741b93411ee3bf77372a"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations-objects.pw.toml"
-hash = "736223d34e307bc114daf83b7ed42288947e294842a61e60ccf24097739b3b6a"
 metafile = true
 
 [[files]]

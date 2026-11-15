@@ -3,28 +3,31 @@
   "category": "misc",
   "accept_mirrored": true,
   "pattern": [
-    "SIIIIIIIS",
-    "DLDPBPDLA",
-    "SIIIIIIIS"
+    "SEIIIIIES",
+    "FCNCKCNFA",
+    "SEIIIIIES"
   ],
   "key": {
     "S": {
       "item": "create:sturdy_sheet"
     },
+    "E": {
+      "item": "createlanterns:emitter_plating"
+    },
     "I": {
       "item": "minecraft:iron_block"
     },
-    "D": {
-      "item": "minecraft:diamond"
+    "F": {
+      "item": "createlanterns:focusing_lens"
     },
-    "L": {
-      "item": "minecraft:light_blue_stained_glass"
+    "C": {
+      "item": "createlanterns:beam_coil"
     },
-    "P": {
-      "item": "create:precision_mechanism"
+    "N": {
+      "item": "minecraft:nether_star"
     },
-    "B": {
-      "item": "minecraft:beacon"
+    "K": {
+      "item": "createlanterns:laser_core"
     },
     "A": {
       "item": "simulated:laser_pointer"

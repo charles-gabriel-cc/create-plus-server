@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "processing_time": 400,
+  "results": [
+    {
+      "count": 4,
+      "id": "createlanterns:star_shard"
+    }
+  ]
+}

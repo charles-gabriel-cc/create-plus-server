@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create:brass_casing"
+    }
+  ],
+  "results": [
+    {
+      "id": "createlanterns:laser_cell_casing"
+    }
+  ]
+}

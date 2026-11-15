@@ -57,6 +57,7 @@ KNOWN_CLIENT_PREFIXES = (
     "moreculling",
     "notenoughanimations",
     "nowheel",
+    "openui-mc",
     "polytone",
     "progresspeek",
     "reeses-sodium-options",

@@ -1,0 +1,83 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "simulated:redstone_inductor"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "createlanterns:beam_coil"
+    },
+    {
+      "chance": 8.0,
+      "id": "create:copper_sheet"
+    },
+    {
+      "chance": 8.0,
+      "id": "minecraft:redstone"
+    },
+    {
+      "chance": 5.0,
+      "id": "create:copper_nugget"
+    },
+    {
+      "chance": 3.0,
+      "id": "create:brass_nugget"
+    },
+    {
+      "chance": 2.0,
+      "id": "minecraft:redstone_torch"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_beam_coil"
+        },
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_beam_coil"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_beam_coil"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_beam_coil"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createlanterns:incomplete_beam_coil"
+        }
+      ],
+      "results": [
+        {
+          "id": "createlanterns:incomplete_beam_coil"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createlanterns:incomplete_beam_coil"
+  }
+}

@@ -59,6 +59,10 @@ rollView = "TURN_OVER"
 	#under water (on everyone you see, yours too). In first person you only see a faint tint of the light at the edge of the
 	#screen. If false, there's no helmet and no tint.
 	diveHelmet = true
+	#If true, what a power makes, holds or lays down is drawn as pixel art. Its shapes are faced with
+	#the nether portal's swirl in the light's colours, with a bright rim one texel wide, and its glows, sparks and smoke are
+	#made of square texels in the same colours. Beams, bolts and threads stay laser beams. If false, it's all drawn smooth.
+	pixelArt = true
 
 #Hard light constructs. You design, copy and summon them with the construct wheel.
 [constructs]
@@ -69,8 +73,8 @@ rollView = "TURN_OVER"
 
 #Weapons that Create's rotation drives, like the Laser Rifle.
 [weapons]
-	#If true, a laser's beam, the spot it hits and its charge light up the ground and everything around
-	#them, and an overcharged laser lights up the ground round itself. It's only on your screen.
+	#If true, a laser's beam, a ring's beam, the spot each hits and a laser's charge light up the ground
+	#and everything around them, and an overcharged laser lights up the ground round itself. It's only on your screen.
 	laserLight = true
 
 #What the ring puts on your screen.
@@ -91,3 +95,14 @@ rollView = "TURN_OVER"
 	#If true, you get asked for a name and a summon key when you save a construct, copy it or make it from
 	#a schematic. If false, it names itself.
 	nameConstructs = true
+
+#The title screen and the menus before a world loads.
+[menus]
+	#If true, the title screen and the menus before a world loads show space in place of the game's
+	#panorama. With Create Cosmonautics, that's Oa and the other Lantern homeworlds. Without it, it's you, flying through space
+	#and changing from one Lantern suit to the next. A background from another mod, like a FancyMenu layout's, still shows
+	#instead. If false, the game's own panorama shows, or a resource pack's.
+	homeworlds = true
+	#If true, the title screen shows the Create: Lanterns logo where the game's Minecraft logo goes,
+	#with no Java Edition under it. If false, the game's own logo and Java Edition show, as they do without the mod.
+	titleLogo = true
