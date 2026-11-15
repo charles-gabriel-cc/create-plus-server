@@ -154,7 +154,7 @@ hash = "e8e49ebdfeea56c09b38ec5bf9e5ae79ff815556373f978d61635a9a61228c52"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "7696d294cb05252b7cf6f80495b648bf83a0fe094f7253a536ef52edf3852933"
+hash = "bd411f8743bd3eb0c6089080faf5a39220cc0ea6dedad314b3e804e4a5e2b880"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -802,7 +802,7 @@ hash = "6967be2354a821d42b93572dc97f725ce16e704fb7fca1412f4981c12331ddd5"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e8fbb66d58d71757770c40e608ea395c17ec34152549c12932bf15dbf4960fdf"
+hash = "26fef838e761034bb0e25d28dde8770dece22a43e148a046f925ad83841d4bd3"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1006,7 +1006,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "800fcb1b37cd179d04bf7b636c6560585c320a313e084cc5f3206997329a9d55"
+hash = "2d8c5474e361ef17710e4d1f28c1aca4f8b1383c49276efbfd6ddec6e7afcaa4"
 
 [[files]]
 file = "config/irisflw-client.toml"
@@ -1441,6 +1441,10 @@ file = "config/spark/config.json"
 hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
 
 [[files]]
+file = "config/spectral_hub-client.toml"
+hash = "4d38f9054a1ac2e4126ccba6801812c95999f43cf8aa24a19356b03a4ce51d0c"
+
+[[files]]
 file = "config/spelunkery-client.toml"
 hash = "36635dc4076f7b1a3b533290938cdabceb69f6eb17ae189aa5d6bacacdd005fd"
 
@@ -1534,7 +1538,7 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "config/zfastnoise.mixin.properties"
-hash = "4d213ee53a6cecf17b9c889e5f9791e4695fa18f17c777330e5fedb87f8d4be9"
+hash = "1884d71d975de495364a68bc8dee1216905c4ead3c130c4c2acd5a7a84084baa"
 
 [[files]]
 file = "config/zume.json5"
@@ -1891,8 +1895,8 @@ hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
-file = "mods/createlanterns-alpha-20.45.jar"
-hash = "c0f9577c30b874360cdc25c777f5dcdf5af704bd0ca586e0a21ba514c126cefe"
+file = "mods/createlanterns-alpha-20.50.jar"
+hash = "90601390ae0c3b9c200a28977421de6af522fccadf93c33b6b90c1f81475f5bf"
 
 [[files]]
 file = "mods/cut-through.pw.toml"
