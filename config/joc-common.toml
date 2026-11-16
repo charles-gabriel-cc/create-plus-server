@@ -1,0 +1,48 @@
+[creative_staff]
+	#Enable creative staff entity grab/release functionality
+	enableCreativeStaff = true
+	#Allow the creative staff to grab other players
+	canPickupPlayers = false
+
+[balloon]
+	#Number of blocks' worth of mass each balloon supports at full air pressure; lift scales linearly with air pressure as aeronautics envelopes do, so balloons decelerate as they climb and stop where the air is too thin
+	# Default: 1.5
+	# Range: 0.0 ~ 100.0
+	liftPerBalloon = 1.5
+	#Balloons pop when the air pressure around them drops below this, read the same way as an altitude sensor (1 is sea level, 0 is the top of the atmosphere). Set to 0 to turn this off
+	# Default: 1.0E-5
+	# Range: 0.0 ~ 2.0
+	popPressure = 1.0E-5
+
+[shatter_assembler]
+	#Maximum number of connected blocks the shatter assembler will break apart in one activation
+	# Default: 512
+	# Range: 1 ~ 65536
+	maxBlocks = 512
+
+#Toggle individual blocks, items and features. Everything is enabled by default.
+#A disabled block or item stays registered (so existing worlds don't lose it), but its recipes are removed,
+#it is hidden from the creative tab and JEI/EMI, and it can no longer be placed or used.
+[features]
+	#Enable: Balloon blocks (all colors)
+	balloons = true
+	#Enable: Deflated balloon items and blowing them up into balloons
+	deflatedBalloons = true
+	#Enable: Symmetric cross sail blocks (all colors)
+	symmetricCrossSails = true
+	#Enable: Seeker block
+	seeker = true
+	#Enable: Shatter assembler block
+	shatterAssembler = true
+	#Enable: Gyroscopic seat block
+	gyroscopicSeat = true
+	#Enable: Portable throttle item
+	portableThrottle = true
+	#Enable: Portable typewriter item
+	portableTypewriter = true
+	#Enable: Cutting physics structures apart with shears
+	shearsCutting = true
+	#Enable: Attaching more than one rope to a single rope connector
+	multiRope = true
+	#Enable: Chain coupling item, a rope that doesn't stretch and carries FE
+	chainRope = true

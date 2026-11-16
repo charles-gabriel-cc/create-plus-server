@@ -1,0 +1,3 @@
+[seeker_table]
+	#Show the seeker table's map as a 3D terrain model; when off it is drawn as a flat map
+	terrainModel = true
