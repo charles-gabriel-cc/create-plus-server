@@ -2672,6 +2672,11 @@ hash = "34a4bda4d8043f6d4b571c23702dcfb9a2d571307b5a3c5a374c05a0d80459a1"
 metafile = true
 
 [[files]]
+file = "mods/edf-remastered.pw.toml"
+hash = "aa893b812f2075ff2bf084ddb869f9355313b9d763fb679aca86ceff835d5d58"
+metafile = true
+
+[[files]]
 file = "mods/elemental-wizards-rpg.pw.toml"
 hash = "e4ed9a397189b6d0da17c18aa54adf49ad86327e7a3ded75a62b9cf6e9dfee4e"
 metafile = true
