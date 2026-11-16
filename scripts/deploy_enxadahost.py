@@ -266,6 +266,8 @@ def main():
                 any_modpack_changed = True
 
     # Sync changed config/ files from latest git commit if running in git
+    ftbquests_changed = False
+    other_config_changed = False
     try:
         diff_out = subprocess.check_output(
             ["git", "diff", "--name-status", "HEAD~1", "HEAD", "--", "config/"],
@@ -278,6 +280,11 @@ def main():
             if len(parts) >= 2:
                 status, rel_path = parts[0], parts[-1]
                 rel_norm = rel_path.replace("\\", "/")
+                if "config/ftbquests/" in rel_norm:
+                    ftbquests_changed = True
+                else:
+                    other_config_changed = True
+
                 if status.startswith("D"):
                     parent = "/" + os.path.dirname(rel_norm)
                     fname = os.path.basename(rel_norm)
@@ -294,17 +301,23 @@ def main():
     except Exception:
         pass
 
-    if not dry_run and (server_mods_changed or any_modpack_changed):
+    if not dry_run:
         if server_mods_changed:
             print("Server mods changed -> Sending 'automodpack generate' and restarting server...")
             client.send_command("automodpack generate")
             time.sleep(3)
             client.send_power("restart")
-        else:
+        elif any_modpack_changed:
             print("Client mods/packs changed -> Sending 'automodpack generate' to server console...")
             client.send_command("automodpack generate")
-    else:
-        print("All files on EnxadaHost server are up to date!")
+            if ftbquests_changed:
+                print("FTB Quests also changed -> Sending 'ftbquests reload' to server console...")
+                client.send_command("ftbquests reload")
+        elif ftbquests_changed:
+            print("Only FTB Quests changed -> Sending 'ftbquests reload' to server console (no restart needed)...")
+            client.send_command("ftbquests reload")
+        else:
+            print("All files on EnxadaHost server are up to date!")
 
 
 if __name__ == "__main__":

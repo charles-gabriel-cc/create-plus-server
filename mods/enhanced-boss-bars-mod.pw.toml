@@ -1,0 +1,13 @@
+name = "Enhanced Boss Bars (Fabric/Forge/Neoforge)"
+filename = "enhanced_boss_bars-1.1.3-1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/J5bVsBt9/versions/WWhs5u9F/enhanced_boss_bars-1.1.3-1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "bb84d7b31bd01855491c22a25d33e13dfdf7d52de432387db5b16478b97dac7ef085f6a9683d8b6667fc2dcb0a99c0e36753304224d6fdd6b2cad0e8ce290fbc"
+
+[update]
+[update.modrinth]
+mod-id = "J5bVsBt9"
+version = "WWhs5u9F"

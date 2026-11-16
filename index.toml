@@ -154,7 +154,7 @@ hash = "2bf86fa5d0be8ba1aec135bf98de31bdf797c94987e564ba9d48d399a8a8708f"
 
 [[files]]
 file = "config/archers/summoned_entities.json"
-hash = "046da0907c9d8cab973d22232f5effbd94233826cc07a00f6145e205e55ba02e"
+hash = "3b2d4f98c7f593c918145a0f76ffad1a7b412dd2d9433dcea3bbca17358e5800"
 
 [[files]]
 file = "config/archers/tweaks.json"
@@ -222,7 +222,7 @@ hash = "e8e49ebdfeea56c09b38ec5bf9e5ae79ff815556373f978d61635a9a61228c52"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "0cde20c8f3ee4a95ae76eed64c5c431c0f5ef5fb6c7ee01c3a1ef56c5330fa6c"
+hash = "232248a0495b201c926bb15c8126dd94216c4ae553a22e487a72553f5ac3ce4a"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -618,7 +618,7 @@ hash = "bb9da0f55c9e3d6cfeea47506caaa5725df6cf1526c9dd431bb738fc45756b81"
 
 [[files]]
 file = "config/createlanterns-client.toml"
-hash = "8da42027902df03b6f7eca79a290e0fc3f60ef107faa53dc13143e52499858b4"
+hash = "38d02e5016857bb92a902f16fd8d72446bf37e286e64e0f53cf9c5891845b48c"
 
 [[files]]
 file = "config/createlanterns-common.toml"
@@ -946,7 +946,7 @@ hash = "9682a15bf34e509182bdf2daaf51e0259f03b7518c7b0b79b6d9dbac4a58cc27"
 
 [[files]]
 file = "config/createthrusters_physics_goggles_overlays.json"
-hash = "780e27b7e67a9c4e4e65079a4c74f97f8b355a24e33462804b61fb22034b94dd"
+hash = "d283e3cb9adaa6bbc6c4578ba5f99d2c52cbd3ec890f62689a81024398e6dd51"
 
 [[files]]
 file = "config/critical_strike/client_config.json"
@@ -1130,7 +1130,7 @@ hash = "6967be2354a821d42b93572dc97f725ce16e704fb7fca1412f4981c12331ddd5"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "61a4ffdf0f6ae02b164e4f7b4542195bf4f9e023c2776dc765cde2d538cda35a"
+hash = "32e290c4b64e14956b7b6286f12e11147aa088f33980d9f2b9656161d51e3c53"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1350,7 +1350,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "ce5f87d26be937985e67ff94aaf16b4e6971782f9d292d38f584be5879d704d2"
+hash = "e7a3892bd86889f5546a65ccb9dcf75010efa8a8220b92bc2d719d6942d4b745"
 
 [[files]]
 file = "config/irisflw-client.toml"
@@ -1654,7 +1654,7 @@ hash = "57fb6ffa32979da15dcd4c5d59a87cb819c499bdec7d3d4cd87226957affcad5"
 
 [[files]]
 file = "config/paladins/summoned_entities.json"
-hash = "f37c79642eac66a62c35c53c6b134f2c095a3b7bdccb9ef57abcae74e1b2389e"
+hash = "9462b9ea5e54ec02b1b2c27aca64f99c26b2e830bbd4bb44c1420a7091b7ad3f"
 
 [[files]]
 file = "config/paladins/tweaks.json"
@@ -2074,7 +2074,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "370a62b73be08afd314bc5d064400e861303fcb6fdf5062267b985880e62639d"
+hash = "09d0c57279a2b447510448da34dd740e661d29f3a5a617e8ac59c37fda4d587f"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
@@ -2102,7 +2102,7 @@ hash = "eb9888cef4ea47e233223f9e59fc79dbaca35e65417307f3f61c08febea77cb6"
 
 [[files]]
 file = "config/witcher_rpg/loot_equipment_v1.json"
-hash = "82b3f2bf550629dceb05e4a968cc3544215af3bfa4dcf35aeb9eef1aa09d7f40"
+hash = "9b080c9d9be21c3ae6e640b816773338fe49c23acacddab1bcbda85e6a515edb"
 
 [[files]]
 file = "config/witcher_rpg/loot_injection.json"
@@ -2126,7 +2126,7 @@ hash = "ecca3e91dd3eba89a4e02f29bfd9f4cef13a1bb3761e2a09e3c4756c3ded3139"
 
 [[files]]
 file = "config/wizards/summoned_entities.json"
-hash = "964e40b8f2546da2cd21d4b0c3e4655d90b94cc48abf18f916b630978cab95c6"
+hash = "177d6e60c92f76f62806a5bbde167f2ac6a0eb752cbee91adecbca6fb97489c2"
 
 [[files]]
 file = "config/wizards/tweaks.json"
@@ -2146,7 +2146,7 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "config/zfastnoise.mixin.properties"
-hash = "63b76bb3cc0b1bebe1195f072089ce4fcae7050a14347a71f3be673e12fad96e"
+hash = "9e756b16d32d99c19ce6fce132dfc7c0ba02fa4350701505e581e0f18edff36b"
 
 [[files]]
 file = "config/zume.json5"
@@ -2163,8 +2163,23 @@ hash = "78137effbcf3f8d93f64aa10f365a225b8439c0a0f49ea61cd99d4d6836aaeb1"
 metafile = true
 
 [[files]]
+file = "mods/aeronautics-joy-of-creation.pw.toml"
+hash = "89d53fff09bae84652cd165471afaaa8b1b4eeb63462439f48e7878f5d67648b"
+metafile = true
+
+[[files]]
 file = "mods/aileron.pw.toml"
 hash = "a86b49f3eebe85445b5e7c8f9a7ef1e8cb84fa84939fe1f2b933dfb5feb92926"
+metafile = true
+
+[[files]]
+file = "mods/alexs-caves-continued.pw.toml"
+hash = "42871bdf93a10da25f0c036ff87b924259b4025f4f4b8e0350fac9541a2c107e"
+metafile = true
+
+[[files]]
+file = "mods/alexs-mobs-continued.pw.toml"
+hash = "c7fc68946b3f81f8e002024efea49a08b243665637e0c0313e02e399c5366a53"
 metafile = true
 
 [[files]]
@@ -2288,6 +2303,11 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
+file = "mods/borninchaos.pw.toml"
+hash = "a2c8cf1a4fc5faed55ca1f8d04f7abaa1c8282b9bcd70e1b3e607181923f48d9"
+metafile = true
+
+[[files]]
 file = "mods/brick-and-mortar.pw.toml"
 hash = "52312c25493f086845ea281040461c24f677fc8f1b89dfb3c34bc2b938c0101e"
 metafile = true
@@ -2330,6 +2350,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
+file = "mods/codxlib.pw.toml"
+hash = "10c5766cfee693bb3843ecd60334400b239b961c24fd4b9db60aceca272e3e17"
 metafile = true
 
 [[files]]
@@ -2455,11 +2480,6 @@ metafile = true
 [[files]]
 file = "mods/create-circuit-board.pw.toml"
 hash = "796df2ff8563a3a30700d5ec2b4256cc613c89bfad6a41c99adab87464b94d6f"
-metafile = true
-
-[[files]]
-file = "mods/create-coasters-simulated.pw.toml"
-hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
 metafile = true
 
 [[files]]
@@ -2669,6 +2689,11 @@ metafile = true
 [[files]]
 file = "mods/ends-delight.pw.toml"
 hash = "03a2f273597c1d2bef87eaa60af9287d7d54ec68cc0a0d4b5b79e1497b16ad3e"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-boss-bars-mod.pw.toml"
+hash = "7cfeb8bfb620c6cf5597e584c3639981e180334bba91ddb285022d04f11a3c45"
 metafile = true
 
 [[files]]
@@ -2969,6 +2994,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
+metafile = true
+
+[[files]]
+file = "mods/mowzies-mobs.pw.toml"
+hash = "02aa4dcb8fa24cffcd2182c66683c2a476a95abf53002373f953a49737a587e3"
 metafile = true
 
 [[files]]

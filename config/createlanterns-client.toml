@@ -102,7 +102,7 @@ rollView = "TURN_OVER"
 	#panorama. With Create Cosmonautics, that's Oa and the other Lantern homeworlds. Without it, it's you, flying through space
 	#and changing from one Lantern suit to the next. A background from another mod, like a FancyMenu layout's, still shows
 	#instead. If false, the game's own panorama shows, or a resource pack's.
-	homeworlds = true
+	homeworlds = false
 	#If true, the title screen shows the Create: Lanterns logo where the game's Minecraft logo goes,
 	#with no Java Edition under it. If false, the game's own logo and Java Edition show, as they do without the mod.
-	titleLogo = true
+	titleLogo = false
