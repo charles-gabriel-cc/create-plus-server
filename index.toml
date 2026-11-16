@@ -1190,7 +1190,7 @@ hash = "665d6e2f0db6a6e266b37f03446d7631c56733457c369e5d8910ec878cf8c3e0"
 
 [[files]]
 file = "config/friendsandfoes.json"
-hash = "c9517fc0bbf4c4052db7689755ea94bef982dff968d59ab23f3b0c7212106b2d"
+hash = "f57c7b0ab3cd55f88a3ee36af64db0fa1b263336ffde85b2a2cbf496644000e5"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
@@ -2260,6 +2260,11 @@ metafile = true
 [[files]]
 file = "mods/azimuth-api.pw.toml"
 hash = "a14aa30b199bcc4fb3b382327be7cabb22ce03d8e780f68c3b8307136f0589d7"
+metafile = true
+
+[[files]]
+file = "mods/backport-copper-age.pw.toml"
+hash = "af9a5e8ab68afb107f5fd808b25171ce09096c98b6f5865d8b688ca3148cd516"
 metafile = true
 
 [[files]]
