@@ -586,7 +586,7 @@ hash = "e8e49ebdfeea56c09b38ec5bf9e5ae79ff815556373f978d61635a9a61228c52"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "c9c456bf8931b3f42f5cf0bb295a106b9b4c3b5c9e8aaa1cbe51d97a365096cf"
+hash = "2ce07dba5ec49119c6e5a41fcf3808dba5839e4e3f2e0282e72f64680d84d750"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1314,7 +1314,7 @@ hash = "9682a15bf34e509182bdf2daaf51e0259f03b7518c7b0b79b6d9dbac4a58cc27"
 
 [[files]]
 file = "config/createthrusters_physics_goggles_overlays.json"
-hash = "d283e3cb9adaa6bbc6c4578ba5f99d2c52cbd3ec890f62689a81024398e6dd51"
+hash = "780e27b7e67a9c4e4e65079a4c74f97f8b355a24e33462804b61fb22034b94dd"
 
 [[files]]
 file = "config/critical_strike/client_config.json"
@@ -1498,7 +1498,7 @@ hash = "6967be2354a821d42b93572dc97f725ce16e704fb7fca1412f4981c12331ddd5"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "f94888fbdc8fcdf378a2a17cfb40394ffc37e6667c8c227b9f0725d3e7cb7523"
+hash = "4a9a27b78d9ae95d2c5b30e684e50681eb870748aa3d3bbc2ebcda7013c71d52"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1718,7 +1718,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "3d7ab33c07344934dab6d7944029aeaea62e81f599062bd289d08f64f948133e"
+hash = "41003c9c7b9e03c2b00264751c5c8ddfa63c9a6db6d1abc854a7daa7f6513acf"
 
 [[files]]
 file = "config/irisflw-client.toml"
@@ -2174,11 +2174,11 @@ hash = "d6279d4d2faa9ef7818ea22946c2fd25166ea18992d5f8595908a089f590a15c"
 
 [[files]]
 file = "config/sable-client.toml"
-hash = "d43d1fafb53d2f3f442f20f180d25663174922d021b762aceae5f052fe52915d"
+hash = "c20936eb8e6cbf78be3fe0f1112be4de7324a9630be3141746dcb6c788dea799"
 
 [[files]]
 file = "config/sable-common.toml"
-hash = "b6374af6f1c1c5435940649acbc5ec8fd3ed478a5c892ecd95e9a1b76af47c1b"
+hash = "c0b28f3a90d179bf9df39756b0af9c1c9e2ecf7021ffd38b47897363da0892a4"
 
 [[files]]
 file = "config/sable-server.toml"
@@ -2458,7 +2458,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "09d0c57279a2b447510448da34dd740e661d29f3a5a617e8ac59c37fda4d587f"
+hash = "370a62b73be08afd314bc5d064400e861303fcb6fdf5062267b985880e62639d"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
@@ -2530,7 +2530,7 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "config/zfastnoise.mixin.properties"
-hash = "e05b9c7b7b764912a633a449bd0d76d8afaa8893f94803045eccffcca6cf699c"
+hash = "68050ad3bb302876357acfe110e3c953394dc9a18bbb3b300dbe67bf7740c33a"
 
 [[files]]
 file = "config/zume.json5"
