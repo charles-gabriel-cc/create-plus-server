@@ -762,7 +762,7 @@ hash = "fd498503a74d6c82561869da4e86d8fb886dc2ac182a2086886314aca26bb7be"
 
 [[files]]
 file = "config/boss_checklist/boss_checklist-client.json"
-hash = "7d3862c3d985314b1a7d3151a2faaea9e622b8349c7a43ea660114b67a884e42"
+hash = "1c39f0df4d976051f72d05e107674a526809f136ceb752bd1d05d7f0ca1c7931"
 
 [[files]]
 file = "config/boss_checklist/boss_checklist-server.json"
@@ -2709,7 +2709,7 @@ metafile = true
 
 [[files]]
 file = "mods/boss-arena-guard-1.0.0.jar"
-hash = "a622369973bb7ab744fdcff86ea7e213c019bdf1a8e58db848b06cf7a385aa4b"
+hash = "64954a3a990dfc2df399670025e239e673893e6ddecdd9e8c0245b8ef2893691"
 
 [[files]]
 file = "mods/boss-checklist.pw.toml"

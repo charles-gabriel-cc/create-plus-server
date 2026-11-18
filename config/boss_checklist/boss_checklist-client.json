@@ -1,11 +1,11 @@
 {
   "progressionMode": true,
   "progressionModePlus": false,
-  "ignoreUnparticipatedDefeats": false,
+  "ignoreUnparticipatedDefeats": true,
   "animationsEnabled": true,
   "showConfigScreen": true,
   "openButtonEnabled": true,
-  "searchBarEnabled": false,
+  "searchBarEnabled": true,
   "progressBarEnabled": true,
   "statisticsTabEnabled": true,
   "showHealthAndArmor": true,
