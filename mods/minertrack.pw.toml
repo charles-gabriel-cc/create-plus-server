@@ -1,0 +1,13 @@
+name = "MinerTrack"
+filename = "MinerTrack-2.1.2.0+neoforge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/O3VQnhG2/versions/2ZIQWBbn/MinerTrack-2.1.2.0%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "98496e615eb764ffa1dfcc1e1d28508ba76ce406063dc75a9ffb5ce469fac852123c33212230d1a7265a32517f87687607fbcd26e641329d9b31cdc102fb407a"
+
+[update]
+[update.modrinth]
+mod-id = "O3VQnhG2"
+version = "2ZIQWBbn"
