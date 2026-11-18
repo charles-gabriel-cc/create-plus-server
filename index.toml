@@ -586,7 +586,7 @@ hash = "e8e49ebdfeea56c09b38ec5bf9e5ae79ff815556373f978d61635a9a61228c52"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "1722a5f478593eb26a93ad6bc379981933af3931b36b8b57ec5e5415e3cf02d9"
+hash = "3701a64279a60e48a8260cec0c13285179f67abdb72cd45a7c87cf882674b007"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1482,7 +1482,7 @@ hash = "b9397d89ba82c500811ebe7df85eadcad51e48981c5282743ac930fb7daba92b"
 
 [[files]]
 file = "config/euphoria_patcher/settings.toml"
-hash = "9e32f003a7d8eecb4af11d557aca88afe0761e77db69e416df3b68316dd6ce39"
+hash = "13aee892d000bdd43d88178fbcaa96549f28ae4ae528e1f1eacaf791742f9ec6"
 
 [[files]]
 file = "config/explosiveenhancement.toml"
@@ -1506,7 +1506,7 @@ hash = "6967be2354a821d42b93572dc97f725ce16e704fb7fca1412f4981c12331ddd5"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "d599865773ce5016fdba3fee41bfdb0fbac6f7c42218feaf43dfdfb0f40e83a2"
+hash = "c51e41a15962d4dfdeb35fe8382e5e9b26b59d8aa2b2138a003c931811dfd686"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1726,7 +1726,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "b28aaf0ad1d4fce5adeee8a0230dcf29cf58b0c200f4be07b3484900a8fbc84b"
+hash = "7661d7c809b66628d570ea725ef88cd26cef8b5e91f2be6582386f84b3d72f23"
 
 [[files]]
 file = "config/irisflw-client.toml"
@@ -2546,7 +2546,7 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "config/zfastnoise.mixin.properties"
-hash = "f81b3c7d4412f4f1f869b3c422c7b109ac41ffca37b855d1f993c13fb8299b15"
+hash = "40e50a47bf33581ac76d4bcacad08ed8ec433709dda814759b65224f0f4de5ac"
 
 [[files]]
 file = "config/zume.json5"
@@ -2706,6 +2706,10 @@ metafile = true
 file = "mods/borninchaos.pw.toml"
 hash = "a2c8cf1a4fc5faed55ca1f8d04f7abaa1c8282b9bcd70e1b3e607181923f48d9"
 metafile = true
+
+[[files]]
+file = "mods/boss-arena-guard-1.0.0.jar"
+hash = "55fc9d61cda573db461ab9da6a1289b7240660dccfd0e4c739f4b50a07188fff"
 
 [[files]]
 file = "mods/boss-checklist.pw.toml"

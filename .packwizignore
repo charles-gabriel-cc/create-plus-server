@@ -33,6 +33,7 @@ mods/*.jar
 resourcepacks/*.zip
 
 # Non-Modrinth files included directly in Packwiz index / .mrpack overrides:
+!mods/boss-arena-guard-1.0.0.jar
 !mods/createlanterns-alpha-20.50.jar
 !mods/ftb-library-neoforge-2101.1.39.jar
 !mods/ftb-quests-neoforge-2101.1.38.jar
