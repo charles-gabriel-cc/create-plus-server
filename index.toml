@@ -761,6 +761,14 @@ file = "config/blueprint-common.toml"
 hash = "fd498503a74d6c82561869da4e86d8fb886dc2ac182a2086886314aca26bb7be"
 
 [[files]]
+file = "config/boss_checklist/boss_checklist-client.json"
+hash = "7d3862c3d985314b1a7d3151a2faaea9e622b8349c7a43ea660114b67a884e42"
+
+[[files]]
+file = "config/boss_checklist/boss_checklist-server.json"
+hash = "3c507a14859ae562322256fe99484c1adbbc7b26513216bc36eeb241e6c6c4fa"
+
+[[files]]
 file = "config/brick_and_mortar.json"
 hash = "6ba25b17d218c13aecd7773fb0dd9f01783997854cc7123891e526e82490662e"
 
@@ -2407,6 +2415,14 @@ hash = "f8159cd49fec4f6faefa98cff420db36861d71bba7aaa0a55c898b860da75f09"
 [[files]]
 file = "config/terralith.json"
 hash = "eadc7fad5ce55fbcec25df521820d36c222d5b12f17006ed9fea34ebeb6fd01d"
+
+[[files]]
+file = "config/thaumaturge-client.toml"
+hash = "27bcb77d1e3fcfc65e2cd48d389e19259c1d8f66ba4099e704f0eddc8a509349"
+
+[[files]]
+file = "config/thaumaturge-common.toml"
+hash = "5c959d5b99eca3f28d793f634b40b3c64ff3365a414c086d44fd143a28178c53"
 
 [[files]]
 file = "config/tmrv_plugins.json5"
