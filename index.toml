@@ -586,7 +586,7 @@ hash = "e8e49ebdfeea56c09b38ec5bf9e5ae79ff815556373f978d61635a9a61228c52"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "b4b7b7986d00fde49bf5f7bb5033aef9d39345921879db1d5a917972ce89ba51"
+hash = "1722a5f478593eb26a93ad6bc379981933af3931b36b8b57ec5e5415e3cf02d9"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -1314,7 +1314,7 @@ hash = "9682a15bf34e509182bdf2daaf51e0259f03b7518c7b0b79b6d9dbac4a58cc27"
 
 [[files]]
 file = "config/createthrusters_physics_goggles_overlays.json"
-hash = "780e27b7e67a9c4e4e65079a4c74f97f8b355a24e33462804b61fb22034b94dd"
+hash = "7722a8fadd8ab545f67b950e071f27b82bb8de83b6d5fa23dee167edd71c0ff5"
 
 [[files]]
 file = "config/critical_strike/client_config.json"
@@ -1498,7 +1498,7 @@ hash = "6967be2354a821d42b93572dc97f725ce16e704fb7fca1412f4981c12331ddd5"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "5c263d2815bce1d9da72a81cba4442cd081f10536a4832677741e9759eee91ce"
+hash = "d599865773ce5016fdba3fee41bfdb0fbac6f7c42218feaf43dfdfb0f40e83a2"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -1718,7 +1718,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "8ecebba2d6d775064ffea63fdb35cfd6526689916081afec1270ca4b11bd1d4d"
+hash = "b28aaf0ad1d4fce5adeee8a0230dcf29cf58b0c200f4be07b3484900a8fbc84b"
 
 [[files]]
 file = "config/irisflw-client.toml"
@@ -2530,7 +2530,7 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "config/zfastnoise.mixin.properties"
-hash = "79f84bbe79b0141595e34405ddc99ac513441e9ebb8b9004d458e5393b9d99de"
+hash = "f81b3c7d4412f4f1f869b3c422c7b109ac41ffca37b855d1f993c13fb8299b15"
 
 [[files]]
 file = "config/zume.json5"
@@ -2689,6 +2689,11 @@ metafile = true
 [[files]]
 file = "mods/borninchaos.pw.toml"
 hash = "a2c8cf1a4fc5faed55ca1f8d04f7abaa1c8282b9bcd70e1b3e607181923f48d9"
+metafile = true
+
+[[files]]
+file = "mods/boss-checklist.pw.toml"
+hash = "77f6ae55e6cb13451c5a0dd860439019a1ac3ebb25efa69985c1610b7f952abc"
 metafile = true
 
 [[files]]
@@ -3734,6 +3739,11 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "81c5c05f9ed4c07b9f027ff6c421939bb04e476075091f135d34aaa05af1f950"
+metafile = true
+
+[[files]]
+file = "mods/thaumaturge.pw.toml"
+hash = "2a69c51a520dea3c6446b38ec7f81f8e43b2bdbd4a5a9169e09e95835669ebe5"
 metafile = true
 
 [[files]]
