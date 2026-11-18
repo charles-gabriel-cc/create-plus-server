@@ -1002,7 +1002,7 @@ hash = "84fb94d093a477f2a32993eb47417ae34ce9516a0fee0349af873dffd9f058a8"
 
 [[files]]
 file = "config/createlanterns-server.toml"
-hash = "1eb60938998272e0ee98bb2feb9d1b2fd07ce3fe92ace0392a3e3ca9df4f53d4"
+hash = "684ba62f0532c6563234bc4b073cc96b43c2b56ca0b7e6669995a26b3d261678"
 
 [[files]]
 file = "config/createlanterns/recipes/README.md"
