@@ -2592,11 +2592,6 @@ hash = "846290a7a2b0af86414001d097ddc694b58266f8e9f57e3d381fda3e64e81212"
 metafile = true
 
 [[files]]
-file = "mods/antixray.pw.toml"
-hash = "d2b68993a2ea12c5eaa623630a1d1fbf5cf6b98ffbeade303d9e9ad62a445050"
-metafile = true
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
 metafile = true
@@ -3372,11 +3367,6 @@ metafile = true
 [[files]]
 file = "mods/miners-delight.pw.toml"
 hash = "13481133d139f134bd3407983e29f86df835ff66bacb013d9d43e14f155241f4"
-metafile = true
-
-[[files]]
-file = "mods/minertrack.pw.toml"
-hash = "06ae61cb5854aaa027a4db985b6f72dafcf0c26f882e3246095e8b46f783ca84"
 metafile = true
 
 [[files]]
