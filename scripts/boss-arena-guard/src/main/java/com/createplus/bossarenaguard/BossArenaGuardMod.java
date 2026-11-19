@@ -49,6 +49,7 @@ import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerRespawnPositionEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerSetSpawnEvent;
+import net.neoforged.neoforge.event.server.ServerAboutToStartEvent;
 import net.neoforged.neoforge.event.server.ServerStartedEvent;
 import net.neoforged.neoforge.event.server.ServerStoppingEvent;
 import net.neoforged.neoforge.event.tick.ServerTickEvent;
@@ -92,6 +93,7 @@ public class BossArenaGuardMod {
         NeoForge.EVENT_BUS.addListener(EventPriority.HIGHEST, this::onEntityTravelToDimension);
         NeoForge.EVENT_BUS.addListener(this::onRegisterCommands);
         NeoForge.EVENT_BUS.addListener(this::onDatapackSync);
+        NeoForge.EVENT_BUS.addListener(this::onServerAboutToStart);
         NeoForge.EVENT_BUS.addListener(this::onServerStarted);
         NeoForge.EVENT_BUS.addListener(this::onServerTickPost);
         NeoForge.EVENT_BUS.addListener(this::onServerStopping);
@@ -623,8 +625,11 @@ public class BossArenaGuardMod {
                         }))));
     }
 
-    private void onServerStarted(ServerStartedEvent event) {
+    private void onServerAboutToStart(ServerAboutToStartEvent event) {
         BossChecklistCatalog.reload();
+    }
+
+    private void onServerStarted(ServerStartedEvent event) {
         if (event.getServer().isDedicatedServer()) {
             database = new ArenaProfileDatabase(event.getServer().getServerDirectory().resolve("boss-arena-db.json"));
             appliedDatabaseRevision = 0;
@@ -774,6 +779,7 @@ public class BossArenaGuardMod {
         }
         ResourceLocation bossId = BuiltInRegistries.ENTITY_TYPE.getKey(boss.getType());
         BossRegistryHelper.BossPalette palette = BossRegistryHelper.getPalette(boss);
+        DungeonDifficultyCompat.clearMobScaling(boss);
         ArenaSession created = new ArenaSession(level, boss, bossId, geometry, palette);
         ArenaSession raced = ARENAS_BY_BOSS.putIfAbsent(boss.getUUID(), created);
         return raced != null ? raced : created;

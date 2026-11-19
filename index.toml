@@ -1373,6 +1373,14 @@ file = "config/dragonlib-server.toml"
 hash = "81af6c3944505da95595095cbaaee82cd7683df13a42f46358a9d179ba961f26"
 
 [[files]]
+file = "config/dungeon_difficulty/difficulty_v2.json"
+hash = "3029fbc2718c9689689002d561ab8efb3c5987a00ede30a62b5e3a2819b569d6"
+
+[[files]]
+file = "config/dungeon_difficulty/registry.json"
+hash = "39fc9247223879793568c15de9e28e9304a16a4d00cea91066d8125d70e092a0"
+
+[[files]]
 file = "config/dynamic_fps.json"
 hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
 
@@ -2713,7 +2721,7 @@ metafile = true
 
 [[files]]
 file = "mods/boss-arena-guard-1.0.0.jar"
-hash = "fa61048930a627f88cfdcff9204b25fb30b81125b501c27bd28d4239e54cad1f"
+hash = "da992656e5566a89b83ef3db019a4b5a23a9432ab413f6d60f2a7eb9dc6e8dec"
 
 [[files]]
 file = "mods/boss-checklist.pw.toml"
@@ -3057,6 +3065,11 @@ metafile = true
 [[files]]
 file = "mods/dragonlib.pw.toml"
 hash = "7c811f8e9168cabfadc3a37cd995a5faf25962032d86f85e49a30b635da76b76"
+metafile = true
+
+[[files]]
+file = "mods/dungeon-difficulty.pw.toml"
+hash = "03c3516918410182485b46d387e0fe0b13f996a7371ee0ca3b31464f9cbdb24c"
 metafile = true
 
 [[files]]

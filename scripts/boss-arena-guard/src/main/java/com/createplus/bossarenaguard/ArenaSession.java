@@ -1041,15 +1041,6 @@ public final class ArenaSession {
             bossScaled = true;
         }
 
-        int hpPercentBonus = (int) Math.round((count - 1) * HP_SCALING_PER_EXTRA_PLAYER * 100.0);
-        Component scaleMsg = Component.literal("§6⚔ Boss balanceado para §e" + count + " jogadores§6! Vida máxima: §c+" + hpPercentBonus + "%§6.");
-        for (UUID id : activeParticipants) {
-            ServerPlayer p = getServerPlayer(id);
-            if (p != null) {
-                p.displayClientMessage(scaleMsg, false);
-            }
-        }
-
         BossArenaGuardMod.LOGGER.info(
                 "Scaled boss {} for {} players: HP {} -> {}, Dmg {} -> {}",
                 bossTypeId,

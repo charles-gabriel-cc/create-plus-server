@@ -6,7 +6,15 @@ Compile o mod com JDK 21 no `PATH` e as bibliotecas do perfil Modrinth instalada
 python scripts/boss-arena-guard/build.py
 ```
 
+Em uma worktree fora da instalação do Modrinth, indique o diretório das bibliotecas.
+
+```powershell
+python scripts/boss-arena-guard/build.py --libraries 'D:/Modrinth/meta/libraries'
+```
+
 O mod cria arenas para entidades que aparecem no livro do Boss Checklist nas categorias **Boss** e **Miniboss** e estão presentes no catálogo do servidor. O servidor lê as definições do Boss Checklist instalado e de `config/boss_checklist/override/bosses.json` durante a inicialização ou um `/reload`. Os perfis controlam a geometria das arenas das entidades elegíveis.
+
+Bosses e minibosses elegíveis usam o balanceamento de atributos da arena. Dungeon Difficulty aplica seus bônus de atributos aos demais mobs. O ajuste da arena fica registrado no console do servidor.
 
 Os perfis padrão estão em [boss-arena-profiles.csv](src/main/resources/boss-arena-profiles.csv). Ender Dragon, Void Worm e Wither usam a altura da dimensão até o limiar do vazio. Ferrous Wroughtnaut usa um teto adicional em Y=0 quando a arena e o boss já estão abaixo desse limite. Os demais perfis especificam uma faixa vertical relativa ao centro da arena.
 

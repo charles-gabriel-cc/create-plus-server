@@ -37,12 +37,14 @@ def main():
     parser = argparse.ArgumentParser(description="Build Boss Arena Guard with JDK 21 and the Modrinth libraries.")
     parser.add_argument("--output", type=Path, default=PROFILE / "mods/boss-arena-guard-1.0.0.jar")
     parser.add_argument("--driver", type=Path, help="Use a local copy of the pinned JDBC driver.")
+    parser.add_argument("--libraries", type=Path, default=PROFILE.parents[1] / "meta/libraries",
+                        help="Path to the Modrinth libraries when building in a separate worktree.")
     arguments = parser.parse_args()
 
-    modrinth_libraries = PROFILE.parents[1] / "meta/libraries"
-    classpath = [modrinth_libraries / name for name in LIBRARIES]
+    classpath = [arguments.libraries / name for name in LIBRARIES]
     classpath.extend(PROFILE / "mods" / name for name in (
         "createlanterns-alpha-20.50.jar", "boss_checklist-neoforge-5.3.2.jar",
+        "dungeon_difficulty-neoforge-3.9.2+1.21.1.jar",
     ))
     sources = sorted((SOURCE / "src/main/java").rglob("*.java"))
     resources = SOURCE / "src/main/resources"
