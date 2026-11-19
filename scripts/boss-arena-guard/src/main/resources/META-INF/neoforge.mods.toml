@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="bossarenaguard"
+version="1.0.0"
+displayName="Create+ Boss Arena & Lantern Guard"
+authors="CreatePlus"
+description='''Protects bosses from Create Lanterns ring powers and creates animated closed boss fight arenas with lock-in, lock-out, wipe recovery, and in-arena revive support.'''
+
+[[mixins]]
+config="bossarenaguard.mixins.json"
+
+[[dependencies.bossarenaguard]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bossarenaguard]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1, 1.22)"
+    ordering="NONE"
+    side="BOTH"

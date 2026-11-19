@@ -1,0 +1,21 @@
+{
+  "required": false,
+  "package": "com.createplus.bossarenaguard.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinHeldEntities",
+    "MixinLightAbilities",
+    "MixinLightPowers",
+    "MixinLightZone"
+  ],
+  "client": [
+    "MixinBossNameCache",
+    "MixinBossChecklistScreen",
+    "MixinBossInfoScreen",
+    "MixinDynamicConfigHandler",
+    "MixinCustomCheckbox"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
