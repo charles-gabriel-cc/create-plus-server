@@ -4,12 +4,9 @@ import it.unimi.dsi.fastutil.longs.LongSet;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.GlobalPos;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.tags.TagKey;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.level.levelgen.structure.BoundingBox;
@@ -26,11 +23,6 @@ import java.util.Map;
 public final class BossRegistryHelper {
     // Tripled baseline: previously 32.0m -> now 96.0m
     public static final double MIN_ARENA_RADIUS = 96.0;
-
-    private static final TagKey<EntityType<?>> TAG_C_BOSSES =
-            TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath("c", "bosses"));
-    private static final TagKey<EntityType<?>> TAG_NEOFORGE_BOSSES =
-            TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath("neoforge", "bosses"));
 
     private static final Map<String, ArenaProfile> BOSS_PROFILES = ArenaProfile.loadDefaults();
     private static volatile ArenaProfileDatabase database;
@@ -63,38 +55,9 @@ public final class BossRegistryHelper {
     }
 
     public static boolean isBoss(Entity entity) {
-        if (entity == null) {
-            return false;
-        }
-        if (entity instanceof PartEntity<?>) {
-            return false;
-        }
-        if (!(entity instanceof LivingEntity)) {
-            return false;
-        }
-
-        EntityType<?> type = entity.getType();
-        ResourceLocation id = BuiltInRegistries.ENTITY_TYPE.getKey(type);
-        if (BOSS_PROFILES.containsKey(id.toString()) || databaseProfile(id.toString()) != null) {
-            return true;
-        }
-        if (type.is(TAG_C_BOSSES) || type.is(TAG_NEOFORGE_BOSSES)) {
-            return true;
-        }
-        return isCataclysmBossClass(entity.getClass());
-    }
-
-    private static boolean isCataclysmBossClass(Class<?> cls) {
-        Class<?> curr = cls;
-        while (curr != null && curr != Object.class) {
-            String name = curr.getName();
-            if ("com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.LLibrary_Boss_Monster".equals(name)
-                    || "com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.IABoss_monster".equals(name)) {
-                return true;
-            }
-            curr = curr.getSuperclass();
-        }
-        return false;
+        return entity instanceof LivingEntity
+                && entity.level() instanceof ServerLevel
+                && BossChecklistCatalog.contains(BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType()));
     }
 
     private static ArenaProfile getFallbackProfile(LivingEntity boss) {

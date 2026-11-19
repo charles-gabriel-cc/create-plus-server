@@ -33,6 +33,7 @@ import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.OnDatapackSyncEvent;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 import net.neoforged.neoforge.event.entity.EntityMountEvent;
@@ -90,6 +91,7 @@ public class BossArenaGuardMod {
         NeoForge.EVENT_BUS.addListener(EventPriority.HIGHEST, this::onEntityMount);
         NeoForge.EVENT_BUS.addListener(EventPriority.HIGHEST, this::onEntityTravelToDimension);
         NeoForge.EVENT_BUS.addListener(this::onRegisterCommands);
+        NeoForge.EVENT_BUS.addListener(this::onDatapackSync);
         NeoForge.EVENT_BUS.addListener(this::onServerStarted);
         NeoForge.EVENT_BUS.addListener(this::onServerTickPost);
         NeoForge.EVENT_BUS.addListener(this::onServerStopping);
@@ -622,6 +624,7 @@ public class BossArenaGuardMod {
     }
 
     private void onServerStarted(ServerStartedEvent event) {
+        BossChecklistCatalog.reload();
         if (event.getServer().isDedicatedServer()) {
             database = new ArenaProfileDatabase(event.getServer().getServerDirectory().resolve("boss-arena-db.json"));
             appliedDatabaseRevision = 0;
@@ -630,18 +633,28 @@ public class BossArenaGuardMod {
         }
     }
 
+    private void onDatapackSync(OnDatapackSyncEvent event) {
+        if (event.getPlayer() == null && BossChecklistCatalog.reload()) {
+            clearStandbyArenas();
+        }
+    }
+
+    private static void clearStandbyArenas() {
+        ARENAS_BY_BOSS.values().removeIf(session -> {
+            if (session.isStandby()) {
+                session.clearAllClientBarriers();
+                return true;
+            }
+            return false;
+        });
+    }
+
     private void onServerTickPost(ServerTickEvent.Post event) {
         if (database != null) {
             long revision = database.revision();
             if (revision != appliedDatabaseRevision) {
                 appliedDatabaseRevision = revision;
-                ARENAS_BY_BOSS.values().removeIf(session -> {
-                    if (session.isStandby()) {
-                        session.clearAllClientBarriers();
-                        return true;
-                    }
-                    return false;
-                });
+                clearStandbyArenas();
             }
         }
         if ((++serverTickCounter % 10L) == 0L) {
@@ -693,6 +706,7 @@ public class BossArenaGuardMod {
     }
 
     private void onServerStopping(ServerStoppingEvent event) {
+        BossChecklistCatalog.clear();
         if (database != null) {
             BossRegistryHelper.setDatabase(null);
             database.close();

@@ -6,7 +6,9 @@ Compile o mod com JDK 21 no `PATH` e as bibliotecas do perfil Modrinth instalada
 python scripts/boss-arena-guard/build.py
 ```
 
-Os perfis padrão estão em [boss-arena-profiles.csv](src/main/resources/boss-arena-profiles.csv). Ender Dragon, Void Worm e Wither usam a altura da dimensão até o limiar do vazio. Warden, Ferrous Wroughtnaut e Sculksaur usam um teto adicional em Y=0 quando a arena e o boss já estão abaixo desse limite. Os demais perfis especificam uma faixa vertical relativa ao centro da arena.
+O mod cria arenas para entidades que aparecem no livro do Boss Checklist nas categorias **Boss** e **Miniboss** e estão presentes no catálogo do servidor. O servidor lê as definições do Boss Checklist instalado e de `config/boss_checklist/override/bosses.json` durante a inicialização ou um `/reload`. Os perfis controlam a geometria das arenas das entidades elegíveis.
+
+Os perfis padrão estão em [boss-arena-profiles.csv](src/main/resources/boss-arena-profiles.csv). Ender Dragon, Void Worm e Wither usam a altura da dimensão até o limiar do vazio. Ferrous Wroughtnaut usa um teto adicional em Y=0 quando a arena e o boss já estão abaixo desse limite. Os demais perfis especificam uma faixa vertical relativa ao centro da arena.
 
 ## MariaDB ou MySQL
 
@@ -26,7 +28,7 @@ Use os parâmetros TLS fornecidos pela hospedagem. O servidor consulta o banco a
 ```sql
 UPDATE boss_arena_profiles
 SET upper_offset = 24
-WHERE boss_id = 'minecraft:warden';
+WHERE boss_id = 'mowziesmobs:ferrous_wroughtnaut';
 ```
 
 - `boss_id` é o ID da entidade no Minecraft, incluindo o namespace.
@@ -35,4 +37,4 @@ WHERE boss_id = 'minecraft:warden';
 - `dimension` usa os limites da dimensão. Configure ambos os offsets como `0` e `ceiling_y` como `NULL`.
 - Excluir a linha restaura o perfil padrão do mod para aquele boss.
 
-Operadores podem consultar a geometria da próxima arena pelo comando `/bossarena inspect @e[type=minecraft:warden,limit=1]`. O log do servidor registra quando uma configuração nova é carregada.
+Operadores podem consultar a geometria da próxima arena pelo comando `/bossarena inspect @e[type=mowziesmobs:ferrous_wroughtnaut,limit=1]`. O log do servidor registra quando uma configuração nova é carregada.
