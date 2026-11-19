@@ -2713,7 +2713,7 @@ metafile = true
 
 [[files]]
 file = "mods/boss-arena-guard-1.0.0.jar"
-hash = "19de209495a1ce497b8fd9e11491e810b496cfe8ccf9b1368c9e43aee81658aa"
+hash = "a35e558ef135d76da0a00955271d0bcfd9403b840ee119b359c6e5fd2e39e74e"
 
 [[files]]
 file = "mods/boss-checklist.pw.toml"
@@ -3269,6 +3269,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "4601b9be31b6e131dca8a148c974d015444bcac7c82fcb66fbd8751a67933a5d"
+metafile = true
+
+[[files]]
+file = "mods/infinite-trading.pw.toml"
+hash = "82559cf0861f03002f2c1d65f22f27029e1bd9f8f8f95ad15140fa85d714d78d"
 metafile = true
 
 [[files]]
