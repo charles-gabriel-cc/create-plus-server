@@ -2713,7 +2713,7 @@ metafile = true
 
 [[files]]
 file = "mods/boss-arena-guard-1.0.0.jar"
-hash = "a35e558ef135d76da0a00955271d0bcfd9403b840ee119b359c6e5fd2e39e74e"
+hash = "dd5c12c2a692f7a8eeae64d77a6bcff816c93ffbcb93ac4302d44e82acbbcc8b"
 
 [[files]]
 file = "mods/boss-checklist.pw.toml"
