@@ -203,7 +203,7 @@
 [flight]
 	#If true, a bearer crashing at speed digs a crater and wrecks whatever it hits. It's a small dent at
 	#20 blocks a second and a village wide at 1000. If false, crashes are still shielded and still hurt but don't break anything.
-	craters = true
+	craters = false
 	#The most blocks a crater clears in one server tick. A big one gets dug out over a few seconds.
 	# Default: 16000
 	# Range: 500 ~ 500000
@@ -279,7 +279,7 @@
 	#width of a village at 1000). 0 doesn't dig one.
 	# Default: 1.0
 	# Range: 0.0 ~ 3.0
-	craterSize = 1.0
+	craterSize = 0.0
 	#The slowest crash that breaks blocks, in blocks a second. A slower crash still hits and throws
 	#what's near it, but leaves every block, painting and item frame as it was.
 	# Default: 75
@@ -1852,3 +1852,34 @@
 		# Default: 20
 		# Range: 0 ~ 1200
 		overpowerTicks = 20
+
+#With Create Cosmonautics installed. What a lit ring does for its bearer in space, and where ships come down from it.
+#A world without Create Cosmonautics won't have this section.
+[cosmonautics]
+	#If true, a lit ring keeps its bearer breathing wherever Create Cosmonautics says there's no air
+	#(high above the overworld, on the Moon, in deep space), like its space helmet does (underwater, ring.waterBreathing
+	#decides). If false, a bearer needs a helmet and a backtank up there like anyone else.
+	lifeSupport = true
+	#Energy the ring burns each second keeping its bearer breathing there. A stronger bearer pays less.
+	# Default: 0.2
+	# Range: 0.0 ~ 1000.0
+	lifeSupportPerSecond = 0.2
+	#If true, the ring flies its bearer out of the world the way Create Cosmonautics takes a rocket. Past
+	#the height where rockets go into deep space (20000 above the overworld, the Moon and every Lantern world), they go into a
+	#space of their own. The ring flies that through Create Cosmonautics' universe as they fly (faster the further they are
+	#from anything), and they come down on whatever world they fly at, like a ship does. If false, they keep flying up the
+	#world's own sky however high they go and never leave it. In deep space (if they got there on a ship) they only fly around the
+	#space they're in.
+	spaceFlight = true
+	#A ship coming down out of space onto a world that isn't a Lantern world lands within this many blocks of the spawn point
+	#of someone aboard whose spawn is on that world (their bed or respawn anchor, or the world spawn if they have neither). One
+	#that comes down within half that of the spawn anyway lands where it fell. Further out, it is brought in on the side it
+	#fell toward. It always lands inside the world border. Without this, Create Cosmonautics can bring it down hundreds of
+	#thousands of blocks out. Lantern worlds keep their own rule, within 300000 blocks of 0, 0.
+	# Default: 1000
+	# Range: 0 ~ 30000000
+	landNearSpawn = 1000
+	#If no one aboard has their spawn on that world, the ship lands within this many blocks of 0, 0 instead.
+	# Default: 3000
+	# Range: 0 ~ 30000000
+	landNearOrigin = 3000

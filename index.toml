@@ -1006,7 +1006,7 @@ hash = "84fb94d093a477f2a32993eb47417ae34ce9516a0fee0349af873dffd9f058a8"
 
 [[files]]
 file = "config/createlanterns-server.toml"
-hash = "684ba62f0532c6563234bc4b073cc96b43c2b56ca0b7e6669995a26b3d261678"
+hash = "418389b5fb71147922ef5fba2995678bfecdc825078692c2d27db9eb0c53b9a7"
 
 [[files]]
 file = "config/createlanterns/recipes/README.md"
@@ -2713,7 +2713,7 @@ metafile = true
 
 [[files]]
 file = "mods/boss-arena-guard-1.0.0.jar"
-hash = "d22144c9ab684535fc084775e7be1ecb0b277d2e8e9df9d463276c42c3463ec2"
+hash = "19de209495a1ce497b8fd9e11491e810b496cfe8ccf9b1368c9e43aee81658aa"
 
 [[files]]
 file = "mods/boss-checklist.pw.toml"
@@ -3040,6 +3040,11 @@ hash = "ca71253b8cf30c707ac38967a8e45aa9540026d1181f80957c6f62160c21c6ee"
 metafile = true
 
 [[files]]
+file = "mods/diegesis.pw.toml"
+hash = "fc8af4db1c5411a29dbca84e4d21e9d81a39120e922c4f356abac0d85b2ddcbf"
+metafile = true
+
+[[files]]
 file = "mods/ding.pw.toml"
 hash = "54c0985498a40c7b9c63e336c11c1c48770dbfdf50c07dff988c1b086d26ba2f"
 metafile = true
@@ -3239,6 +3244,11 @@ metafile = true
 [[files]]
 file = "mods/gputape.pw.toml"
 hash = "772ca226b885e1dd59f2ad34501727798be4edcc8fcf151e3b8c2a0943c59d19"
+metafile = true
+
+[[files]]
+file = "mods/handson-delight.pw.toml"
+hash = "9ef1ba1fb0516dbff1d2c2ce66aec4342b80d6133f74788d20eec598ebf1cc37"
 metafile = true
 
 [[files]]
