@@ -502,7 +502,7 @@ public final class ArenaSession {
                         if (now - feedbackCooldowns.getOrDefault(pid, 0L) > 2500L) {
                             feedbackCooldowns.put(pid, now);
                             player.displayClientMessage(
-                                    Component.literal("§c⚠ Não há chão no mesmo nível ou espaço livre para sair aqui! Procure uma passagem desobstruída."),
+                                    Component.literal("§c⚠ Não há uma saída segura aqui! Procure chão firme ou água livre na borda."),
                                     true
                             );
                         }
@@ -585,6 +585,10 @@ public final class ArenaSession {
         double ux = dx / hDist;
         double uz = dz / hDist;
         double dot = look.x * ux + look.z * uz;
+        if (player.isInWater()) {
+            double horizontalLook = look.horizontalDistance();
+            return horizontalLook > 0.05 && dot > 0.65 * horizontalLook;
+        }
         return dot > 0.65;
     }
 
@@ -632,7 +636,7 @@ public final class ArenaSession {
                     player,
                     pos,
                     mainDust,
-                    "§6⛨ Arena selada! Olhe para a saída com chão e avance por 1.2s se quiser abandonar a luta."
+                    "§6⛨ Arena selada! Olhe para uma saída segura e avance por 1.2s se quiser abandonar a luta."
             );
         }
     }
@@ -659,6 +663,13 @@ public final class ArenaSession {
         for (double lat : lateralOffsets) {
             double cx = center.x + ux * targetDist + tx * lat;
             double cz = center.z + uz * targetDist + tz * lat;
+
+            if (player.isInWater()) {
+                Vec3 waterExit = findSwimmingExit(player, pos, cx, cz);
+                if (waterExit != null) {
+                    return waterExit;
+                }
+            }
 
             int[] floorYOffsets = {0, -1, 1};
             for (int dy : floorYOffsets) {
@@ -701,6 +712,34 @@ public final class ArenaSession {
         }
 
         return null;
+    }
+
+    private Vec3 findSwimmingExit(ServerPlayer player, Vec3 pos, double x, double z) {
+        BlockPos feet = BlockPos.containing(x, pos.y, z);
+        if (!level.isInWorldBounds(feet) || !level.isLoaded(feet)) {
+            return null;
+        }
+
+        var water = level.getFluidState(feet);
+        if (!water.is(FluidTags.WATER) || pos.y >= feet.getY() + water.getHeight(level, feet)
+                || !level.getFluidState(feet.below()).is(FluidTags.WATER)) {
+            return null;
+        }
+
+        Vec3 exit = new Vec3(feet.getX() + 0.5, pos.y, feet.getZ() + 0.5);
+        AABB bounds = player.getBoundingBox().move(exit.subtract(pos));
+        if (bounds.maxY > level.getMaxBuildHeight() || !level.getWorldBorder().isWithinBounds(bounds)
+                || !level.noCollision(player, bounds)) {
+            return null;
+        }
+        BlockPos head = BlockPos.containing(exit.x, bounds.maxY - 1.0E-6, exit.z);
+        for (BlockPos occupied : BlockPos.betweenClosed(feet, head)) {
+            BlockState block = level.getBlockState(occupied);
+            if (block.getFluidState().is(FluidTags.LAVA) || block.is(Blocks.FIRE) || block.is(Blocks.SOUL_FIRE)) {
+                return null;
+            }
+        }
+        return exit;
     }
 
     private Vec3 findAnySafePerimeterExit(ServerPlayer player) {

@@ -1006,7 +1006,7 @@ hash = "84fb94d093a477f2a32993eb47417ae34ce9516a0fee0349af873dffd9f058a8"
 
 [[files]]
 file = "config/createlanterns-server.toml"
-hash = "418389b5fb71147922ef5fba2995678bfecdc825078692c2d27db9eb0c53b9a7"
+hash = "e97a3768e5f4a50d73f6024d746f24cf18728b76b0a60bc710013c7737a0ee3b"
 
 [[files]]
 file = "config/createlanterns/recipes/README.md"
@@ -2721,7 +2721,7 @@ metafile = true
 
 [[files]]
 file = "mods/boss-arena-guard-1.0.0.jar"
-hash = "da992656e5566a89b83ef3db019a4b5a23a9432ab413f6d60f2a7eb9dc6e8dec"
+hash = "5c83ca308f226c0e9ca7d591c921fd9f4526a9687a529387784064f86220ef14"
 
 [[files]]
 file = "mods/boss-checklist.pw.toml"

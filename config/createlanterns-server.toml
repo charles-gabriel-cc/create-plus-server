@@ -164,7 +164,7 @@
 	#Either way, doing the same deed over and over still counts for less while it's fresh (the spectrum gets sick of
 	#it, and that's separate from decay). A light's gain still costs its opposite a quarter as much, and a bearer's
 	#willpower (which only grows) never decays.
-	emotionDecay = true
+	emotionDecay = false
 	#How much each deed is worth compared to what the mod first gave it. 0.5 is half, so every light needs twice
 	#the deeds it used to before it stirs (and the bars from whisperAt to ringAt are higher too). 1 counts
 	#deeds the way they were counted before they were lowered.

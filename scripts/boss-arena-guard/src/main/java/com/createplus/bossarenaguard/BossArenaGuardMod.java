@@ -456,13 +456,18 @@ public class BossArenaGuardMod {
         return isInsideAnyArena(level, Vec3.atCenterOf(pos));
     }
 
-    public static boolean isInsideAnyArena(ServerLevel level, Vec3 pos) {
+    public static boolean isInsideArenaSession(ServerLevel level, Vec3 pos) {
         for (ArenaSession session : ARENAS_BY_BOSS.values()) {
-            if (!session.isFinished() && session.getLevel() == level) {
-                if (session.isInsideInterior(pos, 0.0)) {
-                    return true;
-                }
+            if (!session.isFinished() && session.getLevel() == level && session.isInsideInterior(pos, 0.0)) {
+                return true;
             }
+        }
+        return false;
+    }
+
+    public static boolean isInsideAnyArena(ServerLevel level, Vec3 pos) {
+        if (isInsideArenaSession(level, pos)) {
+            return true;
         }
         List<LivingEntity> nearbyBosses = level.getEntitiesOfClass(
                 LivingEntity.class,
