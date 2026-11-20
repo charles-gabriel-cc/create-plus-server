@@ -3131,6 +3131,11 @@ hash = "e4ed9a397189b6d0da17c18aa54adf49ad86327e7a3ded75a62b9cf6e9dfee4e"
 metafile = true
 
 [[files]]
+file = "mods/emf-compat-core.pw.toml"
+hash = "02da0e08e5e62158b20f6c613562a273d5561d0e55340885049d4d09d701b94e"
+metafile = true
+
+[[files]]
 file = "mods/emi-loot.pw.toml"
 hash = "1f7ee5ea0a84276fa059773e57e6b14c76ce1cf2954fe0b3cce938f268047c6e"
 metafile = true
@@ -3841,6 +3846,11 @@ file = "mods/toomanyrecipeviewers-0.9.0+mc.21.1.jar"
 hash = "84f4bb18ea7db8819c2a9b6c5ca5cd20a126d147cf55370cf919a6adc7987e70"
 
 [[files]]
+file = "mods/touch-and-motion.pw.toml"
+hash = "3d7965908711b91e9e11939a97b56a20b8806e778f04b2e5ba11fc23b190cb01"
+metafile = true
+
+[[files]]
 file = "mods/trashslot.pw.toml"
 hash = "c1e0c805d5ccd49535a6820aa8a2461a516437f90312fcadd393f928e3ce7bf2"
 metafile = true
@@ -3985,6 +3995,11 @@ hash = "eb0b5f269171cd5b891d9bdf2c5da89698e21a71ffec1172ead75bc19411cbdc"
 metafile = true
 
 [[files]]
+file = "resourcepacks/fa-player-extension.pw.toml"
+hash = "2e1a6866e4366cebe200dcf71ab52923b7653f76dc48741b93411ee3bf77372a"
+metafile = true
+
+[[files]]
 file = "resourcepacks/fluid-foolish.pw.toml"
 hash = "34310e2f6a23826bbfd594f157ba8dfa2d9b2baeb1c1e85bf1f959ad0f559b7b"
 metafile = true
@@ -3997,6 +4012,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
+metafile = true
+
+[[files]]
+file = "resourcepacks/punchy-compatibility.pw.toml"
+hash = "360b5ed02d5f7d12eb6133917e71e65bb3e266df80b6eabc4ca34d12b2083098"
 metafile = true
 
 [[files]]
