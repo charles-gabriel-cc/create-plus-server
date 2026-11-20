@@ -2714,6 +2714,11 @@ hash = "438170e7e704a1b8ed67bf0521dc5d77cdeeaabf6f729dba9f8dfdad75330acf"
 metafile = true
 
 [[files]]
+file = "mods/bettercombatpunchyfix.pw.toml"
+hash = "0d32763b4e87d5340a9f9ac63bdc6902a4d55b94ddceb4e18e1be1bd78d634d5"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
@@ -3025,6 +3030,10 @@ metafile = true
 [[files]]
 file = "mods/createlanterns-alpha-20.50.jar"
 hash = "90601390ae0c3b9c200a28977421de6af522fccadf93c33b6b90c1f81475f5bf"
+
+[[files]]
+file = "mods/createplus-class-respec-1.0.0.jar"
+hash = "64cdb347d3754d024299dce2f4da421d615f4a236df3b47190c4ba781d3ae9fc"
 
 [[files]]
 file = "mods/critical-strike.pw.toml"
@@ -3550,6 +3559,16 @@ hash = "81a05c3c0bbbdb00947d8174ad0a34b87a468839db1daae129dbb97cc783841a"
 metafile = true
 
 [[files]]
+file = "mods/punchy-fpa.pw.toml"
+hash = "8a33559da1d1dd21462ed5e31e90116473fe61befbb5cd32f4df5890b21d0c0d"
+metafile = true
+
+[[files]]
+file = "mods/punchymoves.pw.toml"
+hash = "3d1488998e0aca88979030dd47e74418a6d60dde1a36aa68267a6ce12bb7e988"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "d465abcc806c0d4fdeefb6a5e774cca4fff0ffd27d7c75954ab4688f4c9eaf05"
 metafile = true
@@ -3808,6 +3827,11 @@ hash = "2a69c51a520dea3c6446b38ec7f81f8e43b2bdbd4a5a9169e09e95835669ebe5"
 metafile = true
 
 [[files]]
+file = "mods/tiny-takeover-x-punchy.pw.toml"
+hash = "f977a6d2130808812b49d811f93a9242feadd1ca597ab97f2c2bb835b1f34218"
+metafile = true
+
+[[files]]
 file = "mods/toadlib.pw.toml"
 hash = "4042909c9fed9e74c3637db92a58e253debb1e93a6ea79a6ac3e20fbf6f8f1a8"
 metafile = true
@@ -3958,6 +3982,11 @@ hash = "3e20cd894938aed27fa11314ac83116f984b17d1f8fb9406567e96b8f84c70d8"
 [[files]]
 file = "resourcepacks/better-leaves.pw.toml"
 hash = "eb0b5f269171cd5b891d9bdf2c5da89698e21a71ffec1172ead75bc19411cbdc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fluid-foolish.pw.toml"
+hash = "34310e2f6a23826bbfd594f157ba8dfa2d9b2baeb1c1e85bf1f959ad0f559b7b"
 metafile = true
 
 [[files]]

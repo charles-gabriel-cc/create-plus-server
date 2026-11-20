@@ -1,0 +1,9 @@
+{
+  "createplus_class_respec.button": "Respec grátis",
+  "createplus_class_respec.server_missing": "O servidor precisa ter o respec instalado para usar este botão.",
+  "createplus_class_respec.confirm_title": "Redistribuir Class Skills?",
+  "createplus_class_respec.confirm_message": "Todas as habilidades desta árvore serão desativadas e seus pontos ficarão disponíveis. Seu nível e sua experiência serão preservados.",
+  "createplus_class_respec.confirm_button": "Redistribuir",
+  "createplus_class_respec.reset_done": "Pontos de Class Skills devolvidos.",
+  "createplus_class_respec.nothing_to_reset": "Você não tem habilidades de classe para redistribuir."
+}

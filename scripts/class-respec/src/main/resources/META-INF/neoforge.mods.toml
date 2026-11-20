@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "createplus_class_respec"
+version = "1.0.0"
+displayName = "Create+ Class Skills Respec"
+description = "Adds free redistribution of Class Skills points from the skill tree screen."
+
+[[mixins]]
+config = "createplus_class_respec.mixins.json"
+
+[[dependencies.createplus_class_respec]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.createplus_class_respec]]
+modId = "puffish_skills"
+type = "required"
+versionRange = "[0.19.2,0.19.3)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.createplus_class_respec]]
+modId = "skill_tree_rpgs"
+type = "required"
+versionRange = "[1.6.1,1.7)"
+ordering = "AFTER"
+side = "BOTH"

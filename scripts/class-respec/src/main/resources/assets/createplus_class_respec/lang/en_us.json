@@ -1,0 +1,9 @@
+{
+  "createplus_class_respec.button": "Free respec",
+  "createplus_class_respec.server_missing": "The server needs the respec mod before you can use this button.",
+  "createplus_class_respec.confirm_title": "Respec Class Skills?",
+  "createplus_class_respec.confirm_message": "This will lock all skills in this tree and refund their points. Your level and experience will be preserved.",
+  "createplus_class_respec.confirm_button": "Respec",
+  "createplus_class_respec.reset_done": "Class Skills points refunded.",
+  "createplus_class_respec.nothing_to_reset": "You have no unlocked Class Skills to reset."
+}
