@@ -40,3 +40,36 @@
 /config/xaero/
 /config/xaerohud.txt
 /config/xaeropatreon.txt
+
+# Per-install config state the game regenerates on its own: kept out of Git and,
+# via sync_packwiz.align_config_index_with_git, out of the Packwiz index.
+/config/rpg_series/tag_cache.json
+/config/rpg_series/loot_fallback_report.json
+/config/punchy_moves/tutorial_seen_v1
+/config/punchy_moves/camera.json
+/config/punchy/menu_prefs.json
+/config/punchy/punchy_config.json
+/config/punchy/triggerable-keybindings.json
+/config/punchyspellenginecompat-client.toml
+/config/combat_roll/client.json5
+/config/combat_roll/hud_config.json
+/config/combat_roll/server.json5
+/config/dungeon_difficulty/client_settings.json
+/config/dungeon_difficulty/structure_naming.json
+/config/puffish_skills/config.json
+/config/thaumaturge/aspect_index.json
+/config/serilum/infinitetrading.json
+/config/createcircuitboard-server.toml
+/config/curios-server.toml
+/config/easymagic-server.toml
+/config/emf_compat.json
+/config/ftbteams-server.snbt
+/config/handson_delight.properties
+/config/hybrid_aquatic.json
+/config/loconautics-server.toml
+/config/pehkui-server.toml
+/config/pocket-server.toml
+/config/pym-server.toml
+/config/rocketnautics-server.toml
+/config/thaumaturge-server.toml
+/config/visualworkbench-server.toml

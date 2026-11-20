@@ -708,7 +708,11 @@ def refresh_index_python(repo_root: str) -> None:
     index_path = os.path.join(repo_root, "index.toml")
     with open(index_path, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines))
+    update_pack_index_hash(repo_root)
 
+
+def update_pack_index_hash(repo_root: str) -> None:
+    index_path = os.path.join(repo_root, "index.toml")
     index_hash = compute_hashes(index_path, ("sha256",))["sha256"]
     pack_path = os.path.join(repo_root, "pack.toml")
     with open(pack_path, "r", encoding="utf-8") as f:
@@ -734,6 +738,40 @@ def refresh_packwiz_index(repo_root: str) -> None:
         subprocess.run([packwiz_bin, "refresh"], cwd=repo_root, check=True)
     else:
         refresh_index_python(repo_root)
+    align_config_index_with_git(repo_root)
+
+
+def align_config_index_with_git(repo_root: str) -> None:
+    """Players download configs from the repo, so the index must hash what Git holds, not local edits kept out of it:
+    drop gitignored config files and hash skip-worktree ones from the staged blob."""
+    code, out = git_run(repo_root, ["ls-files", "-z", "--others", "--ignored", "--exclude-standard", "--", "config/"])
+    ignored = set(out.decode("utf-8").split("\0")) - {""} if code == 0 else set()
+    code, out = git_run(repo_root, ["ls-files", "-z", "-v", "--", "config/"])
+    skipped = {e[2:] for e in out.decode("utf-8").split("\0") if e.startswith("S ")} if code == 0 else set()
+    if not ignored and not skipped:
+        return
+
+    index_path = os.path.join(repo_root, "index.toml")
+    with open(index_path, "r", encoding="utf-8", newline="") as f:
+        head, *blocks = f.read().split("[[files]]\n")
+    kept, dropped, rehashed = [], 0, 0
+    for block in blocks:
+        match = re.match(r'file = "([^"\\]*)"\n', block)
+        rel = match.group(1) if match else ""
+        if rel in ignored:
+            dropped += 1
+            continue
+        if rel in skipped:
+            code, blob = git_run(repo_root, ["show", f":{rel}"])
+            if code != 0:
+                raise RuntimeError(f"Cannot read staged blob for skip-worktree file {rel}")
+            block = re.sub(r'(?m)^hash = "[^"]*"', f'hash = "{hashlib.sha256(blob).hexdigest()}"', block, count=1)
+            rehashed += 1
+        kept.append(block)
+    with open(index_path, "w", encoding="utf-8", newline="") as f:
+        f.write(head + "".join("[[files]]\n" + b for b in kept))
+    update_pack_index_hash(repo_root)
+    print(f"Index aligned with Git: dropped {dropped} gitignored config(s), hashed {rehashed} skip-worktree config(s) from Git.")
 
 
 def export_mrpack(repo_root: str, output_path: str, session: requests.Session | None = None) -> None:

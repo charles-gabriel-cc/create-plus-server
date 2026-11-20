@@ -890,7 +890,7 @@ hash = "1c632f62c30f4e1223669267196d2ff1a2c03e400bf565ff4fe81e20c7cd2bdf"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "17d75ae28003716274f2071b1b26c6cb1b22b6d3728649ca6463a8f2f3fb5244"
+hash = "6996d95c1df2028b0fd06517fa22afb63507e8036cc54ebcd36a3bb7c6db1bd1"
 
 [[files]]
 file = "config/create_aeronautics_automated_logistics-client.toml"
@@ -1810,7 +1810,7 @@ hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
 
 [[files]]
 file = "config/lambdynlights.toml"
-hash = "6a403aef497c436ca564057c1108758529d9aed5fe799ff1544ffe7ad9fb9efe"
+hash = "2bfedfcb4558da68069b8648b601a5a9420a436cb9c2360a57d4fec6fabd224b"
 
 [[files]]
 file = "config/let_it_walk-client.toml"
@@ -2195,10 +2195,6 @@ hash = "9c2a19fe10a7b6cb5ce5bec7da83bd37d348eeace71157c76697ff9371b172d7"
 [[files]]
 file = "config/rpg_series/loot_scrolls_v2.json"
 hash = "97635814eddfe6c691c13cc25c01345b9da87a7588e3b5af11d1903d6e52cf9e"
-
-[[files]]
-file = "config/rpg_series/tag_cache.json"
-hash = "d6279d4d2faa9ef7818ea22946c2fd25166ea18992d5f8595908a089f590a15c"
 
 [[files]]
 file = "config/sable-client.toml"
