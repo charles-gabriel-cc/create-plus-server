@@ -2718,11 +2718,6 @@ hash = "438170e7e704a1b8ed67bf0521dc5d77cdeeaabf6f729dba9f8dfdad75330acf"
 metafile = true
 
 [[files]]
-file = "mods/bettercombatpunchyfix.pw.toml"
-hash = "0d32763b4e87d5340a9f9ac63bdc6902a4d55b94ddceb4e18e1be1bd78d634d5"
-metafile = true
-
-[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
@@ -3038,6 +3033,10 @@ hash = "90601390ae0c3b9c200a28977421de6af522fccadf93c33b6b90c1f81475f5bf"
 [[files]]
 file = "mods/createplus-class-respec-1.0.0.jar"
 hash = "64cdb347d3754d024299dce2f4da421d615f4a236df3b47190c4ba781d3ae9fc"
+
+[[files]]
+file = "mods/createplus-keybind-defaults-1.0.0.jar"
+hash = "9b28d712eab2d04f5480b6c398027c0cd9e263f895e8d0c2ba2b303e5930dd78"
 
 [[files]]
 file = "mods/critical-strike.pw.toml"
