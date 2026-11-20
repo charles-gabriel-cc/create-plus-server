@@ -1286,7 +1286,7 @@ hash = "5b3f59faa1c71379dced35c0fbda2613b52d24a5c1ac40109f08163a56eb2d89"
 
 [[files]]
 file = "config/createplus_required_packs.json"
-hash = "0b10115e3cb2e52a47b3330085c3a49ed20669b7bb318f05f47c09d91d2156db"
+hash = "f510c9b7410904e9cf2c13dfb2e2111458d5873542f0b0f44ab6cd578595c6a5"
 
 [[files]]
 file = "config/createpropulsion-client.toml"
