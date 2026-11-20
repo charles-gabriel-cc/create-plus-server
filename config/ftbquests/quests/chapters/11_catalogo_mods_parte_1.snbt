@@ -16,13 +16,7 @@
 				id: "aeroclaims:claim_block"
 			}
 			id: "300000000000006E"
-			rewards: [
-				{
-					id: "5000000000000079"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -39,13 +33,7 @@
 				id: "aeroencasedpipe:white_envelope_encased_pipe"
 			}
 			id: "300000000000006F"
-			rewards: [
-				{
-					id: "500000000000007A"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -62,13 +50,7 @@
 				id: "aeronautics:andesite_propeller"
 			}
 			id: "3000000000000070"
-			rewards: [
-				{
-					id: "500000000000007B"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -85,13 +67,7 @@
 				id: "aeronautics:aviators_goggles"
 			}
 			id: "3000000000000071"
-			rewards: [
-				{
-					id: "500000000000007C"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -108,13 +84,7 @@
 				id: "aeronautics_utility_objects:universal_joint"
 			}
 			id: "3000000000000072"
-			rewards: [
-				{
-					id: "500000000000007D"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -131,13 +101,7 @@
 				id: "aeroworks:control_desk"
 			}
 			id: "3000000000000073"
-			rewards: [
-				{
-					id: "500000000000007E"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -154,13 +118,7 @@
 				id: "minecraft:elytra"
 			}
 			id: "3000000000000074"
-			rewards: [
-				{
-					id: "500000000000007F"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -174,16 +132,27 @@
 		}
 		{
 			icon: {
+				id: "alexsmobs:acacia_blossom"
+			}
+			id: "3FCCC2CC293CC695"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4F164D5B453792A0"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 0.0d
+		}
+		{
+			icon: {
 				id: "alloyed:steel_ingot"
 			}
 			id: "3000000000000075"
-			rewards: [
-				{
-					id: "5000000000000080"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -192,7 +161,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
+			x: 12.8d
 			y: 0.0d
 		}
 		{
@@ -200,13 +169,7 @@
 				id: "minecraft:lantern"
 			}
 			id: "3000000000000076"
-			rewards: [
-				{
-					id: "5000000000000081"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -215,7 +178,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
+			x: 14.4d
 			y: 0.0d
 		}
 		{
@@ -223,13 +186,7 @@
 				id: "another_furniture:oak_chair"
 			}
 			id: "3000000000000077"
-			rewards: [
-				{
-					id: "5000000000000082"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -238,21 +195,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 0.0d
+			x: 0.0d
+			y: 1.6d
 		}
 		{
 			icon: {
 				id: "minecraft:bookshelf"
 			}
 			id: "3000000000000078"
-			rewards: [
-				{
-					id: "5000000000000083"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -261,7 +212,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 1.6d
 			y: 1.6d
 		}
 		{
@@ -269,13 +220,7 @@
 				id: "minecraft:apple"
 			}
 			id: "3000000000000079"
-			rewards: [
-				{
-					id: "5000000000000084"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -284,7 +229,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 3.2d
 			y: 1.6d
 		}
 		{
@@ -292,13 +237,7 @@
 				id: "minecraft:crafting_table"
 			}
 			id: "300000000000007A"
-			rewards: [
-				{
-					id: "5000000000000085"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -307,7 +246,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 4.800000000000001d
 			y: 1.6d
 		}
 		{
@@ -315,13 +254,7 @@
 				id: "minecraft:armor_stand"
 			}
 			id: "300000000000007B"
-			rewards: [
-				{
-					id: "5000000000000086"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -330,7 +263,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 6.4d
 			y: 1.6d
 		}
 		{
@@ -338,13 +271,7 @@
 				id: "minecraft:bookshelf"
 			}
 			id: "300000000000007C"
-			rewards: [
-				{
-					id: "5000000000000087"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -353,7 +280,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 8.0d
 			y: 1.6d
 		}
 		{
@@ -361,13 +288,7 @@
 				id: "minecraft:blaze_powder"
 			}
 			id: "300000000000007D"
-			rewards: [
-				{
-					id: "5000000000000088"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -376,7 +297,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			x: 9.600000000000001d
 			y: 1.6d
 		}
 		{
@@ -384,13 +305,7 @@
 				id: "minecraft:feather"
 			}
 			id: "300000000000007E"
-			rewards: [
-				{
-					id: "5000000000000089"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -399,7 +314,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
+			x: 11.200000000000001d
 			y: 1.6d
 		}
 		{
@@ -407,13 +322,7 @@
 				id: "minecraft:chest"
 			}
 			id: "300000000000007F"
-			rewards: [
-				{
-					id: "500000000000008A"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -422,7 +331,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
+			x: 12.8d
 			y: 1.6d
 		}
 		{
@@ -430,13 +339,7 @@
 				id: "minecraft:ender_chest"
 			}
 			id: "3000000000000080"
-			rewards: [
-				{
-					id: "500000000000008B"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -445,7 +348,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
+			x: 14.4d
 			y: 1.6d
 		}
 		{
@@ -453,13 +356,7 @@
 				id: "minecraft:iron_axe"
 			}
 			id: "3000000000000081"
-			rewards: [
-				{
-					id: "500000000000008C"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -468,21 +365,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 1.6d
+			x: 0.0d
+			y: 3.2d
 		}
 		{
 			icon: {
 				id: "azimuth:ponder_coordinate"
 			}
 			id: "3000000000000082"
-			rewards: [
-				{
-					id: "500000000000008D"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -491,7 +382,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 1.6d
 			y: 3.2d
 		}
 		{
@@ -499,13 +390,7 @@
 				id: "minecraft:redstone"
 			}
 			id: "3000000000000083"
-			rewards: [
-				{
-					id: "500000000000008E"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -514,7 +399,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 3.2d
 			y: 3.2d
 		}
 		{
@@ -522,13 +407,7 @@
 				id: "ballastmod:ballast_stones"
 			}
 			id: "3000000000000084"
-			rewards: [
-				{
-					id: "500000000000008F"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -537,7 +416,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 4.800000000000001d
 			y: 3.2d
 		}
 		{
@@ -545,13 +424,7 @@
 				id: "minecraft:bookshelf"
 			}
 			id: "3000000000000085"
-			rewards: [
-				{
-					id: "5000000000000090"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -560,7 +433,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 6.4d
 			y: 3.2d
 		}
 		{
@@ -568,13 +441,7 @@
 				id: "minecraft:bee_nest"
 			}
 			id: "3000000000000086"
-			rewards: [
-				{
-					id: "5000000000000091"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -583,7 +450,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 8.0d
 			y: 3.2d
 		}
 		{
@@ -591,13 +458,7 @@
 				id: "bellsandwhistles:headlight"
 			}
 			id: "3000000000000087"
-			rewards: [
-				{
-					id: "5000000000000092"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -606,7 +467,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			x: 9.600000000000001d
 			y: 3.2d
 		}
 		{
@@ -614,13 +475,7 @@
 				id: "minecraft:grass_block"
 			}
 			id: "3000000000000088"
-			rewards: [
-				{
-					id: "5000000000000093"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -629,7 +484,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
+			x: 11.200000000000001d
 			y: 3.2d
 		}
 		{
@@ -637,13 +492,7 @@
 				id: "minecraft:sandstone"
 			}
 			id: "3000000000000089"
-			rewards: [
-				{
-					id: "5000000000000094"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -652,7 +501,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
+			x: 12.8d
 			y: 3.2d
 		}
 		{
@@ -660,13 +509,7 @@
 				id: "minecraft:mossy_cobblestone"
 			}
 			id: "300000000000008A"
-			rewards: [
-				{
-					id: "5000000000000095"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -675,7 +518,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
+			x: 14.4d
 			y: 3.2d
 		}
 		{
@@ -683,13 +526,7 @@
 				id: "minecraft:end_crystal"
 			}
 			id: "300000000000008B"
-			rewards: [
-				{
-					id: "5000000000000096"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -698,21 +535,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 3.2d
+			x: 0.0d
+			y: 4.800000000000001d
 		}
 		{
 			icon: {
 				id: "minecraft:nether_bricks"
 			}
 			id: "300000000000008C"
-			rewards: [
-				{
-					id: "5000000000000097"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -721,7 +552,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 1.6d
 			y: 4.800000000000001d
 		}
 		{
@@ -729,13 +560,7 @@
 				id: "minecraft:jungle_sapling"
 			}
 			id: "300000000000008D"
-			rewards: [
-				{
-					id: "5000000000000098"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -744,7 +569,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 3.2d
 			y: 4.800000000000001d
 		}
 		{
@@ -752,13 +577,7 @@
 				id: "minecraft:rail"
 			}
 			id: "300000000000008E"
-			rewards: [
-				{
-					id: "5000000000000099"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -767,7 +586,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 4.800000000000001d
 			y: 4.800000000000001d
 		}
 		{
@@ -775,13 +594,7 @@
 				id: "minecraft:sea_lantern"
 			}
 			id: "300000000000008F"
-			rewards: [
-				{
-					id: "500000000000009A"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -790,7 +603,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 6.4d
 			y: 4.800000000000001d
 		}
 		{
@@ -798,13 +611,7 @@
 				id: "minecraft:ender_eye"
 			}
 			id: "3000000000000090"
-			rewards: [
-				{
-					id: "500000000000009B"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -813,7 +620,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 8.0d
 			y: 4.800000000000001d
 		}
 		{
@@ -821,13 +628,7 @@
 				id: "minecraft:witch_spawn_egg"
 			}
 			id: "3000000000000091"
-			rewards: [
-				{
-					id: "500000000000009C"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -836,7 +637,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			x: 9.600000000000001d
 			y: 4.800000000000001d
 		}
 		{
@@ -844,13 +645,7 @@
 				id: "minecraft:grass_block"
 			}
 			id: "3000000000000092"
-			rewards: [
-				{
-					id: "500000000000009D"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -859,7 +654,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
+			x: 11.200000000000001d
 			y: 4.800000000000001d
 		}
 		{
@@ -867,13 +662,7 @@
 				id: "bits_n_bobs:andesite_tiles"
 			}
 			id: "3000000000000093"
-			rewards: [
-				{
-					id: "500000000000009E"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -882,7 +671,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
+			x: 12.8d
 			y: 4.800000000000001d
 		}
 		{
@@ -890,13 +679,7 @@
 				id: "minecraft:bookshelf"
 			}
 			id: "3000000000000094"
-			rewards: [
-				{
-					id: "500000000000009F"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -905,21 +688,32 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
+			x: 14.4d
 			y: 4.800000000000001d
 		}
 		{
 			icon: {
-				id: "brick_and_mortar:algal_tiles"
+				id: "born_in_chaos_v1:ai"
 			}
-			id: "3000000000000095"
-			rewards: [
+			id: "3F011EF746F7D434"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
 				{
-					id: "50000000000000A0"
-					type: "xp"
-					xp: 5
+					id: "4FB16C31C2CD6BDD"
+					type: "checkmark"
 				}
 			]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			icon: {
+				id: "brick_and_mortar:black_ash_bricks"
+			}
+			id: "3000000000000095"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -928,21 +722,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 4.800000000000001d
+			x: 1.6d
+			y: 6.4d
 		}
 		{
 			icon: {
 				id: "minecraft:compass"
 			}
 			id: "3000000000000096"
-			rewards: [
-				{
-					id: "50000000000000A1"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -951,7 +739,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 3.2d
 			y: 6.4d
 		}
 		{
@@ -959,13 +747,7 @@
 				id: "minecraft:book"
 			}
 			id: "3000000000000097"
-			rewards: [
-				{
-					id: "50000000000000A2"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -974,7 +756,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 4.800000000000001d
 			y: 6.4d
 		}
 		{
@@ -982,13 +764,7 @@
 				id: "minecraft:book"
 			}
 			id: "3000000000000098"
-			rewards: [
-				{
-					id: "50000000000000A3"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -997,7 +773,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 6.4d
 			y: 6.4d
 		}
 		{
@@ -1005,13 +781,7 @@
 				id: "minecraft:book"
 			}
 			id: "3000000000000099"
-			rewards: [
-				{
-					id: "50000000000000A4"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1020,7 +790,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 8.0d
 			y: 6.4d
 		}
 		{
@@ -1028,13 +798,7 @@
 				id: "minecraft:book"
 			}
 			id: "300000000000009A"
-			rewards: [
-				{
-					id: "50000000000000A5"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1043,7 +807,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 9.600000000000001d
 			y: 6.4d
 		}
 		{
@@ -1051,13 +815,7 @@
 				id: "minecraft:book"
 			}
 			id: "300000000000009B"
-			rewards: [
-				{
-					id: "50000000000000A6"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1066,7 +824,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			x: 11.200000000000001d
 			y: 6.4d
 		}
 		{
@@ -1074,13 +832,7 @@
 				id: "minecraft:book"
 			}
 			id: "300000000000009C"
-			rewards: [
-				{
-					id: "50000000000000A7"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1089,7 +841,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
+			x: 12.8d
 			y: 6.4d
 		}
 		{
@@ -1097,13 +849,7 @@
 				id: "minecraft:book"
 			}
 			id: "300000000000009D"
-			rewards: [
-				{
-					id: "50000000000000A8"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1112,7 +858,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
+			x: 14.4d
 			y: 6.4d
 		}
 		{
@@ -1120,13 +866,7 @@
 				id: "minecraft:book"
 			}
 			id: "300000000000009E"
-			rewards: [
-				{
-					id: "50000000000000A9"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1135,21 +875,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
-			y: 6.4d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			icon: {
 				id: "minecraft:book"
 			}
 			id: "300000000000009F"
-			rewards: [
-				{
-					id: "50000000000000AA"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1158,21 +892,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 6.4d
+			x: 1.6d
+			y: 8.0d
 		}
 		{
 			icon: {
 				id: "minecraft:book"
 			}
 			id: "30000000000000A0"
-			rewards: [
-				{
-					id: "50000000000000AB"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1181,7 +909,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 3.2d
 			y: 8.0d
 		}
 		{
@@ -1189,13 +917,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000A1"
-			rewards: [
-				{
-					id: "50000000000000AC"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1204,7 +926,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 4.800000000000001d
 			y: 8.0d
 		}
 		{
@@ -1212,13 +934,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000A2"
-			rewards: [
-				{
-					id: "50000000000000AD"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1227,7 +943,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 6.4d
 			y: 8.0d
 		}
 		{
@@ -1235,13 +951,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000A3"
-			rewards: [
-				{
-					id: "50000000000000AE"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1250,7 +960,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 8.0d
 			y: 8.0d
 		}
 		{
@@ -1258,13 +968,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000A4"
-			rewards: [
-				{
-					id: "50000000000000AF"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1273,7 +977,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 9.600000000000001d
 			y: 8.0d
 		}
 		{
@@ -1281,13 +985,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000A5"
-			rewards: [
-				{
-					id: "50000000000000B0"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1296,7 +994,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			x: 11.200000000000001d
 			y: 8.0d
 		}
 		{
@@ -1304,13 +1002,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000A6"
-			rewards: [
-				{
-					id: "50000000000000B1"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1319,7 +1011,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
+			x: 12.8d
 			y: 8.0d
 		}
 		{
@@ -1327,13 +1019,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000A7"
-			rewards: [
-				{
-					id: "50000000000000B2"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1342,7 +1028,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
+			x: 14.4d
 			y: 8.0d
 		}
 		{
@@ -1350,13 +1036,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000A8"
-			rewards: [
-				{
-					id: "50000000000000B3"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1365,21 +1045,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
-			y: 8.0d
+			x: 0.0d
+			y: 9.600000000000001d
 		}
 		{
 			icon: {
 				id: "minecraft:book"
 			}
 			id: "30000000000000A9"
-			rewards: [
-				{
-					id: "50000000000000B4"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1388,21 +1062,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 8.0d
+			x: 1.6d
+			y: 9.600000000000001d
 		}
 		{
 			icon: {
-				id: "cardboarded_conveynience:invisible_package"
+				id: "create:cardboard_block"
 			}
 			id: "30000000000000AA"
-			rewards: [
-				{
-					id: "50000000000000B5"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1411,7 +1079,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 3.2d
 			y: 9.600000000000001d
 		}
 		{
@@ -1419,13 +1087,7 @@
 				id: "minecraft:chest"
 			}
 			id: "30000000000000AB"
-			rewards: [
-				{
-					id: "50000000000000B6"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1434,7 +1096,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 4.800000000000001d
 			y: 9.600000000000001d
 		}
 		{
@@ -1442,13 +1104,7 @@
 				id: "minecraft:chest"
 			}
 			id: "30000000000000AC"
-			rewards: [
-				{
-					id: "50000000000000B7"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1457,7 +1113,24 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 6.4d
+			y: 9.600000000000001d
+		}
+		{
+			icon: {
+				id: "cataclysm:abyss_eye"
+			}
+			id: "3FF95DEE8B2719FD"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4F96A95EFDA512AA"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
 			y: 9.600000000000001d
 		}
 		{
@@ -1465,13 +1138,7 @@
 				id: "minecraft:knowledge_book"
 			}
 			id: "30000000000000AD"
-			rewards: [
-				{
-					id: "50000000000000B8"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1480,7 +1147,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 9.600000000000001d
 			y: 9.600000000000001d
 		}
 		{
@@ -1488,13 +1155,7 @@
 				id: "minecraft:player_head"
 			}
 			id: "30000000000000AE"
-			rewards: [
-				{
-					id: "50000000000000B9"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1503,7 +1164,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 11.200000000000001d
 			y: 9.600000000000001d
 		}
 		{
@@ -1511,13 +1172,7 @@
 				id: "minecraft:filled_map"
 			}
 			id: "30000000000000AF"
-			rewards: [
-				{
-					id: "50000000000000BA"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1526,7 +1181,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			x: 12.8d
 			y: 9.600000000000001d
 		}
 		{
@@ -1534,13 +1189,7 @@
 				id: "minecraft:paper"
 			}
 			id: "30000000000000B0"
-			rewards: [
-				{
-					id: "50000000000000BB"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1549,7 +1198,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
+			x: 14.4d
 			y: 9.600000000000001d
 		}
 		{
@@ -1557,13 +1206,7 @@
 				id: "minecraft:redstone"
 			}
 			id: "30000000000000B1"
-			rewards: [
-				{
-					id: "50000000000000BC"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1572,21 +1215,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
-			y: 9.600000000000001d
+			x: 0.0d
+			y: 11.200000000000001d
 		}
 		{
 			icon: {
 				id: "minecraft:bookshelf"
 			}
 			id: "30000000000000B2"
-			rewards: [
-				{
-					id: "50000000000000BD"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1595,21 +1232,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
-			y: 9.600000000000001d
+			x: 1.6d
+			y: 11.200000000000001d
 		}
 		{
 			icon: {
 				id: "minecraft:glowstone"
 			}
 			id: "30000000000000B3"
-			rewards: [
-				{
-					id: "50000000000000BE"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1618,21 +1249,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 9.600000000000001d
+			x: 3.2d
+			y: 11.200000000000001d
 		}
 		{
 			icon: {
 				id: "minecraft:book"
 			}
 			id: "30000000000000B4"
-			rewards: [
-				{
-					id: "50000000000000BF"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1641,7 +1266,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 4.800000000000001d
 			y: 11.200000000000001d
 		}
 		{
@@ -1649,13 +1274,7 @@
 				id: "minecraft:paper"
 			}
 			id: "30000000000000B5"
-			rewards: [
-				{
-					id: "50000000000000C0"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1664,7 +1283,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 6.4d
 			y: 11.200000000000001d
 		}
 		{
@@ -1672,13 +1291,7 @@
 				id: "minecraft:bone"
 			}
 			id: "30000000000000B6"
-			rewards: [
-				{
-					id: "50000000000000C1"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1687,7 +1300,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 8.0d
 			y: 11.200000000000001d
 		}
 		{
@@ -1695,13 +1308,7 @@
 				id: "minecraft:comparator"
 			}
 			id: "30000000000000B7"
-			rewards: [
-				{
-					id: "50000000000000C2"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1710,7 +1317,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 9.600000000000001d
 			y: 11.200000000000001d
 		}
 		{
@@ -1718,13 +1325,7 @@
 				id: "minecraft:writable_book"
 			}
 			id: "30000000000000B8"
-			rewards: [
-				{
-					id: "50000000000000C3"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1733,7 +1334,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 11.200000000000001d
 			y: 11.200000000000001d
 		}
 		{
@@ -1741,13 +1342,7 @@
 				id: "minecraft:chain"
 			}
 			id: "30000000000000B9"
-			rewards: [
-				{
-					id: "50000000000000C4"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1756,7 +1351,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			x: 12.8d
 			y: 11.200000000000001d
 		}
 		{
@@ -1764,13 +1359,7 @@
 				id: "minecraft:repeater"
 			}
 			id: "30000000000000BA"
-			rewards: [
-				{
-					id: "50000000000000C5"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1779,7 +1368,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
+			x: 14.4d
 			y: 11.200000000000001d
 		}
 		{
@@ -1787,13 +1376,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000BB"
-			rewards: [
-				{
-					id: "50000000000000C6"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1802,21 +1385,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
-			y: 11.200000000000001d
+			x: 0.0d
+			y: 12.8d
 		}
 		{
 			icon: {
 				id: "minecraft:glass"
 			}
 			id: "30000000000000BC"
-			rewards: [
-				{
-					id: "50000000000000C7"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1825,21 +1402,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
-			y: 11.200000000000001d
+			x: 1.6d
+			y: 12.8d
 		}
 		{
 			icon: {
 				id: "minecraft:compass"
 			}
 			id: "30000000000000BD"
-			rewards: [
-				{
-					id: "50000000000000C8"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1848,21 +1419,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 11.200000000000001d
+			x: 3.2d
+			y: 12.8d
 		}
 		{
 			icon: {
 				id: "copycats:copycat_block"
 			}
 			id: "30000000000000BE"
-			rewards: [
-				{
-					id: "50000000000000C9"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1871,7 +1436,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 4.800000000000001d
 			y: 12.8d
 		}
 		{
@@ -1879,13 +1444,7 @@
 				id: "minecraft:paper"
 			}
 			id: "30000000000000BF"
-			rewards: [
-				{
-					id: "50000000000000CA"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1894,7 +1453,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 6.4d
 			y: 12.8d
 		}
 		{
@@ -1902,13 +1461,7 @@
 				id: "create:cogwheel"
 			}
 			id: "30000000000000C0"
-			rewards: [
-				{
-					id: "50000000000000CB"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1917,7 +1470,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 8.0d
 			y: 12.8d
 		}
 		{
@@ -1925,13 +1478,7 @@
 				id: "create:brass_table_cloth"
 			}
 			id: "30000000000000C1"
-			rewards: [
-				{
-					id: "50000000000000CC"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1940,7 +1487,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 9.600000000000001d
 			y: 12.8d
 		}
 		{
@@ -1948,13 +1495,7 @@
 				id: "create_aeronautics_toolgun:magnetic_gun"
 			}
 			id: "30000000000000C2"
-			rewards: [
-				{
-					id: "50000000000000CD"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1963,7 +1504,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 11.200000000000001d
 			y: 12.8d
 		}
 		{
@@ -1971,13 +1512,7 @@
 				id: "create_ca:brass_gearbox"
 			}
 			id: "30000000000000C3"
-			rewards: [
-				{
-					id: "50000000000000CE"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1986,7 +1521,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			x: 12.8d
 			y: 12.8d
 		}
 		{
@@ -1994,13 +1529,7 @@
 				id: "create_dragons_plus:dragon_breath_bucket"
 			}
 			id: "30000000000000C4"
-			rewards: [
-				{
-					id: "50000000000000CF"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2009,7 +1538,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
+			x: 14.4d
 			y: 12.8d
 		}
 		{
@@ -2017,13 +1546,7 @@
 				id: "create_enchantment_industry:blaze_enchanter"
 			}
 			id: "30000000000000C5"
-			rewards: [
-				{
-					id: "50000000000000D0"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2032,21 +1555,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
-			y: 12.8d
+			x: 0.0d
+			y: 14.4d
 		}
 		{
 			icon: {
 				id: "create_factory:chocolate_waffle"
 			}
 			id: "30000000000000C6"
-			rewards: [
-				{
-					id: "50000000000000D1"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2055,21 +1572,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
-			y: 12.8d
+			x: 1.6d
+			y: 14.4d
 		}
 		{
 			icon: {
 				id: "create_flight_control:flight_control_computer"
 			}
 			id: "30000000000000C7"
-			rewards: [
-				{
-					id: "50000000000000D2"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2078,21 +1589,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 12.8d
+			x: 3.2d
+			y: 14.4d
 		}
 		{
 			icon: {
 				id: "create_pattern_schematics:pattern_schematic"
 			}
 			id: "30000000000000C8"
-			rewards: [
-				{
-					id: "50000000000000D3"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2101,7 +1606,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 4.800000000000001d
 			y: 14.4d
 		}
 		{
@@ -2109,13 +1614,7 @@
 				id: "create_power_loader:andesite_chunk_loader"
 			}
 			id: "30000000000000C9"
-			rewards: [
-				{
-					id: "50000000000000D4"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2124,7 +1623,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 6.4d
 			y: 14.4d
 		}
 		{
@@ -2132,13 +1631,7 @@
 				id: "create_radar:radar_bearing"
 			}
 			id: "30000000000000CA"
-			rewards: [
-				{
-					id: "50000000000000D5"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2147,7 +1640,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 8.0d
 			y: 14.4d
 		}
 		{
@@ -2155,13 +1648,7 @@
 				id: "createbigcannons:cannon_mount"
 			}
 			id: "30000000000000CB"
-			rewards: [
-				{
-					id: "50000000000000D6"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2170,7 +1657,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 9.600000000000001d
 			y: 14.4d
 		}
 		{
@@ -2178,13 +1665,7 @@
 				id: "createcircuitboard:circuit_board"
 			}
 			id: "30000000000000CC"
-			rewards: [
-				{
-					id: "50000000000000D7"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2193,7 +1674,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 11.200000000000001d
 			y: 14.4d
 		}
 		{
@@ -2201,13 +1682,7 @@
 				id: "createdieselgenerators:diesel_engine"
 			}
 			id: "30000000000000CD"
-			rewards: [
-				{
-					id: "50000000000000D8"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2216,7 +1691,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			x: 12.8d
 			y: 14.4d
 		}
 		{
@@ -2224,13 +1699,7 @@
 				id: "createframed:andesite_alloy_window"
 			}
 			id: "30000000000000CE"
-			rewards: [
-				{
-					id: "50000000000000D9"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2239,7 +1708,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
+			x: 14.4d
 			y: 14.4d
 		}
 		{
@@ -2247,13 +1716,7 @@
 				id: "createlanterns:gold_display_case"
 			}
 			id: "30000000000000CF"
-			rewards: [
-				{
-					id: "50000000000000DA"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2262,21 +1725,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
-			y: 14.4d
+			x: 0.0d
+			y: 16.0d
 		}
 		{
 			icon: {
 				id: "createprism:andesite_clear_glass_casing"
 			}
 			id: "30000000000000D0"
-			rewards: [
-				{
-					id: "50000000000000DB"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2285,21 +1742,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
-			y: 14.4d
+			x: 1.6d
+			y: 16.0d
 		}
 		{
 			icon: {
 				id: "createpropulsion:ion_thruster"
 			}
 			id: "30000000000000D1"
-			rewards: [
-				{
-					id: "50000000000000DC"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2308,21 +1759,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 14.4d
+			x: 3.2d
+			y: 16.0d
 		}
 		{
 			icon: {
 				id: "createrailwaysnavigator:navigator"
 			}
 			id: "30000000000000D2"
-			rewards: [
-				{
-					id: "50000000000000DD"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2331,7 +1776,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 4.800000000000001d
 			y: 16.0d
 		}
 		{
@@ -2339,13 +1784,7 @@
 				id: "createshufflefilter:shuffle_filter"
 			}
 			id: "30000000000000D3"
-			rewards: [
-				{
-					id: "50000000000000DE"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2354,7 +1793,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 6.4d
 			y: 16.0d
 		}
 		{
@@ -2362,13 +1801,7 @@
 				id: "create:track"
 			}
 			id: "30000000000000D4"
-			rewards: [
-				{
-					id: "50000000000000DF"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2377,7 +1810,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 8.0d
 			y: 16.0d
 		}
 		{
@@ -2385,13 +1818,7 @@
 				id: "createthrusters:advanced_contraption_controller"
 			}
 			id: "30000000000000D5"
-			rewards: [
-				{
-					id: "50000000000000E0"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2400,7 +1827,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 9.600000000000001d
 			y: 16.0d
 		}
 		{
@@ -2408,13 +1835,7 @@
 				id: "createthrusters:diagnostic_tablet"
 			}
 			id: "30000000000000D6"
-			rewards: [
-				{
-					id: "50000000000000E1"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2423,7 +1844,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 11.200000000000001d
 			y: 16.0d
 		}
 		{
@@ -2431,13 +1852,7 @@
 				id: "minecraft:diamond_sword"
 			}
 			id: "30000000000000D7"
-			rewards: [
-				{
-					id: "50000000000000E2"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2446,7 +1861,24 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			x: 12.8d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "deeperdarker:ancient_compass"
+			}
+			id: "3F172D1224434FB8"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4FD5AF41764EF673"
+					type: "checkmark"
+				}
+			]
+			x: 14.4d
 			y: 16.0d
 		}
 		{
@@ -2454,13 +1886,7 @@
 				id: "deployer:rare_liukrast_package"
 			}
 			id: "30000000000000D8"
-			rewards: [
-				{
-					id: "50000000000000E3"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2469,21 +1895,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
-			y: 16.0d
+			x: 0.0d
+			y: 17.6d
 		}
 		{
 			icon: {
 				id: "minecraft:diamond_chestplate"
 			}
 			id: "30000000000000D9"
-			rewards: [
-				{
-					id: "50000000000000E4"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2492,21 +1912,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
-			y: 16.0d
+			x: 1.6d
+			y: 17.6d
 		}
 		{
 			icon: {
 				id: "minecraft:bell"
 			}
 			id: "30000000000000DA"
-			rewards: [
-				{
-					id: "50000000000000E5"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2515,21 +1929,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
-			y: 16.0d
+			x: 3.2d
+			y: 17.6d
 		}
 		{
 			icon: {
 				id: "minecraft:golden_helmet"
 			}
 			id: "30000000000000DB"
-			rewards: [
-				{
-					id: "50000000000000E6"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2538,34 +1946,24 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 16.0d
+			x: 4.800000000000001d
+			y: 17.6d
 		}
 		{
 			icon: {
 				id: "dragonlib:dragon"
 			}
 			id: "30000000000000DC"
-			rewards: [
-				{
-					id: "50000000000000E7"
-					type: "xp"
-					xp: 15
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "40000000000001DF"
-					item: {
-						count: 1
-						id: "dragonlib:dragon"
-					}
-					type: "item"
+					id: "4FA45658AA4D6A4C"
+					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 6.4d
 			y: 17.6d
 		}
 		{
@@ -2573,13 +1971,7 @@
 				id: "minecraft:clock"
 			}
 			id: "30000000000000DD"
-			rewards: [
-				{
-					id: "50000000000000E8"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2588,7 +1980,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 8.0d
 			y: 17.6d
 		}
 		{
@@ -2596,13 +1988,7 @@
 				id: "minecraft:anvil"
 			}
 			id: "30000000000000DE"
-			rewards: [
-				{
-					id: "50000000000000E9"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2611,7 +1997,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 9.600000000000001d
 			y: 17.6d
 		}
 		{
@@ -2619,13 +2005,7 @@
 				id: "minecraft:bread"
 			}
 			id: "30000000000000DF"
-			rewards: [
-				{
-					id: "50000000000000EA"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2634,7 +2014,24 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 11.200000000000001d
+			y: 17.6d
+		}
+		{
+			icon: {
+				id: "ec_ad:amber"
+			}
+			id: "3F583B72C770F777"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4F52693DDC5F8EEF"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
 			y: 17.6d
 		}
 		{
@@ -2642,13 +2039,7 @@
 				id: "minecraft:painting"
 			}
 			id: "30000000000000E0"
-			rewards: [
-				{
-					id: "50000000000000EB"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2657,7 +2048,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 14.4d
 			y: 17.6d
 		}
 		{
@@ -2665,13 +2056,7 @@
 				id: "ecologics:coconut"
 			}
 			id: "30000000000000E1"
-			rewards: [
-				{
-					id: "50000000000000EC"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2680,21 +2065,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
-			y: 17.6d
+			x: 0.0d
+			y: 19.200000000000003d
 		}
 		{
 			icon: {
 				id: "minecraft:crafting_table"
 			}
 			id: "30000000000000E2"
-			rewards: [
-				{
-					id: "50000000000000ED"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2703,21 +2082,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
-			y: 17.6d
+			x: 1.6d
+			y: 19.200000000000003d
 		}
 		{
 			icon: {
 				id: "minecraft:chest"
 			}
 			id: "30000000000000E3"
-			rewards: [
-				{
-					id: "50000000000000EE"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2726,21 +2099,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
-			y: 17.6d
+			x: 3.2d
+			y: 19.200000000000003d
 		}
 		{
 			icon: {
 				id: "ends_delight:end_stove"
 			}
 			id: "30000000000000E4"
-			rewards: [
-				{
-					id: "50000000000000EF"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2749,21 +2116,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
-			y: 17.6d
+			x: 4.800000000000001d
+			y: 19.200000000000003d
 		}
 		{
 			icon: {
 				id: "minecraft:armor_stand"
 			}
 			id: "30000000000000E5"
-			rewards: [
-				{
-					id: "50000000000000F0"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2772,21 +2133,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 17.6d
+			x: 6.4d
+			y: 19.200000000000003d
 		}
 		{
 			icon: {
 				id: "minecraft:item_frame"
 			}
 			id: "30000000000000E6"
-			rewards: [
-				{
-					id: "50000000000000F1"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2795,7 +2150,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 8.0d
 			y: 19.200000000000003d
 		}
 		{
@@ -2803,13 +2158,7 @@
 				id: "minecraft:spyglass"
 			}
 			id: "30000000000000E7"
-			rewards: [
-				{
-					id: "50000000000000F2"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2818,7 +2167,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 9.600000000000001d
 			y: 19.200000000000003d
 		}
 		{
@@ -2826,13 +2175,7 @@
 				id: "escalated:metal_walkway_steps"
 			}
 			id: "30000000000000E8"
-			rewards: [
-				{
-					id: "50000000000000F3"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2841,7 +2184,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 11.200000000000001d
 			y: 19.200000000000003d
 		}
 		{
@@ -2849,13 +2192,7 @@
 				id: "minecraft:glowstone"
 			}
 			id: "30000000000000E9"
-			rewards: [
-				{
-					id: "50000000000000F4"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2864,7 +2201,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 12.8d
 			y: 19.200000000000003d
 		}
 		{
@@ -2872,13 +2209,7 @@
 				id: "minecraft:tnt"
 			}
 			id: "30000000000000EA"
-			rewards: [
-				{
-					id: "50000000000000F5"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2887,7 +2218,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 14.4d
 			y: 19.200000000000003d
 		}
 		{
@@ -2895,13 +2226,7 @@
 				id: "extendedwrenches:extended_wrench"
 			}
 			id: "30000000000000EB"
-			rewards: [
-				{
-					id: "50000000000000F6"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2910,21 +2235,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
-			y: 19.200000000000003d
+			x: 0.0d
+			y: 20.8d
 		}
 		{
 			icon: {
 				id: "extra_gauges:logic_gauge"
 			}
 			id: "30000000000000EC"
-			rewards: [
-				{
-					id: "50000000000000F7"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2933,21 +2252,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
-			y: 19.200000000000003d
+			x: 1.6d
+			y: 20.8d
 		}
 		{
 			icon: {
 				id: "minecraft:repeater"
 			}
 			id: "30000000000000ED"
-			rewards: [
-				{
-					id: "50000000000000F8"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2956,21 +2269,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.200000000000001d
-			y: 19.200000000000003d
+			x: 3.2d
+			y: 20.8d
 		}
 		{
 			icon: {
 				id: "minecraft:book"
 			}
 			id: "30000000000000EE"
-			rewards: [
-				{
-					id: "50000000000000F9"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -2979,21 +2286,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.8d
-			y: 19.200000000000003d
+			x: 4.800000000000001d
+			y: 20.8d
 		}
 		{
 			icon: {
 				id: "minecraft:book"
 			}
 			id: "30000000000000EF"
-			rewards: [
-				{
-					id: "50000000000000FA"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -3002,21 +2303,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.4d
-			y: 19.200000000000003d
+			x: 6.4d
+			y: 20.8d
 		}
 		{
 			icon: {
 				id: "minecraft:book"
 			}
 			id: "30000000000000F0"
-			rewards: [
-				{
-					id: "50000000000000FB"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -3025,7 +2320,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 8.0d
 			y: 20.8d
 		}
 		{
@@ -3033,13 +2328,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000F1"
-			rewards: [
-				{
-					id: "50000000000000FC"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -3048,7 +2337,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.6d
+			x: 9.600000000000001d
 			y: 20.8d
 		}
 		{
@@ -3056,13 +2345,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000F2"
-			rewards: [
-				{
-					id: "50000000000000FD"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -3071,7 +2354,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.2d
+			x: 11.200000000000001d
 			y: 20.8d
 		}
 		{
@@ -3079,13 +2362,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000F3"
-			rewards: [
-				{
-					id: "50000000000000FE"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -3094,7 +2371,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.800000000000001d
+			x: 12.8d
 			y: 20.8d
 		}
 		{
@@ -3102,13 +2379,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000F4"
-			rewards: [
-				{
-					id: "50000000000000FF"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -3117,7 +2388,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 14.4d
 			y: 20.8d
 		}
 		{
@@ -3125,13 +2396,7 @@
 				id: "minecraft:book"
 			}
 			id: "30000000000000F5"
-			rewards: [
-				{
-					id: "5000000000000100"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -3140,21 +2405,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
-			y: 20.8d
+			x: 0.0d
+			y: 22.400000000000002d
 		}
 		{
 			icon: {
 				id: "minecraft:book"
 			}
 			id: "30000000000000F6"
-			rewards: [
-				{
-					id: "5000000000000101"
-					type: "xp"
-					xp: 5
-				}
-			]
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -3163,121 +2422,6 @@
 					type: "checkmark"
 				}
 			]
-			x: 9.600000000000001d
-			y: 20.8d
-		}
-		{
-			icon: {
-				id: "minecraft:book"
-			}
-			id: "30000000000000F7"
-			rewards: [
-				{
-					id: "5000000000000102"
-					type: "xp"
-					xp: 5
-				}
-			]
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001FA"
-					type: "checkmark"
-				}
-			]
-			x: 11.200000000000001d
-			y: 20.8d
-		}
-		{
-			icon: {
-				id: "minecraft:book"
-			}
-			id: "30000000000000F8"
-			rewards: [
-				{
-					id: "5000000000000103"
-					type: "xp"
-					xp: 5
-				}
-			]
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001FB"
-					type: "checkmark"
-				}
-			]
-			x: 12.8d
-			y: 20.8d
-		}
-		{
-			icon: {
-				id: "minecraft:book"
-			}
-			id: "30000000000000F9"
-			rewards: [
-				{
-					id: "5000000000000104"
-					type: "xp"
-					xp: 5
-				}
-			]
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001FC"
-					type: "checkmark"
-				}
-			]
-			x: 14.4d
-			y: 20.8d
-		}
-		{
-			icon: {
-				id: "minecraft:book"
-			}
-			id: "30000000000000FA"
-			rewards: [
-				{
-					id: "5000000000000105"
-					type: "xp"
-					xp: 5
-				}
-			]
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001FD"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 22.400000000000002d
-		}
-		{
-			icon: {
-				id: "minecraft:book"
-			}
-			id: "30000000000000FB"
-			rewards: [
-				{
-					id: "5000000000000106"
-					type: "xp"
-					xp: 5
-				}
-			]
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001FE"
-					type: "checkmark"
-				}
-			]
 			x: 1.6d
 			y: 22.400000000000002d
 		}
@@ -3285,19 +2429,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "30000000000000FC"
-			rewards: [
-				{
-					id: "5000000000000107"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "30000000000000F7"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "40000000000001FF"
+					id: "40000000000001FA"
 					type: "checkmark"
 				}
 			]
@@ -3308,19 +2446,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "30000000000000FD"
-			rewards: [
-				{
-					id: "5000000000000108"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "30000000000000F8"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "4000000000000200"
+					id: "40000000000001FB"
 					type: "checkmark"
 				}
 			]
@@ -3331,19 +2463,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "30000000000000FE"
-			rewards: [
-				{
-					id: "5000000000000109"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "30000000000000F9"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "4000000000000201"
+					id: "40000000000001FC"
 					type: "checkmark"
 				}
 			]
@@ -3354,19 +2480,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "30000000000000FF"
-			rewards: [
-				{
-					id: "500000000000010A"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "30000000000000FA"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "4000000000000202"
+					id: "40000000000001FD"
 					type: "checkmark"
 				}
 			]
@@ -3377,19 +2497,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "3000000000000100"
-			rewards: [
-				{
-					id: "500000000000010B"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "30000000000000FB"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "4000000000000203"
+					id: "40000000000001FE"
 					type: "checkmark"
 				}
 			]
@@ -3400,19 +2514,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "3000000000000101"
-			rewards: [
-				{
-					id: "500000000000010C"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "30000000000000FC"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "4000000000000204"
+					id: "40000000000001FF"
 					type: "checkmark"
 				}
 			]
@@ -3423,19 +2531,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "3000000000000102"
-			rewards: [
-				{
-					id: "500000000000010D"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "30000000000000FD"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "4000000000000205"
+					id: "4000000000000200"
 					type: "checkmark"
 				}
 			]
@@ -3446,19 +2548,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "3000000000000103"
-			rewards: [
-				{
-					id: "500000000000010E"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "30000000000000FE"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "4000000000000206"
+					id: "4000000000000201"
 					type: "checkmark"
 				}
 			]
@@ -3469,19 +2565,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "3000000000000104"
-			rewards: [
-				{
-					id: "500000000000010F"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "30000000000000FF"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "4000000000000207"
+					id: "4000000000000202"
 					type: "checkmark"
 				}
 			]
@@ -3492,19 +2582,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "3000000000000105"
-			rewards: [
-				{
-					id: "5000000000000110"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "3000000000000100"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "4000000000000208"
+					id: "4000000000000203"
 					type: "checkmark"
 				}
 			]
@@ -3515,19 +2599,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "3000000000000106"
-			rewards: [
-				{
-					id: "5000000000000111"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "3000000000000101"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "4000000000000209"
+					id: "4000000000000204"
 					type: "checkmark"
 				}
 			]
@@ -3538,19 +2616,13 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "3000000000000107"
-			rewards: [
-				{
-					id: "5000000000000112"
-					type: "xp"
-					xp: 5
-				}
-			]
+			id: "3000000000000102"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "400000000000020A"
+					id: "4000000000000205"
 					type: "checkmark"
 				}
 			]
@@ -3561,14 +2633,93 @@
 			icon: {
 				id: "minecraft:book"
 			}
-			id: "3000000000000108"
-			rewards: [
+			id: "3000000000000103"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
 				{
-					id: "5000000000000113"
-					type: "xp"
-					xp: 5
+					id: "4000000000000206"
+					type: "checkmark"
 				}
 			]
+			x: 6.4d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000104"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000207"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000105"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000208"
+					type: "checkmark"
+				}
+			]
+			x: 9.600000000000001d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000106"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4000000000000209"
+					type: "checkmark"
+				}
+			]
+			x: 11.200000000000001d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000107"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "400000000000020A"
+					type: "checkmark"
+				}
+			]
+			x: 12.8d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "3000000000000108"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -3577,8 +2728,25 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.4d
+			x: 14.4d
 			y: 24.0d
+		}
+		{
+			icon: {
+				id: "hybrid_aquatic:acacia_crate"
+			}
+			id: "3FB267DE1B5D715C"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4F51A8E30E7C7CF3"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 25.6d
 		}
 	]
 }

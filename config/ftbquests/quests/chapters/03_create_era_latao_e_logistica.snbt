@@ -12,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [ "3000000000000019", "3000000000000069" ]
 			icon: {
 				id: "create:polished_rose_quartz"
 			}
@@ -48,7 +49,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000024" ]
+			dependencies: [ "300000000000001B" ]
 			icon: {
 				id: "create:brass_ingot"
 			}
@@ -64,7 +65,7 @@
 			size: 1.0d
 			tasks: [
 				{
-					count: 8L
+					count: 4L
 					id: "4000000000000045"
 					item: {
 						count: 1
@@ -73,7 +74,6 @@
 					type: "item"
 				}
 				{
-					count: 4L
 					id: "4000000000000046"
 					item: {
 						count: 1
@@ -86,7 +86,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000025" ]
+			dependencies: [ "3000000000000025", "3000000000000024" ]
 			icon: {
 				id: "create:deployer"
 			}
@@ -106,14 +106,6 @@
 					item: {
 						count: 1
 						id: "create:deployer"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000048"
-					item: {
-						count: 1
-						id: "create:brass_hand"
 					}
 					type: "item"
 				}
@@ -158,7 +150,36 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000027" ]
+			dependencies: [ "3000000000000025", "3000000000000024" ]
+			icon: {
+				id: "create:mechanical_crafter"
+			}
+			id: "3FEF4628C26FC039"
+			rewards: [
+				{
+					id: "5F898B04B720BA42"
+					type: "xp"
+					xp: 65
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					count: 3L
+					id: "4F19B388ED6400B1"
+					item: {
+						count: 1
+						id: "create:mechanical_crafter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [ "3FEF4628C26FC039" ]
 			icon: {
 				id: "create:crushing_wheel"
 			}
@@ -179,15 +200,6 @@
 					item: {
 						count: 1
 						id: "create:crushing_wheel"
-					}
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "400000000000004B"
-					item: {
-						count: 1
-						id: "create:mechanical_crafter"
 					}
 					type: "item"
 				}
@@ -232,7 +244,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [ "3000000000000025" ]
+			dependencies: [ "3000000000000025", "3000000000000024", "300000000000001E" ]
 			icon: {
 				id: "create:brass_funnel"
 			}
@@ -256,26 +268,10 @@
 					type: "item"
 				}
 				{
-					id: "400000000000004F"
-					item: {
-						count: 1
-						id: "create:brass_tunnel"
-					}
-					type: "item"
-				}
-				{
 					id: "4000000000000050"
 					item: {
 						count: 1
 						id: "create:smart_chute"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000051"
-					item: {
-						count: 1
-						id: "create:smart_fluid_pipe"
 					}
 					type: "item"
 				}
@@ -287,63 +283,12 @@
 					}
 					type: "item"
 				}
-				{
-					id: "4000000000000053"
-					item: {
-						count: 1
-						id: "create:stockpile_switch"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000054"
-					item: {
-						count: 1
-						id: "create:redstone_contact"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "4000000000000055"
-					item: {
-						count: 1
-						id: "create:redstone_link"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "4000000000000056"
-					item: {
-						count: 1
-						id: "create:nixie_tube"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000057"
-					item: {
-						count: 1
-						id: "create:display_link"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "4000000000000058"
-					item: {
-						count: 1
-						id: "create:display_board"
-					}
-					type: "item"
-				}
 			]
 			x: 4.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [ "3000000000000025" ]
+			dependencies: [ "300000000000001B", "3000000000000020" ]
 			icon: {
 				id: "create:steam_engine"
 			}
@@ -379,7 +324,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [ "3000000000000025" ]
+			dependencies: [ "3000000000000027" ]
 			icon: {
 				id: "create:track"
 			}
@@ -395,20 +340,11 @@
 			size: 1.4d
 			tasks: [
 				{
-					count: 16L
+					count: 8L
 					id: "400000000000005A"
 					item: {
 						count: 1
 						id: "create:track"
-					}
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "400000000000005B"
-					item: {
-						count: 1
-						id: "create:railway_casing"
 					}
 					type: "item"
 				}
@@ -429,37 +365,12 @@
 					}
 					type: "item"
 				}
-				{
-					count: 2L
-					id: "400000000000005E"
-					item: {
-						count: 1
-						id: "create:track_signal"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000005F"
-					item: {
-						count: 1
-						id: "create:track_observer"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000060"
-					item: {
-						count: 1
-						id: "create:schedule"
-					}
-					type: "item"
-				}
 			]
 			x: 2.0d
 			y: 4.5d
 		}
 		{
-			dependencies: [ "3000000000000027" ]
+			dependencies: [ "300000000000001D" ]
 			icon: {
 				id: "create:packager"
 			}
@@ -492,30 +403,6 @@
 					type: "item"
 				}
 				{
-					id: "4000000000000063"
-					item: {
-						count: 1
-						id: "create:cardboard_block"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000064"
-					item: {
-						count: 1
-						id: "create:bound_cardboard_block"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000065"
-					item: {
-						count: 1
-						id: "create:repackager"
-					}
-					type: "item"
-				}
-				{
 					count: 2L
 					id: "4000000000000066"
 					item: {
@@ -529,7 +416,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [ "300000000000002D" ]
+			dependencies: [ "300000000000002D", "3000000000000024" ]
 			icon: {
 				id: "create:stock_ticker"
 			}
@@ -562,52 +449,11 @@
 					type: "item"
 				}
 				{
-					id: "4000000000000069"
-					item: {
-						count: 1
-						id: "create:redstone_requester"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "400000000000006A"
-					item: {
-						count: 1
-						id: "create:factory_gauge"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000006B"
-					item: {
-						count: 1
-						id: "create:brass_table_cloth"
-					}
-					type: "item"
-				}
-				{
 					count: 4L
 					id: "400000000000006C"
 					item: {
 						count: 1
 						id: "create:chain_conveyor"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000006D"
-					item: {
-						count: 1
-						id: "create:transmitter"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000006E"
-					item: {
-						count: 1
-						id: "cardboarded_conveynience:invisible_package"
 					}
 					type: "item"
 				}

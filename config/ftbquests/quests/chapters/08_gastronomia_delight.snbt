@@ -12,10 +12,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [ "3FB51861941C76B3" ]
 			icon: {
 				id: "farmersdelight:cooking_pot"
 			}
 			id: "3000000000000058"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000061"
@@ -42,30 +44,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "400000000000011E"
-					item: {
-						count: 1
-						id: "farmersdelight:skillet"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000011F"
-					item: {
-						count: 1
-						id: "farmersdelight:cutting_board"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000120"
-					item: {
-						count: 1
-						id: "farmersdelight:iron_knife"
-					}
-					type: "item"
-				}
 			]
 			x: 0.0d
 			y: 0.0d
@@ -76,6 +54,7 @@
 				id: "farmersdelight:rich_soil"
 			}
 			id: "3000000000000059"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000062"
@@ -95,41 +74,6 @@
 					}
 					type: "item"
 				}
-				{
-					count: 2L
-					id: "4000000000000122"
-					item: {
-						count: 1
-						id: "farmersdelight:organic_compost"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000123"
-					item: {
-						count: 1
-						id: "farmersdelight:bamboo_basket"
-					}
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "4000000000000124"
-					item: {
-						count: 1
-						id: "farmersdelight:rope"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "4000000000000125"
-					item: {
-						count: 1
-						id: "farmersdelight:canvas"
-					}
-					type: "item"
-				}
 			]
 			x: 2.0d
 			y: 0.0d
@@ -140,6 +84,7 @@
 				id: "farmersdelight:roast_chicken_block"
 			}
 			id: "300000000000005A"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000063"
@@ -172,11 +117,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000058" ]
+			dependencies: [ "3000000000000058", "3000000000000016" ]
 			icon: {
 				id: "sliceanddice:slicer"
 			}
 			id: "300000000000005B"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000065"
@@ -203,24 +149,17 @@
 					}
 					type: "item"
 				}
-				{
-					id: "4000000000000129"
-					item: {
-						count: 1
-						id: "sliceanddice:fertilizer_bucket"
-					}
-					type: "item"
-				}
 			]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [ "3000000000000058" ]
+			dependencies: [ "3000000000000058", "3000000000000069" ]
 			icon: {
 				id: "mynethersdelight:nether_bricks_stove"
 			}
 			id: "300000000000005C"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000066"
@@ -236,31 +175,6 @@
 					item: {
 						count: 1
 						id: "mynethersdelight:nether_bricks_stove"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000012B"
-					item: {
-						count: 1
-						id: "mynethersdelight:blackstone_cooking_pot"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "400000000000012C"
-					item: {
-						count: 1
-						id: "mynethersdelight:bullet_pepper"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000012D"
-					item: {
-						count: 1
-						id: "mynethersdelight:strider_slice"
 					}
 					type: "item"
 				}
@@ -282,6 +196,7 @@
 				id: "minersdelight:copper_pot"
 			}
 			id: "300000000000005D"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000067"
@@ -309,33 +224,17 @@
 					}
 					type: "item"
 				}
-				{
-					count: 4L
-					id: "4000000000000131"
-					item: {
-						count: 1
-						id: "minersdelight:cave_carrot"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000132"
-					item: {
-						count: 1
-						id: "minersdelight:baked_tentacles"
-					}
-					type: "item"
-				}
 			]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [ "3000000000000058" ]
+			dependencies: [ "3000000000000058", "300000000000006A" ]
 			icon: {
 				id: "ends_delight:end_stove"
 			}
 			id: "300000000000005E"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000068"
@@ -355,26 +254,10 @@
 					type: "item"
 				}
 				{
-					id: "4000000000000134"
-					item: {
-						count: 1
-						id: "ends_delight:dragon_egg_shell_knife"
-					}
-					type: "item"
-				}
-				{
 					id: "4000000000000135"
 					item: {
 						count: 1
 						id: "ends_delight:chorus_fruit_pie"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000136"
-					item: {
-						count: 1
-						id: "ends_delight:dragon_breath_soda"
 					}
 					type: "item"
 				}

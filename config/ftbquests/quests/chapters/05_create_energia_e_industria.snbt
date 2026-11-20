@@ -12,10 +12,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [ "3000000000000020" ]
 			icon: {
-				id: "createdieselgenerators:asphalt_block"
+				id: "createdieselgenerators:basin_lid"
 			}
 			id: "300000000000003B"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000044"
@@ -26,15 +28,6 @@
 			shape: "hexagon"
 			size: 1.4d
 			tasks: [
-				{
-					count: 4L
-					id: "40000000000000A1"
-					item: {
-						count: 1
-						id: "createdieselgenerators:asphalt_block"
-					}
-					type: "item"
-				}
 				{
 					id: "40000000000000A2"
 					item: {
@@ -52,14 +45,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "40000000000000A4"
-					item: {
-						count: 1
-						id: "createdieselgenerators:canister"
-					}
-					type: "item"
-				}
 			]
 			x: 0.0d
 			y: 0.0d
@@ -70,6 +55,7 @@
 				id: "createdieselgenerators:pumpjack_head"
 			}
 			id: "300000000000003C"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000045"
@@ -114,6 +100,7 @@
 				id: "createdieselgenerators:distillation_controller"
 			}
 			id: "300000000000003D"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000046"
@@ -137,11 +124,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "300000000000003D" ]
+			dependencies: [ "300000000000003D", "3000000000000025" ]
 			icon: {
 				id: "createdieselgenerators:diesel_engine"
 			}
 			id: "300000000000003E"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000047"
@@ -160,39 +148,17 @@
 					}
 					type: "item"
 				}
-				{
-					id: "40000000000000AA"
-					item: {
-						count: 1
-						id: "createdieselgenerators:large_diesel_engine"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000AB"
-					item: {
-						count: 1
-						id: "createdieselgenerators:huge_diesel_engine"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000AC"
-					item: {
-						count: 1
-						id: "createdieselgenerators:chemical_sprayer"
-					}
-					type: "item"
-				}
 			]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
+			dependencies: [ "3000000000000019" ]
 			icon: {
 				id: "powergrid:wire_cutter"
 			}
 			id: "300000000000003F"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000048"
@@ -248,6 +214,7 @@
 				id: "powergrid:generator_housing"
 			}
 			id: "3000000000000040"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000049"
@@ -300,6 +267,7 @@
 				id: "powergrid:multimeter"
 			}
 			id: "3000000000000041"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000004A"
@@ -326,56 +294,17 @@
 					}
 					type: "item"
 				}
-				{
-					id: "40000000000000B7"
-					item: {
-						count: 1
-						id: "powergrid:solar_panel"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000B8"
-					item: {
-						count: 1
-						id: "powergrid:transformer_core"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000B9"
-					item: {
-						count: 1
-						id: "powergrid:hv_switch"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000BA"
-					item: {
-						count: 1
-						id: "powergrid:voltage_gauge"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000BB"
-					item: {
-						count: 1
-						id: "powergrid:light_fixture"
-					}
-					type: "item"
-				}
 			]
 			x: 4.0d
 			y: 3.0d
 		}
 		{
-			dependencies: [ "3000000000000041" ]
+			dependencies: [ "3000000000000040", "3FEF4628C26FC039", "3000000000000027" ]
 			icon: {
 				id: "powergrid:portable_drill"
 			}
 			id: "3000000000000042"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000004B"
@@ -415,10 +344,12 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [ "300000000000001B" ]
 			icon: {
 				id: "alloyed:steel_ingot"
 			}
 			id: "3000000000000043"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000004C"
@@ -447,49 +378,17 @@
 					}
 					type: "item"
 				}
-				{
-					count: 2L
-					id: "40000000000000C1"
-					item: {
-						count: 1
-						id: "alloyed:steel_sheet"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "40000000000000C2"
-					item: {
-						count: 1
-						id: "alloyed:steel_casing"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000C3"
-					item: {
-						count: 1
-						id: "alloyed:steel_pickaxe"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000C4"
-					item: {
-						count: 1
-						id: "alloyed:bronze_bell"
-					}
-					type: "item"
-				}
 			]
 			x: 0.0d
 			y: 6.0d
 		}
 		{
+			dependencies: [ "3000000000000019" ]
 			icon: {
-				id: "create_enchantment_industry:blaze_enchanter"
+				id: "create_enchantment_industry:mechanical_grindstone"
 			}
 			id: "3000000000000044"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000004D"
@@ -501,42 +400,10 @@
 			size: 1.0d
 			tasks: [
 				{
-					id: "40000000000000C5"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:blaze_enchanter"
-					}
-					type: "item"
-				}
-				{
 					id: "40000000000000C6"
 					item: {
 						count: 1
 						id: "create_enchantment_industry:mechanical_grindstone"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000C7"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:grindstone_drain"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000C8"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:blaze_forger"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000C9"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:printer"
 					}
 					type: "item"
 				}
@@ -548,31 +415,17 @@
 					}
 					type: "item"
 				}
-				{
-					id: "40000000000000CB"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:super_experience_block"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000CC"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:experience_cake"
-					}
-					type: "item"
-				}
 			]
 			x: 3.0d
 			y: 6.0d
 		}
 		{
+			dependencies: [ "3000000000000020" ]
 			icon: {
-				id: "create_dragons_plus:dragon_breath_bucket"
+				id: "create_dragons_plus:fluid_hatch"
 			}
 			id: "3000000000000045"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000004E"
@@ -583,14 +436,6 @@
 			shape: "circle"
 			size: 1.0d
 			tasks: [
-				{
-					id: "40000000000000CD"
-					item: {
-						count: 1
-						id: "create_dragons_plus:dragon_breath_bucket"
-					}
-					type: "item"
-				}
 				{
 					id: "40000000000000CE"
 					item: {
@@ -604,39 +449,6 @@
 					item: {
 						count: 1
 						id: "create_dragons_plus:fragile_fluid_tank"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000D0"
-					item: {
-						count: 1
-						id: "create_dragons_plus:blaze_upgrade_smithing_template"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000D1"
-					item: {
-						count: 1
-						id: "create_factory:cake_paste"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "40000000000000D2"
-					item: {
-						count: 1
-						id: "create_factory:chocolate_waffle"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000D3"
-					item: {
-						count: 1
-						id: "create_factory:caramel_apple"
 					}
 					type: "item"
 				}

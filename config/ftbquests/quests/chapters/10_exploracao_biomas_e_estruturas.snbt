@@ -12,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [ "3000000000000001" ]
 			icon: {
 				id: "minecraft:oak_sapling"
 			}
@@ -61,35 +62,10 @@
 				}
 				{
 					count: 2L
-					id: "4000000000000164"
-					item: {
-						count: 1
-						id: "ecologics:walnut"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000165"
-					item: {
-						count: 1
-						id: "ecologics:penguin_feather"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
 					id: "4000000000000166"
 					item: {
 						count: 1
 						id: "ecologics:seashell"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000167"
-					item: {
-						count: 1
-						id: "ecologics:sandcastle"
 					}
 					type: "item"
 				}
@@ -121,36 +97,12 @@
 					}
 					type: "item"
 				}
-				{
-					id: "4000000000000169"
-					item: {
-						count: 1
-						id: "friendsandfoes:crab_claw"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000016A"
-					item: {
-						count: 1
-						id: "friendsandfoes:totem_of_freezing"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000016B"
-					item: {
-						count: 1
-						id: "friendsandfoes:totem_of_illusion"
-					}
-					type: "item"
-				}
 			]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000066" ]
+			dependencies: [ "3FB51861941C76B3" ]
 			icon: {
 				id: "minecraft:netherrack"
 			}
@@ -185,14 +137,6 @@
 					id: "5000000000000074"
 					type: "xp"
 					xp: 200
-				}
-				{
-					id: "5000000000000075"
-					item: {
-						count: 1
-						id: "minecraft:shulker_box"
-					}
-					type: "item"
 				}
 			]
 			shape: "octagon"

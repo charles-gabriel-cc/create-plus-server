@@ -1594,63 +1594,67 @@ hash = "7d03a9e65db7f33be947a3f8b555a0543d23bf0442ad69a52db6c06cc49391c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_primeiros_passos.snbt"
-hash = "ba705e1a42dbfa4ca4dbc22361f80babe26b364b8c99a000478c79e59b172e85"
+hash = "5d096ce9004811c99fa7aa377f070d07da9f2529bea2099763d357b795311f16"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_create_era_andesito.snbt"
-hash = "2912f9d25edee3b9911d716ea255b296b91fda48c2abec9c8d3df34e884c1c7f"
+hash = "1430109a7bb8cadc7fcb529430157f1a4b4c38c6bdfc9b658e1f933516a6397c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03_create_era_latao_e_logistica.snbt"
-hash = "3941a93cf379fe89065977dee948c634c12e393dee242356ba2a6c8cf0ec961b"
+hash = "8ed1870e7ac6ccb7da3810819b5b1c679ec2d5d0345719e67032d58599d15423"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04_create_ferrovias_e_circuitos.snbt"
-hash = "9ef28aae7aa4cb6661cc57a17e79ad0ce175272cde8f727da81f65695f0bb87a"
+hash = "49b23fa9bedda588acfc7bb38b8af61e2937a7cd9cf5bc9015c5b7fe1e462c58"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_create_energia_e_industria.snbt"
-hash = "a01c18f3214f6e26313fb9918efdba59bfb2078f71e025cc651069f800f04888"
+hash = "89b59475dd187e2d68bfff718ad4d9801af49327fd09a08f5993b340b595bdce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_aeronautica_propulsao_e_fisica.snbt"
-hash = "ad498a5b4c157981fed6dfe3e3898029b582d78b4f2bd0a30d5be3394c713ff7"
+hash = "c4375925a1a7edbdec2a8c12bd678338c6eef2f800a48c8df50fdc49c2fdc3cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_artilharia_e_radares.snbt"
-hash = "03ccd69fe7aecb88fc75e5906566e11ec98bcfe0c1daf3a4cc794d132c2848bb"
+hash = "519671352b19fc8fab77d493501da8c2b3577d3b9c6dbd4c6839716cca43cf6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_gastronomia_delight.snbt"
-hash = "00c0aed34186eddc45116b3882c4a9afdf100b93379a3147b8884f0b4c215875"
+hash = "952b92046689a6cc3a683bbb3b1b142e3f3711fc3e09e67c155f568afbb2365c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09_arquitetura_decoracao_e_economia.snbt"
-hash = "fe02f79b9fe3a668d3dfe4f6c7c111b1e519e62075c04f47c17514fdddacc751"
+hash = "8f3a630e9b8e4e2b4c5b161e2528a01a826f98821954e09d143f942f2e70a813"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_exploracao_biomas_e_estruturas.snbt"
-hash = "60e714b8535f667bec793e8f019384212733c10241feffc96f01dff07047f670"
+hash = "0a76d6aac2d28ad1c350ae354b90f5c8b74ba3164dd8e58da588a2a2bec7eafa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_catalogo_mods_parte_1.snbt"
-hash = "f8521d8b4ced51022646c94bf73fcf95483213b19516dede219cc33ac6a4c35c"
+hash = "557e1aca7692e75b5a59ad145182d3b3f3cb53b79032019f790e5cc49e636832"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/12_catalogo_mods_parte_2.snbt"
-hash = "a0fbf2675d5b66693ba6a1da5295766d02a2f5d8fa1d403d4439a726e0dc2eb0"
+hash = "6dfcafb58407753cf2172df85549670515f1eef14a165bbb4b6e8003bf7b37c7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/13_chefes_e_expedicoes.snbt"
+hash = "01bf555148b76cfa644f19e027032ac19364ce6922c1118dd87f48afb5cd7fd5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "5fa25183ecae09f498807eef9049eb095c6c247c187be8c9c17e9c2a358fd4d7"
+hash = "51b299e282de8f54003933987dfabb6fe941d1569ec2e446d9551f90a36b5d47"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "833b26899c7e2468c83b6f453c9ba2fd78ba73f569a38117c6d1ef7624886e56"
+hash = "f6a5588bab1523a125bdf14f864268f81667ca6aea90a2b4d92633da2736024e"
 
 [[files]]
 file = "config/ftbquests/quests/lang/pt_br.snbt"
-hash = "833b26899c7e2468c83b6f453c9ba2fd78ba73f569a38117c6d1ef7624886e56"
+hash = "f6a5588bab1523a125bdf14f864268f81667ca6aea90a2b4d92633da2736024e"
 
 [[files]]
 file = "config/fzzy_config/keybinds.toml"

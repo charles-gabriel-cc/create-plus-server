@@ -12,10 +12,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [ "3000000000000022", "3000000000000019" ]
 			icon: {
-				id: "aeronautics:aviators_goggles"
+				id: "aeronautics:andesite_propeller"
 			}
 			id: "3000000000000046"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000004F"
@@ -27,10 +29,10 @@
 			size: 1.5d
 			tasks: [
 				{
-					id: "40000000000000D4"
+					id: "40000000000000D6"
 					item: {
 						count: 1
-						id: "aeronautics:aviators_goggles"
+						id: "aeronautics:andesite_propeller"
 					}
 					type: "item"
 				}
@@ -39,14 +41,6 @@
 					item: {
 						count: 1
 						id: "aeronautics:adjustable_burner"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000D6"
-					item: {
-						count: 1
-						id: "aeronautics:andesite_propeller"
 					}
 					type: "item"
 				}
@@ -64,11 +58,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000046" ]
+			dependencies: [ "3000000000000046", "3000000000000025" ]
 			icon: {
-				id: "aeronautics:levitite"
+				id: "aeronautics:gyroscopic_propeller_bearing"
 			}
 			id: "3000000000000047"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000050"
@@ -80,44 +75,10 @@
 			size: 1.0d
 			tasks: [
 				{
-					id: "40000000000000D8"
-					item: {
-						count: 1
-						id: "aeronautics:levitite"
-					}
-					type: "item"
-				}
-				{
 					id: "40000000000000D9"
 					item: {
 						count: 1
 						id: "aeronautics:gyroscopic_propeller_bearing"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "40000000000000DA"
-					item: {
-						count: 1
-						id: "aeroencasedpipe:white_envelope_encased_pipe"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "40000000000000DB"
-					item: {
-						count: 1
-						id: "ballastmod:ballast_stones"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000DC"
-					item: {
-						count: 1
-						id: "aeroclaims:claim_block"
 					}
 					type: "item"
 				}
@@ -126,11 +87,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000046" ]
+			dependencies: [ "3000000000000046", "3000000000000027", "300000000000002E" ]
 			icon: {
 				id: "aeroworks:control_desk"
 			}
 			id: "3000000000000048"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000051"
@@ -157,32 +119,17 @@
 					}
 					type: "item"
 				}
-				{
-					id: "40000000000000DF"
-					item: {
-						count: 1
-						id: "aeroworks:gyroscope"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000E0"
-					item: {
-						count: 1
-						id: "aeroworks:mechanical_servo"
-					}
-					type: "item"
-				}
 			]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000048" ]
+			dependencies: [ "3000000000000048", "3000000000000026" ]
 			icon: {
 				id: "create_flight_control:flight_control_computer"
 			}
 			id: "3000000000000049"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000052"
@@ -209,40 +156,17 @@
 					}
 					type: "item"
 				}
-				{
-					id: "40000000000000E3"
-					item: {
-						count: 1
-						id: "create_flight_control:attitude_hold"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000E4"
-					item: {
-						count: 1
-						id: "create_flight_control:smart_vector_thruster"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000E5"
-					item: {
-						count: 1
-						id: "create_flight_control:arrester_hook"
-					}
-					type: "item"
-				}
 			]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000046" ]
+			dependencies: [ "3000000000000046", "3000000000000027" ]
 			icon: {
 				id: "create_aeronautics_toolgun:magnetic_gun"
 			}
 			id: "300000000000004A"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000053"
@@ -261,40 +185,17 @@
 					}
 					type: "item"
 				}
-				{
-					count: 2L
-					id: "40000000000000E7"
-					item: {
-						count: 1
-						id: "aeronautics_utility_objects:universal_joint"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000E8"
-					item: {
-						count: 1
-						id: "aeronautics_utility_objects:hydraulic_rod"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000E9"
-					item: {
-						count: 1
-						id: "aeronautics_utility_objects:damping_stress_bearing"
-					}
-					type: "item"
-				}
 			]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
+			dependencies: [ "300000000000004D", "3000000000000027" ]
 			icon: {
 				id: "createpropulsion:ion_thruster"
 			}
 			id: "300000000000004B"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000054"
@@ -321,39 +222,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "40000000000000EC"
-					item: {
-						count: 1
-						id: "createpropulsion:coral_generator"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000ED"
-					item: {
-						count: 1
-						id: "createpropulsion:assembler_stick"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "40000000000000EE"
-					item: {
-						count: 1
-						id: "createpropulsion:platinum_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000EF"
-					item: {
-						count: 1
-						id: "createpropulsion:optical_lens"
-					}
-					type: "item"
-				}
 			]
 			x: 0.0d
 			y: 3.0d
@@ -364,6 +232,7 @@
 				id: "createthrusters:advanced_contraption_controller"
 			}
 			id: "300000000000004C"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000055"
@@ -383,44 +252,10 @@
 					type: "item"
 				}
 				{
-					id: "40000000000000F1"
-					item: {
-						count: 1
-						id: "createthrusters:advanced_navigation_table"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "40000000000000F2"
-					item: {
-						count: 1
-						id: "createthrusters:aileron_bearing"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000F3"
-					item: {
-						count: 1
-						id: "createthrusters:alternator"
-					}
-					type: "item"
-				}
-				{
 					id: "40000000000000F4"
 					item: {
 						count: 1
 						id: "createthrusters:diagnostic_tablet"
-					}
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "40000000000000F5"
-					item: {
-						count: 1
-						id: "createthrusters:blackstone_alloy"
 					}
 					type: "item"
 				}
@@ -429,11 +264,12 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [ "300000000000004C" ]
+			dependencies: [ "3000000000000022" ]
 			icon: {
 				id: "simulated:physics_assembler"
 			}
 			id: "300000000000004D"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000056"
@@ -460,31 +296,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "40000000000000F8"
-					item: {
-						count: 1
-						id: "simulated:analog_transmission"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000F9"
-					item: {
-						count: 1
-						id: "simulated:contraption_diagram"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "40000000000000FA"
-					item: {
-						count: 1
-						id: "simulated:docking_connector"
-					}
-					type: "item"
-				}
 			]
 			x: 4.0d
 			y: 4.0d
@@ -495,6 +306,7 @@
 				id: "offroad:tire"
 			}
 			id: "300000000000004E"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000057"
@@ -515,44 +327,11 @@
 					type: "item"
 				}
 				{
-					count: 2L
-					id: "40000000000000FC"
-					item: {
-						count: 1
-						id: "offroad:large_tire"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000FD"
-					item: {
-						count: 1
-						id: "offroad:monstrous_tire"
-					}
-					type: "item"
-				}
-				{
 					count: 4L
 					id: "40000000000000FE"
 					item: {
 						count: 1
 						id: "offroad:wheel_mount"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000000FF"
-					item: {
-						count: 1
-						id: "offroad:borehead_bearing"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000100"
-					item: {
-						count: 1
-						id: "offroad:rockcutting_wheel"
 					}
 					type: "item"
 				}
@@ -566,6 +345,7 @@
 				id: "let_it_walk:articulation_unit"
 			}
 			id: "300000000000004F"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000058"
@@ -603,22 +383,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "4000000000000104"
-					item: {
-						count: 1
-						id: "let_it_walk:jet_nozzle"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000105"
-					item: {
-						count: 1
-						id: "let_it_walk:pilot_controls"
-					}
-					type: "item"
-				}
 			]
 			x: 4.0d
 			y: 6.0d
@@ -629,6 +393,7 @@
 				id: "minecraft:elytra"
 			}
 			id: "3000000000000050"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000059"

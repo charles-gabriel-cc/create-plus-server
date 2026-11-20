@@ -46,6 +46,34 @@
 		{
 			dependencies: [ "3000000000000001" ]
 			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "3FB51861941C76B3"
+			rewards: [
+				{
+					id: "5F933216407171BF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4FFF28B740552A6D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [ "3000000000000001" ]
+			icon: {
 				id: "sophisticatedbackpacks:backpack"
 			}
 			id: "3000000000000002"
@@ -114,6 +142,7 @@
 				id: "sophisticatedbackpacks:gold_backpack"
 			}
 			id: "3000000000000004"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000006"
@@ -142,6 +171,7 @@
 				id: "sophisticatedbackpacks:diamond_backpack"
 			}
 			id: "3000000000000005"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000007"
@@ -165,11 +195,12 @@
 			y: 6.5d
 		}
 		{
-			dependencies: [ "3000000000000005" ]
+			dependencies: [ "3000000000000005", "3000000000000069" ]
 			icon: {
 				id: "sophisticatedbackpacks:netherite_backpack"
 			}
 			id: "3000000000000006"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000008"
@@ -203,9 +234,10 @@
 		{
 			dependencies: [ "3000000000000002" ]
 			icon: {
-				id: "sophisticatedbackpacks:magnet_upgrade"
+				id: "sophisticatedbackpacks:pickup_upgrade"
 			}
 			id: "3000000000000007"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000000A"
@@ -216,14 +248,6 @@
 			shape: "circle"
 			size: 1.0d
 			tasks: [
-				{
-					id: "4000000000000007"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:magnet_upgrade"
-					}
-					type: "item"
-				}
 				{
 					id: "4000000000000008"
 					item: {
@@ -240,14 +264,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "400000000000000A"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:compacting_upgrade"
-					}
-					type: "item"
-				}
 			]
 			x: -4.5d
 			y: 3.5d
@@ -258,6 +274,7 @@
 				id: "sophisticatedbackpacks:deposit_upgrade"
 			}
 			id: "3000000000000008"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000000B"
@@ -320,26 +337,16 @@
 		{
 			dependencies: [ "3000000000000001" ]
 			icon: {
-				id: "lootr:trophy"
+				id: "minecraft:chest"
 			}
 			id: "300000000000000A"
-			rewards: [
-				{
-					id: "500000000000000E"
-					type: "xp"
-					xp: 50
-				}
-			]
+			optional: true
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
-					id: "400000000000000D"
-					item: {
-						count: 1
-						id: "lootr:trophy"
-					}
-					type: "item"
+					id: "4F8775D1F5EF8CF6"
+					type: "checkmark"
 				}
 			]
 			x: 2.5d
@@ -370,7 +377,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [ "3000000000000009" ]
+			dependencies: [ "3000000000000001" ]
 			icon: {
 				id: "minecraft:compass"
 			}

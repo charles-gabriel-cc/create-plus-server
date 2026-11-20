@@ -12,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [ "3FB51861941C76B3" ]
 			icon: {
 				id: "create:andesite_alloy"
 			}
@@ -223,20 +224,12 @@
 					}
 					type: "item"
 				}
-				{
-					id: "400000000000001B"
-					item: {
-						count: 1
-						id: "create:large_water_wheel"
-					}
-					type: "item"
-				}
 			]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [ "3000000000000016" ]
+			dependencies: [ "3000000000000012" ]
 			icon: {
 				id: "create:windmill_bearing"
 			}
@@ -260,7 +253,7 @@
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 8L
 					id: "400000000000001D"
 					item: {
 						count: 1
@@ -341,6 +334,11 @@
 					}
 					type: "item"
 				}
+				{
+					advancement: "create:mechanical_press"
+					id: "4F7544E9BB0B0022"
+					type: "advancement"
+				}
 			]
 			x: 6.0d
 			y: 2.0d
@@ -382,7 +380,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [ "300000000000001A" ]
+			dependencies: [ "300000000000001A", "3000000000000069" ]
 			icon: {
 				id: "create:blaze_burner"
 			}
@@ -418,7 +416,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [ "3000000000000012" ]
+			dependencies: [ "3000000000000012", "3000000000000016" ]
 			icon: {
 				id: "create:encased_fan"
 			}
@@ -446,7 +444,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [ "3000000000000019" ]
+			dependencies: [ "3000000000000011" ]
 			icon: {
 				id: "create:belt_connector"
 			}
@@ -462,20 +460,10 @@
 			size: 1.0d
 			tasks: [
 				{
-					count: 4L
 					id: "4000000000000025"
 					item: {
 						count: 1
 						id: "create:belt_connector"
-					}
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "4000000000000026"
-					item: {
-						count: 1
-						id: "create:andesite_casing"
 					}
 					type: "item"
 				}
@@ -500,27 +488,11 @@
 			size: 1.0d
 			tasks: [
 				{
+					count: 2L
 					id: "4000000000000027"
 					item: {
 						count: 1
 						id: "create:andesite_funnel"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000028"
-					item: {
-						count: 1
-						id: "create:andesite_tunnel"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "4000000000000029"
-					item: {
-						count: 1
-						id: "create:chute"
 					}
 					type: "item"
 				}
@@ -529,7 +501,32 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [ "300000000000001D" ]
+			dependencies: [ "3000000000000019", "300000000000001E" ]
+			icon: {
+				id: "create:copper_sheet"
+			}
+			id: "3F5C7C477DB20D45"
+			optional: true
+			rewards: [
+				{
+					id: "5F5E5EE5B52D3047"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4FF5F52C4975DBDE"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ "3000000000000022" ]
 			icon: {
 				id: "create:mechanical_saw"
 			}
@@ -553,26 +550,10 @@
 					type: "item"
 				}
 				{
-					id: "400000000000002B"
-					item: {
-						count: 1
-						id: "create:mechanical_drill"
-					}
-					type: "item"
-				}
-				{
 					id: "400000000000002C"
 					item: {
 						count: 1
 						id: "create:mechanical_harvester"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000002D"
-					item: {
-						count: 1
-						id: "create:mechanical_plough"
 					}
 					type: "item"
 				}
@@ -583,7 +564,7 @@
 		{
 			dependencies: [ "3000000000000019" ]
 			icon: {
-				id: "create:copper_casing"
+				id: "create:mechanical_pump"
 			}
 			id: "3000000000000020"
 			rewards: [
@@ -597,23 +578,6 @@
 			size: 1.0d
 			tasks: [
 				{
-					id: "400000000000002E"
-					item: {
-						count: 1
-						id: "create:copper_casing"
-					}
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "400000000000002F"
-					item: {
-						count: 1
-						id: "create:fluid_pipe"
-					}
-					type: "item"
-				}
-				{
 					id: "4000000000000030"
 					item: {
 						count: 1
@@ -622,35 +586,18 @@
 					type: "item"
 				}
 				{
-					count: 2L
+					id: "400000000000002F"
+					item: {
+						count: 1
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
 					id: "4000000000000031"
 					item: {
 						count: 1
 						id: "create:fluid_tank"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000032"
-					item: {
-						count: 1
-						id: "create:hose_pulley"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000033"
-					item: {
-						count: 1
-						id: "create:spout"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000034"
-					item: {
-						count: 1
-						id: "create:item_drain"
 					}
 					type: "item"
 				}
@@ -664,6 +611,7 @@
 				id: "create:copper_backtank"
 			}
 			id: "3000000000000021"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000028"
@@ -703,7 +651,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [ "300000000000001F" ]
+			dependencies: [ "3000000000000012", "3000000000000016" ]
 			icon: {
 				id: "create:super_glue"
 			}
@@ -734,48 +682,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "400000000000003A"
-					item: {
-						count: 1
-						id: "create:mechanical_piston"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000003B"
-					item: {
-						count: 1
-						id: "create:cart_assembler"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "400000000000003C"
-					item: {
-						count: 1
-						id: "create:linear_chassis"
-					}
-					type: "item"
-				}
-				{
-					id: "400000000000003D"
-					item: {
-						count: 1
-						id: "create:radial_chassis"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "400000000000003E"
-					item: {
-						count: 1
-						id: "create:portable_storage_interface"
-					}
-					type: "item"
-				}
 			]
 			x: 10.0d
 			y: 4.0d
@@ -801,30 +707,6 @@
 					item: {
 						count: 1
 						id: "create:elevator_pulley"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000040"
-					item: {
-						count: 1
-						id: "create:rope_pulley"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000041"
-					item: {
-						count: 1
-						id: "create:schematic_table"
-					}
-					type: "item"
-				}
-				{
-					id: "4000000000000042"
-					item: {
-						count: 1
-						id: "create:schematicannon"
 					}
 					type: "item"
 				}

@@ -12,10 +12,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [ "300000000000001A", "300000000000001B" ]
 			icon: {
 				id: "createbigcannons:basin_foundry_lid"
 			}
 			id: "3000000000000051"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000005A"
@@ -43,15 +45,6 @@
 					}
 					type: "item"
 				}
-				{
-					count: 4L
-					id: "4000000000000109"
-					item: {
-						count: 1
-						id: "createbigcannons:nethersteel_ingot"
-					}
-					type: "item"
-				}
 			]
 			x: 0.0d
 			y: 0.0d
@@ -62,6 +55,7 @@
 				id: "createbigcannons:cannon_builder"
 			}
 			id: "3000000000000052"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000005B"
@@ -98,6 +92,7 @@
 				id: "createbigcannons:cannon_mount"
 			}
 			id: "3000000000000053"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000005C"
@@ -117,14 +112,6 @@
 					type: "item"
 				}
 				{
-					id: "400000000000010D"
-					item: {
-						count: 1
-						id: "createbigcannons:yaw_controller"
-					}
-					type: "item"
-				}
-				{
 					id: "400000000000010E"
 					item: {
 						count: 1
@@ -137,11 +124,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000053" ]
+			dependencies: [ "3000000000000053", "3FEF4628C26FC039" ]
 			icon: {
 				id: "createbigcannons:he_shell"
 			}
 			id: "3000000000000054"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000005D"
@@ -161,14 +149,6 @@
 					type: "item"
 				}
 				{
-					id: "4000000000000110"
-					item: {
-						count: 1
-						id: "createbigcannons:ap_shell"
-					}
-					type: "item"
-				}
-				{
 					count: 4L
 					id: "4000000000000111"
 					item: {
@@ -177,23 +157,17 @@
 					}
 					type: "item"
 				}
-				{
-					id: "4000000000000112"
-					item: {
-						count: 1
-						id: "createbigcannons:steel_autocannon_barrel"
-					}
-					type: "item"
-				}
 			]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
+			dependencies: [ "3000000000000022", "3000000000000024" ]
 			icon: {
 				id: "create_radar:radar_bearing"
 			}
 			id: "3000000000000055"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000005E"
@@ -239,6 +213,7 @@
 				id: "create_radar:monitor"
 			}
 			id: "3000000000000056"
+			optional: true
 			rewards: [
 				{
 					id: "500000000000005F"
@@ -265,14 +240,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "4000000000000118"
-					item: {
-						count: 1
-						id: "create_radar:binoculars"
-					}
-					type: "item"
-				}
 			]
 			x: 4.0d
 			y: 2.5d
@@ -283,6 +250,7 @@
 				id: "create_radar:fire_controller"
 			}
 			id: "3000000000000057"
+			optional: true
 			rewards: [
 				{
 					id: "5000000000000060"
