@@ -23,7 +23,7 @@
   "crabPotionOfReachingDuration": 180,
   "reachingStatusEffectModifier": 1,
   "enableGlare": true,
-  "enableGlareSpawn": true,
+  "enableGlareSpawn": false,
   "enableGlareGriefing": true,
   "glareSpawnWeight": 4,
   "glareSpawnMinGroupSize": 1,

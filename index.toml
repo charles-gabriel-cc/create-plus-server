@@ -1582,7 +1582,7 @@ hash = "665d6e2f0db6a6e266b37f03446d7631c56733457c369e5d8910ec878cf8c3e0"
 
 [[files]]
 file = "config/friendsandfoes.json"
-hash = "f57c7b0ab3cd55f88a3ee36af64db0fa1b263336ffde85b2a2cbf496644000e5"
+hash = "b46f343457f5fae5c8703658208145c622e4393a7f27f34b2ebf4ad634761a6a"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
@@ -2166,7 +2166,7 @@ hash = "0118936ae0375d6c318582b47e0cf631540ba683d4a5db25a3ca7f090eda54c1"
 
 [[files]]
 file = "config/rocketnautics-client.toml"
-hash = "f91e4c3bd5bddd202be7fdd86218b94df8748106105956ecdfeed956557a4262"
+hash = "eea524144bfc33a3b6df081b88ca1c1701cdb7b0d1052e6db543286b174de31a"
 
 [[files]]
 file = "config/rogues/effects.json"

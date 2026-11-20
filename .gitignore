@@ -37,6 +37,7 @@
 /config/*.bak
 /config/**/*.bak
 /config/spark/tmp*
+/config/spark/activity.json
 /config/xaero/
 /config/xaerohud.txt
 /config/xaeropatreon.txt
