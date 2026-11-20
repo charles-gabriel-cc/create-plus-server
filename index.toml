@@ -1286,7 +1286,7 @@ hash = "5b3f59faa1c71379dced35c0fbda2613b52d24a5c1ac40109f08163a56eb2d89"
 
 [[files]]
 file = "config/createplus_required_packs.json"
-hash = "f419fb17c4560ccec000e502ac68e35952b85c14616f039e68f488a9db71d1fc"
+hash = "0b10115e3cb2e52a47b3330085c3a49ed20669b7bb318f05f47c09d91d2156db"
 
 [[files]]
 file = "config/createpropulsion-client.toml"
@@ -3989,10 +3989,6 @@ hash = "165466fe8e528309d95875396f2a5e13c0bab7bcb0c1134d1fd5f3a935d488f5"
 metafile = true
 
 [[files]]
-file = "resourcepacks/Visual Effects+.zip"
-hash = "3e20cd894938aed27fa11314ac83116f984b17d1f8fb9406567e96b8f84c70d8"
-
-[[files]]
 file = "resourcepacks/better-leaves.pw.toml"
 hash = "eb0b5f269171cd5b891d9bdf2c5da89698e21a71ffec1172ead75bc19411cbdc"
 metafile = true
@@ -4030,6 +4026,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/punchy-compatibility.pw.toml"
 hash = "360b5ed02d5f7d12eb6133917e71e65bb3e266df80b6eabc4ca34d12b2083098"
+metafile = true
+
+[[files]]
+file = "resourcepacks/visual-effects-plus.pw.toml"
+hash = "4a44d9b2f63363ada9c4a187a5c63136a642fe74c824efe67bb7c91f49c9463e"
 metafile = true
 
 [[files]]

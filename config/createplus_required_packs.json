@@ -1,5 +1,5 @@
 {
-  "prompt": "Este servidor usa Hyper Punchy, Drigo 3D Lanterns e Just 3D Potions para as animações do Punchy.",
+  "prompt": "Este servidor usa Hyper Punchy, Drigo 3D Lanterns, Just 3D Potions e Visual Effects+.",
   "packs": [
     {
       "name": "Hyper Punchy 2.8",
@@ -15,6 +15,11 @@
       "name": "Just 3D Potions 1.2",
       "url": "https://cdn.modrinth.com/data/elBxAvkW/versions/OsbdpM9c/Just%203D%20Potions%201.2.zip",
       "sha1": "d88bddc0fab86bf3832a69bed243095029ad3a79"
+    },
+    {
+      "name": "Visual Effects+ 1.3.1",
+      "url": "https://cdn.modrinth.com/data/ZyZknBVG/versions/MgC4Oa2v/Visual%20Effects%2B.zip",
+      "sha1": "20365db0e8ee5cebf96c579f52a99769859acde9"
     }
   ]
 }
