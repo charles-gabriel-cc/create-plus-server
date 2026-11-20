@@ -1,0 +1,16 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "createplus_required_packs"
+version = "1.0.0"
+displayName = "Create+ Required Packs"
+description = "Sends the extra required resource packs from config/createplus_required_packs.json to players on join."
+
+[[dependencies.createplus_required_packs]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "SERVER"

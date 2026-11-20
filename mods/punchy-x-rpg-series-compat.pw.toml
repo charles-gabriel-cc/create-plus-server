@@ -1,0 +1,8 @@
+name = "Punchy x RPG Series x Better Combat Compat"
+filename = "punchyspellenginecompat-1.1.0-stable.jar"
+side = "client"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9338/484/punchyspellenginecompat-1.1.0-stable.jar"
+hash-format = "sha512"
+hash = "207326a14e674840f968b57c22a3ce463e1291b633be140fa874d44723f11d9c3a4965f61c3ac4e9d5394617d11cb11b5c3c6e5ed3e6a7d8ce8794ebb2271bcd"

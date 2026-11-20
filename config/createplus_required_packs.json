@@ -1,0 +1,20 @@
+{
+  "prompt": "Este servidor usa Hyper Punchy, Drigo 3D Lanterns e Just 3D Potions para as animações do Punchy.",
+  "packs": [
+    {
+      "name": "Hyper Punchy 2.8",
+      "url": "https://cdn.modrinth.com/data/NVBMhec4/versions/kZtBCHN5/HyperPunchy-v2.8.zip",
+      "sha1": "13086519e82092678ef150513ac55f3e72a19a68"
+    },
+    {
+      "name": "Drigo 3D Lantern's x Punchy 1.1.0",
+      "url": "https://cdn.modrinth.com/data/X4S78Ho4/versions/QOcINZ2E/Drigo%203D%20Lantern%27s%20x%20Punchy.zip",
+      "sha1": "be467ad8ed1d7823e13c3d61361aa70ff74dd6aa"
+    },
+    {
+      "name": "Just 3D Potions 1.2",
+      "url": "https://cdn.modrinth.com/data/elBxAvkW/versions/OsbdpM9c/Just%203D%20Potions%201.2.zip",
+      "sha1": "d88bddc0fab86bf3832a69bed243095029ad3a79"
+    }
+  ]
+}

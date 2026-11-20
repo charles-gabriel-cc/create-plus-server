@@ -646,7 +646,7 @@ hash = "5b965898d5b13c5557b603c68ed4ac79a4f850f3a7205eb3dbfc6116f2caf19a"
 
 [[files]]
 file = "config/bettercombat/client.json5"
-hash = "2d853633deff976b16e7e973c168134886fe8c06ec5108a077d835db97b5ff18"
+hash = "4747867454bf16b76f9ea3b390d09c6388cc4859e61da65303ba6e90bb802ad8"
 
 [[files]]
 file = "config/bettercombat/fallback_compatibility.json"
@@ -1285,6 +1285,10 @@ file = "config/createlanterns/summon-keys.properties"
 hash = "5b3f59faa1c71379dced35c0fbda2613b52d24a5c1ac40109f08163a56eb2d89"
 
 [[files]]
+file = "config/createplus_required_packs.json"
+hash = "f419fb17c4560ccec000e502ac68e35952b85c14616f039e68f488a9db71d1fc"
+
+[[files]]
 file = "config/createpropulsion-client.toml"
 hash = "df1b1e3fcfe3c707619426c1b401041372f847153fc344ba306a16a8ffa46aeb"
 
@@ -1494,7 +1498,7 @@ hash = "b9397d89ba82c500811ebe7df85eadcad51e48981c5282743ac930fb7daba92b"
 
 [[files]]
 file = "config/euphoria_patcher/settings.toml"
-hash = "13aee892d000bdd43d88178fbcaa96549f28ae4ae528e1f1eacaf791742f9ec6"
+hash = "9e32f003a7d8eecb4af11d557aca88afe0761e77db69e416df3b68316dd6ce39"
 
 [[files]]
 file = "config/explosiveenhancement.toml"
@@ -3491,11 +3495,6 @@ hash = "748bdcbc7788a77881979189827f1baf3f6ef5fdaeb58b00e51e043c2c0abe39"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "fd84fcf376910b659fdfbcc2401aa545400b0d7c65834eb2fe22bae3a3c921c2"
-metafile = true
-
-[[files]]
 file = "mods/notenoughrecipebook.pw.toml"
 hash = "00c1f4daa049500e6aca53a746fbc9d53578131dae2171418e780442f7c72a2d"
 metafile = true
@@ -3566,6 +3565,11 @@ metafile = true
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
 hash = "8a33559da1d1dd21462ed5e31e90116473fe61befbb5cd32f4df5890b21d0c0d"
+metafile = true
+
+[[files]]
+file = "mods/punchy-x-rpg-series-compat.pw.toml"
+hash = "3fbe14bba023e2dacb1e666942b12f4c18166a0e9e8b9c0621789cc95abe43f7"
 metafile = true
 
 [[files]]
@@ -3847,7 +3851,7 @@ hash = "84f4bb18ea7db8819c2a9b6c5ca5cd20a126d147cf55370cf919a6adc7987e70"
 
 [[files]]
 file = "mods/touch-and-motion.pw.toml"
-hash = "3d7965908711b91e9e11939a97b56a20b8806e778f04b2e5ba11fc23b190cb01"
+hash = "7f9bac1695e1dc21479532f27fec04cb53c516de588d5fe04d0f1ad854ac3ddd"
 metafile = true
 
 [[files]]
@@ -3995,8 +3999,8 @@ hash = "eb0b5f269171cd5b891d9bdf2c5da89698e21a71ffec1172ead75bc19411cbdc"
 metafile = true
 
 [[files]]
-file = "resourcepacks/fa-player-extension.pw.toml"
-hash = "2e1a6866e4366cebe200dcf71ab52923b7653f76dc48741b93411ee3bf77372a"
+file = "resourcepacks/drigo-3d-lanterns-x-punchy.pw.toml"
+hash = "3466632b79809bc95ab36476c606f6d4f5920b2960780a7cc6a02fb45fc09bda"
 metafile = true
 
 [[files]]
@@ -4012,6 +4016,16 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
+metafile = true
+
+[[files]]
+file = "resourcepacks/hyper-punchy.pw.toml"
+hash = "6154dd5a5c1deabd6dee5097240c58412d1492191b492590c1094617e8947c73"
+metafile = true
+
+[[files]]
+file = "resourcepacks/just-3d-potions.pw.toml"
+hash = "85d831eec6abf1e043df1d50cdd5e5ca0882883f0ecaf0bd0cd2105758297b2b"
 metafile = true
 
 [[files]]

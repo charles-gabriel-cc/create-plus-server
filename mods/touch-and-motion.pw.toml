@@ -1,8 +1,8 @@
 name = "Touch'n Motion"
-filename = "touch_n_motion_neoforge_1.21.1_1.0.5.jar"
+filename = "touch_n_motion_neoforge_1.21.1_1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://mediafilez.forgecdn.net/files/9524/859/touch_n_motion_neoforge_1.21.1_1.0.5.jar"
+url = "https://mediafilez.forgecdn.net/files/9205/893/touch_n_motion_neoforge_1.21.1_1.0.4.jar"
 hash-format = "sha512"
-hash = "2cb1c096b86539550158c2a1b45b57b46fd806428f7388254543e93d10b4ff8f41149cc3204121d69e5911789d91366325f573ec8b5321c5b032fb9dce0488bb"
+hash = "25f21447df5e52bf053f458084e140614b3b50a4cd114a272333c86f1cd1250d8305dbf7769bda67b6b91b8e8a6904d44933c01fb34d7e3ac4fe3bc70c95c469"
