@@ -1,0 +1,20 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "createplus_sky_throttle"
+version = "1.0.0"
+displayName = "Create+ Sky Throttle"
+description = "Redraws Cosmonautics' animated star plasma texture 4 times a second instead of 20, cutting its render-thread cost."
+clientSideOnly = true
+
+[[mixins]]
+config = "createplus_sky_throttle.mixins.json"
+
+[[dependencies.createplus_sky_throttle]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "CLIENT"
