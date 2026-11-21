@@ -1,0 +1,9 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "createplus_sculksaur_loot"
+version = "1.0.0"
+displayName = "Create+ Sculksaur Loot"
+description = "The Archie's Dinosaurs Sculksaur also drops everything a Warden drops: its loot table plus the Heart of the Deep and Warden Carapace that Deeper Darker adds."

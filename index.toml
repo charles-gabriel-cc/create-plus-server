@@ -3035,6 +3035,10 @@ file = "mods/createplus-keybind-defaults-1.0.0.jar"
 hash = "9b28d712eab2d04f5480b6c398027c0cd9e263f895e8d0c2ba2b303e5930dd78"
 
 [[files]]
+file = "mods/createplus-sculksaur-loot-1.0.0.jar"
+hash = "1712e7b8e3cba95301e8264a0cd71824e01756e6dcbd0a7aa6e391e37b115acb"
+
+[[files]]
 file = "mods/createplus-sky-throttle-1.0.0.jar"
 hash = "86be7f8e2991323ada3f495498a12b0f707361983277f16d6b2bc9de121c0ed5"
 
