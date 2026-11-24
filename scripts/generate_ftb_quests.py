@@ -2198,18 +2198,6 @@ def build_boss_chapter() -> ChapterSpec:
     boss("boss_sculptor_trial", "O desafio de Tongbi", "mowziesmobs:earthrend_gauntlet", 6, 0,
          "advancement mowziesmobs:sculptor_challenge", ["starter_iron"],
          "Encontre o mosteiro e entregue um Bluff Rod ao Sculptor. Complete o parkour para receber a Earthrend Gauntlet.")
-    boss("boss_sir_pumpkinhead", "Sir Pumpkinhead", "born_in_chaos_v1:pumpkinstaffa", 8, 0,
-         "kill born_in_chaos_v1:pumpkinhead", ["starter_iron"],
-         "Encontre a abóbora ritual com velas. Derrote a cabeça na fase final para obter Pumpkin Staff e Soul Cutlass.")
-    boss("boss_lord_pumpkinhead", "Lord Pumpkinhead", "born_in_chaos_v1:soulbane", 10, 0,
-         "kill born_in_chaos_v1:lord_pumpkinhead_head", ["exp_dim_nether"],
-         "Use Transmuting Elixir na Infernal Evil Pumpkin. A cabeça da fase final solta Soulbane, Pumpkin Pistol e outros itens.")
-    boss("boss_nightmare_stalker", "Nightmare Stalker", "born_in_chaos_v1:nightmare_claw", 8, 2,
-         "kill born_in_chaos_v1:nightmare_stalker", ["starter_iron"],
-         "Prepare-se para um encontro à noite. Sua recompensa principal é a Nightmare Claw.")
-    boss("boss_lifestealer", "Lifestealer", "born_in_chaos_v1:lifestealer_bone", 10, 2,
-         "kill born_in_chaos_v1:lifestealer_true_form", ["starter_iron"],
-         "Derrote a forma verdadeira para obter Lifestealer Bones e Dark Metal.")
     boss("boss_elder_guardian", "Elder Guardian", "minecraft:wet_sponge", 0, 2,
          "kill minecraft:elder_guardian", ["starter_iron"],
          "Prepare respiração aquática e entre no monumento oceânico. A vitória rende esponja molhada e pode render o molde Tide.")

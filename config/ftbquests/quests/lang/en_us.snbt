@@ -2108,9 +2108,10 @@
 		"&bMod ID:&r &enotenoughanimations&r  |  &bCategoria:&r Visual \\& Imersao"
 		""
 		"Adiciona animacoes realistas em terceira pessoa ao segurar mapas, comer, navegar de barco e mais."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.3000000000000147.quest_subtitle: "Referência · notenoughanimations"
-	quest.3000000000000147.title: "NotEnoughAnimations"
+	quest.3000000000000147.title: "Notenoughanimations"
 	quest.3000000000000148.quest_desc: [
 		"&bMod ID:&r &enowheel&r  |  &bCategoria:&r Performance \\& Create"
 		""
@@ -2832,15 +2833,6 @@
 	]
 	quest.30000000000001A3.quest_subtitle: "Referência · zume"
 	quest.30000000000001A3.title: "Zume"
-	quest.3F011EF746F7D434.quest_desc: [
-		"&bMod ID:&r &eborn_in_chaos_v1&r  |  &bCategoria:&r Mod / Componente do Pack"
-		""
-		"Adds a lot of hostile mobs, with their own characteristics that can complicate your survival"
-		""
-		"&aGuia / Missoes detalhadas:&r Veja o capitulo &eChefes \\& Expedições&r."
-	]
-	quest.3F011EF746F7D434.quest_subtitle: "Referência · born_in_chaos_v1"
-	quest.3F011EF746F7D434.title: "Born in Chaos "
 	quest.3F11A560A3B8469B.quest_desc: [ "O Warden é um desafio opcional do Deep Dark. Sua derrota rende Heart of the Deep e carapaças." ]
 	quest.3F11A560A3B8469B.quest_subtitle: "Encontro opcional"
 	quest.3F11A560A3B8469B.title: "Warden"
@@ -2862,9 +2854,6 @@
 	quest.3F1CE0569BEFFA55.quest_desc: [ "Encontre o Stalker no Otherside. Sua derrota rende Soul Crystal." ]
 	quest.3F1CE0569BEFFA55.quest_subtitle: "Encontro opcional"
 	quest.3F1CE0569BEFFA55.title: "Stalker"
-	quest.3F265007440AE75A.quest_desc: [ "Use Transmuting Elixir na Infernal Evil Pumpkin. A cabeça da fase final solta Soulbane, Pumpkin Pistol e outros itens." ]
-	quest.3F265007440AE75A.quest_subtitle: "Encontro opcional"
-	quest.3F265007440AE75A.title: "Lord Pumpkinhead"
 	quest.3F28B90F9A0151B4.quest_desc: [ "A recompensa fica no baú da sala do chefe, que contém Rare Treasures e itens adicionais." ]
 	quest.3F28B90F9A0151B4.quest_subtitle: "Encontro opcional"
 	quest.3F28B90F9A0151B4.title: "Eldritch Hierophant"
@@ -2923,9 +2912,6 @@
 	quest.3F99E9D25748A639.quest_desc: [ "Explore a Ruined Citadel. A derrota do golem rende Void Core." ]
 	quest.3F99E9D25748A639.quest_subtitle: "Encontro opcional"
 	quest.3F99E9D25748A639.title: "Ender Golem"
-	quest.3F9AC1FA80DABBD3.quest_desc: [ "Encontre a abóbora ritual com velas. Derrote a cabeça na fase final para obter Pumpkin Staff e Soul Cutlass." ]
-	quest.3F9AC1FA80DABBD3.quest_subtitle: "Encontro opcional"
-	quest.3F9AC1FA80DABBD3.title: "Sir Pumpkinhead"
 	quest.3FA377CEC3727ECC.quest_desc: [ "Avance pela Ruined Citadel até a arena. A vitória rende Gauntlet of Guard." ]
 	quest.3FA377CEC3727ECC.quest_subtitle: "Encontro opcional"
 	quest.3FA377CEC3727ECC.title: "Ender Guardian"
@@ -2956,9 +2942,6 @@
 	quest.3FB87D90D92F21B7.quest_desc: [ "Explore estruturas abissais com equipamento de mergulho. Derrote o Leviathan para obter Tidal Claws e Abyssal Egg." ]
 	quest.3FB87D90D92F21B7.quest_subtitle: "Encontro opcional"
 	quest.3FB87D90D92F21B7.title: "The Leviathan"
-	quest.3FBA60EDC911888B.quest_desc: [ "Prepare-se para um encontro à noite. Sua recompensa principal é a Nightmare Claw." ]
-	quest.3FBA60EDC911888B.quest_subtitle: "Encontro opcional"
-	quest.3FBA60EDC911888B.title: "Nightmare Stalker"
 	quest.3FC868BCEC440C36.quest_desc: [ "Prepare respiração aquática e entre no monumento oceânico. A vitória rende esponja molhada e pode render o molde Tide." ]
 	quest.3FC868BCEC440C36.quest_subtitle: "Encontro opcional"
 	quest.3FC868BCEC440C36.title: "Elder Guardian"
@@ -2980,9 +2963,6 @@
 	quest.3FE5E0B02C1A503F.quest_desc: [ "Encontre a forja no Nether. A luta rende Infernal Forge, Monstrous Horn e Lava Power Cells." ]
 	quest.3FE5E0B02C1A503F.quest_subtitle: "Encontro opcional"
 	quest.3FE5E0B02C1A503F.title: "Netherite Monstrosity"
-	quest.3FE6568846BE23B6.quest_desc: [ "Derrote a forma verdadeira para obter Lifestealer Bones e Dark Metal." ]
-	quest.3FE6568846BE23B6.quest_subtitle: "Encontro opcional"
-	quest.3FE6568846BE23B6.title: "Lifestealer"
 	quest.3FED7AF4E4F0C024.quest_desc: [ "Obtenha três crânios de esqueleto Wither e quatro blocos de areia ou terra das almas. A vitória rende uma Nether Star." ]
 	quest.3FED7AF4E4F0C024.quest_subtitle: "Encontro opcional"
 	quest.3FED7AF4E4F0C024.title: "Wither"
@@ -3350,7 +3330,6 @@
 	task.4F8775D1F5EF8CF6.title: "Marcar como lido"
 	task.4F96A95EFDA512AA.title: "Marcar como lido"
 	task.4FA45658AA4D6A4C.title: "Marcar como lido"
-	task.4FB16C31C2CD6BDD.title: "Marcar como lido"
 	task.4FD5AF41764EF673.title: "Marcar como lido"
 	task.4FF5F52C4975DBDE.title: "O baú de saída recebeu uma chapa produzida pela linha"
 	task.4FFB3F9F72E5CDD5.title: "Marcar como lido"

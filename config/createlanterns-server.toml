@@ -556,7 +556,7 @@
 	#Entity types no ring can grab (a ring drops one it's holding or pinning now), on top of the tag
 	#createlanterns:ring_cannot_hold (the ender dragon and the wither). Each entry's an id (minecraft:warden), a tag
 	#(#minecraft:raiders), or every one from a mod (alexsmobs:*).
-	blockedEntities = ["#c:bosses", "#neoforge:bosses", "minecraft:ender_dragon", "minecraft:wither", "minecraft:elder_guardian", "minecraft:warden", "cataclysm:*", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:umvuthi", "mowziesmobs:frostmaw", "mowziesmobs:sculptor", "deeperdarker:stalker", "born_in_chaos_v1:lord_pumpkinhead", "friendsandfoes:wildfire", "alexsmobs:void_worm", "alexsmobs:warped_mosco"]
+	blockedEntities = ["#c:bosses", "#neoforge:bosses", "minecraft:ender_dragon", "minecraft:wither", "minecraft:elder_guardian", "minecraft:warden", "cataclysm:*", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:umvuthi", "mowziesmobs:frostmaw", "mowziesmobs:sculptor", "deeperdarker:stalker", "friendsandfoes:wildfire", "alexsmobs:void_worm", "alexsmobs:warped_mosco"]
 
 	#What a ring can do with hostile mobs. That's monsters, slimes, ghasts and every other mob the game counts as
 	#an enemy, by type, whatever mood it's in (an enderman's hostile, a wolf's passive). Each one only applies where the switches

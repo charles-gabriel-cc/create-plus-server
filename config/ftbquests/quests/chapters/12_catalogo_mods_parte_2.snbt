@@ -1084,7 +1084,7 @@
 		}
 		{
 			icon: {
-				id: "minecraft:player_head"
+				id: "minecraft:book"
 			}
 			id: "3000000000000147"
 			optional: true
