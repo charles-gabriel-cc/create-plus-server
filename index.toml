@@ -2784,11 +2784,6 @@ hash = "c7f9286eabbfd298a73a92dc91031a27a8551a7cda8656f2173a4ba8cc0ac1a2"
 metafile = true
 
 [[files]]
-file = "mods/combat-roll.pw.toml"
-hash = "9bb81c87fca7a6429a10e18ad8665fb9accd758f53737f1a5543787be8308e51"
-metafile = true
-
-[[files]]
 file = "mods/companion.pw.toml"
 hash = "a9fd327bb8855bdf68fbe88e17936ba866ea608bf2def5154fc52e0c1fe9514b"
 metafile = true

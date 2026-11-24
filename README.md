@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft 1.21.1" />
   <img src="https://img.shields.io/badge/Loader-NeoForge%2021.1.265-E05A2B?style=for-the-badge" alt="NeoForge 21.1.265" />
-  <img src="https://img.shields.io/badge/Mods-260%20Client%20%2B%205%20Server-3B82F6?style=for-the-badge" alt="Mods" />
+  <img src="https://img.shields.io/badge/Mods-259%20Client%20%2B%205%20Server-3B82F6?style=for-the-badge" alt="Mods" />
   <img src="https://img.shields.io/badge/FTB%20Quests-458%20Quests%20%7C%2013%20Cap%C3%ADtulos-F59E0B?style=for-the-badge" alt="FTB Quests" />
   <img src="https://img.shields.io/badge/Deploy-EnxadaHost%20%2B%20AutoModpack-8B5CF6?style=for-the-badge" alt="EnxadaHost + AutoModpack" />
 </p>
@@ -30,7 +30,7 @@
 | :--- | :--- |
 | ⚙️ **Engenharia & Indústria** | **Create** e ecossistema completo: ferrovias e rotas (*Create Railways Navigator*), energia, automação logística, aeronáutica/física (*Valkyrien Skies / Clockwork*), artilharia e radares (*Create Big Cannons*, *Create Radar*). |
 | 💚 **Create: Lanterns** | Anéis energéticos, roda de construções, traje, agarrar/lançar entidades, voo com giro no ar e habilidades especiais — já configurado com teclas padrão livres de conflito. |
-| ⚔️ **Combate & Chefes** | **Better Combat**, **Better Mob Combat: Reimagined**, **Combat Roll**, **Punchy Moves**, **Enhanced AI**, **L_Ender's Cataclysm**, **Mowzie's Mobs**, **Bosses of Mass Destruction** e **Deeper and Darker**. |
+| ⚔️ **Combate & Chefes** | **Better Combat**, **Better Mob Combat: Reimagined**, **Punchy Moves**, **Enhanced AI**, **L_Ender's Cataclysm**, **Mowzie's Mobs**, **Bosses of Mass Destruction** e **Deeper and Darker**. |
 | 🌍 **Exploração & Dimensões** | Novos biomas, estruturas, oceanos vivos (*Hybrid Aquatic*), *The Otherside* (*Deeper and Darker*) e exploração espacial (*Cosmonautics*). |
 | 🍲 **Gastronomia & Economia** | **Farmer's Delight** e expansões culinárias + moeda oficial com **Create: Numismatics**. |
 | 🎙️ **Social & Qualidade de Vida** | **Simple Voice Chat**, **Xaero's Minimap/World Map**, **Map Atlases**, **Sophisticated Backpacks**, **Quark**, **Supplementaries**, **Zume** (zoom) e **Sodium + Iris + Voxy** para alto desempenho visual. |
