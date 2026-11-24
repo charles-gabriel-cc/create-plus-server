@@ -3030,10 +3030,6 @@ file = "mods/createplus-sky-throttle-1.0.0.jar"
 hash = "86be7f8e2991323ada3f495498a12b0f707361983277f16d6b2bc9de121c0ed5"
 
 [[files]]
-file = "mods/createplus-systems-1.0.0.jar"
-hash = "f582a06fc7a76eff2abd794843d2b3143df85d8378683848c63c8e0e9ada0a88"
-
-[[files]]
 file = "mods/critical-strike.pw.toml"
 hash = "8f7ec1d22f09c9a78d88a13763e4e780f6111e45685f8147e7afd6e49aea4a5c"
 metafile = true
