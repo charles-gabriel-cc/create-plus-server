@@ -1,6 +1,6 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:064e3b,50:047857,100:10b981&height=170&section=header&text=Create%2B%20Server&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Modpack%20NeoForge%201.21.1%20%E2%80%A2%20Packwiz%20H%C3%ADbrido%20%2B%20Deploy%20Autom%C3%A1tico&descAlignY=65&descSize=16" width="100%" alt="Create+ Server Banner" />
-</div>
+<p align="center">
+  <img src=".github/banner.svg" alt="Create+ Server" width="100%" />
+</p>
 
 # ⚙️ Create+ — Modpack & Servidor Oficial
 
