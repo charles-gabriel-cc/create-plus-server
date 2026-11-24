@@ -3,19 +3,19 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft 1.21.1" />
   <img src="https://img.shields.io/badge/Loader-NeoForge%2021.1.265-E05A2B?style=for-the-badge" alt="NeoForge 21.1.265" />
-  <img src="https://img.shields.io/badge/Mods-260%20Client%20%2B%206%20Server-3B82F6?style=for-the-badge" alt="Mods" />
+  <img src="https://img.shields.io/badge/Mods-260%20Client%20%2B%205%20Server-3B82F6?style=for-the-badge" alt="Mods" />
   <img src="https://img.shields.io/badge/FTB%20Quests-458%20Quests%20%7C%2013%20Cap%C3%ADtulos-F59E0B?style=for-the-badge" alt="FTB Quests" />
   <img src="https://img.shields.io/badge/Deploy-EnxadaHost%20%2B%20AutoModpack-8B5CF6?style=for-the-badge" alt="EnxadaHost + AutoModpack" />
 </p>
 
-> Modpack **Create+** para **Minecraft 1.21.1 (NeoForge)** — engenharia pesada com Create, anéis de poder com **Create: Lanterns**, combate dinâmico, chefes épicos, dungeons instanciadas, economia integrada, profissões por maestria e deploy automático via **Packwiz híbrido + EnxadaHost + AutoModpack**.
+> Modpack **Create+** para **Minecraft 1.21.1 (NeoForge)** — engenharia pesada com Create, anéis de poder com **Create: Lanterns**, combate dinâmico, chefes épicos, exploração e deploy automático via **Packwiz híbrido + EnxadaHost + AutoModpack**.
 
 ---
 
 ## 📑 Índice
 
 - [✨ Destaques do Modpack](#-destaques-do-modpack)
-- [🏰 Sistemas Exclusivos do Servidor](#-sistemas-exclusivos-do-servidor)
+- [🏰 Mods Próprios & Server-Side](#-mods-próprios--server-side)
 - [📖 Livro de Quests (FTB Quests)](#-livro-de-quests-ftb-quests)
 - [⌨️ Teclas Padrão do Servidor (Create: Lanterns)](#-teclas-padrão-do-servidor-create-lanterns)
 - [🎨 Resource Packs & Shaders Inclusos](#-resource-packs--shaders-inclusos)
@@ -32,31 +32,14 @@
 | 💚 **Create: Lanterns** | Anéis energéticos, roda de construções, traje, agarrar/lançar entidades, voo com giro no ar e habilidades especiais — já configurado com teclas padrão livres de conflito. |
 | ⚔️ **Combate & Chefes** | **Better Combat**, **Better Mob Combat: Reimagined**, **Combat Roll**, **Punchy Moves**, **Enhanced AI**, **L_Ender's Cataclysm**, **Mowzie's Mobs**, **Bosses of Mass Destruction** e **Deeper and Darker**. |
 | 🌍 **Exploração & Dimensões** | Novos biomas, estruturas, oceanos vivos (*Hybrid Aquatic*), *The Otherside* (*Deeper and Darker*) e exploração espacial (*Cosmonautics*). |
-| 🍲 **Gastronomia & Economia** | **Farmer's Delight** e expansões culinárias (com banquetes/poções úteis em dungeons T2/T3) + moeda oficial integrada ao **Create: Numismatics**. |
+| 🍲 **Gastronomia & Economia** | **Farmer's Delight** e expansões culinárias + moeda oficial com **Create: Numismatics**. |
 | 🎙️ **Social & Qualidade de Vida** | **Simple Voice Chat**, **Xaero's Minimap/World Map**, **Map Atlases**, **Sophisticated Backpacks**, **Quark**, **Supplementaries**, **Zume** (zoom) e **Sodium + Iris + Voxy** para alto desempenho visual. |
 
 ---
 
-## 🏰 Sistemas Exclusivos do Servidor
+## 🏰 Mods Próprios & Server-Side
 
 O servidor roda mods próprios desenvolvidos especificamente para o **Create+**, sem exigir instalações extras fora do pack:
-
-### 1. Create+ Server Systems ([`server-mods/createplus-systems-1.0.0.jar`](server-mods/createplus-systems-1.0.0.jar))
-Mod **100% server-side** integrado ao MariaDB e ao **Create: Numismatics**:
-
-- **💰 Economia & Mercado:** loja do servidor, venda direta, contratos do Black Market e Casa de Leilões (Auction House).
-  - Comandos: `/saldo`, `/loja`, `/vender`, `/vender contratos`, `/ah`, `/ah vender <spurs>`, `/ah caixa`, `/ah meus`.
-- **🗡️ Dungeons Instanciadas:** dimensão dedicada (`createplussystems:dungeons`), mapas por ondas + Boss Final, proteção de arena, pressão ambiental em T2/T3 (aliviada por banquetes/poções do Chef) e retorno seguro pós-crash.
-  - **Tier 1 — Castelo em Ruínas:** ondas de mortos-vivos + *Ferrous Wroughtnaut*.
-  - **Tier 2 — Caverna do Wither:** ondas da forja + *Kobolediator da Forja*.
-  - **Tier 3 — Monumento Abissal:** raid endgame em grupo + *Maledictus do Coliseu*.
-  - Comandos: `/dungeon`, `/dungeon entrar <id>`, `/dungeon sair`.
-- **📣 Eventos Automáticos:** agenda em horário de Brasília (`America/Sao_Paulo`) com avisos prévios, BossBar global e 4 formatos: *World Boss*, *Supply Drop*, *Dungeon Hour* e *Competições* (Pesca, Mineração, Abates).
-  - Comandos: `/eventos`.
-- **🎓 Profissões por Maestria:** 5 profissões abertas (**Engenheiro**, **Ferreiro**, **Taumaturgo**, **Chef & Alquimista**, **Naturalista**), 40 níveis / 4 Tiers, XP por prática com variedade, proteção anti-AFK e progressão de ferramentas por Tier.
-  - Comandos: `/profissoes`, `/profissoes top <id>`.
-
-### 2. Outros Mods Próprios & Server-Side
 
 | Módulo | Onde fica | Função |
 | :--- | :--- | :--- |
@@ -192,7 +175,7 @@ Repositório sincronizado diretamente com o perfil **Create+** (`D:\Modrinth\pro
     - Arquivos que não existem no Modrinth (como `mods/let_it_walk-0.1.5.jar`, `mods/toomanyrecipeviewers-0.9.0+mc.21.1.jar` e `resourcepacks/Visual Effects+.zip`) são mantidos fora da lista de ignore do `.packwizignore` para entrarem na pasta `overrides/` do `.mrpack`.
 - **`mods/`** e **`server-mods/`**:
   - Durante o deploy automático ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)), o script [`scripts/deploy_enxadahost.py`](scripts/deploy_enxadahost.py) usa os metadados `side` dos `.pw.toml` (além da inspeção dos `.jar` e API do Modrinth) para enviar mods de servidor/ambos para `/mods` e mods client-only para `/automodpack/host-modpack/main/mods`.
-  - Mods exclusivos do servidor (como `DirectAuth`, `AntiXray`, `MinerTrack` e `createplus-systems`) ficam em `server-mods/` e não entram no cliente nem no `.mrpack`.
+  - Mods exclusivos do servidor (como `DirectAuth`, `AntiXray` e `MinerTrack`) ficam em `server-mods/` e não entram no cliente nem no `.mrpack`.
 - **`resourcepacks/`** e **`shaderpacks/`**: sincronizados automaticamente com `/automodpack/host-modpack/main/`.
 - **`config/`**: arquivos alterados em `config/` no commit são enviados automaticamente para `/config/` no servidor.
 - **AutoModpack + `.mrpack` automático**:
@@ -206,5 +189,3 @@ Repositório sincronizado diretamente com o perfil **Create+** (`D:\Modrinth\pro
 | `python scripts/sync_packwiz.py` | Sincroniza manualmente os metadados do Packwiz (`*.pw.toml`, `index.toml`, `pack.toml`). |
 | `python scripts/generate_ftb_quests.py` | Regera o livro de FTB Quests a partir dos mods instalados. |
 | `python scripts/keybind-defaults/build.py` | Recompila `mods/createplus-keybind-defaults-1.0.0.jar`. |
-| `python scripts/createplus-systems/build.py` | Recompila `server-mods/createplus-systems-1.0.0.jar`. |
-| `python scripts/sync_dev_instance.py` | Compila e sincroniza o `createplus-systems` com uma instância local de testes (`Create+ Dev`). |
