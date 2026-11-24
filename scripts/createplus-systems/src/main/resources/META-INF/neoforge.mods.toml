@@ -14,18 +14,18 @@ description='''Server-side modular systems for Create+ (Core, Economy integrated
     type="required"
     versionRange="[21.1.0,)"
     ordering="NONE"
-    side="BOTH"
+    side="SERVER"
 
 [[dependencies.createplussystems]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.1, 1.22)"
     ordering="NONE"
-    side="BOTH"
+    side="SERVER"
 
 [[dependencies.createplussystems]]
     modId="numismatics"
     type="required"
     versionRange="[1.0.0,)"
     ordering="AFTER"
-    side="BOTH"
+    side="SERVER"

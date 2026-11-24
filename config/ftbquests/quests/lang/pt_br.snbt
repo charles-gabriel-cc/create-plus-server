@@ -749,142 +749,162 @@
 		"&bMod ID:&r &ec2me&r  |  &bCategoria:&r Performance \\& Server"
 		""
 		"Concurrent Chunk Management Engine: gera e carrega chunks usando varios nucleos da CPU."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.3000000000000096.quest_subtitle: "Referência · c2me"
-	quest.3000000000000096.title: "Concurrent Chunk Management Engine"
+	quest.3000000000000096.title: "C2Me"
 	quest.3000000000000097.quest_desc: [
 		"&bMod ID:&r &ec2me_base&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"A NeoForge mod designed to improve the chunk performance of Minecraft."
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.3000000000000097.quest_subtitle: "Referência · c2me_base"
-	quest.3000000000000097.title: "Concurrent Chunk Management Engine (Base)"
+	quest.3000000000000097.title: "C2Me Base"
 	quest.3000000000000098.quest_desc: [
 		"&bMod ID:&r &ec2me_client_uncapvd&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Client-side module for modifying maximum view distance"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.3000000000000098.quest_subtitle: "Referência · c2me_client_uncapvd"
-	quest.3000000000000098.title: "Concurrent Chunk Management Engine (Client/Uncap View Distance)"
+	quest.3000000000000098.title: "C2Me Client Uncapvd"
 	quest.3000000000000099.quest_desc: [
 		"&bMod ID:&r &ec2me_fixes_chunkio_threading_issues&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Fixes threading issues related to chunk IO"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.3000000000000099.quest_subtitle: "Referência · c2me_fixes_chunkio_threading_issues"
-	quest.3000000000000099.title: "Concurrent Chunk Management Engine (Fixes/Chunk IO/Threading Issues)"
+	quest.3000000000000099.title: "C2Me Fixes Chunkio Threading Issues"
 	quest.300000000000009A.quest_desc: [
 		"&bMod ID:&r &ec2me_fixes_general_threading_issues&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Fixes threading issues for general chunk storage"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.300000000000009A.quest_subtitle: "Referência · c2me_fixes_general_threading_issues"
-	quest.300000000000009A.title: "Concurrent Chunk Management Engine (Fixes/General/Threading Issues)"
+	quest.300000000000009A.title: "C2Me Fixes General Threading Issues"
 	quest.300000000000009B.quest_desc: [
 		"&bMod ID:&r &ec2me_fixes_worldgen_threading_issues&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Fixes threading issues for vanilla world generation code"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.300000000000009B.quest_subtitle: "Referência · c2me_fixes_worldgen_threading_issues"
-	quest.300000000000009B.title: "Concurrent Chunk Management Engine (Fixes/WorldGen/Threading Issues)"
+	quest.300000000000009B.title: "C2Me Fixes Worldgen Threading Issues"
 	quest.300000000000009C.quest_desc: [
 		"&bMod ID:&r &ec2me_fixes_worldgen_vanilla_bugs&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Fixes for some vanilla worldgen crashing bugs"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.300000000000009C.quest_subtitle: "Referência · c2me_fixes_worldgen_vanilla_bugs"
-	quest.300000000000009C.title: "Concurrent Chunk Management Engine (Fixes/WorldGen/Vanilla Bugs)"
+	quest.300000000000009C.title: "C2Me Fixes Worldgen Vanilla Bugs"
 	quest.300000000000009D.quest_desc: [
 		"&bMod ID:&r &ec2me_notickvd&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"An faster alternative implementation of simulation distance supporting view distance up to 248 chunks"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.300000000000009D.quest_subtitle: "Referência · c2me_notickvd"
-	quest.300000000000009D.title: "Concurrent Chunk Management Engine (No Tick View Distance)"
+	quest.300000000000009D.title: "C2Me Notickvd"
 	quest.300000000000009E.quest_desc: [
 		"&bMod ID:&r &ec2me_opts_allocs&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Optimizations related to chunk access"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.300000000000009E.quest_subtitle: "Referência · c2me_opts_allocs"
-	quest.300000000000009E.title: "Concurrent Chunk Management Engine (Optimizations/Memory Allocations)"
+	quest.300000000000009E.title: "C2Me Opts Allocs"
 	quest.300000000000009F.quest_desc: [
 		"&bMod ID:&r &ec2me_opts_chunkio&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Optimizations for chunk IO"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.300000000000009F.quest_subtitle: "Referência · c2me_opts_chunkio"
-	quest.300000000000009F.title: "Concurrent Chunk Management Engine (Optimizations/Chunk IO)"
+	quest.300000000000009F.title: "C2Me Opts Chunkio"
 	quest.30000000000000A0.quest_desc: [
 		"&bMod ID:&r &ec2me_opts_dfc&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Optimizations for density functions used in world generation"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.30000000000000A0.quest_subtitle: "Referência · c2me_opts_dfc"
-	quest.30000000000000A0.title: "Concurrent Chunk Management Engine (Optimizations/Density Function Compiler)"
+	quest.30000000000000A0.title: "C2Me Opts Dfc"
 	quest.30000000000000A1.quest_desc: [
 		"&bMod ID:&r &ec2me_opts_math&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Optimizations for math used in world generation"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.30000000000000A1.quest_subtitle: "Referência · c2me_opts_math"
-	quest.30000000000000A1.title: "Concurrent Chunk Management Engine (Optimizations/Math)"
+	quest.30000000000000A1.title: "C2Me Opts Math"
 	quest.30000000000000A2.quest_desc: [
 		"&bMod ID:&r &ec2me_opts_natives_math&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Optimizations for math using native libraries"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.30000000000000A2.quest_subtitle: "Referência · c2me_opts_natives_math"
-	quest.30000000000000A2.title: "Concurrent Chunk Management Engine (Optimizations/Natives Math)"
+	quest.30000000000000A2.title: "C2Me Opts Natives Math"
 	quest.30000000000000A3.quest_desc: [
 		"&bMod ID:&r &ec2me_opts_scheduling&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Chunk scheduling optimizations"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.30000000000000A3.quest_subtitle: "Referência · c2me_opts_scheduling"
-	quest.30000000000000A3.title: "Concurrent Chunk Management Engine (Optimizations/Scheduling)"
+	quest.30000000000000A3.title: "C2Me Opts Scheduling"
 	quest.30000000000000A4.quest_desc: [
 		"&bMod ID:&r &ec2me_opts_worldgen_general&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Optimizations for general world generation performance"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.30000000000000A4.quest_subtitle: "Referência · c2me_opts_worldgen_general"
-	quest.30000000000000A4.title: "Concurrent Chunk Management Engine (Optimizations/General WorldGen)"
+	quest.30000000000000A4.title: "C2Me Opts Worldgen General"
 	quest.30000000000000A5.quest_desc: [
 		"&bMod ID:&r &ec2me_opts_worldgen_vanilla&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Optimizations targeting vanilla world generation"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.30000000000000A5.quest_subtitle: "Referência · c2me_opts_worldgen_vanilla"
-	quest.30000000000000A5.title: "Concurrent Chunk Management Engine (Optimizations/Vanilla WorldGen)"
+	quest.30000000000000A5.title: "C2Me Opts Worldgen Vanilla"
 	quest.30000000000000A6.quest_desc: [
 		"&bMod ID:&r &ec2me_rewrites_chunk_system&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"An alternative chunk system"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.30000000000000A6.quest_subtitle: "Referência · c2me_rewrites_chunk_system"
-	quest.30000000000000A6.title: "Concurrent Chunk Management Engine (Rewrites/Chunk System)"
+	quest.30000000000000A6.title: "C2Me Rewrites Chunk System"
 	quest.30000000000000A7.quest_desc: [
 		"&bMod ID:&r &ec2me_rewrites_chunkio&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"An alternative chunk IO system focused on overall throughput"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.30000000000000A7.quest_subtitle: "Referência · c2me_rewrites_chunkio"
-	quest.30000000000000A7.title: "Concurrent Chunk Management Engine (Rewrites/Chunk IO)"
+	quest.30000000000000A7.title: "C2Me Rewrites Chunkio"
 	quest.30000000000000A8.quest_desc: [
 		"&bMod ID:&r &ec2me_server_utils&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Some server-side utilities"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.30000000000000A8.quest_subtitle: "Referência · c2me_server_utils"
-	quest.30000000000000A8.title: "Concurrent Chunk Management Engine (Server Utils)"
+	quest.30000000000000A8.title: "C2Me Server Utils"
 	quest.30000000000000A9.quest_desc: [
 		"&bMod ID:&r &ec2me_threading_lighting&r  |  &bCategoria:&r Mod / Componente do Pack"
 		""
-		"Makes lighting onto its dedicated thread"
+		"Componente do Create+."
+		"Este componente não está instalado nesta versão do perfil."
 	]
 	quest.30000000000000A9.quest_subtitle: "Referência · c2me_threading_lighting"
-	quest.30000000000000A9.title: "Concurrent Chunk Management Engine (Threading/Lighting)"
+	quest.30000000000000A9.title: "C2Me Threading Lighting"
 	quest.30000000000000AA.quest_desc: [
 		"&bMod ID:&r &ecardboarded_conveynience&r  |  &bCategoria:&r Engenharia Create"
 		""

@@ -1650,7 +1650,7 @@ hash = "0a76d6aac2d28ad1c350ae354b90f5c8b74ba3164dd8e58da588a2a2bec7eafa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_catalogo_mods_parte_1.snbt"
-hash = "3c9d027c278d2a8111b70834b379d4d77342f5f2ef9ec529d8bb1755b8c5e641"
+hash = "a858995ed83857c4eb82fe5fdffb1bdddaefcff359ee049ad33910f86c7831ea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/12_catalogo_mods_parte_2.snbt"
@@ -1666,11 +1666,11 @@ hash = "51b299e282de8f54003933987dfabb6fe941d1569ec2e446d9551f90a36b5d47"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "861910a018968c5f85166ab001c95247ca8e32c1ee7c1131a22c14cfd750b240"
+hash = "2513ca5bf216b94addde7e68d20f824a289883d55f1a017ce8acddd0bd736931"
 
 [[files]]
 file = "config/ftbquests/quests/lang/pt_br.snbt"
-hash = "861910a018968c5f85166ab001c95247ca8e32c1ee7c1131a22c14cfd750b240"
+hash = "2513ca5bf216b94addde7e68d20f824a289883d55f1a017ce8acddd0bd736931"
 
 [[files]]
 file = "config/fzzy_config/keybinds.toml"
@@ -1922,7 +1922,7 @@ hash = "ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "4749b64153d8a4d757920936c472b2c10aaa12ed4f48f1915cf60bf06ad05d0f"
+hash = "21cbfcf94f4d2e308b5be1a374745fa864438efbe22f7e5d4abfc91d709f1c63"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -3030,6 +3030,10 @@ file = "mods/createplus-sky-throttle-1.0.0.jar"
 hash = "86be7f8e2991323ada3f495498a12b0f707361983277f16d6b2bc9de121c0ed5"
 
 [[files]]
+file = "mods/createplus-systems-1.0.0.jar"
+hash = "f582a06fc7a76eff2abd794843d2b3143df85d8378683848c63c8e0e9ada0a88"
+
+[[files]]
 file = "mods/critical-strike.pw.toml"
 hash = "8f7ec1d22f09c9a78d88a13763e4e780f6111e45685f8147e7afd6e49aea4a5c"
 metafile = true
@@ -3768,11 +3772,6 @@ metafile = true
 [[files]]
 file = "mods/updating-world-icon.pw.toml"
 hash = "049242d53616cd1cafd66ef3f122ab9faa52c9e0713cb5ad751e1a9339ba94a1"
-metafile = true
-
-[[files]]
-file = "mods/village-taverns.pw.toml"
-hash = "ab97b4d7dc071fe3b414e00631750b8eabdb1ea8437c9565f2f2b15d331c7a25"
 metafile = true
 
 [[files]]

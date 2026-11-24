@@ -710,7 +710,7 @@
 		}
 		{
 			icon: {
-				id: "minecraft:compass"
+				id: "minecraft:book"
 			}
 			id: "3000000000000096"
 			optional: true
