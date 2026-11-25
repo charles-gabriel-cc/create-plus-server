@@ -85,10 +85,6 @@ file = "config/accurateblockplacement.properties"
 hash = "16f49a3684b5eb25831b59787fc958ace9d1a7093fd1ed940541302246b8b93e"
 
 [[files]]
-file = "config/additional_rpg_jewelry/items_v3.json"
-hash = "ad61ad5a20f69eabfcc7b983bfd1415a1350213a14d25c5d73d44fb2e27bbf72"
-
-[[files]]
 file = "config/aeroclaims-server.toml"
 hash = "ef26e10f607261f755cdcf0ece96da201d8d1af0ac6bd6d3bff5dbf80ba81a85"
 
@@ -513,72 +509,8 @@ file = "config/appleskin.json5"
 hash = "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9"
 
 [[files]]
-file = "config/archers/effects.json"
-hash = "eac16ab70581aad79f7174aa8c1064af0cecfd1ef90ab6dd7742ebc1eada367b"
-
-[[files]]
-file = "config/archers/equipment.json"
-hash = "2bf86fa5d0be8ba1aec135bf98de31bdf797c94987e564ba9d48d399a8a8708f"
-
-[[files]]
-file = "config/archers/summoned_entities.json"
-hash = "3b2d4f98c7f593c918145a0f76ffad1a7b412dd2d9433dcea3bbca17358e5800"
-
-[[files]]
-file = "config/archers/tweaks.json"
-hash = "8f7e16c3a3b2ddd496a7fd12cfdedae2874e9340820dde5db4bfffb53823d6c6"
-
-[[files]]
-file = "config/archers/villages.json"
-hash = "4408dae1e07e575518233ff8a53fbf918049f15ed51a0b570ea231e6dd85aa2e"
-
-[[files]]
-file = "config/archers_expansion/effects_v3.json"
-hash = "14b760fb10b25d5bb2fd977217c6b06790b3d1a490b95d79277ba54056364eb4"
-
-[[files]]
-file = "config/archers_expansion/equipment_v4.json"
-hash = "d471e8644de6da871d01e8fe8f5d3cd022f41aff640e513f966e66eb2b3a3545"
-
-[[files]]
-file = "config/archers_expansion/summoned_entities.json"
-hash = "8e89d6bdcae6632157d7813b52b2e87beaba3f6bfe78ddcb31939be26ac01358"
-
-[[files]]
-file = "config/archers_expansion/tweaks.json"
-hash = "56bd60dcbdae3784f383d7192bea4166d083f8bec2ac14bf65e557cdcd2d7fd6"
-
-[[files]]
 file = "config/armorstatues-client.toml"
 hash = "02fa62a5e5de124174d2fe1e363d47e451d1b2969f7d8c228f36aba6dd329bd3"
-
-[[files]]
-file = "config/armory_rpgs/client.json"
-hash = "0d9ebee9f062b2fa2d5b0b6648d35a59cbb63bdc4fd3d309213938604ae086d5"
-
-[[files]]
-file = "config/armory_rpgs/effects.json"
-hash = "6a536b0a67d857d51af410e3dd438402fc6cb040ba87ab347498d5048d6c8745"
-
-[[files]]
-file = "config/armory_rpgs/equipment_v3.json"
-hash = "ca4ce51541450ab4d7adb92e4b6028b2b0eecc527188bda0cf6aab47e1950e58"
-
-[[files]]
-file = "config/arsenal/effects.json"
-hash = "51ac18ea65890a69069b3dbfd4d478abe2d5f7084122fdbb15561d2def323034"
-
-[[files]]
-file = "config/arsenal/equipment_v2.json"
-hash = "729c5fe398b8ef655557712c866ef58967dd7ef68f65e2bc170830cde9b2aec7"
-
-[[files]]
-file = "config/arsenal/ranged_weapons.json"
-hash = "d8a781f4d2f217cf05d98639dd750ca09d2928ccf1396a1522f31a2b0ff6d2bf"
-
-[[files]]
-file = "config/arsenal/shields.json"
-hash = "f591684f806b44974a73f38813a72cb0891cefe3d889f186dde22ddb96af0964"
 
 [[files]]
 file = "config/astemirlib_re/client.json"
@@ -611,34 +543,6 @@ hash = "c7386c2e095faf8079add2e2046da0f6e2576069e9997bba550c438ba671b0f9"
 [[files]]
 file = "config/badoptimizations.txt"
 hash = "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9"
-
-[[files]]
-file = "config/bards_rpg/effects.json"
-hash = "24fafc782fdd70952c4d9f450066169dd95ba245143b84b2a5a27e2cf5654a12"
-
-[[files]]
-file = "config/bards_rpg/equipment.json"
-hash = "3da8dbddd59b5ca74ccc57b6c604419139f05134de6c2d2d7a151f0cbbbc13a1"
-
-[[files]]
-file = "config/bards_rpg/tweaks.json"
-hash = "aabd76493bd04882ac8a5154236e3b0fe86ba5b24fa222feb889b79709927ec8"
-
-[[files]]
-file = "config/bards_rpg/villages.json"
-hash = "0c45606946c7cdd690c2fc20bd32fcbcccb40e52dc59dcf31ea621b7600eafc8"
-
-[[files]]
-file = "config/berserker_rpg/effects_v6.json"
-hash = "aa954a74bbf3189eaff4e134f2242eb1f077d56486309aebb19cd8b4b38a3938"
-
-[[files]]
-file = "config/berserker_rpg/equipment_v2.json"
-hash = "1df17ec8a30e692db9ba1dc54a6e86802b3807ed81020beeee04425a048d06b2"
-
-[[files]]
-file = "config/berserker_rpg/tweaks_v2.json"
-hash = "0d138f4e503a0b57cee8703a3b4e2419d21dee1a65c66d4c9d14f793fc561cfe"
 
 [[files]]
 file = "config/better_mob_combat_reimagined-client.toml"
@@ -1337,14 +1241,6 @@ file = "config/createthrusters_physics_goggles_overlays.json"
 hash = "7722a8fadd8ab545f67b950e071f27b82bb8de83b6d5fa23dee167edd71c0ff5"
 
 [[files]]
-file = "config/critical_strike/client_config.json"
-hash = "9d9fdc01bd2fd5a0bd2ab2edfd584d9d9f1e9ced929cdaf6fa33228b443023be"
-
-[[files]]
-file = "config/critical_strike/server_config.json"
-hash = "b93dda8f51a2f916ee21eb8b46ca29f9e97283849c665fd13a94ccdafa8d0f47"
-
-[[files]]
 file = "config/curios-client.toml"
 hash = "f1e31eed2ff11e1c6eda6517dc8b24dabd5b752ba1f8a3503c5ce750af1fc7b4"
 
@@ -1381,14 +1277,6 @@ file = "config/dragonlib-server.toml"
 hash = "81af6c3944505da95595095cbaaee82cd7683df13a42f46358a9d179ba961f26"
 
 [[files]]
-file = "config/dungeon_difficulty/difficulty_v2.json"
-hash = "3029fbc2718c9689689002d561ab8efb3c5987a00ede30a62b5e3a2819b569d6"
-
-[[files]]
-file = "config/dungeon_difficulty/registry.json"
-hash = "39fc9247223879793568c15de9e28e9304a16a4d00cea91066d8125d70e092a0"
-
-[[files]]
 file = "config/dynamic_fps.json"
 hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
 
@@ -1423,22 +1311,6 @@ hash = "a0f79fba549eebaa8c28877eb536cbe63e396ec0abdfdef53c9fa2eb42efde34"
 [[files]]
 file = "config/ecologics-common.toml"
 hash = "14803e0c4286bc70d16c7af884c9ca46a195a364f636017171f81915a5b1ea80"
-
-[[files]]
-file = "config/elemental_wizards_rpg/effects_v2.json"
-hash = "cde0a1981f6de54702b7d41e46c4d76cb2dc99a5ef0ba909cee87a967c2c2982"
-
-[[files]]
-file = "config/elemental_wizards_rpg/equipment_v1.json"
-hash = "20375867b8fa05b483fad0995e15d15d4393fb307eb79b61ad20d7b3dc5bb6b2"
-
-[[files]]
-file = "config/elemental_wizards_rpg/summoned_entities.json"
-hash = "e22fa83ff77f5fae85f9fd872630d4811482305a5121d9a73cef7eaf6ba7d544"
-
-[[files]]
-file = "config/elemental_wizards_rpg/tweaks.json"
-hash = "c65d45723c82f675bafb6b6b7c91ce10dfdacede919f8e7ada1b582d1889c719"
 
 [[files]]
 file = "config/emi-accelerator/emi-accelerator.txt"
@@ -1573,18 +1445,6 @@ file = "config/fml.toml"
 hash = "cc127c6067eb9e23289edc1c774afd71456456eef06c688af6731a72d3bba5e5"
 
 [[files]]
-file = "config/forcemaster_rpg/effects_v7.json"
-hash = "97944a269c67c6411b1b2556d600fa4dc1c41c023a4a6cfed4c71618b32fd962"
-
-[[files]]
-file = "config/forcemaster_rpg/equipment_v3.json"
-hash = "1ba77d76ffb3a678d213299652a49e565278a7f5539e346ced3f3408d07f5eea"
-
-[[files]]
-file = "config/forcemaster_rpg/tweaks_v1.json"
-hash = "665d6e2f0db6a6e266b37f03446d7631c56733457c369e5d8910ec878cf8c3e0"
-
-[[files]]
 file = "config/friendsandfoes.json"
 hash = "b46f343457f5fae5c8703658208145c622e4393a7f27f34b2ebf4ad634761a6a"
 
@@ -1681,10 +1541,6 @@ file = "config/gadgetsngizmos-server.toml"
 hash = "8e0ab509dbf2c870256ed9de82f9091fed9bf2f764fb0c7d19ba4c2230528151"
 
 [[files]]
-file = "config/gazebo/villages.json"
-hash = "ebc11a813717c51291ca41d61314bceb4e60f551b04a97ad4184e14162a3cc71"
-
-[[files]]
 file = "config/gpu_booster_config.txt"
 hash = "1acae2efaa53ddb3f8f785ef69586b305e1a1d40804622af9d7b0b9501b459da"
 
@@ -1761,18 +1617,6 @@ file = "config/ixeris.toml"
 hash = "1a3a9a49ed9d246c0fcc62da8d6d89092eb4161cf6e6cfed72b048c63bd91628"
 
 [[files]]
-file = "config/jewelry/features.json"
-hash = "22b6e98c3e691c3e67adf9e278c33cda9b400d3a715936079c4682452b31a839"
-
-[[files]]
-file = "config/jewelry/items_v8.json"
-hash = "e26fbee2d2144a8258bb05c48cd3ae00578dd5ab0772aa33fc1cd2b08ee4bf26"
-
-[[files]]
-file = "config/jewelry/villages.json"
-hash = "3a0ad1c6bf844e60952867bbb67ebac157ce720a9904362b4a26d6048096a5f8"
-
-[[files]]
 file = "config/joc-client.toml"
 hash = "48b8d42d0336c8a1e44fcc861637d2e257e3215129477f0be6ef6541718bbf48"
 
@@ -1833,42 +1677,6 @@ file = "config/lithostitched.json"
 hash = "ce8ab190281862b0554c92043c2bf8af106fbe4116bcd6dab433f6506781dbc0"
 
 [[files]]
-file = "config/lne_archers/effects_v0.json"
-hash = "4c1f636d33672c184ccd890b99baf0cbd4b9f66e456cb0143699b4c7f6b024f2"
-
-[[files]]
-file = "config/lne_archers/tweaks.json"
-hash = "6338754a348418d677497c26ea2be241814e60b654cbe64f08c42e5ea54f7d20"
-
-[[files]]
-file = "config/lne_paladins/effects.json"
-hash = "50bf667a6adf024cebd11a9e18486b2f5dead4012508e977c8fd49b053666f4c"
-
-[[files]]
-file = "config/lne_paladins/tweaks.json"
-hash = "be6460cf40c350e87fc9309efadce63aec667c06df16a2d314bdadd7ac1eec73"
-
-[[files]]
-file = "config/lne_rogues/effects.json"
-hash = "fe1b06f36cd27202d041723c6d9d926873e129d3ac518dac6a01d4f07bde2ec1"
-
-[[files]]
-file = "config/lne_rogues/tweaks_v2.json"
-hash = "e9bcbaf8c4f89e035d007ff2b135c578d5adbad29ffe489cff37937b247da4ab"
-
-[[files]]
-file = "config/lne_wizards/effects.json"
-hash = "6a536b0a67d857d51af410e3dd438402fc6cb040ba87ab347498d5048d6c8745"
-
-[[files]]
-file = "config/lne_wizards/entity_attributes_v1.json"
-hash = "4e69e098acbaf747321358d8fbd3eb746bc1ab6b95096b66e0bf4ca48ff9d0a4"
-
-[[files]]
-file = "config/lne_wizards/tweaks_v2.json"
-hash = "f2ddb0e841b2613b83fcccee637c6cbb3646faf93e06d770db5d93f09d971ad4"
-
-[[files]]
 file = "config/loconautics-client.toml"
 hash = "13c8ff84fccbda6383fad46fc317d7ce98b8a628dc8ea94aa1e74ab6221ac1c9"
 
@@ -1921,14 +1729,6 @@ file = "config/moonlight-common.toml"
 hash = "ce17e22174f8d796e792c87dbe7c2cff8360686edfb59080adf905e26df144ea"
 
 [[files]]
-file = "config/more_relics/effects_v1.json"
-hash = "430d2d90bb99b40f2421c96d625e8bb6d1e1a118213083ec11201efb66942a5f"
-
-[[files]]
-file = "config/more_relics/items_v1.json"
-hash = "c406b6bd32a95a7fdc246698181ce797381e99e223ec56cae3d6bcd659be6b12"
-
-[[files]]
 file = "config/moreculling.toml"
 hash = "cbae23a6b1c07273a79cbfb2f30a52844c30412001cabecac05b8aaa414a97a5"
 
@@ -1939,34 +1739,6 @@ hash = "a22a8cf21927e7031e9860c3df89526aaf3db9183c439be217e0578ee5e98c0d"
 [[files]]
 file = "config/mowziesmobs-common.toml"
 hash = "55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971"
-
-[[files]]
-file = "config/mrpg_lib/client_fx_v1.json"
-hash = "3818f5bb94c94c51a48f59ce7a6141661f2beaa5e86b8c35d9ad9e67a935b2ff"
-
-[[files]]
-file = "config/mrpg_lib/effects_v4.json"
-hash = "7bf255531cd71387d460ad1bf37d60612b19208e9d736e427ad557f35a1c9465"
-
-[[files]]
-file = "config/mrpg_lib/elemental_weaknesses.json"
-hash = "9f5e5667a861ff6ff4021e0d179ab5d968baf0c03013e05d9638c8a170c88a99"
-
-[[files]]
-file = "config/mrpg_lib/loot.json"
-hash = "69f44a0c6243fca5144e161cd41b35f146921e85f98febeea9c846efca6de711"
-
-[[files]]
-file = "config/mrpg_lib/tweaks_v2.json"
-hash = "9ebab727d4edca966d1a7275c82c143d2cbc24cd8ba6f67d9c53fcee8bf2b458"
-
-[[files]]
-file = "config/mrpgc_skill_tree/effects_v1.json"
-hash = "20601a2875dbbfaf2fb17770ae14b6edd70e042abbf422568f62d157339f44f5"
-
-[[files]]
-file = "config/mrpgc_skill_tree/tweaks_v0.json"
-hash = "c44243b05b0178794f2f54f18fd600551cef3439847d0c3afd30b91143d504b5"
 
 [[files]]
 file = "config/mutils/mutils.json5"
@@ -2057,30 +1829,6 @@ file = "config/openpartiesandclaims-server.toml"
 hash = "9f3b2262b3f90498e90aa61240c4e7a6d03b32f2350067212fb8b969ba5d7950"
 
 [[files]]
-file = "config/paladins/effects.json"
-hash = "c105baa05fb320b4752592ef2037ff5cab60734cff6f7724d4415a3a70061aa7"
-
-[[files]]
-file = "config/paladins/equipment_v2.json"
-hash = "9cba9de567c67cce65a69348f139be103f5f2a848c88fa533458835326148e59"
-
-[[files]]
-file = "config/paladins/shields.json"
-hash = "57fb6ffa32979da15dcd4c5d59a87cb819c499bdec7d3d4cd87226957affcad5"
-
-[[files]]
-file = "config/paladins/summoned_entities.json"
-hash = "9462b9ea5e54ec02b1b2c27aca64f99c26b2e830bbd4bb44c1420a7091b7ad3f"
-
-[[files]]
-file = "config/paladins/tweaks.json"
-hash = "1f6f35489bc3b5df6476bd59a50d82919e393fa6b43715afb9d3428b0aacf780"
-
-[[files]]
-file = "config/paladins/villages.json"
-hash = "1f055f8cdc62d4035fecc05af7a1b6398ff0f9efdacc4422c4e58d8ec0a253bb"
-
-[[files]]
 file = "config/particle_effects.json5"
 hash = "d8e4194f91f8f374d89cd84d06a68dd4e3bef91a655d18330acc99842157df21"
 
@@ -2137,14 +1885,6 @@ file = "config/reliable_advancements_layout.json"
 hash = "8d8c1e616ed56633369b65561655eb3f7d66a0db48e2c63df39656376b09835e"
 
 [[files]]
-file = "config/relics/effects.json"
-hash = "574ff616b7a0c7fcf9ef95960c118f63fcf8b095511591ff161bbfba4c71fd61"
-
-[[files]]
-file = "config/relics/items_v2.json"
-hash = "d5ecbe089e9b5842f4069f6e87c738bffd3b8941b567a514fc856df43238ac2f"
-
-[[files]]
 file = "config/remi/remi.json"
 hash = "38ad6465608dd577493c081be47417a9d491be67cfd1e8cfeaa0ac4694d533bd"
 
@@ -2163,34 +1903,6 @@ hash = "0118936ae0375d6c318582b47e0cf631540ba683d4a5db25a3ca7f090eda54c1"
 [[files]]
 file = "config/rocketnautics-client.toml"
 hash = "eea524144bfc33a3b6df081b88ca1c1701cdb7b0d1052e6db543286b174de31a"
-
-[[files]]
-file = "config/rogues/effects.json"
-hash = "5427ca4a0115db731f65ed2a0e4ccd61b33985bd1d86466ca0759b4fc3a1da5b"
-
-[[files]]
-file = "config/rogues/equipment_v3.json"
-hash = "9b0f6fda6333b518194be5ffb3cad18521e83f05054d7a7b2527108601982a1c"
-
-[[files]]
-file = "config/rogues/tweaks.json"
-hash = "a306759fe0cc550aa2ce6398373af9824f143626e6bc0e06678e031bd46cbd6c"
-
-[[files]]
-file = "config/rogues/villages.json"
-hash = "df238509966b714649d6c7166fa102ea68863d265e6762bafa89577943842dc6"
-
-[[files]]
-file = "config/rpg_series/loot_equipment_v2.json"
-hash = "def36ccc6f024b1fb9686148d62a9b58637acf227a6dec37fa536101736807c6"
-
-[[files]]
-file = "config/rpg_series/loot_misc.json"
-hash = "9c2a19fe10a7b6cb5ce5bec7da83bd37d348eeace71157c76697ff9371b172d7"
-
-[[files]]
-file = "config/rpg_series/loot_scrolls_v2.json"
-hash = "97635814eddfe6c691c13cc25c01345b9da87a7588e3b5af11d1903d6e52cf9e"
 
 [[files]]
 file = "config/sable-client.toml"
@@ -2271,10 +1983,6 @@ hash = "74ceaca226933e2471df76e5f6a8b1d0e2e339754419fd7c0c8f37fb3b90d243"
 [[files]]
 file = "config/simulatedcoasters-common.toml"
 hash = "97fa738939cb6a7e0ab5bcd7833544b1bde56b41e314c8a1e37278154082a874"
-
-[[files]]
-file = "config/skill_tree_rpgs/effects.json"
-hash = "6a536b0a67d857d51af410e3dd438402fc6cb040ba87ab347498d5048d6c8745"
 
 [[files]]
 file = "config/sliceanddice-client.toml"
@@ -2365,34 +2073,6 @@ file = "config/spectral_hub-client.toml"
 hash = "4d38f9054a1ac2e4126ccba6801812c95999f43cf8aa24a19356b03a4ce51d0c"
 
 [[files]]
-file = "config/spell_engine/client.json5"
-hash = "cbbe02482b857f1d1c460649a935a6232ce6ad17680f52949330e4a3036eaf9d"
-
-[[files]]
-file = "config/spell_engine/elemental_weaknesses.json"
-hash = "6979c988ceab84dfaca3aacb4c60cfe067987f6a323c8eaddb911ffa9a257219"
-
-[[files]]
-file = "config/spell_engine/hud_config.json"
-hash = "b3342d39bea6633b095b67dcb7d6fbccf07ea9ddd19116ea4ca2cd747861f318"
-
-[[files]]
-file = "config/spell_engine/server.json5"
-hash = "a1f8cb3071bf9db94ff246eb94607be6e206ae58798555eec04c7ec53ebe0db6"
-
-[[files]]
-file = "config/spell_engine/spell_container_templates_v2.json"
-hash = "acd0869d6cce36ffe7a6f44db42c7ad8aa66183d94d05a9740484da9766bb972"
-
-[[files]]
-file = "config/spell_engine/weapon_fallback.json"
-hash = "9962841ccc06487c97ec1d4bdac6a505fcbece925c978ff9b4e866f2ad6bab8d"
-
-[[files]]
-file = "config/spell_power/attributes.json"
-hash = "a027f8bb5b55291878216d97bb7e059e8aa542255dc23153dc207cd1e7469b27"
-
-[[files]]
 file = "config/spelunkery-client.toml"
 hash = "36635dc4076f7b1a3b533290938cdabceb69f6eb17ae189aa5d6bacacdd005fd"
 
@@ -2457,14 +2137,6 @@ file = "config/trender.json"
 hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
 
 [[files]]
-file = "config/village_taverns/brewing.json"
-hash = "6ff44621cc1a97a125065f2d30c0634a33cba71e85433027c7e956464b169bda"
-
-[[files]]
-file = "config/village_taverns/villages.json"
-hash = "f98c379f800af48214cc19fb47d1e7b803a1bd4d8fa11d674f83cdb950c89f45"
-
-[[files]]
 file = "config/visualworkbench-client.toml"
 hash = "1890069f63baa9eca78bf5013ea591d70f8a29eb8d95437b4094b6de4b14abd1"
 
@@ -2495,58 +2167,6 @@ hash = "463b2a2eae356e13dd63e76ee18d6a948e8f4f7efcd61c5c9ec1887addcda856"
 [[files]]
 file = "config/voxy-config.json"
 hash = "29be84d58baa56d7dfc07e1bb918a10f40381c1ccc19ec6e323193eb64d29e38"
-
-[[files]]
-file = "config/witcher_rpg/effects_v1.json"
-hash = "ff450478bb8b473537e919f8891b3a37da4b5f15c536bb8ed832ca6ee1b8161e"
-
-[[files]]
-file = "config/witcher_rpg/elemental_weaknesses.json"
-hash = "dac235ceb1f833259b8a1a4de22b53f78172b969d94ec8f86295c78adb923a45"
-
-[[files]]
-file = "config/witcher_rpg/equipment_v5.json"
-hash = "817016acfed88c4f9ccc2fb4de4e6c7ca58fc370d5a88089b27230e1ec58c04c"
-
-[[files]]
-file = "config/witcher_rpg/features.json"
-hash = "eb9888cef4ea47e233223f9e59fc79dbaca35e65417307f3f61c08febea77cb6"
-
-[[files]]
-file = "config/witcher_rpg/loot_equipment_v1.json"
-hash = "9b080c9d9be21c3ae6e640b816773338fe49c23acacddab1bcbda85e6a515edb"
-
-[[files]]
-file = "config/witcher_rpg/loot_injection.json"
-hash = "4dd4228ba7241c3c8cac8f8dd813617495f569e055797255fe31712a48e6df5e"
-
-[[files]]
-file = "config/witcher_rpg/trinkets_v1.json"
-hash = "d64df8729ed16a8189b8a7f22e029a131ec517348b524b6eff7b705b5102226f"
-
-[[files]]
-file = "config/witcher_rpg/tweaks.json"
-hash = "c3cc7a87271e3ba1299bd87a369dffee241a130ee5f353ce849c8b06607abf09"
-
-[[files]]
-file = "config/wizards/effects.json"
-hash = "9ef38cdd36ed80352e4a667a2cf3eec77d894c26aadfe031238f7e1161c7dcbd"
-
-[[files]]
-file = "config/wizards/equipment_v2.json"
-hash = "ecca3e91dd3eba89a4e02f29bfd9f4cef13a1bb3761e2a09e3c4756c3ded3139"
-
-[[files]]
-file = "config/wizards/summoned_entities.json"
-hash = "177d6e60c92f76f62806a5bbde167f2ac6a0eb752cbee91adecbca6fb97489c2"
-
-[[files]]
-file = "config/wizards/tweaks.json"
-hash = "4568418cb62da85fa6a4a88a5c332d7c786ba3f4b872d7dfc05b09619b85c9ea"
-
-[[files]]
-file = "config/wizards/villages.json"
-hash = "4f7d44cb2b2588446db0886af941fb2c4194d15bfba7d303de1ca0d2879cff31"
 
 [[files]]
 file = "config/yacl.json5"
@@ -2607,11 +2227,6 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
-metafile = true
-
-[[files]]
-file = "mods/armor-model-api.pw.toml"
-hash = "dc7bc27468879b22da06641b444e1cd9e9fedc7fd6d8942f14f29756d7c4e59a"
 metafile = true
 
 [[files]]
@@ -3000,11 +2615,6 @@ file = "mods/createplus-sky-throttle-1.0.0.jar"
 hash = "86be7f8e2991323ada3f495498a12b0f707361983277f16d6b2bc9de121c0ed5"
 
 [[files]]
-file = "mods/critical-strike.pw.toml"
-hash = "8f7ec1d22f09c9a78d88a13763e4e780f6111e45685f8147e7afd6e49aea4a5c"
-metafile = true
-
-[[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
@@ -3047,11 +2657,6 @@ metafile = true
 [[files]]
 file = "mods/dragonlib.pw.toml"
 hash = "7c811f8e9168cabfadc3a37cd995a5faf25962032d86f85e49a30b635da76b76"
-metafile = true
-
-[[files]]
-file = "mods/dungeon-difficulty.pw.toml"
-hash = "03c3516918410182485b46d387e0fe0b13f996a7371ee0ca3b31464f9cbdb24c"
 metafile = true
 
 [[files]]
@@ -3488,11 +3093,6 @@ hash = "8764131810fe40b283c8f74108dbe37f90235b31d462a5635d019a962c606130"
 metafile = true
 
 [[files]]
-file = "mods/ranged-weapon-api.pw.toml"
-hash = "0a7c847cf1bacf6b9756f348a05271c6ff57fad00d1f9d2991ea302f8453340b"
-metafile = true
-
-[[files]]
 file = "mods/reconnectible-chains.pw.toml"
 hash = "8fe741853924944b4bb7e8cf18822d39922a9bc85e1208cddfba509e1344a0a4"
 metafile = true
@@ -3570,11 +3170,6 @@ metafile = true
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"
 hash = "4faf76c8ebe0d8a863576ea66f0efcd8a571f0cf6edc0faa763f6ad2f077dd3f"
-metafile = true
-
-[[files]]
-file = "mods/shield-api.pw.toml"
-hash = "08f35f067c7a764a894254a8e5c790a8de5e03f21fcff2875a14a31f16b6627a"
 metafile = true
 
 [[files]]
@@ -3658,11 +3253,6 @@ metafile = true
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "20d767f7f803fd43e7b539046878bf97a27458595a1beff0b28002aca1b671de"
-metafile = true
-
-[[files]]
-file = "mods/structure-pool-api.pw.toml"
-hash = "b43fd8343ee66b129ea22bcd7ba47ad392e7edc33cb24be0ed604b2225ed0229"
 metafile = true
 
 [[files]]
