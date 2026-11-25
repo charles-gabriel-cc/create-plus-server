@@ -785,10 +785,6 @@ file = "config/brick_and_mortar.json"
 hash = "6ba25b17d218c13aecd7773fb0dd9f01783997854cc7123891e526e82490662e"
 
 [[files]]
-file = "config/c2me.toml"
-hash = "3a286fc04d5fd45fe28676e90ac296bf595785257a7cfed0e6af36b578421a7a"
-
-[[files]]
 file = "config/cardboarded_conveynience.json"
 hash = "0f60e4f61887bac819d9d8b21b7cd4bde87ee46b2b338beed18e33dd0484fac4"
 
@@ -2089,14 +2085,6 @@ file = "config/particle_effects.json5"
 hash = "d8e4194f91f8f374d89cd84d06a68dd4e3bef91a655d18330acc99842157df21"
 
 [[files]]
-file = "config/pehkui-client.toml"
-hash = "d6a05a680afa06a7de77bee6d147ae5a629693843d53ca22600fcd17fbc87111"
-
-[[files]]
-file = "config/pehkui-common.toml"
-hash = "22981c471442655695fab8120f105faa765a067b39782ef162743bfb7ec03b64"
-
-[[files]]
 file = "config/ponder-client.toml"
 hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
 
@@ -2787,12 +2775,12 @@ metafile = true
 
 [[files]]
 file = "mods/connector-extras.pw.toml"
-hash = "52e2cb54ee2933bf00e9b7886f47938a2dce1bf998293be2b38552083ffa5f9a"
+hash = "3b247848879885198f4831d9430267abfc2242d47a1f1ff22327490ede940fb1"
 metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "a38d72ca403e9064338be6e0cf69532768b0c1aba8f88703a8ce74c2734da522"
+hash = "127ef479277e6156f1f53c6c11955076d64d38a947efb1745efe3285eb447b31"
 metafile = true
 
 [[files]]
@@ -2938,11 +2926,6 @@ metafile = true
 [[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "faddfa6807d11014c93bbfd8e543e8843e6d44e53f70d54e0b7e3e95766d2021"
-metafile = true
-
-[[files]]
-file = "mods/create-pocket-sized.pw.toml"
-hash = "14b1585633ae6f5e1b673c44f1051273eb01d8fefe609d1f80d2551d3a956128"
 metafile = true
 
 [[files]]
@@ -3198,7 +3181,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "981e52e1c4a97465921342f556cced335c6c75cdb050e9fc528d52cf4ff88b79"
+hash = "0aa7d07cd287890eabee0a1d0e998f2bf320f67c30a74d6756ef3791c52967c8"
 metafile = true
 
 [[files]]
@@ -3240,7 +3223,7 @@ metafile = true
 
 [[files]]
 file = "mods/gml.pw.toml"
-hash = "ed2c67cfbfae5514a34fdc332e8188509c85a8160eb61c40bcc96b90b00aa5d9"
+hash = "78e2e32e9d0414ed1ce3e156006202bd6a259c66e61c486aa55540b8fe82e90c"
 metafile = true
 
 [[files]]
@@ -3443,11 +3426,6 @@ hash = "9afcf3f619cc9c7fef09f3b44527c61630ad273c29f72d204e7dc7e301267bb2"
 [[files]]
 file = "mods/particle-effects.pw.toml"
 hash = "dac59cb4f38c8fe387400ed821d64e1ab384d45aea587186063e598a1a74669d"
-metafile = true
-
-[[files]]
-file = "mods/pehkui.pw.toml"
-hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
 metafile = true
 
 [[files]]
