@@ -44,6 +44,7 @@ resourcepacks/*.zip
 !mods/let_it_walk-0.1.5.jar
 !mods/openui-mc-neoforge-1.21.1-0.0.16.jar
 !mods/packetweave-neoforge-1.21.1-0.1.5.jar
+!mods/punchy-sable-compat-1.0.0-neoforge-1.21.1.jar
 !mods/simplyspeakers-neoforge-1.21.1-0.10.2.jar
 !mods/spectral_hub-v4.jar
 !mods/toomanyrecipeviewers-0.9.0\+mc.21.1.jar
