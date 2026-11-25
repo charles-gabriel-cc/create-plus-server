@@ -1481,10 +1481,6 @@ file = "config/ends_delight-common.toml"
 hash = "3518ceefb467631775957588db1f0ff6fc44c203a8d00c28e07f1813bbf06f1d"
 
 [[files]]
-file = "config/enhancedai/common.toml"
-hash = "f8d14094e249f0fc3715e862f7f38cf4093bf819816aab458268701ef0f4f4ae"
-
-[[files]]
 file = "config/entity_model_features.json"
 hash = "aa56ff30704bb492110a46100cb850f27851b9e10eddcbef729a4ca18c944a38"
 
@@ -1751,10 +1747,6 @@ hash = "5369346e99dc684898a20bbf08791a940f55c9e70e4ed0b0fa8af9e04091dc78"
 [[files]]
 file = "config/immediatelyfast.json"
 hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
-
-[[files]]
-file = "config/insanelib/common.toml"
-hash = "c375f49586d4cd85767fc2b1071d631c3714e74bcb005bcbee52c43ef17fed69"
 
 [[files]]
 file = "config/iris-excluded.json"
@@ -3135,11 +3127,6 @@ hash = "03a2f273597c1d2bef87eaa60af9287d7d54ec68cc0a0d4b5b79e1497b16ad3e"
 metafile = true
 
 [[files]]
-file = "mods/enhanced-ai.pw.toml"
-hash = "353d85f53f40a260e71f849fb354c9f7a17b3d4d2138f84d11f94ad1552a8e36"
-metafile = true
-
-[[files]]
 file = "mods/enhanced-boss-bars-mod.pw.toml"
 hash = "7cfeb8bfb620c6cf5597e584c3639981e180334bba91ddb285022d04f11a3c45"
 metafile = true
@@ -3289,11 +3276,6 @@ metafile = true
 [[files]]
 file = "mods/infinite-trading.pw.toml"
 hash = "82559cf0861f03002f2c1d65f22f27029e1bd9f8f8f95ad15140fa85d714d78d"
-metafile = true
-
-[[files]]
-file = "mods/insanelib.pw.toml"
-hash = "c81a85c8a3d15099f3bf04705dbc89b2c53650d44903defc50c07c10c808bd2c"
 metafile = true
 
 [[files]]
