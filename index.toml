@@ -2594,6 +2594,11 @@ hash = "db683b65dc15a03dd6de2d34d5dc6ad0e3490744ced513a8cc584784ee9d3d8b"
 metafile = true
 
 [[files]]
+file = "mods/create-frogport-reworked.pw.toml"
+hash = "469da9fe2ba890f64b9e140c180958f8038ef2f170ac3c4ec883113c5167e642"
+metafile = true
+
+[[files]]
 file = "mods/create-nowheel.pw.toml"
 hash = "b5c4217d430af59d3243e8717ad09398864b726272e1ded301f182604d704a45"
 metafile = true
