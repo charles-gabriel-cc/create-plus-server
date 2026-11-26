@@ -1,0 +1,110 @@
+# FTB Essentials - Create+ Server Configuration
+# Apenas /tpa (/tpahere), /home (/sethome), /spawn e /warp habilitados.
+
+{
+	admin: {
+		feed: {
+			enabled: false
+		}
+		fly: {
+			enabled: false
+		}
+		god: {
+			enabled: false
+		}
+		heal: {
+			enabled: false
+		}
+		invsee: {
+			enabled: false
+		}
+		kit: {
+			enabled: false
+		}
+		mute: {
+			enabled: false
+		}
+		speed: {
+			enabled: false
+		}
+		tp_offline: {
+			enabled: false
+		}
+	}
+	misc: {
+		anvil: {
+			enabled: false
+		}
+		crafting: {
+			enabled: false
+		}
+		enderchest: {
+			enabled: false
+		}
+		hat: {
+			enabled: false
+		}
+		kickme: {
+			enabled: false
+		}
+		leaderboard: {
+			enabled: false
+		}
+		near: {
+			enabled: false
+		}
+		nick: {
+			enabled: false
+		}
+		smithing: {
+			enabled: false
+		}
+		stonecutter: {
+			enabled: false
+		}
+		trashcan: {
+			enabled: false
+		}
+	}
+	teleportation: {
+		back: {
+			enabled: false
+		}
+		home: {
+			cooldown: 240
+			enabled: true
+			max: 1
+			warmup: 5
+		}
+		jump: {
+			enabled: false
+		}
+		playerspawn: {
+			enabled: false
+		}
+		rtp: {
+			enabled: false
+		}
+		spawn: {
+			cooldown: 90
+			enabled: true
+			warmup: 5
+		}
+		tpa: {
+			cooldown: 45
+			enabled: true
+			warmup: 4
+		}
+		tpl: {
+			enabled: false
+		}
+		tpx: {
+			enabled: false
+		}
+		warp: {
+			cooldown: 60
+			enabled: true
+			warmup: 5
+		}
+	}
+}
