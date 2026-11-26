@@ -8,49 +8,41 @@
 	}
 	id: "2000000000000006"
 	images: [ ]
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [ "3000000000000022", "3000000000000019" ]
+			dependencies: [
+				"3000000000000022"
+				"3000000000000019"
+			]
 			icon: {
 				id: "aeronautics:andesite_propeller"
 			}
 			id: "3000000000000046"
 			optional: true
-			rewards: [
-				{
-					id: "500000000000004F"
-					type: "xp"
-					xp: 80
-				}
-			]
+			rewards: [{
+				id: "500000000000004F"
+				type: "xp"
+				xp: 80
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
 				{
 					id: "40000000000000D6"
-					item: {
-						count: 1
-						id: "aeronautics:andesite_propeller"
-					}
+					item: { count: 1, id: "aeronautics:andesite_propeller" }
 					type: "item"
 				}
 				{
 					id: "40000000000000D5"
-					item: {
-						count: 1
-						id: "aeronautics:adjustable_burner"
-					}
+					item: { count: 1, id: "aeronautics:adjustable_burner" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "40000000000000D7"
-					item: {
-						count: 1
-						id: "aeronautics:white_envelope"
-					}
+					item: { count: 1, id: "aeronautics:white_envelope" }
 					type: "item"
 				}
 			]
@@ -58,65 +50,57 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000046", "3000000000000025" ]
+			dependencies: [
+				"3000000000000046"
+				"3000000000000025"
+			]
 			icon: {
 				id: "aeronautics:gyroscopic_propeller_bearing"
 			}
 			id: "3000000000000047"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000050"
-					type: "xp"
-					xp: 110
-				}
-			]
+			rewards: [{
+				id: "5000000000000050"
+				type: "xp"
+				xp: 110
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000000D9"
-					item: {
-						count: 1
-						id: "aeronautics:gyroscopic_propeller_bearing"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "40000000000000D9"
+				item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000046", "3000000000000027", "300000000000002E" ]
+			dependencies: [
+				"3000000000000046"
+				"3000000000000027"
+				"300000000000002E"
+			]
 			icon: {
 				id: "aeroworks:control_desk"
 			}
 			id: "3000000000000048"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000051"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5000000000000051"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "40000000000000DD"
-					item: {
-						count: 1
-						id: "aeroworks:control_desk"
-					}
+					item: { count: 1, id: "aeroworks:control_desk" }
 					type: "item"
 				}
 				{
 					id: "40000000000000DE"
-					item: {
-						count: 1
-						id: "aeroworks:joystick_module"
-					}
+					item: { count: 1, id: "aeroworks:joystick_module" }
 					type: "item"
 				}
 			]
@@ -124,36 +108,31 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000048", "3000000000000026" ]
+			dependencies: [
+				"3000000000000048"
+				"3000000000000026"
+			]
 			icon: {
 				id: "create_flight_control:flight_control_computer"
 			}
 			id: "3000000000000049"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000052"
-					type: "xp"
-					xp: 130
-				}
-			]
+			rewards: [{
+				id: "5000000000000052"
+				type: "xp"
+				xp: 130
+			}]
 			shape: "octagon"
 			size: 1.3d
 			tasks: [
 				{
 					id: "40000000000000E1"
-					item: {
-						count: 1
-						id: "create_flight_control:flight_control_computer"
-					}
+					item: { count: 1, id: "create_flight_control:flight_control_computer" }
 					type: "item"
 				}
 				{
 					id: "40000000000000E2"
-					item: {
-						count: 1
-						id: "create_flight_control:altitude_hold"
-					}
+					item: { count: 1, id: "create_flight_control:altitude_hold" }
 					type: "item"
 				}
 			]
@@ -161,65 +140,56 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000046", "3000000000000027" ]
+			dependencies: [
+				"3000000000000046"
+				"3000000000000027"
+			]
 			icon: {
 				id: "create_aeronautics_toolgun:magnetic_gun"
 			}
 			id: "300000000000004A"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000053"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5000000000000053"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000000E6"
-					item: {
-						count: 1
-						id: "create_aeronautics_toolgun:magnetic_gun"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "40000000000000E6"
+				item: { count: 1, id: "create_aeronautics_toolgun:magnetic_gun" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [ "300000000000004D", "3000000000000027" ]
+			dependencies: [
+				"300000000000004D"
+				"3000000000000027"
+			]
 			icon: {
 				id: "createpropulsion:ion_thruster"
 			}
 			id: "300000000000004B"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000054"
-					type: "xp"
-					xp: 120
-				}
-			]
+			rewards: [{
+				id: "5000000000000054"
+				type: "xp"
+				xp: 120
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "40000000000000EA"
-					item: {
-						count: 1
-						id: "createpropulsion:ion_thruster"
-					}
+					item: { count: 1, id: "createpropulsion:ion_thruster" }
 					type: "item"
 				}
 				{
 					id: "40000000000000EB"
-					item: {
-						count: 1
-						id: "createpropulsion:liquid_vector_thruster"
-					}
+					item: { count: 1, id: "createpropulsion:liquid_vector_thruster" }
 					type: "item"
 				}
 			]
@@ -227,36 +197,28 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [ "300000000000004B" ]
+			dependencies: ["300000000000004B"]
 			icon: {
 				id: "createthrusters:advanced_contraption_controller"
 			}
 			id: "300000000000004C"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000055"
-					type: "xp"
-					xp: 110
-				}
-			]
+			rewards: [{
+				id: "5000000000000055"
+				type: "xp"
+				xp: 110
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "40000000000000F0"
-					item: {
-						count: 1
-						id: "createthrusters:advanced_contraption_controller"
-					}
+					item: { count: 1, id: "createthrusters:advanced_contraption_controller" }
 					type: "item"
 				}
 				{
 					id: "40000000000000F4"
-					item: {
-						count: 1
-						id: "createthrusters:diagnostic_tablet"
-					}
+					item: { count: 1, id: "createthrusters:diagnostic_tablet" }
 					type: "item"
 				}
 			]
@@ -264,36 +226,28 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [ "3000000000000022" ]
+			dependencies: ["3000000000000022"]
 			icon: {
 				id: "simulated:physics_assembler"
 			}
 			id: "300000000000004D"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000056"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "5000000000000056"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "40000000000000F6"
-					item: {
-						count: 1
-						id: "simulated:physics_assembler"
-					}
+					item: { count: 1, id: "simulated:physics_assembler" }
 					type: "item"
 				}
 				{
 					id: "40000000000000F7"
-					item: {
-						count: 1
-						id: "simulated:altitude_sensor"
-					}
+					item: { count: 1, id: "simulated:altitude_sensor" }
 					type: "item"
 				}
 			]
@@ -301,38 +255,30 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [ "300000000000004D" ]
+			dependencies: ["300000000000004D"]
 			icon: {
 				id: "offroad:tire"
 			}
 			id: "300000000000004E"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000057"
-					type: "xp"
-					xp: 120
-				}
-			]
+			rewards: [{
+				id: "5000000000000057"
+				type: "xp"
+				xp: 120
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					count: 4L
 					id: "40000000000000FB"
-					item: {
-						count: 1
-						id: "offroad:tire"
-					}
+					item: { count: 1, id: "offroad:tire" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "40000000000000FE"
-					item: {
-						count: 1
-						id: "offroad:wheel_mount"
-					}
+					item: { count: 1, id: "offroad:wheel_mount" }
 					type: "item"
 				}
 			]
@@ -340,47 +286,36 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [ "300000000000004D" ]
+			dependencies: ["300000000000004D"]
 			icon: {
 				id: "let_it_walk:articulation_unit"
 			}
 			id: "300000000000004F"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000058"
-					type: "xp"
-					xp: 150
-				}
-			]
+			rewards: [{
+				id: "5000000000000058"
+				type: "xp"
+				xp: 150
+			}]
 			shape: "octagon"
 			size: 1.3d
 			tasks: [
 				{
 					count: 2L
 					id: "4000000000000101"
-					item: {
-						count: 1
-						id: "let_it_walk:articulation_unit"
-					}
+					item: { count: 1, id: "let_it_walk:articulation_unit" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "4000000000000102"
-					item: {
-						count: 1
-						id: "let_it_walk:leg_hinge"
-					}
+					item: { count: 1, id: "let_it_walk:leg_hinge" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "4000000000000103"
-					item: {
-						count: 1
-						id: "let_it_walk:leg_foot"
-					}
+					item: { count: 1, id: "let_it_walk:leg_foot" }
 					type: "item"
 				}
 			]
@@ -388,27 +323,23 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [ "3000000000000046" ]
+			dependencies: ["3000000000000046"]
 			icon: {
 				id: "minecraft:elytra"
 			}
 			id: "3000000000000050"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000059"
-					type: "xp"
-					xp: 40
-				}
-			]
+			rewards: [{
+				id: "5000000000000059"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000106"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000106"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 6.0d
 		}

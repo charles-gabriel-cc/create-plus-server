@@ -549,6 +549,10 @@ file = "config/better_mob_combat_reimagined-client.toml"
 hash = "0d288d8471c89ec1e81a1137a67ab960e8d98f8e1a1a17ebe605291a9564fa9e"
 
 [[files]]
+file = "config/better_mob_combat_reimagined-server.toml"
+hash = "de1846c543efeb0e8ed46a73eaf0270026b631fa82900e58ee137ad75df95470"
+
+[[files]]
 file = "config/betteradvancements-client.toml"
 hash = "5b965898d5b13c5557b603c68ed4ac79a4f850f3a7205eb3dbfc6116f2caf19a"
 
@@ -1241,6 +1245,14 @@ file = "config/createthrusters_physics_goggles_overlays.json"
 hash = "7722a8fadd8ab545f67b950e071f27b82bb8de83b6d5fa23dee167edd71c0ff5"
 
 [[files]]
+file = "config/critical_strike/client_config.json"
+hash = "9d9fdc01bd2fd5a0bd2ab2edfd584d9d9f1e9ced929cdaf6fa33228b443023be"
+
+[[files]]
+file = "config/critical_strike/server_config.json"
+hash = "b93dda8f51a2f916ee21eb8b46ca29f9e97283849c665fd13a94ccdafa8d0f47"
+
+[[files]]
 file = "config/curios-client.toml"
 hash = "f1e31eed2ff11e1c6eda6517dc8b24dabd5b752ba1f8a3503c5ce750af1fc7b4"
 
@@ -1275,6 +1287,14 @@ hash = "ab2282c0b16f6d0bfd4bab36822d476eaeac45b2f946af02a5236ae0c5bfdfa8"
 [[files]]
 file = "config/dragonlib-server.toml"
 hash = "81af6c3944505da95595095cbaaee82cd7683df13a42f46358a9d179ba961f26"
+
+[[files]]
+file = "config/dungeon_difficulty/difficulty_v2.json"
+hash = "3029fbc2718c9689689002d561ab8efb3c5987a00ede30a62b5e3a2819b569d6"
+
+[[files]]
+file = "config/dungeon_difficulty/registry.json"
+hash = "39fc9247223879793568c15de9e28e9304a16a4d00cea91066d8125d70e092a0"
 
 [[files]]
 file = "config/dynamic_fps.json"
@@ -1347,6 +1367,26 @@ hash = "4b05bf8157e8e83990a9860de7afe18be07e602559a0d43b87f0197bc71e903c"
 [[files]]
 file = "config/ends_delight-common.toml"
 hash = "3518ceefb467631775957588db1f0ff6fc44c203a8d00c28e07f1813bbf06f1d"
+
+[[files]]
+file = "config/enhancedai/Mobs/Break anger/break_anger_config.json"
+hash = "849c2f52f56593879e26e502ea1ab059acee1cfdcf99e47e7842959b99352fb5"
+
+[[files]]
+file = "config/enhancedai/Mobs/Custom targeting/custom_hostile.json"
+hash = "d8a430af206f89fe2352681cef1084e26cfc90257e4dc8b88737f617d7cfbfe6"
+
+[[files]]
+file = "config/enhancedai/Mobs/Shielding/shield_block_chance.json"
+hash = "6651dc099bdb5b52e10f0d9ebea67b9c3fe4667df533542ae3ab1c9475598554"
+
+[[files]]
+file = "config/enhancedai/common.toml"
+hash = "f8d14094e249f0fc3715e862f7f38cf4093bf819816aab458268701ef0f4f4ae"
+
+[[files]]
+file = "config/enhancedai/server.toml"
+hash = "10f7d99d0c9623dbf5795a95d86f4765754ecf03a6255dd260665602e1366640"
 
 [[files]]
 file = "config/entity_model_features.json"
@@ -1438,7 +1478,7 @@ hash = "e236ec86219100c4d003a5eb9b76f9445fd8c8af064d4c12b9b368bbfbfe3745"
 
 [[files]]
 file = "config/flywheel-client.toml"
-hash = "cf802bcdb805f78b2254eca13ab89f0d36a2404124eeb4e743019f011c981807"
+hash = "9a8019a2819cf8f27a30c0788b458ed7e9b6d749faea23d8feafa0424c4bb568"
 
 [[files]]
 file = "config/fml.toml"
@@ -1447,6 +1487,10 @@ hash = "cc127c6067eb9e23289edc1c774afd71456456eef06c688af6731a72d3bba5e5"
 [[files]]
 file = "config/friendsandfoes.json"
 hash = "b46f343457f5fae5c8703658208145c622e4393a7f27f34b2ebf4ad634761a6a"
+
+[[files]]
+file = "config/ftbessentials.snbt"
+hash = "b00c7ee18d7227826e7889cfe582a6d6a49a18be34ec00f8164781d6a7c2bfd9"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
@@ -1462,59 +1506,59 @@ hash = "7d03a9e65db7f33be947a3f8b555a0543d23bf0442ad69a52db6c06cc49391c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_primeiros_passos.snbt"
-hash = "5d096ce9004811c99fa7aa377f070d07da9f2529bea2099763d357b795311f16"
+hash = "f8596061c97bbb2001f05a9b059783643d8a7ef0672835658540e9795147d31b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_create_era_andesito.snbt"
-hash = "1430109a7bb8cadc7fcb529430157f1a4b4c38c6bdfc9b658e1f933516a6397c"
+hash = "47d3ea45567bcd1ed40257abf1871b568c892d2d3d0e1ef4634f09e616aac614"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03_create_era_latao_e_logistica.snbt"
-hash = "8ed1870e7ac6ccb7da3810819b5b1c679ec2d5d0345719e67032d58599d15423"
+hash = "c683422352e0978a54d1e9fd94baf297bd633095f75585c91e8cb47ac891a1d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04_create_ferrovias_e_circuitos.snbt"
-hash = "49b23fa9bedda588acfc7bb38b8af61e2937a7cd9cf5bc9015c5b7fe1e462c58"
+hash = "d3b5a24087f4b2156fcc83b2896a8f0467690338cb7815fd5bcaa29ad0a7568b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_create_energia_e_industria.snbt"
-hash = "89b59475dd187e2d68bfff718ad4d9801af49327fd09a08f5993b340b595bdce"
+hash = "0e69837bfc5d20de9ffbfd2686b53cb1394e1708b3da8737711626784e75ce35"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_aeronautica_propulsao_e_fisica.snbt"
-hash = "c4375925a1a7edbdec2a8c12bd678338c6eef2f800a48c8df50fdc49c2fdc3cd"
+hash = "014a260e08907406b1726891210efa47bddf25645c51942a5424e836455e9d38"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_artilharia_e_radares.snbt"
-hash = "519671352b19fc8fab77d493501da8c2b3577d3b9c6dbd4c6839716cca43cf6e"
+hash = "2e3df77da8d596aa294765bbe1221fc102a0db8c01b288ba4359ea11604325a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_gastronomia_delight.snbt"
-hash = "952b92046689a6cc3a683bbb3b1b142e3f3711fc3e09e67c155f568afbb2365c"
+hash = "37c748ba58026343fd5c2ff0db38903afe1e5f96f1ee590e6392a67b04603067"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09_arquitetura_decoracao_e_economia.snbt"
-hash = "8f3a630e9b8e4e2b4c5b161e2528a01a826f98821954e09d143f942f2e70a813"
+hash = "a4b1f2186b9c7f4697db4715d79153e6c84dc8f56e9f5ff019a6aeeaa3586303"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_exploracao_biomas_e_estruturas.snbt"
-hash = "0a76d6aac2d28ad1c350ae354b90f5c8b74ba3164dd8e58da588a2a2bec7eafa"
+hash = "54dd9ba5d5e09a408162f56e42247d764acf2b67c4ff41475be2e73d74afea87"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_catalogo_mods_parte_1.snbt"
-hash = "a858995ed83857c4eb82fe5fdffb1bdddaefcff359ee049ad33910f86c7831ea"
+hash = "26cf69b5394407752575f234044454ab65707e6ea90458816a3e8ee9e9596275"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/12_catalogo_mods_parte_2.snbt"
-hash = "c5761edad967613ed7aa8f1fb564796b457455daf8d04edaeadfe7f68c7a8515"
+hash = "01f1995b6414a12ecba4d7d1b42f14d0c5bbf9a3d026c62fc232378a751c4093"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/13_chefes_e_expedicoes.snbt"
-hash = "e8f97da1308c85a321efa09a52d023f0c42878d5c3f24156d379b113093d4688"
+hash = "8e555a5a99badfa8f40191c50071abaf9f5e159c02084f2fc0f225b6db561986"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "51b299e282de8f54003933987dfabb6fe941d1569ec2e446d9551f90a36b5d47"
+hash = "58367df75f1f0f9c25463d86c0aee2bfc0abce7e1004fbb933d9178e02d88bc7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
@@ -1599,6 +1643,14 @@ hash = "5369346e99dc684898a20bbf08791a940f55c9e70e4ed0b0fa8af9e04091dc78"
 [[files]]
 file = "config/immediatelyfast.json"
 hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
+
+[[files]]
+file = "config/insanelib/Base/Player attributes/players_attribute_modifiers.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/insanelib/common.toml"
+hash = "c375f49586d4cd85767fc2b1071d631c3714e74bcb005bcbee52c43ef17fed69"
 
 [[files]]
 file = "config/iris-excluded.json"
@@ -1833,6 +1885,14 @@ file = "config/particle_effects.json5"
 hash = "d8e4194f91f8f374d89cd84d06a68dd4e3bef91a655d18330acc99842157df21"
 
 [[files]]
+file = "config/pehkui-client.toml"
+hash = "d6a05a680afa06a7de77bee6d147ae5a629693843d53ca22600fcd17fbc87111"
+
+[[files]]
+file = "config/pehkui-common.toml"
+hash = "22981c471442655695fab8120f105faa765a067b39782ef162743bfb7ec03b64"
+
+[[files]]
 file = "config/ponder-client.toml"
 hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
 
@@ -1998,7 +2058,7 @@ hash = "5acf3ff77b4420677b5923071f303facaba7a9273a346284a667a275df325146"
 
 [[files]]
 file = "config/smartblockplacement.properties"
-hash = "b08ff144c07a860d7ae3bdf06e6248d76f9ff04b727ec1773ce2ca7408677187"
+hash = "d997457b4a0edb70adef89d5981f4dca1c70914da702879f6c8795ce83bbc8b8"
 
 [[files]]
 file = "config/smarterfarmers-common.toml"
@@ -2805,6 +2865,10 @@ hash = "dd747d8f87a5cbff501a4c59f5ac06faec2cc03c416cbff5dc3b920157552dc0"
 metafile = true
 
 [[files]]
+file = "mods/ftb-essentials-neoforge-2101.1.10.jar"
+hash = "a61de1b883ec9d6d652276f453e8e60b18bd315fef8c62f21d6545260d526587"
+
+[[files]]
 file = "mods/ftb-library-neoforge-2101.1.39.jar"
 hash = "ca64bd1b5f335406900f74eeafacea5a3580a3933d61de6b6600a64eb12a9a95"
 
@@ -3070,7 +3134,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-sable-compat-1.0.0-neoforge-1.21.1.jar"
-hash = "f12848ebc53f9ac5e79d728f7b86a9ee558f3a8a0761b07568abc83f6bbfa775"
+hash = "d9ca1293449eadcecbcafea022232a3f8529f300a0e3f2571a94fa489fa0806b"
 
 [[files]]
 file = "mods/punchymoves.pw.toml"

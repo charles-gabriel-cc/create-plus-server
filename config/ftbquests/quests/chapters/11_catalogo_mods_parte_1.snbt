@@ -8,7 +8,7 @@
 	}
 	id: "200000000000000B"
 	images: [ ]
-	order_index: 10
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -19,12 +19,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000171"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000171"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -36,12 +34,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000172"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000172"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 0.0d
 		}
@@ -53,12 +49,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000173"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000173"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 0.0d
 		}
@@ -70,12 +64,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000174"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000174"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 0.0d
 		}
@@ -87,12 +79,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000175"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000175"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 0.0d
 		}
@@ -104,12 +94,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000176"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000176"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}
@@ -121,12 +109,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000177"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000177"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 0.0d
 		}
@@ -138,12 +124,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4F164D5B453792A0"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4F164D5B453792A0"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 0.0d
 		}
@@ -155,12 +139,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000178"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000178"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 0.0d
 		}
@@ -172,12 +154,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000179"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000179"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 0.0d
 		}
@@ -189,12 +169,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000017A"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000017A"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 1.6d
 		}
@@ -206,12 +184,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000017B"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000017B"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 1.6d
 		}
@@ -223,12 +199,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000017C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000017C"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 1.6d
 		}
@@ -240,12 +214,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000017D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000017D"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 1.6d
 		}
@@ -257,12 +229,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000017E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000017E"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 1.6d
 		}
@@ -274,12 +244,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000017F"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000017F"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 1.6d
 		}
@@ -291,12 +259,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000180"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000180"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 1.6d
 		}
@@ -308,12 +274,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000181"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000181"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 1.6d
 		}
@@ -325,12 +289,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000182"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000182"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 1.6d
 		}
@@ -342,12 +304,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000183"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000183"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 1.6d
 		}
@@ -359,12 +319,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000184"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000184"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 3.2d
 		}
@@ -376,12 +334,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000185"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000185"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 3.2d
 		}
@@ -393,12 +349,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000186"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000186"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 3.2d
 		}
@@ -410,12 +364,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000187"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000187"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 3.2d
 		}
@@ -427,12 +379,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000188"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000188"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 3.2d
 		}
@@ -444,12 +394,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000189"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000189"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 3.2d
 		}
@@ -461,12 +409,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000018A"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000018A"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 3.2d
 		}
@@ -478,12 +424,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000018B"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000018B"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 3.2d
 		}
@@ -495,12 +439,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000018C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000018C"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 3.2d
 		}
@@ -512,12 +454,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000018D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000018D"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 3.2d
 		}
@@ -529,12 +469,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000018E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000018E"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 4.800000000000001d
 		}
@@ -546,12 +484,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000018F"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000018F"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 4.800000000000001d
 		}
@@ -563,12 +499,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000190"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000190"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 4.800000000000001d
 		}
@@ -580,12 +514,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000191"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000191"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 4.800000000000001d
 		}
@@ -597,12 +529,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000192"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000192"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 4.800000000000001d
 		}
@@ -614,12 +544,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000193"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000193"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 4.800000000000001d
 		}
@@ -631,12 +559,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000194"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000194"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 4.800000000000001d
 		}
@@ -648,12 +574,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000195"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000195"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 4.800000000000001d
 		}
@@ -665,12 +589,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000196"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000196"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 4.800000000000001d
 		}
@@ -682,12 +604,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000197"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000197"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 4.800000000000001d
 		}
@@ -699,12 +619,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000198"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000198"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 6.4d
 		}
@@ -716,12 +634,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000199"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000199"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 6.4d
 		}
@@ -733,12 +649,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000019A"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000019A"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 6.4d
 		}
@@ -750,12 +664,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000019B"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000019B"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 6.4d
 		}
@@ -767,12 +679,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000019C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000019C"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 6.4d
 		}
@@ -784,12 +694,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000019D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000019D"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 6.4d
 		}
@@ -801,12 +709,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000019E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000019E"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 6.4d
 		}
@@ -818,12 +724,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000019F"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000019F"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 6.4d
 		}
@@ -835,12 +739,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001A0"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001A0"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 6.4d
 		}
@@ -852,12 +754,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001A1"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001A1"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 6.4d
 		}
@@ -869,12 +769,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001A2"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001A2"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 8.0d
 		}
@@ -886,12 +784,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001A3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001A3"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 8.0d
 		}
@@ -903,12 +799,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001A4"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001A4"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 8.0d
 		}
@@ -920,12 +814,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001A5"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001A5"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 8.0d
 		}
@@ -937,12 +829,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001A6"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001A6"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 8.0d
 		}
@@ -954,12 +844,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001A7"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001A7"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 8.0d
 		}
@@ -971,12 +859,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001A8"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001A8"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 8.0d
 		}
@@ -988,12 +874,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001A9"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001A9"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 8.0d
 		}
@@ -1005,12 +889,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001AA"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001AA"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 8.0d
 		}
@@ -1022,12 +904,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001AB"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001AB"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 8.0d
 		}
@@ -1039,12 +919,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001AC"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001AC"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 9.600000000000001d
 		}
@@ -1056,12 +934,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001AD"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001AD"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 9.600000000000001d
 		}
@@ -1073,12 +949,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001AE"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001AE"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 9.600000000000001d
 		}
@@ -1090,12 +964,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001AF"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001AF"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 9.600000000000001d
 		}
@@ -1107,12 +979,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4F96A95EFDA512AA"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4F96A95EFDA512AA"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 9.600000000000001d
 		}
@@ -1124,12 +994,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001B0"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001B0"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 9.600000000000001d
 		}
@@ -1141,12 +1009,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001B1"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001B1"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 9.600000000000001d
 		}
@@ -1158,12 +1024,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001B2"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001B2"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 9.600000000000001d
 		}
@@ -1175,12 +1039,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001B3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001B3"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 9.600000000000001d
 		}
@@ -1192,12 +1054,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001B4"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001B4"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 9.600000000000001d
 		}
@@ -1209,12 +1069,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001B5"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001B5"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 11.200000000000001d
 		}
@@ -1226,12 +1084,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001B6"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001B6"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 11.200000000000001d
 		}
@@ -1243,12 +1099,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001B7"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001B7"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 11.200000000000001d
 		}
@@ -1260,12 +1114,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001B8"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001B8"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 11.200000000000001d
 		}
@@ -1277,12 +1129,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001B9"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001B9"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 11.200000000000001d
 		}
@@ -1294,12 +1144,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001BA"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001BA"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 11.200000000000001d
 		}
@@ -1311,12 +1159,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001BB"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001BB"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 11.200000000000001d
 		}
@@ -1328,12 +1174,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001BC"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001BC"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 11.200000000000001d
 		}
@@ -1345,12 +1189,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001BD"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001BD"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 11.200000000000001d
 		}
@@ -1362,12 +1204,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001BE"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001BE"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 11.200000000000001d
 		}
@@ -1379,12 +1219,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001BF"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001BF"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 12.8d
 		}
@@ -1396,12 +1234,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001C0"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001C0"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 12.8d
 		}
@@ -1413,12 +1249,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001C1"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001C1"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 12.8d
 		}
@@ -1430,12 +1264,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001C2"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001C2"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 12.8d
 		}
@@ -1447,12 +1279,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001C3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001C3"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 12.8d
 		}
@@ -1464,12 +1294,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001C4"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001C4"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 12.8d
 		}
@@ -1481,12 +1309,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001C5"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001C5"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 12.8d
 		}
@@ -1498,12 +1324,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001C6"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001C6"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 12.8d
 		}
@@ -1515,12 +1339,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001C7"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001C7"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 12.8d
 		}
@@ -1532,12 +1354,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001C8"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001C8"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 12.8d
 		}
@@ -1549,12 +1369,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001C9"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001C9"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 14.4d
 		}
@@ -1566,12 +1384,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001CA"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001CA"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 14.4d
 		}
@@ -1583,12 +1399,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001CB"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001CB"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 14.4d
 		}
@@ -1600,12 +1414,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001CC"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001CC"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 14.4d
 		}
@@ -1617,12 +1429,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001CD"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001CD"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 14.4d
 		}
@@ -1634,12 +1444,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001CE"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001CE"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 14.4d
 		}
@@ -1651,12 +1459,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001CF"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001CF"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 14.4d
 		}
@@ -1668,12 +1474,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001D0"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001D0"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 14.4d
 		}
@@ -1685,12 +1489,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001D1"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001D1"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 14.4d
 		}
@@ -1702,12 +1504,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001D2"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001D2"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 14.4d
 		}
@@ -1719,12 +1519,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001D3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001D3"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 16.0d
 		}
@@ -1736,12 +1534,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001D4"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001D4"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 16.0d
 		}
@@ -1753,12 +1549,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001D5"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001D5"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 16.0d
 		}
@@ -1770,12 +1564,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001D6"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001D6"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 16.0d
 		}
@@ -1787,12 +1579,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001D7"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001D7"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 16.0d
 		}
@@ -1804,12 +1594,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001D8"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001D8"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 16.0d
 		}
@@ -1821,12 +1609,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001D9"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001D9"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 16.0d
 		}
@@ -1838,12 +1624,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001DA"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001DA"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 16.0d
 		}
@@ -1855,12 +1639,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4FD5AF41764EF673"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4FD5AF41764EF673"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 16.0d
 		}
@@ -1872,12 +1654,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001DB"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001DB"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 16.0d
 		}
@@ -1889,12 +1669,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001DC"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001DC"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 17.6d
 		}
@@ -1906,12 +1684,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001DD"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001DD"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 17.6d
 		}
@@ -1923,12 +1699,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001DE"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001DE"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 17.6d
 		}
@@ -1940,12 +1714,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4FA45658AA4D6A4C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4FA45658AA4D6A4C"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 17.6d
 		}
@@ -1957,12 +1729,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001E0"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001E0"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 17.6d
 		}
@@ -1974,12 +1744,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001E1"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001E1"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 17.6d
 		}
@@ -1991,12 +1759,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001E2"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001E2"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 17.6d
 		}
@@ -2008,12 +1774,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4F52693DDC5F8EEF"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4F52693DDC5F8EEF"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 17.6d
 		}
@@ -2025,12 +1789,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001E3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001E3"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 17.6d
 		}
@@ -2042,12 +1804,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001E4"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001E4"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 17.6d
 		}
@@ -2059,12 +1819,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001E5"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001E5"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 19.200000000000003d
 		}
@@ -2076,12 +1834,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001E6"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001E6"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 19.200000000000003d
 		}
@@ -2093,12 +1849,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001E7"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001E7"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 19.200000000000003d
 		}
@@ -2110,12 +1864,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001E8"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001E8"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 19.200000000000003d
 		}
@@ -2127,12 +1879,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001E9"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001E9"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 19.200000000000003d
 		}
@@ -2144,12 +1894,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001EA"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001EA"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 19.200000000000003d
 		}
@@ -2161,12 +1909,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001EB"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001EB"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 19.200000000000003d
 		}
@@ -2178,12 +1924,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001EC"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001EC"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 19.200000000000003d
 		}
@@ -2195,12 +1939,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001ED"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001ED"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 19.200000000000003d
 		}
@@ -2212,12 +1954,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001EE"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001EE"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 19.200000000000003d
 		}
@@ -2229,12 +1969,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001EF"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001EF"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 20.8d
 		}
@@ -2246,12 +1984,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001F0"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001F0"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 20.8d
 		}
@@ -2263,12 +1999,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001F1"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001F1"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 20.8d
 		}
@@ -2280,12 +2014,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001F2"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001F2"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 20.8d
 		}
@@ -2297,12 +2029,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001F3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001F3"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 20.8d
 		}
@@ -2314,12 +2044,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001F4"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001F4"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 20.8d
 		}
@@ -2331,12 +2059,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001F5"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001F5"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 20.8d
 		}
@@ -2348,12 +2074,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001F6"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001F6"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 20.8d
 		}
@@ -2365,12 +2089,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001F7"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001F7"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 20.8d
 		}
@@ -2382,12 +2104,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001F8"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001F8"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 20.8d
 		}
@@ -2399,12 +2119,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001F9"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001F9"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 22.400000000000002d
 		}
@@ -2416,12 +2134,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001FA"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001FA"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 22.400000000000002d
 		}
@@ -2433,12 +2149,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001FB"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001FB"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 22.400000000000002d
 		}
@@ -2450,12 +2164,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001FC"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001FC"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 22.400000000000002d
 		}
@@ -2467,12 +2179,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001FD"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001FD"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 22.400000000000002d
 		}
@@ -2484,12 +2194,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001FE"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001FE"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 22.400000000000002d
 		}
@@ -2501,12 +2209,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000001FF"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "40000000000001FF"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 22.400000000000002d
 		}
@@ -2518,12 +2224,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000200"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000200"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 22.400000000000002d
 		}
@@ -2535,12 +2239,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000201"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000201"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 22.400000000000002d
 		}
@@ -2552,12 +2254,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000202"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000202"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 22.400000000000002d
 		}
@@ -2569,12 +2269,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000203"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000203"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 24.0d
 		}
@@ -2586,12 +2284,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000204"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000204"
+				type: "checkmark"
+			}]
 			x: 1.6d
 			y: 24.0d
 		}
@@ -2603,12 +2299,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000205"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000205"
+				type: "checkmark"
+			}]
 			x: 3.2d
 			y: 24.0d
 		}
@@ -2620,12 +2314,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000206"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000206"
+				type: "checkmark"
+			}]
 			x: 4.800000000000001d
 			y: 24.0d
 		}
@@ -2637,12 +2329,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000207"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000207"
+				type: "checkmark"
+			}]
 			x: 6.4d
 			y: 24.0d
 		}
@@ -2654,12 +2344,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000208"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000208"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 24.0d
 		}
@@ -2671,12 +2359,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000209"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4000000000000209"
+				type: "checkmark"
+			}]
 			x: 9.600000000000001d
 			y: 24.0d
 		}
@@ -2688,12 +2374,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000020A"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000020A"
+				type: "checkmark"
+			}]
 			x: 11.200000000000001d
 			y: 24.0d
 		}
@@ -2705,12 +2389,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "400000000000020B"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "400000000000020B"
+				type: "checkmark"
+			}]
 			x: 12.8d
 			y: 24.0d
 		}
@@ -2722,12 +2404,10 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4F51A8E30E7C7CF3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4F51A8E30E7C7CF3"
+				type: "checkmark"
+			}]
 			x: 14.4d
 			y: 24.0d
 		}

@@ -8,41 +8,33 @@
 	}
 	id: "2000000000000005"
 	images: [ ]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [ "3000000000000020" ]
+			dependencies: ["3000000000000020"]
 			icon: {
 				id: "createdieselgenerators:basin_lid"
 			}
 			id: "300000000000003B"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000044"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "5000000000000044"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "hexagon"
 			size: 1.4d
 			tasks: [
 				{
 					id: "40000000000000A2"
-					item: {
-						count: 1
-						id: "createdieselgenerators:basin_lid"
-					}
+					item: { count: 1, id: "createdieselgenerators:basin_lid" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "40000000000000A3"
-					item: {
-						count: 1
-						id: "createdieselgenerators:oil_barrel"
-					}
+					item: { count: 1, id: "createdieselgenerators:oil_barrel" }
 					type: "item"
 				}
 			]
@@ -50,44 +42,33 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "300000000000003B" ]
+			dependencies: ["300000000000003B"]
 			icon: {
 				id: "createdieselgenerators:pumpjack_head"
 			}
 			id: "300000000000003C"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000045"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "5000000000000045"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "40000000000000A5"
-					item: {
-						count: 1
-						id: "createdieselgenerators:pumpjack_head"
-					}
+					item: { count: 1, id: "createdieselgenerators:pumpjack_head" }
 					type: "item"
 				}
 				{
 					id: "40000000000000A6"
-					item: {
-						count: 1
-						id: "createdieselgenerators:pumpjack_crank"
-					}
+					item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }
 					type: "item"
 				}
 				{
 					id: "40000000000000A7"
-					item: {
-						count: 1
-						id: "createdieselgenerators:pumpjack_bearing"
-					}
+					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
 					type: "item"
 				}
 			]
@@ -95,113 +76,88 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "300000000000003C" ]
+			dependencies: ["300000000000003C"]
 			icon: {
 				id: "createdieselgenerators:distillation_controller"
 			}
 			id: "300000000000003D"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000046"
-					type: "xp"
-					xp: 110
-				}
-			]
+			rewards: [{
+				id: "5000000000000046"
+				type: "xp"
+				xp: 110
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					id: "40000000000000A8"
-					item: {
-						count: 1
-						id: "createdieselgenerators:distillation_controller"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "40000000000000A8"
+				item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "300000000000003D", "3000000000000025" ]
+			dependencies: [
+				"300000000000003D"
+				"3000000000000025"
+			]
 			icon: {
 				id: "createdieselgenerators:diesel_engine"
 			}
 			id: "300000000000003E"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000047"
-					type: "xp"
-					xp: 150
-				}
-			]
+			rewards: [{
+				id: "5000000000000047"
+				type: "xp"
+				xp: 150
+			}]
 			shape: "octagon"
 			size: 1.3d
-			tasks: [
-				{
-					id: "40000000000000A9"
-					item: {
-						count: 1
-						id: "createdieselgenerators:diesel_engine"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "40000000000000A9"
+				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000019" ]
+			dependencies: ["3000000000000019"]
 			icon: {
 				id: "powergrid:wire_cutter"
 			}
 			id: "300000000000003F"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000048"
-					type: "xp"
-					xp: 60
-				}
-			]
+			rewards: [{
+				id: "5000000000000048"
+				type: "xp"
+				xp: 60
+			}]
 			shape: "hexagon"
 			size: 1.4d
 			tasks: [
 				{
 					id: "40000000000000AD"
-					item: {
-						count: 1
-						id: "powergrid:wire_cutter"
-					}
+					item: { count: 1, id: "powergrid:wire_cutter" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "40000000000000AE"
-					item: {
-						count: 1
-						id: "powergrid:insulated_copper_wire"
-					}
+					item: { count: 1, id: "powergrid:insulated_copper_wire" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "40000000000000AF"
-					item: {
-						count: 1
-						id: "powergrid:copper_coil"
-					}
+					item: { count: 1, id: "powergrid:copper_coil" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "40000000000000B0"
-					item: {
-						count: 1
-						id: "powergrid:cord_junction"
-					}
+					item: { count: 1, id: "powergrid:cord_junction" }
 					type: "item"
 				}
 			]
@@ -209,52 +165,38 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [ "300000000000003F" ]
+			dependencies: ["300000000000003F"]
 			icon: {
 				id: "powergrid:generator_housing"
 			}
 			id: "3000000000000040"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000049"
-					type: "xp"
-					xp: 110
-				}
-			]
+			rewards: [{
+				id: "5000000000000049"
+				type: "xp"
+				xp: 110
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "40000000000000B1"
-					item: {
-						count: 1
-						id: "powergrid:generator_housing"
-					}
+					item: { count: 1, id: "powergrid:generator_housing" }
 					type: "item"
 				}
 				{
 					id: "40000000000000B2"
-					item: {
-						count: 1
-						id: "powergrid:generator_induction_rotor"
-					}
+					item: { count: 1, id: "powergrid:generator_induction_rotor" }
 					type: "item"
 				}
 				{
 					id: "40000000000000B3"
-					item: {
-						count: 1
-						id: "powergrid:generator_commutator"
-					}
+					item: { count: 1, id: "powergrid:generator_commutator" }
 					type: "item"
 				}
 				{
 					id: "40000000000000B4"
-					item: {
-						count: 1
-						id: "powergrid:electric_motor"
-					}
+					item: { count: 1, id: "powergrid:electric_motor" }
 					type: "item"
 				}
 			]
@@ -262,36 +204,28 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [ "3000000000000040" ]
+			dependencies: ["3000000000000040"]
 			icon: {
 				id: "powergrid:multimeter"
 			}
 			id: "3000000000000041"
 			optional: true
-			rewards: [
-				{
-					id: "500000000000004A"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "500000000000004A"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "40000000000000B5"
-					item: {
-						count: 1
-						id: "powergrid:multimeter"
-					}
+					item: { count: 1, id: "powergrid:multimeter" }
 					type: "item"
 				}
 				{
 					id: "40000000000000B6"
-					item: {
-						count: 1
-						id: "powergrid:battery"
-					}
+					item: { count: 1, id: "powergrid:battery" }
 					type: "item"
 				}
 			]
@@ -299,44 +233,37 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [ "3000000000000040", "3FEF4628C26FC039", "3000000000000027" ]
+			dependencies: [
+				"3000000000000040"
+				"3FEF4628C26FC039"
+				"3000000000000027"
+			]
 			icon: {
 				id: "powergrid:portable_drill"
 			}
 			id: "3000000000000042"
 			optional: true
-			rewards: [
-				{
-					id: "500000000000004B"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "500000000000004B"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "40000000000000BC"
-					item: {
-						count: 1
-						id: "powergrid:portable_drill"
-					}
+					item: { count: 1, id: "powergrid:portable_drill" }
 					type: "item"
 				}
 				{
 					id: "40000000000000BD"
-					item: {
-						count: 1
-						id: "powergrid:portable_saw"
-					}
+					item: { count: 1, id: "powergrid:portable_saw" }
 					type: "item"
 				}
 				{
 					id: "40000000000000BE"
-					item: {
-						count: 1
-						id: "powergrid:circuit_design_table"
-					}
+					item: { count: 1, id: "powergrid:circuit_design_table" }
 					type: "item"
 				}
 			]
@@ -344,38 +271,30 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [ "300000000000001B" ]
+			dependencies: ["300000000000001B"]
 			icon: {
 				id: "alloyed:steel_ingot"
 			}
 			id: "3000000000000043"
 			optional: true
-			rewards: [
-				{
-					id: "500000000000004C"
-					type: "xp"
-					xp: 80
-				}
-			]
+			rewards: [{
+				id: "500000000000004C"
+				type: "xp"
+				xp: 80
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					count: 4L
 					id: "40000000000000BF"
-					item: {
-						count: 1
-						id: "alloyed:steel_ingot"
-					}
+					item: { count: 1, id: "alloyed:steel_ingot" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "40000000000000C0"
-					item: {
-						count: 1
-						id: "alloyed:bronze_ingot"
-					}
+					item: { count: 1, id: "alloyed:bronze_ingot" }
 					type: "item"
 				}
 			]
@@ -383,36 +302,28 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [ "3000000000000019" ]
+			dependencies: ["3000000000000019"]
 			icon: {
 				id: "create_enchantment_industry:mechanical_grindstone"
 			}
 			id: "3000000000000044"
 			optional: true
-			rewards: [
-				{
-					id: "500000000000004D"
-					type: "xp"
-					xp: 140
-				}
-			]
+			rewards: [{
+				id: "500000000000004D"
+				type: "xp"
+				xp: 140
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "40000000000000C6"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:mechanical_grindstone"
-					}
+					item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
 					type: "item"
 				}
 				{
 					id: "40000000000000CA"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:experience_hatch"
-					}
+					item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
 					type: "item"
 				}
 			]
@@ -420,36 +331,28 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [ "3000000000000020" ]
+			dependencies: ["3000000000000020"]
 			icon: {
 				id: "create_dragons_plus:fluid_hatch"
 			}
 			id: "3000000000000045"
 			optional: true
-			rewards: [
-				{
-					id: "500000000000004E"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "500000000000004E"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "40000000000000CE"
-					item: {
-						count: 1
-						id: "create_dragons_plus:fluid_hatch"
-					}
+					item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
 					type: "item"
 				}
 				{
 					id: "40000000000000CF"
-					item: {
-						count: 1
-						id: "create_dragons_plus:fragile_fluid_tank"
-					}
+					item: { count: 1, id: "create_dragons_plus:fragile_fluid_tank" }
 					type: "item"
 				}
 			]

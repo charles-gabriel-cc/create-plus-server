@@ -8,40 +8,32 @@
 	}
 	id: "2000000000000008"
 	images: [ ]
-	order_index: 7
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "farmersdelight:cooking_pot"
 			}
 			id: "3000000000000058"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000061"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "5000000000000061"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
 				{
 					id: "400000000000011C"
-					item: {
-						count: 1
-						id: "farmersdelight:cooking_pot"
-					}
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
 					type: "item"
 				}
 				{
 					id: "400000000000011D"
-					item: {
-						count: 1
-						id: "farmersdelight:stove"
-					}
+					item: { count: 1, id: "farmersdelight:stove" }
 					type: "item"
 				}
 			]
@@ -49,37 +41,30 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000058" ]
+			dependencies: ["3000000000000058"]
 			icon: {
 				id: "farmersdelight:rich_soil"
 			}
 			id: "3000000000000059"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000062"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "5000000000000062"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					count: 4L
-					id: "4000000000000121"
-					item: {
-						count: 1
-						id: "farmersdelight:rich_soil"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "4000000000000121"
+				item: { count: 1, id: "farmersdelight:rich_soil" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000059" ]
+			dependencies: ["3000000000000059"]
 			icon: {
 				id: "farmersdelight:roast_chicken_block"
 			}
@@ -103,50 +88,40 @@
 			]
 			shape: "octagon"
 			size: 1.2d
-			tasks: [
-				{
-					id: "4000000000000126"
-					item: {
-						count: 1
-						id: "farmersdelight:roast_chicken_block"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4000000000000126"
+				item: { count: 1, id: "farmersdelight:roast_chicken_block" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000058", "3000000000000016" ]
+			dependencies: [
+				"3000000000000058"
+				"3000000000000016"
+			]
 			icon: {
 				id: "sliceanddice:slicer"
 			}
 			id: "300000000000005B"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000065"
-					type: "xp"
-					xp: 85
-				}
-			]
+			rewards: [{
+				id: "5000000000000065"
+				type: "xp"
+				xp: 85
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "4000000000000127"
-					item: {
-						count: 1
-						id: "sliceanddice:slicer"
-					}
+					item: { count: 1, id: "sliceanddice:slicer" }
 					type: "item"
 				}
 				{
 					id: "4000000000000128"
-					item: {
-						count: 1
-						id: "sliceanddice:sprinkler"
-					}
+					item: { count: 1, id: "sliceanddice:sprinkler" }
 					type: "item"
 				}
 			]
@@ -154,36 +129,31 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [ "3000000000000058", "3000000000000069" ]
+			dependencies: [
+				"3000000000000058"
+				"3000000000000069"
+			]
 			icon: {
 				id: "mynethersdelight:nether_bricks_stove"
 			}
 			id: "300000000000005C"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000066"
-					type: "xp"
-					xp: 80
-				}
-			]
+			rewards: [{
+				id: "5000000000000066"
+				type: "xp"
+				xp: 80
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "400000000000012A"
-					item: {
-						count: 1
-						id: "mynethersdelight:nether_bricks_stove"
-					}
+					item: { count: 1, id: "mynethersdelight:nether_bricks_stove" }
 					type: "item"
 				}
 				{
 					id: "400000000000012E"
-					item: {
-						count: 1
-						id: "mynethersdelight:breakfast_sampler"
-					}
+					item: { count: 1, id: "mynethersdelight:breakfast_sampler" }
 					type: "item"
 				}
 			]
@@ -191,37 +161,29 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [ "3000000000000058" ]
+			dependencies: ["3000000000000058"]
 			icon: {
 				id: "minersdelight:copper_pot"
 			}
 			id: "300000000000005D"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000067"
-					type: "xp"
-					xp: 70
-				}
-			]
+			rewards: [{
+				id: "5000000000000067"
+				type: "xp"
+				xp: 70
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "400000000000012F"
-					item: {
-						count: 1
-						id: "minersdelight:copper_pot"
-					}
+					item: { count: 1, id: "minersdelight:copper_pot" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "4000000000000130"
-					item: {
-						count: 1
-						id: "minersdelight:copper_cup"
-					}
+					item: { count: 1, id: "minersdelight:copper_cup" }
 					type: "item"
 				}
 			]
@@ -229,36 +191,31 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [ "3000000000000058", "300000000000006A" ]
+			dependencies: [
+				"3000000000000058"
+				"300000000000006A"
+			]
 			icon: {
 				id: "ends_delight:end_stove"
 			}
 			id: "300000000000005E"
 			optional: true
-			rewards: [
-				{
-					id: "5000000000000068"
-					type: "xp"
-					xp: 110
-				}
-			]
+			rewards: [{
+				id: "5000000000000068"
+				type: "xp"
+				xp: 110
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "4000000000000133"
-					item: {
-						count: 1
-						id: "ends_delight:end_stove"
-					}
+					item: { count: 1, id: "ends_delight:end_stove" }
 					type: "item"
 				}
 				{
 					id: "4000000000000135"
-					item: {
-						count: 1
-						id: "ends_delight:chorus_fruit_pie"
-					}
+					item: { count: 1, id: "ends_delight:chorus_fruit_pie" }
 					type: "item"
 				}
 			]

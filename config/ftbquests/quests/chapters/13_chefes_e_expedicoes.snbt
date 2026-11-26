@@ -8,799 +8,694 @@
 	}
 	id: "200000000000000D"
 	images: [ ]
-	order_index: 12
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "mowziesmobs:ice_crystal"
 			}
 			id: "3F33E6911C88DF76"
 			optional: true
-			rewards: [
-				{
-					id: "5F296AB81723A8E1"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F296AB81723A8E1"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "mowziesmobs:kill_frostmaw"
-					id: "4F7B5E5FF6BA02A1"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mowziesmobs:kill_frostmaw"
+				criterion: ""
+				id: "4F7B5E5FF6BA02A1"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "mowziesmobs:wrought_axe"
 			}
 			id: "3FA847ED1C720C32"
 			optional: true
-			rewards: [
-				{
-					id: "5F89CF83C82452F6"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F89CF83C82452F6"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
-					id: "4F722A43FFAE3E5F"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				id: "4F722A43FFAE3E5F"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "mowziesmobs:sol_visage"
 			}
 			id: "3FE3351DA2B322E2"
 			optional: true
-			rewards: [
-				{
-					id: "5F7D22D7FF9B6B14"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F7D22D7FF9B6B14"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "mowziesmobs:kill_umvuthi"
-					id: "4F2C8A78F912E0E2"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				id: "4F2C8A78F912E0E2"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "mowziesmobs:earthrend_gauntlet"
 			}
 			id: "3FA37985D14F378B"
 			optional: true
-			rewards: [
-				{
-					id: "5FBAABC16E332BC6"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5FBAABC16E332BC6"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "mowziesmobs:sculptor_challenge"
-					id: "4F1C9768539AA36D"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "4F1C9768539AA36D"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "minecraft:wet_sponge"
 			}
 			id: "3FC868BCEC440C36"
 			optional: true
-			rewards: [
-				{
-					id: "5FD1D92D1253C565"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5FD1D92D1253C565"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "minecraft:elder_guardian"
-					id: "4F141D55681E5327"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "4F141D55681E5327"
+				type: "kill"
+				value: 1L
+			}]
 			x: 0.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "hybrid_aquatic:karkinos_claw"
 			}
 			id: "3F1210D38FFF80B6"
 			optional: true
-			rewards: [
-				{
-					id: "5FF047A5C1A23267"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5FF047A5C1A23267"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "hybrid_aquatic:karkinos"
-					id: "4F7D8BE28FA0B501"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "hybrid_aquatic:karkinos"
+				id: "4F7D8BE28FA0B501"
+				type: "kill"
+				value: 1L
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "hybrid_aquatic:comically_large_nautilus_shell"
 			}
 			id: "3FF01B18FD88D9F1"
 			optional: true
-			rewards: [
-				{
-					id: "5F545F0FC363EC16"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F545F0FC363EC16"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "hybrid_aquatic:shell_beast"
-					id: "4F29D2C80A2087ED"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "hybrid_aquatic:shell_beast"
+				id: "4F29D2C80A2087ED"
+				type: "kill"
+				value: 1L
+			}]
 			x: 4.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "cataclysm:tidal_claws"
 			}
 			id: "3FB87D90D92F21B7"
 			optional: true
-			rewards: [
-				{
-					id: "5F504619EBEBB331"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F504619EBEBB331"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "cataclysm:kill_leviathan"
-					id: "4FD3B816939125A5"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				id: "4FD3B816939125A5"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "deeperdarker:heart_of_the_deep"
 			}
 			id: "3F11A560A3B8469B"
 			optional: true
-			rewards: [
-				{
-					id: "5F387057844CF5A6"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F387057844CF5A6"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "minecraft:warden"
-					id: "4F32F38B053DEF98"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "4F32F38B053DEF98"
+				type: "kill"
+				value: 1L
+			}]
 			x: 8.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "deeperdarker:heart_of_the_deep"
 			}
 			id: "3F346775C4986A3A"
 			optional: true
-			rewards: [
-				{
-					id: "5F6F5BA10C60D57C"
-					type: "xp"
-					xp: 70
-				}
-			]
+			rewards: [{
+				id: "5F6F5BA10C60D57C"
+				type: "xp"
+				xp: 70
+			}]
 			shape: "octagon"
 			size: 1.5d
-			tasks: [
-				{
-					dimension: "deeperdarker:otherside"
-					id: "4F03D29218D3EAC2"
-					type: "dimension"
-				}
-			]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "4F03D29218D3EAC2"
+				type: "dimension"
+			}]
 			x: 10.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [ "3F346775C4986A3A" ]
+			dependencies: ["3F346775C4986A3A"]
 			icon: {
 				id: "deeperdarker:soul_crystal"
 			}
 			id: "3F1CE0569BEFFA55"
 			optional: true
-			rewards: [
-				{
-					id: "5FCD284A32EDAC42"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5FCD284A32EDAC42"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "deeperdarker:stalker"
-					id: "4F9CD5A70708CF95"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "4F9CD5A70708CF95"
+				type: "kill"
+				value: 1L
+			}]
 			x: 12.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "ec_ad:sculk_toxin"
 			}
 			id: "3F3D3854A914DEC2"
 			optional: true
-			rewards: [
-				{
-					id: "5F01D28C6C330BC9"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F01D28C6C330BC9"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "ec_ad:sculksaur"
-					id: "4F7CA690F1A0C5AF"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "ec_ad:sculksaur"
+				id: "4F7CA690F1A0C5AF"
+				type: "kill"
+				value: 1L
+			}]
 			x: 8.0d
 			y: 6.0d
 		}
 		{
-			dependencies: [ "3000000000000069" ]
+			dependencies: ["3000000000000069"]
 			icon: {
 				id: "friendsandfoes:wildfire_crown_fragment"
 			}
 			id: "3FB84AE276FA842F"
 			optional: true
-			rewards: [
-				{
-					id: "5F8DDFDD9E55A7F3"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F8DDFDD9E55A7F3"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "friendsandfoes:wildfire"
-					id: "4F11A7D662A50765"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				id: "4F11A7D662A50765"
+				type: "kill"
+				value: 1L
+			}]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [ "3000000000000069" ]
+			dependencies: ["3000000000000069"]
 			icon: {
 				id: "alexsmobs:hemolymph_sac"
 			}
 			id: "3F7BCEBA32A583B7"
 			optional: true
-			rewards: [
-				{
-					id: "5FC592C34459467D"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5FC592C34459467D"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "alexsmobs:warped_mosco"
-					id: "4FF9FC8BB664FCAD"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				id: "4FF9FC8BB664FCAD"
+				type: "kill"
+				value: 1L
+			}]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [ "3000000000000069" ]
+			dependencies: ["3000000000000069"]
 			icon: {
 				id: "cataclysm:infernal_forge"
 			}
 			id: "3FE5E0B02C1A503F"
 			optional: true
-			rewards: [
-				{
-					id: "5F35D12633F32A58"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F35D12633F32A58"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "cataclysm:kill_monstrosity"
-					id: "4FD0154901DC442D"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "4FD0154901DC442D"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [ "3000000000000069" ]
+			dependencies: ["3000000000000069"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
 			id: "3FED7AF4E4F0C024"
 			optional: true
-			rewards: [
-				{
-					id: "5F011EDF6BC98ACA"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F011EDF6BC98ACA"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "minecraft:wither"
-					id: "4F031F5A40D5E968"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4F031F5A40D5E968"
+				type: "kill"
+				value: 1L
+			}]
 			x: 0.0d
 			y: 6.0d
 		}
 		{
-			dependencies: [ "3FED7AF4E4F0C024" ]
+			dependencies: ["3FED7AF4E4F0C024"]
 			icon: {
 				id: "cataclysm:witherite_block"
 			}
 			id: "3FFE87CBB8D6E630"
 			optional: true
-			rewards: [
-				{
-					id: "5F01A6BEA0468F40"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F01A6BEA0468F40"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "cataclysm:kill_harbinger"
-					id: "4FEE83890E752A39"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "4FEE83890E752A39"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: 6.0d
 		}
 		{
-			dependencies: [ "3000000000000069" ]
+			dependencies: ["3000000000000069"]
 			icon: {
 				id: "cataclysm:burning_ashes"
 			}
 			id: "3FF605CEECF3BC6E"
 			optional: true
-			rewards: [
-				{
-					id: "5F7CB4FEC8BEA7BD"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F7CB4FEC8BEA7BD"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "cataclysm:kill_revenant"
-					id: "4FD729851C2CA7E7"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "cataclysm:kill_revenant"
+				criterion: ""
+				id: "4FD729851C2CA7E7"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 6.0d
 		}
 		{
-			dependencies: [ "3FF605CEECF3BC6E" ]
+			dependencies: ["3FF605CEECF3BC6E"]
 			icon: {
 				id: "cataclysm:ignitium_ingot"
 			}
 			id: "3F803F939319CF8B"
 			optional: true
-			rewards: [
-				{
-					id: "5FCFC835C62AA6C4"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5FCFC835C62AA6C4"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "cataclysm:kill_ignis"
-					id: "4F051B290C8C4F96"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "4F051B290C8C4F96"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 6.0d
 		}
 		{
-			dependencies: [ "300000000000006A" ]
+			dependencies: ["300000000000006A"]
 			icon: {
 				id: "minecraft:dragon_breath"
 			}
 			id: "3F6209551951E2CA"
 			optional: true
-			rewards: [
-				{
-					id: "5F9DD2A0E2C7A66B"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F9DD2A0E2C7A66B"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "minecraft:end/kill_dragon"
-					id: "4FC0AA04BACFEE53"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "4FC0AA04BACFEE53"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [ "300000000000006A" ]
+			dependencies: ["300000000000006A"]
 			icon: {
 				id: "cataclysm:void_core"
 			}
 			id: "3F99E9D25748A639"
 			optional: true
-			rewards: [
-				{
-					id: "5FFE326A2A67AE23"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5FFE326A2A67AE23"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "cataclysm:kill_ender_golem"
-					id: "4F846FC2F4CAB9B9"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "cataclysm:kill_ender_golem"
+				criterion: ""
+				id: "4F846FC2F4CAB9B9"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [ "3F99E9D25748A639" ]
+			dependencies: ["3F99E9D25748A639"]
 			icon: {
 				id: "cataclysm:gauntlet_of_guard"
 			}
 			id: "3FA377CEC3727ECC"
 			optional: true
-			rewards: [
-				{
-					id: "5F08945EF57E619D"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F08945EF57E619D"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "cataclysm:kill_ender_guardian"
-					id: "4F23A69F72AE0454"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "4F23A69F72AE0454"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [ "300000000000006A" ]
+			dependencies: ["300000000000006A"]
 			icon: {
 				id: "alexsmobs:void_worm_eye"
 			}
 			id: "3F1520C69D384B35"
 			optional: true
-			rewards: [
-				{
-					id: "5FCE97FA4295A847"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5FCE97FA4295A847"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "alexsmobs:void_worm"
-					id: "4FFB8E983531F647"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				id: "4FFB8E983531F647"
+				type: "kill"
+				value: 1L
+			}]
 			x: 6.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "cataclysm:sandstorm_in_a_bottle"
 			}
 			id: "3FB62C87D1C220D5"
 			optional: true
-			rewards: [
-				{
-					id: "5F43656DE9846CC6"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F43656DE9846CC6"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "cataclysm:kill_remnant"
-					id: "4F14223244FEFD1F"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "4F14223244FEFD1F"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "cataclysm:strange_key"
 			}
 			id: "3FF96D024250834B"
 			optional: true
-			rewards: [
-				{
-					id: "5F3C24441C5FF266"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F3C24441C5FF266"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "cataclysm:aptrgangr"
-					id: "4FED55C30C3B63CD"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "cataclysm:aptrgangr"
+				id: "4FED55C30C3B63CD"
+				type: "kill"
+				value: 1L
+			}]
 			x: 2.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [ "3FF96D024250834B" ]
+			dependencies: ["3FF96D024250834B"]
 			icon: {
 				id: "cataclysm:cursium_ingot"
 			}
 			id: "3F3D5982ADD44242"
 			optional: true
-			rewards: [
-				{
-					id: "5F188BF71EECA1FD"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F188BF71EECA1FD"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "cataclysm:kill_maledictus"
-					id: "4F2104ACB2D80403"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				id: "4F2104ACB2D80403"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "cataclysm:essence_of_the_storm"
 			}
 			id: "3F909FE001702ADB"
 			optional: true
-			rewards: [
-				{
-					id: "5F84DD9F6A917F4D"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F84DD9F6A917F4D"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					advancement: "cataclysm:kill_scylla"
-					id: "4FDF88600D28221C"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "cataclysm:kill_scylla"
+				criterion: ""
+				id: "4FDF88600D28221C"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [ "3FB51861941C76B3" ]
+			dependencies: ["3FB51861941C76B3"]
 			icon: {
 				id: "thaumaturge:salis_mundus"
 			}
 			id: "3F70991ACE470937"
 			optional: true
-			rewards: [
-				{
-					id: "5F2AECE2182DB3B2"
-					type: "xp"
-					xp: 70
-				}
-			]
+			rewards: [{
+				id: "5F2AECE2182DB3B2"
+				type: "xp"
+				xp: 70
+			}]
 			shape: "octagon"
 			size: 1.5d
-			tasks: [
-				{
-					dimension: "thaumaturge:outer_lands"
-					id: "4F36E110C67D0C77"
-					type: "dimension"
-				}
-			]
+			tasks: [{
+				dimension: "thaumaturge:outer_lands"
+				id: "4F36E110C67D0C77"
+				type: "dimension"
+			}]
 			x: 8.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [ "3F70991ACE470937" ]
+			dependencies: ["3F70991ACE470937"]
 			icon: {
 				id: "thaumaturge:primordial_pearl"
 			}
 			id: "3FD034A02AE5EEDF"
 			optional: true
-			rewards: [
-				{
-					id: "5FACD6D0D4339494"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5FACD6D0D4339494"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "thaumaturge:eldritch_warden"
-					id: "4FB2D38C6C0FD7C9"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "thaumaturge:eldritch_warden"
+				id: "4FB2D38C6C0FD7C9"
+				type: "kill"
+				value: 1L
+			}]
 			x: 10.0d
 			y: 9.0d
 		}
 		{
-			dependencies: [ "3F70991ACE470937" ]
+			dependencies: ["3F70991ACE470937"]
 			icon: {
 				id: "thaumaturge:loot_bag_rare"
 			}
 			id: "3F28B90F9A0151B4"
 			optional: true
-			rewards: [
-				{
-					id: "5F2AB6A19AED5133"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5F2AB6A19AED5133"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					entity: "thaumaturge:eldritch_hierophant"
-					id: "4FD0B91A6F0B82EF"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "thaumaturge:eldritch_hierophant"
+				id: "4FD0B91A6F0B82EF"
+				type: "kill"
+				value: 1L
+			}]
 			x: 10.0d
 			y: 11.0d
 		}

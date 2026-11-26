@@ -8,40 +8,35 @@
 	}
 	id: "2000000000000003"
 	images: [ ]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [ "3000000000000019", "3000000000000069" ]
+			dependencies: [
+				"3000000000000019"
+				"3000000000000069"
+			]
 			icon: {
 				id: "create:polished_rose_quartz"
 			}
 			id: "3000000000000024"
-			rewards: [
-				{
-					id: "500000000000002B"
-					type: "xp"
-					xp: 45
-				}
-			]
+			rewards: [{
+				id: "500000000000002B"
+				type: "xp"
+				xp: 45
+			}]
 			shape: "hexagon"
 			size: 1.4d
 			tasks: [
 				{
 					id: "4000000000000043"
-					item: {
-						count: 1
-						id: "create:polished_rose_quartz"
-					}
+					item: { count: 1, id: "create:polished_rose_quartz" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "4000000000000044"
-					item: {
-						count: 1
-						id: "create:electron_tube"
-					}
+					item: { count: 1, id: "create:electron_tube" }
 					type: "item"
 				}
 			]
@@ -49,36 +44,28 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "300000000000001B" ]
+			dependencies: ["300000000000001B"]
 			icon: {
 				id: "create:brass_ingot"
 			}
 			id: "3000000000000025"
-			rewards: [
-				{
-					id: "500000000000002C"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "500000000000002C"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					count: 4L
 					id: "4000000000000045"
-					item: {
-						count: 1
-						id: "create:brass_ingot"
-					}
+					item: { count: 1, id: "create:brass_ingot" }
 					type: "item"
 				}
 				{
 					id: "4000000000000046"
-					item: {
-						count: 1
-						id: "create:brass_casing"
-					}
+					item: { count: 1, id: "create:brass_casing" }
 					type: "item"
 				}
 			]
@@ -86,35 +73,31 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000025", "3000000000000024" ]
+			dependencies: [
+				"3000000000000025"
+				"3000000000000024"
+			]
 			icon: {
 				id: "create:deployer"
 			}
 			id: "3000000000000026"
-			rewards: [
-				{
-					id: "500000000000002D"
-					type: "xp"
-					xp: 65
-				}
-			]
+			rewards: [{
+				id: "500000000000002D"
+				type: "xp"
+				xp: 65
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4000000000000047"
-					item: {
-						count: 1
-						id: "create:deployer"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4000000000000047"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000026" ]
+			dependencies: ["3000000000000026"]
 			icon: {
 				id: "create:precision_mechanism"
 			}
@@ -136,107 +119,83 @@
 			]
 			shape: "octagon"
 			size: 1.3d
-			tasks: [
-				{
-					id: "4000000000000049"
-					item: {
-						count: 1
-						id: "create:precision_mechanism"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4000000000000049"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000025", "3000000000000024" ]
+			dependencies: [
+				"3000000000000025"
+				"3000000000000024"
+			]
 			icon: {
 				id: "create:mechanical_crafter"
 			}
 			id: "3FEF4628C26FC039"
-			rewards: [
-				{
-					id: "5F898B04B720BA42"
-					type: "xp"
-					xp: 65
-				}
-			]
+			rewards: [{
+				id: "5F898B04B720BA42"
+				type: "xp"
+				xp: 65
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					count: 3L
-					id: "4F19B388ED6400B1"
-					item: {
-						count: 1
-						id: "create:mechanical_crafter"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "4F19B388ED6400B1"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -2.0d
 		}
 		{
-			dependencies: [ "3FEF4628C26FC039" ]
+			dependencies: ["3FEF4628C26FC039"]
 			icon: {
 				id: "create:crushing_wheel"
 			}
 			id: "3000000000000028"
-			rewards: [
-				{
-					id: "5000000000000030"
-					type: "xp"
-					xp: 120
-				}
-			]
+			rewards: [{
+				id: "5000000000000030"
+				type: "xp"
+				xp: 120
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					count: 2L
-					id: "400000000000004A"
-					item: {
-						count: 1
-						id: "create:crushing_wheel"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "400000000000004A"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [ "3000000000000027" ]
+			dependencies: ["3000000000000027"]
 			icon: {
 				id: "create:rotation_speed_controller"
 			}
 			id: "3000000000000029"
-			rewards: [
-				{
-					id: "5000000000000031"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5000000000000031"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "400000000000004C"
-					item: {
-						count: 1
-						id: "create:rotation_speed_controller"
-					}
+					item: { count: 1, id: "create:rotation_speed_controller" }
 					type: "item"
 				}
 				{
 					id: "400000000000004D"
-					item: {
-						count: 1
-						id: "create:mechanical_arm"
-					}
+					item: { count: 1, id: "create:mechanical_arm" }
 					type: "item"
 				}
 			]
@@ -244,43 +203,36 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [ "3000000000000025", "3000000000000024", "300000000000001E" ]
+			dependencies: [
+				"3000000000000025"
+				"3000000000000024"
+				"300000000000001E"
+			]
 			icon: {
 				id: "create:brass_funnel"
 			}
 			id: "300000000000002A"
-			rewards: [
-				{
-					id: "5000000000000032"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "5000000000000032"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
 					id: "400000000000004E"
-					item: {
-						count: 1
-						id: "create:brass_funnel"
-					}
+					item: { count: 1, id: "create:brass_funnel" }
 					type: "item"
 				}
 				{
 					id: "4000000000000050"
-					item: {
-						count: 1
-						id: "create:smart_chute"
-					}
+					item: { count: 1, id: "create:smart_chute" }
 					type: "item"
 				}
 				{
 					id: "4000000000000052"
-					item: {
-						count: 1
-						id: "create:content_observer"
-					}
+					item: { count: 1, id: "create:content_observer" }
 					type: "item"
 				}
 			]
@@ -288,7 +240,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [ "300000000000001B", "3000000000000020" ]
+			dependencies: [
+				"300000000000001B"
+				"3000000000000020"
+			]
 			icon: {
 				id: "create:steam_engine"
 			}
@@ -310,59 +265,43 @@
 			]
 			shape: "diamond"
 			size: 1.4d
-			tasks: [
-				{
-					id: "4000000000000059"
-					item: {
-						count: 1
-						id: "create:steam_engine"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4000000000000059"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.5d
 		}
 		{
-			dependencies: [ "3000000000000027" ]
+			dependencies: ["3000000000000027"]
 			icon: {
 				id: "create:track"
 			}
 			id: "300000000000002C"
-			rewards: [
-				{
-					id: "5000000000000035"
-					type: "xp"
-					xp: 130
-				}
-			]
+			rewards: [{
+				id: "5000000000000035"
+				type: "xp"
+				xp: 130
+			}]
 			shape: "hexagon"
 			size: 1.4d
 			tasks: [
 				{
 					count: 8L
 					id: "400000000000005A"
-					item: {
-						count: 1
-						id: "create:track"
-					}
+					item: { count: 1, id: "create:track" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "400000000000005C"
-					item: {
-						count: 1
-						id: "create:track_station"
-					}
+					item: { count: 1, id: "create:track_station" }
 					type: "item"
 				}
 				{
 					id: "400000000000005D"
-					item: {
-						count: 1
-						id: "create:controls"
-					}
+					item: { count: 1, id: "create:controls" }
 					type: "item"
 				}
 			]
@@ -370,45 +309,34 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [ "300000000000001D" ]
+			dependencies: ["300000000000001D"]
 			icon: {
 				id: "create:packager"
 			}
 			id: "300000000000002D"
-			rewards: [
-				{
-					id: "5000000000000036"
-					type: "xp"
-					xp: 120
-				}
-			]
+			rewards: [{
+				id: "5000000000000036"
+				type: "xp"
+				xp: 120
+			}]
 			shape: "rsquare"
 			size: 1.3d
 			tasks: [
 				{
 					id: "4000000000000061"
-					item: {
-						count: 1
-						id: "create:packager"
-					}
+					item: { count: 1, id: "create:packager" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "4000000000000062"
-					item: {
-						count: 1
-						id: "create:cardboard"
-					}
+					item: { count: 1, id: "create:cardboard" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "4000000000000066"
-					item: {
-						count: 1
-						id: "create:package_frogport"
-					}
+					item: { count: 1, id: "create:package_frogport" }
 					type: "item"
 				}
 			]
@@ -416,45 +344,37 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [ "300000000000002D", "3000000000000024" ]
+			dependencies: [
+				"300000000000002D"
+				"3000000000000024"
+			]
 			icon: {
 				id: "create:stock_ticker"
 			}
 			id: "300000000000002E"
-			rewards: [
-				{
-					id: "5000000000000037"
-					type: "xp"
-					xp: 150
-				}
-			]
+			rewards: [{
+				id: "5000000000000037"
+				type: "xp"
+				xp: 150
+			}]
 			shape: "octagon"
 			size: 1.4d
 			tasks: [
 				{
 					id: "4000000000000067"
-					item: {
-						count: 1
-						id: "create:stock_ticker"
-					}
+					item: { count: 1, id: "create:stock_ticker" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "4000000000000068"
-					item: {
-						count: 1
-						id: "create:stock_link"
-					}
+					item: { count: 1, id: "create:stock_link" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "400000000000006C"
-					item: {
-						count: 1
-						id: "create:chain_conveyor"
-					}
+					item: { count: 1, id: "create:chain_conveyor" }
 					type: "item"
 				}
 			]
