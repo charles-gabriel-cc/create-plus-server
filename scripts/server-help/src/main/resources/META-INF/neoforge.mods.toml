@@ -1,0 +1,17 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "createplus_server_help"
+version = "1.0.0"
+displayName = "Create+ Server Help"
+description = "Adiciona os comandos /comandos e /ajuda com guia em portugues dos comandos do servidor Create+."
+displayTest = "IGNORE_SERVER_VERSION"
+
+[[dependencies.createplus_server_help]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "SERVER"
