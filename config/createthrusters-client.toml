@@ -38,6 +38,12 @@
 	#Claw marker render mode is disabled; OFF is enforced
 	#Allowed Values: DEPTH, DECAL, PARTICLE, OFF
 	clawMarkerRenderMode = "OFF"
+	#Minimum graph zoom at which ACC node body controls, ports and labels are rendered. 0 always shows details; 1 is 100% zoom. Changes apply immediately.
+	# Default: 0.55
+	# Range: 0.0 ~ 1.75
+	accNodeDetailZoomThreshold = 0.55
+	#Render cached Distant Horizons or Voxy LOD terrain in camera feeds. Disabled by default. Additional rendering uses more GPU time and memory, can reduce FPS and may lower feed refresh rates under load. Changes apply to active feeds.
+	cameraFeedLods = false
 
 	#Seasonal visual effects
 	[client.seasonal]

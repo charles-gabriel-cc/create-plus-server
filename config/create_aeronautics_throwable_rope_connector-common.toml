@@ -28,14 +28,9 @@
 	mountedLauncherRange = 40.0
 	#Allow a rising redstone pulse to fire the Mounted Rope Launcher using its last saved aim.
 	mountedRedstoneFire = true
-	#Controls whether the Mounted Rope Launcher can remotely release anchors it placed.
-	#REMOVE: release the rope and remove the placed connector with no refund.
-	#DISABLED: remote release does nothing; players must go recover the connector manually.
-	#Allowed Values: REMOVE, DISABLED
-	mountedAnchorReleaseMode = "REMOVE"
 
 [general]
-	#If true, throwable connector ammo is only consumed after a successful attachment.
+	#If true, ammunition is only consumed after a successful shot.
 	#This applies to hand throws, the handheld launcher, and the mounted launcher.
 	consumeOnSuccessOnly = true
 	#Spawn particles at the placed connector on success.

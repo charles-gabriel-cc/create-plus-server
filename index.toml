@@ -89,6 +89,10 @@ file = "config/aeroclaims-server.toml"
 hash = "ef26e10f607261f755cdcf0ece96da201d8d1af0ac6bd6d3bff5dbf80ba81a85"
 
 [[files]]
+file = "config/aeronautics-client.toml"
+hash = "8d41a8e549a15100345effd3c49bef8a83af14cfde829223146b2f8e04257dc3"
+
+[[files]]
 file = "config/aeronautics-server.toml"
 hash = "733a50c4a935c18257572c88cf0df06e85978671930984248d4dac1ffdfb6b19"
 
@@ -478,7 +482,7 @@ hash = "82a6f62735029515da3c6af6881cf1ca44b346c2836ec3921ede9cde76aace4a"
 
 [[files]]
 file = "config/amendments-client.toml"
-hash = "c00e838c6c977b728447c52a0ed477cb0b99309746072f1c3782fa8091f5dd7d"
+hash = "c7f7fc40d757cbf21eaea1ab38eda77f4e1dd5f80a50ed6f059cd1f49a4d309b"
 
 [[files]]
 file = "config/amendments-common.toml"
@@ -706,7 +710,7 @@ hash = "c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "64b3a9808f98d547bfc461f41e159cab6ef3c7525a98479e06adcbf65b027997"
+hash = "c94586a9920cee177257b2cd12de51110ddea1030c9a3e70cd53f35d44d707d9"
 
 [[files]]
 file = "config/cataclysm-client.toml"
@@ -814,7 +818,7 @@ hash = "5f64bc1089e541d4e05e834e082c33f10fd9a78bcee4c4b09e56bc82fc52a1cf"
 
 [[files]]
 file = "config/create_aeronautics_throwable_rope_connector-common.toml"
-hash = "7fa52ef7398ad8457fbf0ac45b0f37e86b93c5e19c22ee30c9c7d81b92797f84"
+hash = "54ae18b9c579b463b9ffefc0afbbeddfee0b05ca35b63c507d6b707b957dc497"
 
 [[files]]
 file = "config/create_aeronautics_toolgun-container.toml"
@@ -894,7 +898,7 @@ hash = "e2144a02f5959e6b2ab662d04963e1d2b75fe6ee872881fcf381e8f790f237a0"
 
 [[files]]
 file = "config/createdieselgenerators-client.toml"
-hash = "f5a9c7e31e704d9ee81cad29080f5301a96bf92518e0c51f77b17b14ce3985e7"
+hash = "ad918d34c7a71c6138632525163a6e2975831ee19fb27814ba403eef45ea2bb6"
 
 [[files]]
 file = "config/createdieselgenerators-common.toml"
@@ -1222,7 +1226,7 @@ hash = "a625cd666686e3cad6a3b61758de6936e01606204033d0e7a62866427d5ad7ed"
 
 [[files]]
 file = "config/createthrusters-client.toml"
-hash = "3acc0a1c72ce9ce067740492962c070f684608cd58d85dc6982b925595b887ec"
+hash = "9e74e5b40c36e4a20e769dcdf7c4fc28563f36fce0c1fbd94920d4c1e4b63954"
 
 [[files]]
 file = "config/createthrusters-common.toml"
@@ -1326,7 +1330,7 @@ hash = "1831109fee7afc163f381d19d57f45db6ad9a8574da583437f5a1e91beb85478"
 
 [[files]]
 file = "config/ec_ad/server_config.json"
-hash = "a0f79fba549eebaa8c28877eb536cbe63e396ec0abdfdef53c9fa2eb42efde34"
+hash = "38e25e6106d91b00f3453a3151c5588deeacf90db691f3123183a53394e90b70"
 
 [[files]]
 file = "config/ecologics-common.toml"
@@ -1410,7 +1414,7 @@ hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
 
 [[files]]
 file = "config/euphoria_patcher/.data.json"
-hash = "b9397d89ba82c500811ebe7df85eadcad51e48981c5282743ac930fb7daba92b"
+hash = "9e4742ef4d74e6bfc320b955442f38998de90c4caa4ba617876fd8132a9cb78e"
 
 [[files]]
 file = "config/euphoria_patcher/settings.toml"
@@ -1583,6 +1587,10 @@ hash = "726985bc36cf7d7b94244fb171d110feb91f0b05187ed881b53ed4bd7be8c349"
 [[files]]
 file = "config/gadgetsngizmos-camera-client.toml"
 hash = "23d3a3cf02344039f18f32db8b3f917ac029fe9ea8713b278a2a8d04ba2470e1"
+
+[[files]]
+file = "config/gadgetsngizmos-lua-common.toml"
+hash = "b0b8df25ca06f2657502969e2e954512160486682e2f46f19c918498f1fcfe41"
 
 [[files]]
 file = "config/gadgetsngizmos-server.toml"
@@ -1826,7 +1834,7 @@ hash = "0f1415d7fef6d7f6194275501d500b633dd3310aea40d64128edd1b096372f60"
 
 [[files]]
 file = "config/nerb/client.yaml"
-hash = "94967939be90f6879ca3ef93fac9b394d3dbe85ae3e0cf17e4f792c54042a19f"
+hash = "a7a472b4e86a6248b0793d1f9f7d6b99f38270e0adb4a6c4a81c5392ee5d9023"
 
 [[files]]
 file = "config/nerb/compat/emi.yaml"
@@ -1838,7 +1846,7 @@ hash = "ec614cafa950e8fb5c77d497a8bb0b0fa44b8f88c0a0b7767515fdb94f116340"
 
 [[files]]
 file = "config/nerb/server.yaml"
-hash = "15f8fcb8973d28f92ac40ca3d5b37d7dd2b2cc7b9601f78a6095dac484b86847"
+hash = "8af95ee00d1b39c7cf2341412a514cad56b5246fa607458365a5c6c1197d82eb"
 
 [[files]]
 file = "config/netherite_horse_armor-common.toml"
@@ -1942,7 +1950,7 @@ hash = "a954732e7e76d5cccb62ed88cdeee38018f22679d39c3b4727581551fa4da02b"
 
 [[files]]
 file = "config/reliable_advancements.json"
-hash = "d54898f5a33d6efe411f9bca8a2da88a7f710732485bae8644ed731c3c74d2ac"
+hash = "22d6c11361749fbe86828c50669a485e08b2117036eb3f724a5346e66c706b5b"
 
 [[files]]
 file = "config/reliable_advancements_layout.json"
@@ -1950,7 +1958,7 @@ hash = "8d8c1e616ed56633369b65561655eb3f7d66a0db48e2c63df39656376b09835e"
 
 [[files]]
 file = "config/remi/remi.json"
-hash = "38ad6465608dd577493c081be47417a9d491be67cfd1e8cfeaa0ac4694d533bd"
+hash = "1978277625d44e86737ffadce28c9731be57ac3302908e42f60e8f37e8e9ddb6"
 
 [[files]]
 file = "config/resourceful-config-web.json"
@@ -1967,6 +1975,10 @@ hash = "0118936ae0375d6c318582b47e0cf631540ba683d4a5db25a3ca7f090eda54c1"
 [[files]]
 file = "config/rocketnautics-client.toml"
 hash = "eea524144bfc33a3b6df081b88ca1c1701cdb7b0d1052e6db543286b174de31a"
+
+[[files]]
+file = "config/roxy-compat.json"
+hash = "f14d224829b8f5af5ab2199afe226fd1237a3821677c782f394805155c3444a1"
 
 [[files]]
 file = "config/sable-client.toml"
@@ -2158,7 +2170,7 @@ hash = "a8a09363154cb398dacd5a3707f705ad8333d95b2ba8021abd9af7eb360fd7ef"
 
 [[files]]
 file = "config/supplementaries-client.toml"
-hash = "40434de5715a20767e5197340513b509d31cdbe6470dfbf76b016095ea218f13"
+hash = "f10f58bfca926aff0703db5c58c21f638cc7eac55a00322bd7f4bfcc64ebddbf"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -2385,7 +2397,7 @@ metafile = true
 
 [[files]]
 file = "mods/carry-on.pw.toml"
-hash = "838dbcb90c93bab58691e82c95045bd97c3e096e3a2680a00cf063e56ce35ce3"
+hash = "4b200d7009a78ce1d782d0b20585fcde46e6791bf23edf22a799a60729e924fd"
 metafile = true
 
 [[files]]
