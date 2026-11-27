@@ -753,6 +753,18 @@ file = "config/chunky/config.json"
 hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
 [[files]]
+file = "config/cobbleinstincts/behaviors.json"
+hash = "4e8affc9f4a73ab93700248bd3005a35f2fcd48f1f1c2baa1679dceffa93af6b"
+
+[[files]]
+file = "config/cobbleinstincts/behaviors.json.base"
+hash = "4e8affc9f4a73ab93700248bd3005a35f2fcd48f1f1c2baa1679dceffa93af6b"
+
+[[files]]
+file = "config/cobblemon/main.json"
+hash = "2a3718cdca8597748218f61d6efb73c51cdf59bcb450c2c7df3045c6c28e2d63"
+
+[[files]]
 file = "config/cobbleworkers/cobbleworkers.json"
 hash = "7604cebc230318b3f6a65d5c7ccfc34e603aeccc34cb66591cd07f53e113f5dd"
 
@@ -1482,7 +1494,15 @@ hash = "b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686"
 
 [[files]]
 file = "config/fightorflight.json5"
-hash = "7531e179e0f3b488f7ea4e6012c6f2f1c663b06073a9331fccda34a5f30eb255"
+hash = "7970dc4576d67d461ca89fe8541b23e203a249c9f25f6c25d875140288dd732b"
+
+[[files]]
+file = "config/fightorflight_moves.json5"
+hash = "b54a5782b0d65f20125c3ca8556ebb85e6bf3972a5455b7c56b86d48e9b47d3d"
+
+[[files]]
+file = "config/fightorflight_visual_effect.json5"
+hash = "3325202d7ee8b839150bd6abe2208df29453e618ec911e9e6719d366ec8691b4"
 
 [[files]]
 file = "config/firstperson.json"
@@ -1823,6 +1843,18 @@ hash = "b054149158206069ae4f16d672f5dc43261c8c80a5f730d1b96d7f6648fd9398"
 [[files]]
 file = "config/mynethersdelight-common.toml"
 hash = "b14b41c59a13a72079bcb505ab560dd43dfe19247c165867d7fd5dc9f515dafe"
+
+[[files]]
+file = "config/mythsandlegends/config.toml"
+hash = "f12d04ef8268e316464d98bcfd07d6cbd6b0e26fcbb7d5cec1274c6c42f1206a"
+
+[[files]]
+file = "config/mythsandlegends/debts.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/mythsandlegends/loot_tables_config.json"
+hash = "f204037315515c4b0588b32ca2dab782d607291cc23bd2737d4c979a63fb05e4"
 
 [[files]]
 file = "config/naturescompass-client.toml"
@@ -2448,6 +2480,11 @@ hash = "d2ccf00ea88006db91ac067ceb1aaa01d43fc1ed36ca793e5787d2cbdf1ecf14"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-create-industries.pw.toml"
+hash = "f920f707995d836b8d0629910557b08520d07d38bf16076098c90a99ac714d24"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
 hash = "203b09369730be8f355512075738357c977555302e6ea640289f0d71396f46ec"
 metafile = true
@@ -2460,6 +2497,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "63338ce7e20f31e1aef44bf82ea0377dc66ae2dfc5724ad4617e5212e09235e0"
+metafile = true
+
+[[files]]
+file = "mods/cobblemore-library.pw.toml"
+hash = "b65f2b09d07b8db21de571c3353a8a2d3386aa0ee8b3f5abb00d736c3286910b"
 metafile = true
 
 [[files]]
@@ -3411,6 +3453,11 @@ metafile = true
 [[files]]
 file = "mods/toadlib.pw.toml"
 hash = "4042909c9fed9e74c3637db92a58e253debb1e93a6ea79a6ac3e20fbf6f8f1a8"
+metafile = true
+
+[[files]]
+file = "mods/tomtarus-cobblemon-and-farmers-delight-tweaks.pw.toml"
+hash = "1efe654d51ff746bfa87e577706564a4ec6ba0ec46d887d5c1fdb25bc0152831"
 metafile = true
 
 [[files]]

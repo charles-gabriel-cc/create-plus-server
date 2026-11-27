@@ -1,0 +1,6535 @@
+{
+  "_comment": "Cobble Instincts default template. It is copied to config/cobbleinstincts/behaviors.json the first time. If the 'version' of the user's file is lower than this template's, a backup (.bak) is made and the file is regenerated. Editable live with /cobbleinstincts reload. Species ids are showdownIds (lowercase, no dashes): 'oddish', 'alolansandshrew'. IMPORTANT: if a Pokemon matches two entries with the SAME id, only the first one applies, so the more specific entries go first. 'globals.configOpLevel' (1-4, default 2) is the operator permission level needed to change this config from the in-game menu or with /cobbleinstincts toggle; it can only be changed by editing this file, never from the menu. Since 0.6.3 (config v34), recent untested instincts with world-edit, item-economy, damage or combat risks are opt-in (enabled=false). Older instincts and benign new instincts keep their defaults. During upgrade, enabled=true matching the v33 default also becomes false; re-enable after upgrading if desired. Custom deltas are preserved, and custom compat files override bundled defaults.",
+  "version": 56,
+  "globals": {
+    "debugLogging": false,
+    "maxAttachAttempts": 40,
+    "passiveTickInterval": 20,
+    "activationIcon": true,
+    "tcFlightOffInRain": true,
+    "iconTicks": 40,
+    "activationRange": 48.0,
+    "perfGovernor": true,
+    "tpsThrottle": 18.5,
+    "tpsCritical": 15.0,
+    "bossRange": 64.0,
+    "bossIds": [],
+    "bossSpecies": [],
+    "maxActiveHeavy": 32,
+    "throttleFactor": 4,
+    "nearProtectRange": 16.0,
+    "maxActiveHeavyPerPlayer": 12,
+    "lagConfirmSeconds": 2,
+    "headroomFullMspt": 25.0,
+    "headroomZeroMspt": 45.0,
+    "excludeBosses": true,
+    "compatAddons": true,
+    "configOpLevel": 2,
+    "perceptionIntervalTicks": 10,
+    "animationHooks": true,
+    "stateMarkers": true,
+    "respectMobGriefing": true,
+    "respectStealth": true,
+    "sneakDetectionFactor": 0.35,
+    "stealthMinRange": 1.5,
+    "respectClaims": true,
+    "maxBlockEditsPerChunk": 48,
+    "excludeEntityTags": [
+      "cobbleinstincts.ignore"
+    ],
+    "excludeNamed": false,
+    "excludeOwners": [],
+    "skipLeashed": true,
+    "skipPastured": true,
+    "intensity": 1.0,
+    "profile": "normal",
+    "maxActiveLightPerPlayer": 0,
+    "theftLevel": 3,
+    "ambushLevel": 3,
+    "prankLevel": 3,
+    "theftMaxPerDay": 2,
+    "theftMinGapMinutes": 10,
+    "theftHotbarOnly": true,
+    "theftIdleSeconds": 20,
+    "theftHomeRadius": 32.0,
+    "theftChance": 0.002,
+    "theftIdleMultiplier": 5.0,
+    "theftPassiveMultiplier": 5.0,
+    "theftHomeMultiplier": 1.5,
+    "theftRollSeconds": 10,
+    "theftWindowSeconds": 20
+  },
+  "leafSpawns": {
+    "enabled": true,
+    "_comment": "Pokemon that come out of broken natural leaves (pool, chance) and logs (logPool, logChance). Cocoons born here always hang (hang_from_leaves) and may bring a small horde (cocoon_horde); natural Cobblemon spawns hang by the ambient quota (kinds.ambient.hang). Logs cannot tell natural from placed, so their chance is lower.",
+    "chance": 0.04,
+    "cooldownTicks": 200,
+    "maxNearby": 6,
+    "nearbyRadius": 24.0,
+    "naturalOnly": true,
+    "pool": [
+      {
+        "species": "hoothoot",
+        "weight": 3.0,
+        "levelMin": 3,
+        "levelMax": 12,
+        "nightMul": 3.0,
+        "dayMul": 0.3
+      },
+      {
+        "species": "caterpie",
+        "weight": 4.0,
+        "levelMin": 2,
+        "levelMax": 8
+      },
+      {
+        "species": "weedle",
+        "weight": 3.0,
+        "levelMin": 2,
+        "levelMax": 8
+      },
+      {
+        "species": "wurmple",
+        "weight": 3.0,
+        "levelMin": 2,
+        "levelMax": 8
+      },
+      {
+        "species": "sewaddle",
+        "weight": 2.0,
+        "levelMin": 3,
+        "levelMax": 9
+      },
+      {
+        "species": "metapod",
+        "weight": 1.0,
+        "levelMin": 4,
+        "levelMax": 10
+      },
+      {
+        "species": "kakuna",
+        "weight": 1.0,
+        "levelMin": 4,
+        "levelMax": 10
+      },
+      {
+        "species": "silcoon",
+        "weight": 0.5,
+        "levelMin": 4,
+        "levelMax": 10
+      },
+      {
+        "species": "cascoon",
+        "weight": 0.5,
+        "levelMin": 4,
+        "levelMax": 10
+      }
+    ],
+    "logChance": 0.02,
+    "logPool": [
+      {
+        "species": "caterpie",
+        "weight": 3.0,
+        "levelMin": 2,
+        "levelMax": 8
+      },
+      {
+        "species": "weedle",
+        "weight": 3.0,
+        "levelMin": 2,
+        "levelMax": 8
+      },
+      {
+        "species": "wurmple",
+        "weight": 3.0,
+        "levelMin": 2,
+        "levelMax": 8
+      },
+      {
+        "species": "pineco",
+        "weight": 2.0,
+        "levelMin": 4,
+        "levelMax": 10
+      },
+      {
+        "species": "burmy",
+        "weight": 2.0,
+        "levelMin": 4,
+        "levelMax": 10
+      },
+      {
+        "species": "venipede",
+        "weight": 1.5,
+        "levelMin": 3,
+        "levelMax": 9
+      },
+      {
+        "species": "grubbin",
+        "weight": 1.0,
+        "levelMin": 3,
+        "levelMax": 9
+      },
+      {
+        "species": "pikipek",
+        "weight": 1.0,
+        "levelMin": 3,
+        "levelMax": 9
+      }
+    ]
+  },
+  "kinds": {
+    "_comment": "Instinct kinds: who the Pokemon deals with. ambient = background life with no counterpart (hanging, resting, drinking, howling...); player = towards or for a player (flee, follow, heal, steal, harass, retaliate...); pokemon = against other Pokemon and mobs (hunts, packs, formations, breeding, rivalry); world = changes blocks or items (tunnels, snow, fire, nests, crops); spawn = creates Pokemon (hordes, raids); trait = nature/ability modifiers. enabled false leaves every entry of that kind unattached. intensity (0-2) multiplies the global intensity for that kind's chances and cooldowns. maxActivePerPlayer above 0 caps how many WILD Pokemon may run a non-free instinct of that kind at once around one player (0 = no cap). An entry can change its kind with \"kind\" in its params.",
+    "ambient": {
+      "enabled": true,
+      "intensity": 1.0,
+      "maxActivePerPlayer": 0,
+      "hang": {
+        "_comment": "Natural cocoons (normal Cobblemon spawns, not from broken leaves) hanging from trees. Each area of areaSize x areaSize blocks fills up to targetPerArea hanging cocoons (each new one hangs with fillChance), may grow up to maxPerArea (extraChance, only without lag) and never beyond; maxPerPlayer caps the dimension at that many per player in it (0 = no cap). The decision is stored on the cocoon, so reloading a chunk does not change it. A cocoon that finds no tree maxSeekFailures times stops looking. naturalHorde lets a natural hanging cocoon bring a few more, only up to its area's target. Cocoons from broken leaves always hang and count. natural false = only cocoons from broken leaves hang. scaleWithHeadroom (0.12.0) lets the performance governor relax these limits while the server has room: an ambient scale s from 0 to 1 moves targetPerArea, maxPerArea, maxPerPlayer and fillChance towards their relaxed* values (and cocoon_horde towards its relaxed* group). s = h * max(c, h), where h is the server headroom (1 up to globals.headroomFullMspt smoothed ms per tick, 0 from headroomZeroMspt or with lag) and c the player factor (1 with fewPlayers or fewer online, 0 with manyPlayers or more). s = 0 is exactly the 0.10/0.11 behaviour. Only new decisions use the current s; a cocoon that already decided to hang keeps its place up to the relaxed limits.",
+        "natural": true,
+        "areaSize": 32,
+        "targetPerArea": 2,
+        "maxPerArea": 4,
+        "maxPerPlayer": 24,
+        "fillChance": 0.6,
+        "extraChance": 0.15,
+        "maxSeekFailures": 2,
+        "naturalHorde": true,
+        "scaleWithHeadroom": true,
+        "relaxedTargetPerArea": 7,
+        "relaxedMaxPerArea": 10,
+        "relaxedMaxPerPlayer": 64,
+        "relaxedFillChance": 0.9,
+        "fewPlayers": 4,
+        "manyPlayers": 30
+      }
+    },
+    "player": {
+      "enabled": true,
+      "intensity": 1.0,
+      "maxActivePerPlayer": 0
+    },
+    "pokemon": {
+      "enabled": true,
+      "intensity": 1.0,
+      "maxActivePerPlayer": 0
+    },
+    "world": {
+      "enabled": true,
+      "intensity": 1.0,
+      "maxActivePerPlayer": 0
+    },
+    "spawn": {
+      "enabled": true,
+      "intensity": 1.0,
+      "maxActivePerPlayer": 0
+    },
+    "trait": {
+      "enabled": true,
+      "intensity": 1.0
+    }
+  },
+  "behaviors": [
+    {
+      "id": "burrow",
+      "enabled": true,
+      "species": [
+        "oddish",
+        "gloom",
+        "vileplume",
+        "bellossom",
+        "smoliv",
+        "dolliv",
+        "arboliva",
+        "bounsweet",
+        "steenee",
+        "tsareena",
+        "foongus",
+        "amoonguss",
+        "morelull",
+        "shiinotic",
+        "greavard"
+      ],
+      "priority": 2,
+      "params": {
+        "mode": "hide",
+        "triggerRange": 6.0,
+        "releaseRange": 10.0,
+        "sinkDepth": 0.55,
+        "sinkTicks": 12,
+        "wildOnly": true,
+        "requireSoftGround": true,
+        "toon": true,
+        "windupTicks": 7,
+        "popTicks": 8,
+        "spinDegreesPerTick": 28.0,
+        "windupHeight": 0.22,
+        "popHeight": 0.35,
+        "icon": false
+      }
+    },
+    {
+      "id": "burrow",
+      "enabled": true,
+      "species": [
+        "paras"
+      ],
+      "priority": 2,
+      "params": {
+        "mode": "ambush",
+        "triggerRange": 5.0,
+        "releaseRange": 9.0,
+        "sinkDepth": 0.6,
+        "visibleFraction": 0.2,
+        "sinkTicks": 14,
+        "wildOnly": true,
+        "requireSoftGround": true,
+        "toon": true,
+        "windupTicks": 6,
+        "popTicks": 10,
+        "spinDegreesPerTick": 22.0,
+        "windupHeight": 0.18,
+        "popHeight": 0.45,
+        "icon": false
+      }
+    },
+    {
+      "id": "burrow",
+      "enabled": true,
+      "species": [
+        "parasect"
+      ],
+      "priority": 2,
+      "params": {
+        "mode": "ambush",
+        "triggerRange": 5.0,
+        "releaseRange": 9.0,
+        "sinkDepth": 0.6,
+        "sinkTicks": 14,
+        "wildOnly": true,
+        "requireSoftGround": true,
+        "toon": true,
+        "windupTicks": 6,
+        "popTicks": 10,
+        "spinDegreesPerTick": 22.0,
+        "windupHeight": 0.18,
+        "popHeight": 0.45,
+        "icon": false
+      }
+    },
+    {
+      "id": "flee_from_player",
+      "enabled": true,
+      "species": [
+        "abra"
+      ],
+      "priority": 1,
+      "params": {
+        "triggerRange": 8.0,
+        "speed": 1.35,
+        "teleport": true,
+        "teleportRange": 24.0,
+        "teleportCooldownTicks": 200,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "extinguish_fire",
+      "enabled": true,
+      "species": [
+        "squirtle",
+        "wartortle",
+        "blastoise",
+        "rhyhorn"
+      ],
+      "priority": 3,
+      "params": {
+        "searchRadius": 12.0,
+        "speed": 1.1,
+        "extinguishRange": 2.5,
+        "rescanIntervalTicks": 40,
+        "aggroChance": 0.3,
+        "aggroRadius": 10.0,
+        "panicFires": 3,
+        "panicRadius": 6,
+        "panicSpeed": 1.35,
+        "sprayRange": 5.0,
+        "sprayRadius": 1,
+        "waterMoves": [
+          "watergun",
+          "waterpulse",
+          "bubblebeam",
+          "bubble",
+          "scald",
+          "aquajet",
+          "brine"
+        ],
+        "panicMoves": [
+          "hydropump",
+          "surf",
+          "muddywater",
+          "waterspout",
+          "mudshot",
+          "mudbomb",
+          "mudslap",
+          "sandtomb",
+          "rockslide",
+          "rocktomb",
+          "rockthrow"
+        ]
+      },
+      "_comment": "Walks to nearby fire and puts it out. With several fires around it panics: runs faster and sprays from a distance, putting out the fires next to the target too. With Cobble Strike, a Pokemon that has one of waterMoves equipped shoots it at the fire from sprayRange (the real move effect); in a panic it prefers the long-range panicMoves (water, mud or rock)."
+    },
+    {
+      "id": "seek_shelter_rain",
+      "enabled": true,
+      "species": [
+        "charmander",
+        "charmeleon",
+        "charizard"
+      ],
+      "priority": 2,
+      "params": {
+        "searchRadius": 12.0,
+        "speed": 1.25,
+        "panicSpeed": 1.5,
+        "recheckIntervalTicks": 20,
+        "requireDeepShelter": true,
+        "wanderUnderCover": false,
+        "wanderRadius": 5,
+        "wanderIntervalTicks": 160,
+        "wanderSpeed": 0.9,
+        "icon": false
+      }
+    },
+    {
+      "id": "heal_nearby_player",
+      "enabled": true,
+      "species": [
+        "happiny",
+        "chansey",
+        "blissey",
+        "audino"
+      ],
+      "priority": 4,
+      "params": {
+        "healVillagers": true,
+        "villagerHealAmount": 6.0,
+        "searchRadius": 6.0,
+        "speed": 1.0,
+        "healAmount": 4.0,
+        "cureHarmfulEffects": true,
+        "cooldownTicks": 600,
+        "healPokemon": true,
+        "healWild": false,
+        "pokemonHealFraction": 0.25,
+        "pokemonCureStatus": true
+      }
+    },
+    {
+      "id": "mimic_tree",
+      "enabled": true,
+      "species": [
+        "sudowoodo",
+        "bonsly"
+      ],
+      "priority": 1,
+      "params": {
+        "stareRange": 4.5,
+        "stareDot": 0.94,
+        "revealTicks": 40,
+        "fleeSpeed": 1.6,
+        "fleeDistance": 24,
+        "searchRadius": 8,
+        "wildOnly": false,
+        "logBlock": "minecraft:oak_log",
+        "leafBlock": "minecraft:oak_leaves"
+      }
+    },
+    {
+      "id": "ghost_fade",
+      "enabled": false,
+      "species": [
+        "gastly",
+        "haunter",
+        "gengar",
+        "duskull",
+        "dusclops",
+        "dusknoir",
+        "misdreavus",
+        "mismagius",
+        "shuppet",
+        "banette",
+        "yamask",
+        "spiritomb"
+      ],
+      "priority": 3,
+      "params": {
+        "revealRange": 8.0,
+        "stareDot": 0.9,
+        "visibleTicks": 200,
+        "maxPhaseDepth": 2,
+        "wanderPhaseChance": 0.02,
+        "vanishRange": 3.5,
+        "glimpseAlpha": 0.2,
+        "glimpseDepth": 0.5,
+        "fadeTicks": 20,
+        "emergeTicks": 30,
+        "emergeFromGround": true,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "tunnel",
+      "enabled": true,
+      "species": [
+        "diglett",
+        "dugtrio"
+      ],
+      "priority": 2,
+      "params": {
+        "tunnelDepth": 3,
+        "emergeRange": 6.0,
+        "speed": 0.14,
+        "digIntervalTicks": 3,
+        "maxTunnelTicks": 400,
+        "turnIntervalTicks": 50,
+        "cooldownTicks": 200,
+        "restoreTicks": 160,
+        "digStone": false,
+        "wildOnly": true,
+        "restoreSound": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "tunnel",
+      "enabled": true,
+      "species": [
+        "durant"
+      ],
+      "priority": 2,
+      "params": {
+        "tunnelDepth": 2,
+        "emergeRange": 5.0,
+        "speed": 0.18,
+        "digIntervalTicks": 2,
+        "maxTunnelTicks": 400,
+        "turnIntervalTicks": 40,
+        "cooldownTicks": 120,
+        "restoreTicks": 160,
+        "digStone": false,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "climb_logs",
+      "enabled": true,
+      "species": [
+        "caterpie",
+        "weedle",
+        "wurmple",
+        "sewaddle",
+        "venipede"
+      ],
+      "priority": 3,
+      "params": {
+        "searchRadius": 8,
+        "seekSpeed": 1.0,
+        "climbSpeed": 0.07,
+        "maxClimbHeight": 10,
+        "leafSearchHeight": 6,
+        "holdTicks": 200,
+        "cooldownTicks": 400,
+        "attemptIntervalTicks": 60,
+        "chance": 0.6,
+        "wildOnly": false,
+        "ownerRange": 12.0,
+        "climbPitch": 90.0,
+        "faceOffset": 0.0,
+        "cocoonChance": 0.02,
+        "evolveOwned": false,
+        "cocoonForms": [
+          "caterpie>metapod",
+          "weedle>kakuna",
+          "wurmple>silcoon",
+          "wurmple>cascoon"
+        ],
+        "cocoonDelayTicks": 60,
+        "cocoonHangTicks": 1200,
+        "icon": false
+      }
+    },
+    {
+      "id": "cocoon_horde",
+      "enabled": true,
+      "_comment": "When a cocoon comes out of a broken leaf (leafSpawns), sometimes a few more drop with it (groupChance, 1-4 in total), never above maxNearby wild Pokemon around. With leafBornOnly false a natural cocoon that is going to hang may also bring a few, but only up to its area's target (kinds.ambient.hang targetPerArea and naturalHorde) and never with lag. While the server has room the governor moves groupChance, the group size and maxNearby towards relaxedGroupChance, relaxedMinGroupSize-relaxedMaxGroupSize and relaxedMaxNearby (the ambient scale of kinds.ambient.hang, 0.12.0).",
+      "species": [
+        "metapod",
+        "kakuna",
+        "silcoon",
+        "cascoon",
+        "spewpa",
+        "swadloon",
+        "burmy",
+        "pineco"
+      ],
+      "priority": 3,
+      "params": {
+        "minGroupSize": 1,
+        "maxGroupSize": 4,
+        "groupChance": 0.3,
+        "relaxedMinGroupSize": 3,
+        "relaxedMaxGroupSize": 7,
+        "relaxedGroupChance": 1.0,
+        "leafBornOnly": false,
+        "maxNearby": 8,
+        "relaxedMaxNearby": 12,
+        "nearbyRadius": 16.0,
+        "spawnRadius": 6,
+        "mixSpecies": false,
+        "groupSpecies": [
+          "metapod",
+          "kakuna",
+          "silcoon",
+          "cascoon",
+          "spewpa",
+          "swadloon",
+          "burmy",
+          "pineco"
+        ],
+        "icon": false
+      }
+    },
+    {
+      "id": "hang_from_leaves",
+      "enabled": true,
+      "_comment": "Cocoons hang under a leaf with a silk thread. Those born from a broken leaf (leafSpawns) always hang; natural Cobblemon spawns hang by the ambient quota (kinds.ambient.hang: each area fills up to a target and never goes above a max). leafBornOnly true = only cocoons from broken leaves. Activation \"!\" off (icon): many wild Pokemon do this at once inside trees or the ground, and each \"!\" is an entity.",
+      "species": [
+        "metapod",
+        "kakuna",
+        "silcoon",
+        "cascoon",
+        "spewpa",
+        "swadloon",
+        "burmy",
+        "pineco"
+      ],
+      "priority": 3,
+      "params": {
+        "snapOnSpawn": true,
+        "leafBornOnly": false,
+        "spawnSearchRadius": 8,
+        "searchRadius": 8,
+        "seekSpeed": 0.9,
+        "climbSpeed": 0.06,
+        "maxSearchHeight": 8,
+        "hangTicks": 12000,
+        "cooldownTicks": 300,
+        "attemptIntervalTicks": 100,
+        "chance": 0.5,
+        "swayAmplitude": 0.03,
+        "wildOnly": true,
+        "threadLength": 0.6,
+        "thread": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "drifloon_carry",
+      "enabled": true,
+      "species": [
+        "drifloon",
+        "drifblim"
+      ],
+      "priority": 0,
+      "params": {
+        "riseHeight": 12.0,
+        "ascendSpeed": 0.18,
+        "wanderSpeed": 0.15,
+        "wanderIntervalTicks": 40,
+        "swayAmplitude": 0.03,
+        "minCarryTicks": 100,
+        "maxCarryTicks": 600,
+        "hangDistance": 2.0
+      }
+    },
+    {
+      "id": "grabbed_response",
+      "enabled": true,
+      "species": [
+        "pichu",
+        "pikachu",
+        "raichu",
+        "plusle",
+        "minun"
+      ],
+      "priority": 1,
+      "params": {
+        "response": "thunder",
+        "liftRequired": 2.0,
+        "chance": 1.0,
+        "damage": 5.0,
+        "burnSeconds": 2,
+        "fleeSpeed": 1.6,
+        "fleeTicks": 100,
+        "cooldownTicks": 300
+      }
+    },
+    {
+      "id": "grabbed_response",
+      "enabled": true,
+      "species": [
+        "togepi"
+      ],
+      "priority": 1,
+      "params": {
+        "response": "teleport",
+        "liftRequired": 2.0,
+        "chance": 0.5,
+        "teleportMin": 16.0,
+        "teleportMax": 32.0,
+        "fleeSpeed": 1.4,
+        "fleeTicks": 60,
+        "cooldownTicks": 300
+      }
+    },
+    {
+      "id": "steal_item",
+      "enabled": true,
+      "_comment": "Steals items from nearby players, then flees and eats them if they are edible. 'targets' fixes WHAT can be stolen and replaces 'preference' when it is not empty: categories food, precious, tools, weapons, armor, blocks, any; a tag such as #c:gems; or an item id such as minecraft:diamond (a bare 'diamond' matches any namespace). Anything that does not match is never stolen, and with nothing to steal the thief does not even charge. Worn armor is never taken. Thefts from players are paced per PLAYER, not per thief (globals theftLevel, theftMaxPerDay, theftMinGapMinutes, theftChance and the theft*Multiplier keys): any number of thieves nearby steal as often as one; 'useTheftBudget': false brings back the old per-thief cooldown for this entry. 'hotbarOnly' (default globals.theftHotbarOnly) limits thefts to the 9 hotbar slots. Example: [\"precious\", \"tools\"]. Empty list = old behaviour (preference only orders, and anything can be taken). What the thief carries is dropped back when it is hurt (dropWhenHurt), dies, is captured, starts a Pokemon battle or its chunk reloads; only food it eats is lost.",
+      "species": [
+        "nickit",
+        "thievul"
+      ],
+      "priority": 2,
+      "params": {
+        "preference": "food",
+        "targets": [],
+        "dropWhenHurt": true,
+        "triggerRange": 12.0,
+        "speed": 1.45,
+        "fleeSpeed": 1.6,
+        "damage": 2.0,
+        "stealCount": 1,
+        "fleeTicks": 140,
+        "eatTicks": 40,
+        "consume": true,
+        "stealFromCreative": true,
+        "cooldownTicks": 600
+      }
+    },
+    {
+      "id": "steal_item",
+      "enabled": true,
+      "_comment": "Same options as the first steal_item entry ('targets', 'dropWhenHurt'); see the comment there.",
+      "species": [
+        "murkrow",
+        "honchkrow"
+      ],
+      "priority": 2,
+      "params": {
+        "preference": "shiny",
+        "targets": [],
+        "dropWhenHurt": true,
+        "triggerRange": 12.0,
+        "speed": 1.5,
+        "fleeSpeed": 1.7,
+        "damage": 2.0,
+        "stealCount": 1,
+        "fleeTicks": 160,
+        "consume": false,
+        "stealFromCreative": true,
+        "cooldownTicks": 600
+      }
+    },
+    {
+      "id": "steal_item",
+      "enabled": true,
+      "_comment": "Same options as the first steal_item entry ('targets', 'dropWhenHurt'); see the comment there.",
+      "species": [
+        "impidimp",
+        "morgrem",
+        "grimmsnarl"
+      ],
+      "priority": 2,
+      "params": {
+        "preference": "any",
+        "targets": [],
+        "dropWhenHurt": true,
+        "triggerRange": 12.0,
+        "speed": 1.45,
+        "fleeSpeed": 1.6,
+        "damage": 2.0,
+        "stealCount": 1,
+        "fleeTicks": 140,
+        "consume": false,
+        "stealFromCreative": true,
+        "cooldownTicks": 600
+      }
+    },
+    {
+      "id": "steal_item",
+      "enabled": false,
+      "species": [
+        "mankey",
+        "primeape",
+        "aipom",
+        "ambipom",
+        "chimchar",
+        "monferno",
+        "infernape",
+        "pansage",
+        "pansear",
+        "panpour",
+        "simisage",
+        "simisear",
+        "simipour",
+        "grookey",
+        "thwackey",
+        "rillaboom",
+        "oranguru",
+        "passimian"
+      ],
+      "priority": 2,
+      "params": {
+        "preference": "any",
+        "targets": [
+          "precious",
+          "tools"
+        ],
+        "dropWhenHurt": false,
+        "triggerRange": 10.0,
+        "speed": 1.3,
+        "fleeSpeed": 1.6,
+        "damage": 0.0,
+        "stealCount": 1,
+        "fleeTicks": 240,
+        "consume": false,
+        "stealFromCreative": false,
+        "cooldownTicks": 1200,
+        "tease": true,
+        "teaseDistance": 8.0,
+        "teaseKeepAway": 4.0,
+        "scaredKeepAway": 14.0,
+        "holdMaxTicks": 6000,
+        "ransomFood": [
+          "#cobblemon:berries",
+          "minecraft:apple",
+          "minecraft:melon_slice",
+          "minecraft:sweet_berries",
+          "minecraft:glow_berries",
+          "minecraft:honey_bottle",
+          "minecraft:cookie"
+        ],
+        "ransomChance": 0.45,
+        "ransomRange": 8.0,
+        "inspectTicks": 30
+      },
+      "_comment": "DISABLED BY DEFAULT. Mischievous thief: takes one precious item or tool, backs off only a little (teaseDistance) and keeps watching you. If you hit it, it flees with the item and keeps farther away (scaredKeepAway). To get it back, throw it any food: ransomFood (its favorites) always works, any other food has ransomChance of being taken; then it looks at the item and drops it at its feet. After holdMaxTicks it gets bored and drops it. Dying, capture or a battle always return the item. Placed before the older Aipom/Ambipom entry on purpose: the first enabled entry wins, so enabling this one replaces that entry for Aipom and Ambipom."
+    },
+    {
+      "id": "steal_item",
+      "enabled": true,
+      "_comment": "Monkeys with a taste for shiny things: gems and gold first, then other metals, then food.",
+      "species": [
+        "aipom",
+        "ambipom"
+      ],
+      "priority": 2,
+      "params": {
+        "preference": "shiny",
+        "targets": [],
+        "dropWhenHurt": true,
+        "triggerRange": 12.0,
+        "speed": 1.45,
+        "fleeSpeed": 1.6,
+        "damage": 2.0,
+        "stealCount": 1,
+        "fleeTicks": 140,
+        "consume": true,
+        "stealFromCreative": true,
+        "cooldownTicks": 600
+      }
+    },
+    {
+      "id": "fish_snatch",
+      "enabled": true,
+      "_comment": "Seals, sea lions and walruses try to snatch a raw fish straight out of your hand (main or off hand) when you hold one close, then waddle off and eat it. Only what you HOLD counts: nothing is taken from the rest of the inventory, and if you put the fish away before they reach you they give up. 'targets' lists what tempts them (categories, #tags or item ids; pufferfish is left out on purpose). Same options as steal_item otherwise; damage 0 = a harmless bump. Raw fish lying on the ground is also picked up and eaten. What it carries is dropped back when it is hurt, dies, is captured, starts a Pokemon battle or its chunk reloads; only the fish it eats is lost.",
+      "species": [
+        "seel",
+        "dewgong",
+        "spheal",
+        "sealeo",
+        "walrein",
+        "popplio",
+        "brionne",
+        "primarina"
+      ],
+      "priority": 2,
+      "params": {
+        "targets": [
+          "minecraft:cod",
+          "minecraft:salmon",
+          "minecraft:tropical_fish"
+        ],
+        "dropWhenHurt": true,
+        "triggerRange": 10.0,
+        "speed": 1.2,
+        "fleeSpeed": 1.3,
+        "damage": 0.0,
+        "stealCount": 1,
+        "fleeTicks": 80,
+        "eatTicks": 30,
+        "consume": true,
+        "stealFromCreative": true,
+        "cooldownTicks": 1200,
+        "foodPickupRadius": 8.0
+      }
+    },
+    {
+      "id": "shellder_attach",
+      "enabled": true,
+      "species": [
+        "shellder"
+      ],
+      "priority": 1,
+      "params": {
+        "targetSpecies": "slowpoke",
+        "resultSpecies": "slowbro",
+        "searchRadius": 10.0,
+        "speed": 1.1,
+        "tailDistance": 0.15,
+        "tailHeight": 0.2,
+        "attachTicks": 100,
+        "sequenceTicks": 180,
+        "growScale": 1.3,
+        "glow": true,
+        "consumeShellder": true,
+        "consumeDelayTicks": 10,
+        "cooldownTicks": 600,
+        "glowAspect": "ci_attaching",
+        "icon": false
+      },
+      "_comment": "Shellder bites a Slowpoke tail, holds on for a moment and then both glow and grow while it evolves into Slowbro. glowAspect turns on an emissive texture layer during the sequence."
+    },
+    {
+      "id": "threat_response",
+      "enabled": true,
+      "species": [
+        "rattata",
+        "raticate",
+        "bidoof",
+        "bibarel"
+      ],
+      "priority": 0,
+      "params": {
+        "response": "flee",
+        "triggerRange": 10.0,
+        "fleeHealthFraction": 0.5,
+        "fleeSpeed": 1.4,
+        "fleeDistance": 20.0,
+        "maxFleeTicks": 200,
+        "teleport": false,
+        "cooldownTicks": 100,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "threat_response",
+      "enabled": true,
+      "species": [
+        "zubat",
+        "golbat",
+        "crobat"
+      ],
+      "priority": 0,
+      "params": {
+        "response": "fly",
+        "triggerRange": 10.0,
+        "fleeHealthFraction": 0.5,
+        "riseHeight": 10.0,
+        "ascendSpeed": 0.22,
+        "flySpeed": 0.35,
+        "flyDistance": 30.0,
+        "maxFlyTicks": 400,
+        "descendSpeed": 0.15,
+        "cooldownTicks": 100,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "threat_response",
+      "enabled": true,
+      "species": [
+        "houndour",
+        "houndoom"
+      ],
+      "priority": 0,
+      "params": {
+        "response": "fight",
+        "triggerRange": 10.0,
+        "fleeHealthFraction": 0.5,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "threat_response",
+      "enabled": true,
+      "species": [
+        "carbink",
+        "diancie"
+      ],
+      "priority": 0,
+      "params": {
+        "response": "flee",
+        "fearSpecies": [
+          "sableye"
+        ],
+        "fearRange": 12.0,
+        "triggerRange": 0.0,
+        "fleeHealthFraction": 0.5,
+        "fleeSpeed": 1.3,
+        "fleeDistance": 16.0,
+        "maxFleeTicks": 200,
+        "teleport": false,
+        "cooldownTicks": 100,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "tunnel",
+      "enabled": true,
+      "species": [
+        "impidimp",
+        "morgrem",
+        "grimmsnarl"
+      ],
+      "priority": 1,
+      "params": {
+        "tunnelDepth": 3,
+        "emergeRange": 6.0,
+        "speed": 0.2,
+        "digIntervalTicks": 2,
+        "maxTunnelTicks": 200,
+        "turnIntervalTicks": 30,
+        "cooldownTicks": 400,
+        "restoreTicks": 160,
+        "digStone": false,
+        "escapeOnHurt": true,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "aerial_hunt",
+      "enabled": true,
+      "species": [
+        "archeops",
+        "talonflame",
+        "mandibuzz",
+        "staraptor"
+      ],
+      "priority": 1,
+      "params": {
+        "prey": [
+          "togepi",
+          "pineco",
+          "shuckle",
+          "exeggcute",
+          "cubone"
+        ],
+        "huntRange": 20.0,
+        "riseHeight": 8.0,
+        "ascendSpeed": 0.22,
+        "trackTicks": 20,
+        "diveSpeed": 0.55,
+        "groundChaseSpeed": 1.4,
+        "carryHeight": 15.0,
+        "carrySpeed": 0.22,
+        "attackDamage": 4.0,
+        "attackIntervalTicks": 20,
+        "finishTicks": 40,
+        "maxHuntTicks": 1200,
+        "cooldownTicks": 300,
+        "wildOnly": true,
+        "icon": false,
+        "landingGlideSpeed": 0.18,
+        "landingMaxTicks": 200
+      }
+    },
+    {
+      "id": "aerial_hunt",
+      "enabled": true,
+      "species": [
+        "cramorant"
+      ],
+      "priority": 1,
+      "params": {
+        "prey": [
+          "arrokuda",
+          "magikarp",
+          "feebas",
+          "finneon",
+          "remoraid",
+          "wishiwashi"
+        ],
+        "carryMode": "hold_throw",
+        "holdTicks": 600,
+        "throwSpeed": 1.6,
+        "throwArc": 0.35,
+        "impactDamage": 6.0,
+        "throwTrackTicks": 60,
+        "huntRange": 16.0,
+        "groundChaseSpeed": 1.3,
+        "attackDamage": 4.0,
+        "maxHuntTicks": 2400,
+        "cooldownTicks": 400,
+        "wildOnly": true,
+        "icon": false,
+        "landingGlideSpeed": 0.18,
+        "landingMaxTicks": 200
+      }
+    },
+    {
+      "id": "graze",
+      "enabled": true,
+      "species": [
+        "tauros",
+        "bouffalant",
+        "miltank",
+        "skiddo",
+        "gogoat",
+        "deerling",
+        "sawsbuck",
+        "ponyta",
+        "rapidash",
+        "mudbray",
+        "mudsdale",
+        "wooloo",
+        "dubwool",
+        "stantler",
+        "girafarig",
+        "phanpy",
+        "donphan",
+        "tropius"
+      ],
+      "priority": 5,
+      "params": {
+        "searchRadius": 10,
+        "searchRadiusY": 2,
+        "speed": 1.0,
+        "eatTicks": 40,
+        "cooldownTicks": 600,
+        "attemptIntervalTicks": 100,
+        "chance": 0.6,
+        "eatGrass": true,
+        "eatBerries": true,
+        "eatCrops": true,
+        "replantCrops": true,
+        "replantBlocks": [
+          "minecraft:wheat"
+        ],
+        "berryResetAge": 3,
+        "healAmount": 2.0,
+        "extraBlocks": [],
+        "wildOnly": false,
+        "ownerRange": 12.0,
+        "icon": false
+      }
+    },
+    {
+      "id": "graze",
+      "enabled": true,
+      "species": [
+        "sableye"
+      ],
+      "priority": 3,
+      "params": {
+        "searchRadius": 2,
+        "searchRadiusY": 2,
+        "speed": 1.0,
+        "eatTicks": 60,
+        "cooldownTicks": 600,
+        "attemptIntervalTicks": 100,
+        "chance": 0.6,
+        "eatGrass": false,
+        "eatBerries": false,
+        "eatCrops": false,
+        "healAmount": 2.0,
+        "extraBlocks": [
+          "minecraft:diamond_ore",
+          "minecraft:deepslate_diamond_ore",
+          "minecraft:emerald_ore",
+          "minecraft:deepslate_emerald_ore",
+          "quark:red_corundum"
+        ],
+        "extraBlockPatterns": [
+          "ruby"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "predation",
+      "enabled": true,
+      "species": [
+        "pidgeotto",
+        "pidgeot"
+      ],
+      "priority": 2,
+      "params": {
+        "prey": [
+          "exeggcute",
+          "caterpie",
+          "weedle",
+          "wurmple",
+          "rattata",
+          "ekans",
+          "pikachu"
+        ],
+        "huntRange": 16.0,
+        "speed": 1.35,
+        "attackDamage": 4.0,
+        "attackIntervalTicks": 20,
+        "cooldownTicks": 240,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "predation",
+      "enabled": true,
+      "species": [
+        "spearow",
+        "murkrow"
+      ],
+      "priority": 2,
+      "params": {
+        "prey": [
+          "caterpie",
+          "weedle"
+        ],
+        "huntRange": 16.0,
+        "speed": 1.3,
+        "attackDamage": 4.0,
+        "attackIntervalTicks": 20,
+        "cooldownTicks": 240,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "predation",
+      "enabled": true,
+      "species": [
+        "fearow",
+        "staravia",
+        "noctowl",
+        "unfezant",
+        "braviary",
+        "corviknight",
+        "honchkrow"
+      ],
+      "priority": 2,
+      "params": {
+        "prey": [
+          "caterpie",
+          "metapod",
+          "weedle",
+          "kakuna",
+          "spewpa",
+          "swadloon",
+          "burmy",
+          "pineco",
+          "wurmple",
+          "sewaddle",
+          "venipede",
+          "rattata",
+          "raticate",
+          "ekans",
+          "sentret",
+          "patrat",
+          "pichu",
+          "pikachu"
+        ],
+        "huntRange": 16.0,
+        "speed": 1.3,
+        "attackDamage": 4.0,
+        "attackIntervalTicks": 20,
+        "cooldownTicks": 240,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "predation",
+      "enabled": true,
+      "species": [
+        "weavile",
+        "sneasel"
+      ],
+      "priority": 2,
+      "params": {
+        "prey": [
+          "alolansandshrew",
+          "alolansandslash"
+        ],
+        "huntRange": 16.0,
+        "speed": 1.4,
+        "attackDamage": 5.0,
+        "attackIntervalTicks": 20,
+        "cooldownTicks": 240,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "predation",
+      "enabled": true,
+      "species": [
+        "heatmor"
+      ],
+      "priority": 2,
+      "params": {
+        "prey": [
+          "durant"
+        ],
+        "huntRange": 16.0,
+        "speed": 1.3,
+        "attackDamage": 4.0,
+        "attackIntervalTicks": 20,
+        "cooldownTicks": 240,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "pack",
+      "enabled": true,
+      "species": [
+        "houndour",
+        "houndoom"
+      ],
+      "priority": 4,
+      "params": {
+        "group": "houndour_pack",
+        "groupSpecies": [
+          "houndour",
+          "houndoom"
+        ],
+        "share": "attacker",
+        "range": 16.0,
+        "alarmTtlTicks": 60,
+        "reactionDelayMin": 2,
+        "reactionDelayMax": 14,
+        "chaseTicks": 400,
+        "engageGraceTicks": 80,
+        "cohesionRange": 10.0,
+        "leaderSpecies": [
+          "houndoom"
+        ],
+        "wildOnly": true,
+        "cooldownTicks": 100,
+        "icon": false
+      }
+    },
+    {
+      "id": "pack",
+      "enabled": true,
+      "species": [
+        "growlithe",
+        "arcanine"
+      ],
+      "priority": 4,
+      "params": {
+        "group": "growlithe_pack",
+        "groupSpecies": [
+          "growlithe",
+          "arcanine"
+        ],
+        "share": "attacker",
+        "range": 16.0,
+        "alarmTtlTicks": 60,
+        "reactionDelayMin": 2,
+        "reactionDelayMax": 14,
+        "chaseTicks": 400,
+        "engageGraceTicks": 80,
+        "cohesionRange": 10.0,
+        "leaderSpecies": [
+          "arcanine"
+        ],
+        "wildOnly": true,
+        "cooldownTicks": 100,
+        "icon": false
+      }
+    },
+    {
+      "id": "pack",
+      "enabled": true,
+      "species": [
+        "weavile",
+        "sneasel"
+      ],
+      "priority": 4,
+      "params": {
+        "group": "weavile_pack",
+        "groupSpecies": [
+          "weavile",
+          "sneasel"
+        ],
+        "share": "prey",
+        "range": 16.0,
+        "alarmTtlTicks": 60,
+        "reactionDelayMin": 2,
+        "reactionDelayMax": 14,
+        "chaseTicks": 400,
+        "engageGraceTicks": 80,
+        "cohesionRange": 8.0,
+        "leaderSpecies": [
+          "weavile"
+        ],
+        "wildOnly": true,
+        "cooldownTicks": 100,
+        "icon": false
+      }
+    },
+    {
+      "id": "pack",
+      "enabled": true,
+      "species": [
+        "falinks"
+      ],
+      "priority": 4,
+      "params": {
+        "group": "falinks_squad",
+        "groupSpecies": [
+          "falinks"
+        ],
+        "share": "attacker",
+        "range": 12.0,
+        "alarmTtlTicks": 60,
+        "reactionDelayMin": 2,
+        "reactionDelayMax": 14,
+        "chaseTicks": 400,
+        "engageGraceTicks": 80,
+        "wildOnly": true,
+        "cooldownTicks": 100,
+        "icon": false
+      }
+    },
+    {
+      "id": "formation",
+      "enabled": true,
+      "_comment": "Falinks queue in a line behind a leader. Spacing is in blocks between the bodies: a Falinks is about 3.3 blocks long (hitbox 2 wide), so anything under ~3.4 makes the queue overlap.",
+      "species": [
+        "falinks"
+      ],
+      "priority": 4,
+      "params": {
+        "groupSpecies": [
+          "falinks"
+        ],
+        "range": 16.0,
+        "spacing": 3.6,
+        "speed": 1.0,
+        "maxAllies": 12,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "swarm",
+      "enabled": true,
+      "species": [
+        "beedrill"
+      ],
+      "priority": 4,
+      "params": {
+        "groupSpecies": [
+          "beedrill"
+        ],
+        "playerRange": 10.0,
+        "radius": 2.5,
+        "height": 2.0,
+        "angularSpeed": 4.0,
+        "flySpeed": 0.25,
+        "maxAllies": 8,
+        "wildOnly": true,
+        "buzzSound": "minecraft:entity.bee.loop_aggressive",
+        "buzzIntervalTicks": 120,
+        "buzzVolume": 0.2,
+        "acceleration": 0.05,
+        "radiusJitter": 0.6,
+        "heightJitter": 0.7,
+        "separation": 1.0,
+        "maxOrbitTicks": 600,
+        "boredCooldownTicks": 600,
+        "ignoreSneaking": true,
+        "provokeRange": 4.0,
+        "provokeTicks": 100,
+        "icon": false
+      }
+    },
+    {
+      "id": "pack",
+      "enabled": true,
+      "species": [
+        "beedrill"
+      ],
+      "priority": 4,
+      "params": {
+        "group": "beedrill_swarm",
+        "groupSpecies": [
+          "beedrill"
+        ],
+        "share": "attacker",
+        "range": 12.0,
+        "alarmTtlTicks": 60,
+        "reactionDelayMin": 2,
+        "reactionDelayMax": 14,
+        "chaseTicks": 400,
+        "engageGraceTicks": 80,
+        "wildOnly": true,
+        "cooldownTicks": 100,
+        "icon": false
+      }
+    },
+    {
+      "id": "swarm",
+      "enabled": true,
+      "species": [
+        "combee",
+        "vespiquen"
+      ],
+      "priority": 4,
+      "params": {
+        "groupSpecies": [
+          "combee",
+          "vespiquen"
+        ],
+        "playerRange": 12.0,
+        "radius": 3.5,
+        "height": 2.2,
+        "angularSpeed": 2.5,
+        "flySpeed": 0.22,
+        "maxAllies": 10,
+        "wildOnly": true,
+        "buzzSound": "minecraft:entity.bee.loop",
+        "buzzIntervalTicks": 100,
+        "buzzVolume": 0.25,
+        "acceleration": 0.035,
+        "radiusJitter": 0.8,
+        "heightJitter": 0.6,
+        "separation": 1.1,
+        "maxOrbitTicks": 300,
+        "boredCooldownTicks": 900,
+        "ignoreSneaking": true,
+        "provokeRange": 0.0,
+        "icon": false
+      }
+    },
+    {
+      "id": "pack",
+      "enabled": true,
+      "species": [
+        "combee",
+        "vespiquen"
+      ],
+      "priority": 4,
+      "params": {
+        "group": "combee_hive",
+        "groupSpecies": [
+          "combee",
+          "vespiquen"
+        ],
+        "share": "attacker",
+        "range": 14.0,
+        "alarmTtlTicks": 60,
+        "reactionDelayMin": 2,
+        "reactionDelayMax": 14,
+        "chaseTicks": 400,
+        "engageGraceTicks": 80,
+        "wildOnly": true,
+        "cooldownTicks": 100,
+        "icon": false
+      }
+    },
+    {
+      "id": "threat_response",
+      "enabled": true,
+      "species": [
+        "pidgey",
+        "pidgeotto",
+        "starly",
+        "staravia",
+        "wingull",
+        "taillow"
+      ],
+      "priority": 0,
+      "params": {
+        "response": "fly",
+        "triggerRange": 10.0,
+        "fleeHealthFraction": 0.5,
+        "riseHeight": 10.0,
+        "ascendSpeed": 0.24,
+        "flySpeed": 0.35,
+        "flyDistance": 30.0,
+        "maxFlyTicks": 400,
+        "descendSpeed": 0.15,
+        "cooldownTicks": 200,
+        "flockAlarm": true,
+        "alarmSound": "minecraft:entity.parrot.ambient",
+        "allyAlarmGroup": [
+          "pidgey",
+          "pidgeotto",
+          "starly",
+          "staravia",
+          "wingull",
+          "taillow"
+        ],
+        "allyAlarmRange": 16.0,
+        "cohesion": true,
+        "scanIntervalTicks": 5,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "pollinate",
+      "enabled": true,
+      "species": [
+        "butterfree",
+        "beautifly",
+        "dustox",
+        "masquerain",
+        "mothim",
+        "vivillon",
+        "cutiefly",
+        "ribombee",
+        "ledyba",
+        "ledian",
+        "venomoth"
+      ],
+      "priority": 3,
+      "params": {
+        "hover": true,
+        "hoverHeight": 1.1,
+        "flySpeed": 0.18,
+        "searchRadius": 12,
+        "searchRadiusY": 5,
+        "pollinateTicks": 60,
+        "applications": 2,
+        "spreadRadius": 2,
+        "spreadBlocks": 2,
+        "trailChance": 0.12,
+        "trailIntervalTicks": 20,
+        "attemptIntervalTicks": 120,
+        "cooldownTicks": 600,
+        "chance": 0.7,
+        "growCrops": true,
+        "growBerries": true,
+        "growSaplings": true,
+        "growGround": true,
+        "growOther": true,
+        "wildOnly": false,
+        "ownerRange": 12.0,
+        "icon": false
+      }
+    },
+    {
+      "id": "pollinate",
+      "enabled": true,
+      "species": [
+        "combee",
+        "vespiquen"
+      ],
+      "priority": 3,
+      "params": {
+        "hover": true,
+        "hoverHeight": 0.9,
+        "flySpeed": 0.22,
+        "searchRadius": 14,
+        "searchRadiusY": 5,
+        "pollinateTicks": 45,
+        "applications": 3,
+        "spreadRadius": 3,
+        "spreadBlocks": 3,
+        "trailChance": 0.08,
+        "attemptIntervalTicks": 100,
+        "cooldownTicks": 500,
+        "chance": 0.75,
+        "growSaplings": false,
+        "wildOnly": false,
+        "ownerRange": 12.0,
+        "icon": false
+      }
+    },
+    {
+      "id": "weather_speed",
+      "enabled": true,
+      "types": [
+        "water"
+      ],
+      "params": {
+        "rainMultiplier": 1.25,
+        "requireOutdoors": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "weather_speed",
+      "enabled": true,
+      "types": [
+        "fire"
+      ],
+      "params": {
+        "rainMultiplier": 0.75,
+        "requireOutdoors": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "player_sleep",
+      "enabled": true,
+      "species": [
+        "*"
+      ],
+      "priority": 6,
+      "params": {
+        "idleTicks": 2400,
+        "ownerRange": 16.0,
+        "wakeCheckIntervalTicks": 10,
+        "particleIntervalTicks": 40
+      }
+    },
+    {
+      "id": "attach",
+      "enabled": true,
+      "species": [
+        "remoraid"
+      ],
+      "priority": 1,
+      "params": {
+        "targetSpecies": [
+          "mantyke",
+          "mantine"
+        ],
+        "anchor": "back",
+        "maxAttachers": 1,
+        "searchRadius": 12.0,
+        "speed": 1.1,
+        "wildOnly": true,
+        "cooldownTicks": 600,
+        "icon": false
+      }
+    },
+    {
+      "id": "attach",
+      "enabled": true,
+      "species": [
+        "bergmite"
+      ],
+      "priority": 1,
+      "params": {
+        "targetSpecies": [
+          "avalugg"
+        ],
+        "anchor": "back",
+        "maxAttachers": 3,
+        "searchRadius": 12.0,
+        "speed": 1.1,
+        "wildOnly": true,
+        "cooldownTicks": 600,
+        "icon": false
+      }
+    },
+    {
+      "id": "attach",
+      "enabled": true,
+      "species": [
+        "calyrex"
+      ],
+      "priority": 1,
+      "params": {
+        "targetSpecies": [
+          "glastrier",
+          "spectrier"
+        ],
+        "anchor": "back",
+        "maxAttachers": 1,
+        "searchRadius": 24.0,
+        "speed": 1.1,
+        "wildOnly": true,
+        "cooldownTicks": 600,
+        "icon": false
+      }
+    },
+    {
+      "id": "attach",
+      "enabled": true,
+      "species": [
+        "sirfetchd"
+      ],
+      "priority": 1,
+      "params": {
+        "targetEntities": [
+          "minecraft:horse"
+        ],
+        "anchor": "back",
+        "maxAttachers": 1,
+        "searchRadius": 16.0,
+        "speed": 1.1,
+        "wildOnly": true,
+        "cooldownTicks": 600,
+        "icon": false
+      }
+    },
+    {
+      "id": "scavenge",
+      "enabled": true,
+      "species": [
+        "murkrow",
+        "honchkrow",
+        "mandibuzz",
+        "vullaby",
+        "pidgeotto",
+        "spearow",
+        "fearow",
+        "mightyena",
+        "poochyena",
+        "zigzagoon",
+        "linoone"
+      ],
+      "priority": 4,
+      "params": {
+        "searchRadius": 10.0,
+        "eatTicks": 30,
+        "bitesPerVisit": 3,
+        "stealChance": 0.35,
+        "playerStealChance": 0.2,
+        "playerStealRange": 3.0,
+        "spookRange": 4.0,
+        "cautionRange": 6.0,
+        "cautionStop": 8.0,
+        "fleeDistance": 20.0,
+        "wildOnly": true,
+        "foodItems": [
+          "minecraft:bone",
+          "minecraft:chicken",
+          "minecraft:cooked_chicken",
+          "minecraft:beef",
+          "minecraft:cooked_beef",
+          "minecraft:porkchop",
+          "minecraft:cooked_porkchop",
+          "minecraft:mutton",
+          "minecraft:cooked_mutton",
+          "minecraft:rabbit",
+          "minecraft:cooked_rabbit",
+          "minecraft:rotten_flesh",
+          "minecraft:cod",
+          "minecraft:salmon"
+        ],
+        "foodTags": [
+          "c:bones"
+        ],
+        "icon": false,
+        "landingGlideSpeed": 0.18,
+        "landingMaxTicks": 200
+      }
+    },
+    {
+      "id": "rest",
+      "enabled": true,
+      "species": [
+        "regirock",
+        "regice",
+        "registeel",
+        "regigigas",
+        "regieleki",
+        "regidrago"
+      ],
+      "priority": 4,
+      "params": {
+        "wildOnly": true,
+        "chance": 0.3,
+        "minTicks": 6000,
+        "maxTicks": 24000,
+        "cooldownTicks": 1200,
+        "wakeRange": 4.0,
+        "noiseRange": 8.0,
+        "randomWakeChance": 0.005,
+        "nearPlayerGate": false,
+        "icon": false
+      }
+    },
+    {
+      "id": "rest",
+      "enabled": true,
+      "species": [
+        "snorlax",
+        "munchlax"
+      ],
+      "priority": 4,
+      "params": {
+        "wildOnly": false,
+        "ownerRange": 12.0,
+        "chance": 0.25,
+        "minTicks": 2400,
+        "maxTicks": 9600,
+        "cooldownTicks": 1200,
+        "wakeRange": 5.0,
+        "noiseRange": 10.0,
+        "randomWakeChance": 0.01,
+        "nearPlayerGate": false,
+        "icon": false
+      }
+    },
+    {
+      "id": "rest",
+      "enabled": true,
+      "species": [
+        "*"
+      ],
+      "excludeSpecies": [
+        "drowzee",
+        "hypno"
+      ],
+      "priority": 5,
+      "params": {
+        "wildOnly": false,
+        "ownerRange": 12.0,
+        "checkIntervalTicks": 100,
+        "chance": 0.04,
+        "minTicks": 300,
+        "maxTicks": 1200,
+        "cooldownTicks": 1200,
+        "wakeRange": 6.0,
+        "noiseRange": 14.0,
+        "randomWakeChance": 0.02,
+        "nearPlayerGate": false,
+        "icon": false
+      }
+    },
+    {
+      "id": "drink",
+      "enabled": true,
+      "species": [
+        "tauros",
+        "miltank",
+        "bouffalant",
+        "skiddo",
+        "gogoat",
+        "deerling",
+        "sawsbuck",
+        "ponyta",
+        "rapidash",
+        "mudbray",
+        "mudsdale",
+        "wooloo",
+        "dubwool",
+        "mareep",
+        "flaaffy",
+        "ampharos",
+        "stantler",
+        "girafarig",
+        "rhyhorn",
+        "rhydon",
+        "growlithe",
+        "arcanine",
+        "poochyena",
+        "mightyena",
+        "zigzagoon",
+        "linoone",
+        "lillipup",
+        "herdier",
+        "stoutland",
+        "eevee",
+        "swinub",
+        "piloswine",
+        "mamoswine",
+        "phanpy",
+        "donphan"
+      ],
+      "priority": 4,
+      "params": {
+        "wildOnly": false,
+        "ownerRange": 12.0,
+        "searchRadius": 12,
+        "checkIntervalTicks": 200,
+        "chance": 0.3,
+        "cooldownTicks": 1800,
+        "healAmount": 1.0,
+        "icon": false
+      }
+    },
+    {
+      "id": "bathe",
+      "enabled": true,
+      "species": [
+        "tauros",
+        "miltank",
+        "bouffalant",
+        "mudbray",
+        "mudsdale",
+        "rhyhorn",
+        "rhydon",
+        "rhyperior",
+        "swinub",
+        "piloswine",
+        "mamoswine",
+        "lechonk",
+        "oinkologne",
+        "teddiursa",
+        "ursaring",
+        "bidoof",
+        "stufful",
+        "bewear"
+      ],
+      "priority": 4,
+      "params": {
+        "wildOnly": false,
+        "ownerRange": 12.0,
+        "searchRadius": 12,
+        "checkIntervalTicks": 300,
+        "chance": 0.15,
+        "cooldownTicks": 3600,
+        "icon": false
+      }
+    },
+    {
+      "id": "seek_shade",
+      "enabled": true,
+      "types": [
+        "water"
+      ],
+      "priority": 2,
+      "params": {
+        "trigger": "heat",
+        "minTemperature": 0.95,
+        "searchRadius": 12,
+        "speed": 1.0,
+        "wanderSpeed": 0.8,
+        "recheckIntervalTicks": 40,
+        "dormantWhenSheltered": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "seek_shade",
+      "enabled": true,
+      "types": [
+        "grass",
+        "ice",
+        "bug",
+        "normal",
+        "fairy",
+        "psychic",
+        "poison",
+        "flying",
+        "electric"
+      ],
+      "priority": 2,
+      "params": {
+        "trigger": "heat",
+        "minTemperature": 1.5,
+        "searchRadius": 12,
+        "speed": 1.0,
+        "wanderSpeed": 0.8,
+        "recheckIntervalTicks": 40,
+        "dormantWhenSheltered": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "charge",
+      "enabled": true,
+      "species": [
+        "swinub",
+        "piloswine",
+        "mamoswine",
+        "lechonk",
+        "oinkologne",
+        "tauros",
+        "miltank",
+        "bouffalant",
+        "rhyhorn",
+        "rhydon",
+        "rhyperior",
+        "mudbray",
+        "mudsdale",
+        "skiddo",
+        "gogoat",
+        "phanpy",
+        "donphan",
+        "entei",
+        "raikou",
+        "suicune",
+        "terrakion",
+        "cobalion",
+        "virizion"
+      ],
+      "priority": 2,
+      "params": {
+        "wildOnly": true,
+        "minRange": 4.0,
+        "maxRange": 14.0,
+        "windupTicks": 20,
+        "dashTicks": 16,
+        "dashSpeed": 0.75,
+        "damage": 5.0,
+        "knockback": 1.4,
+        "cooldownTicks": 160
+      }
+    },
+    {
+      "id": "follow_player",
+      "enabled": true,
+      "species": [
+        "latias",
+        "latios",
+        "mew"
+      ],
+      "priority": 4,
+      "params": {
+        "wildOnly": true,
+        "range": 16.0,
+        "chance": 0.2,
+        "minTicks": 300,
+        "maxTicks": 800,
+        "cooldownTicks": 900
+      }
+    },
+    {
+      "id": "follow_player",
+      "enabled": true,
+      "species": [
+        "eevee",
+        "skitty",
+        "meowth",
+        "glameow",
+        "pikachu",
+        "pichu",
+        "teddiursa",
+        "buneary"
+      ],
+      "priority": 3,
+      "params": {
+        "wildOnly": true,
+        "range": 12.0,
+        "chance": 0.05,
+        "minTicks": 200,
+        "maxTicks": 500,
+        "cooldownTicks": 1200,
+        "favoriteFood": [
+          "#cobblemon:berries",
+          "#minecraft:fishes",
+          "minecraft:sweet_berries",
+          "minecraft:honey_bottle",
+          "minecraft:cookie"
+        ],
+        "temptRange": 10.0,
+        "temptChance": 0.6,
+        "temptMaxTicks": 2400,
+        "temptGraceTicks": 40
+      }
+    },
+    {
+      "id": "follow_player",
+      "enabled": true,
+      "species": [
+        "growlithe",
+        "arcanine",
+        "poochyena",
+        "mightyena",
+        "lillipup",
+        "herdier",
+        "stoutland",
+        "rockruff",
+        "lycanroc",
+        "vulpix",
+        "delcatty",
+        "purrloin",
+        "litten",
+        "espurr",
+        "snubbull",
+        "granbull",
+        "zigzagoon",
+        "linoone"
+      ],
+      "priority": 4,
+      "params": {
+        "wildOnly": true,
+        "range": 12.0,
+        "chance": 0.08,
+        "foodBoost": 3.0,
+        "minTicks": 200,
+        "maxTicks": 500,
+        "cooldownTicks": 1200,
+        "favoriteFood": [
+          "minecraft:beef",
+          "minecraft:cooked_beef",
+          "minecraft:porkchop",
+          "minecraft:cooked_porkchop",
+          "minecraft:chicken",
+          "minecraft:cooked_chicken",
+          "minecraft:mutton",
+          "minecraft:cooked_mutton",
+          "minecraft:bone"
+        ],
+        "temptRange": 10.0,
+        "temptChance": 0.6
+      }
+    },
+    {
+      "id": "defend_young",
+      "enabled": true,
+      "species": [
+        "bulbasaur",
+        "ivysaur",
+        "venusaur"
+      ],
+      "priority": 2,
+      "params": {
+        "family": [
+          "bulbasaur",
+          "ivysaur",
+          "venusaur"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "defend_young",
+      "enabled": true,
+      "species": [
+        "charmander",
+        "charmeleon",
+        "charizard"
+      ],
+      "priority": 2,
+      "params": {
+        "family": [
+          "charmander",
+          "charmeleon",
+          "charizard"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "defend_young",
+      "enabled": true,
+      "species": [
+        "squirtle",
+        "wartortle",
+        "blastoise"
+      ],
+      "priority": 2,
+      "params": {
+        "family": [
+          "squirtle",
+          "wartortle",
+          "blastoise"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "defend_young",
+      "enabled": true,
+      "species": [
+        "swinub",
+        "piloswine",
+        "mamoswine"
+      ],
+      "priority": 2,
+      "params": {
+        "family": [
+          "swinub",
+          "piloswine",
+          "mamoswine"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "defend_young",
+      "enabled": true,
+      "species": [
+        "phanpy",
+        "donphan"
+      ],
+      "priority": 2,
+      "params": {
+        "family": [
+          "phanpy",
+          "donphan"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "defend_young",
+      "enabled": true,
+      "species": [
+        "lillipup",
+        "herdier",
+        "stoutland"
+      ],
+      "priority": 2,
+      "params": {
+        "family": [
+          "lillipup",
+          "herdier",
+          "stoutland"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "defend_young",
+      "enabled": true,
+      "species": [
+        "mareep",
+        "flaaffy",
+        "ampharos"
+      ],
+      "priority": 2,
+      "params": {
+        "family": [
+          "mareep",
+          "flaaffy",
+          "ampharos"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "defend_young",
+      "enabled": true,
+      "species": [
+        "rhyhorn",
+        "rhydon",
+        "rhyperior"
+      ],
+      "priority": 2,
+      "params": {
+        "family": [
+          "rhyhorn",
+          "rhydon",
+          "rhyperior"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "defend_young",
+      "enabled": true,
+      "species": [
+        "tauros",
+        "miltank",
+        "bouffalant",
+        "wooloo",
+        "dubwool",
+        "lechonk",
+        "oinkologne"
+      ],
+      "priority": 2,
+      "params": {
+        "wildOnly": true,
+        "cubMaxLevel": 10,
+        "cubMaxScale": 0.7,
+        "levelGap": 8,
+        "scaleRatio": 1.4,
+        "icon": false
+      }
+    },
+    {
+      "id": "follow_parent",
+      "enabled": true,
+      "species": [
+        "bulbasaur",
+        "ivysaur",
+        "venusaur"
+      ],
+      "priority": 3,
+      "params": {
+        "family": [
+          "bulbasaur",
+          "ivysaur",
+          "venusaur"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "follow_parent",
+      "enabled": true,
+      "species": [
+        "charmander",
+        "charmeleon",
+        "charizard"
+      ],
+      "priority": 3,
+      "params": {
+        "family": [
+          "charmander",
+          "charmeleon",
+          "charizard"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "follow_parent",
+      "enabled": true,
+      "species": [
+        "squirtle",
+        "wartortle",
+        "blastoise"
+      ],
+      "priority": 3,
+      "params": {
+        "family": [
+          "squirtle",
+          "wartortle",
+          "blastoise"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "follow_parent",
+      "enabled": true,
+      "species": [
+        "swinub",
+        "piloswine",
+        "mamoswine"
+      ],
+      "priority": 3,
+      "params": {
+        "family": [
+          "swinub",
+          "piloswine",
+          "mamoswine"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "follow_parent",
+      "enabled": true,
+      "species": [
+        "phanpy",
+        "donphan"
+      ],
+      "priority": 3,
+      "params": {
+        "family": [
+          "phanpy",
+          "donphan"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "follow_parent",
+      "enabled": true,
+      "species": [
+        "lillipup",
+        "herdier",
+        "stoutland"
+      ],
+      "priority": 3,
+      "params": {
+        "family": [
+          "lillipup",
+          "herdier",
+          "stoutland"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "follow_parent",
+      "enabled": true,
+      "species": [
+        "mareep",
+        "flaaffy",
+        "ampharos"
+      ],
+      "priority": 3,
+      "params": {
+        "family": [
+          "mareep",
+          "flaaffy",
+          "ampharos"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "follow_parent",
+      "enabled": true,
+      "species": [
+        "rhyhorn",
+        "rhydon",
+        "rhyperior"
+      ],
+      "priority": 3,
+      "params": {
+        "family": [
+          "rhyhorn",
+          "rhydon",
+          "rhyperior"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "follow_parent",
+      "enabled": true,
+      "species": [
+        "tauros",
+        "miltank",
+        "bouffalant",
+        "wooloo",
+        "dubwool",
+        "lechonk",
+        "oinkologne"
+      ],
+      "priority": 3,
+      "params": {
+        "wildOnly": true,
+        "cubMaxLevel": 10,
+        "cubMaxScale": 0.7,
+        "levelGap": 8,
+        "scaleRatio": 1.4,
+        "icon": false
+      }
+    },
+    {
+      "id": "mate",
+      "enabled": true,
+      "species": [
+        "growlithe",
+        "arcanine",
+        "poochyena",
+        "mightyena",
+        "lillipup",
+        "herdier",
+        "stoutland",
+        "mareep",
+        "flaaffy",
+        "ampharos",
+        "swinub",
+        "piloswine",
+        "mamoswine",
+        "phanpy",
+        "donphan",
+        "rhyhorn",
+        "rhydon",
+        "ponyta",
+        "rapidash",
+        "skiddo",
+        "gogoat",
+        "deerling",
+        "sawsbuck",
+        "bouffalant",
+        "eevee",
+        "vulpix",
+        "pikachu",
+        "raichu",
+        "meowth",
+        "zigzagoon",
+        "linoone",
+        "wooloo",
+        "dubwool",
+        "bidoof",
+        "bibarel",
+        "rattata",
+        "raticate",
+        "sentret",
+        "furret"
+      ],
+      "priority": 4,
+      "params": {
+        "wildOnly": true,
+        "range": 16.0,
+        "chance": 0.1,
+        "minLevel": 5,
+        "courtshipTicks": 240,
+        "danceRadius": 2.0,
+        "cooldownTicks": 24000,
+        "offspringChance": 0.0,
+        "hatchTicks": 2400,
+        "guardDamage": 2.0,
+        "guardTicks": 300,
+        "icon": false
+      }
+    },
+    {
+      "id": "press_buttons",
+      "enabled": true,
+      "species": [
+        "gastly",
+        "haunter",
+        "gengar",
+        "misdreavus",
+        "mismagius",
+        "duskull",
+        "dusclops",
+        "dusknoir",
+        "rotom",
+        "shuppet",
+        "banette"
+      ],
+      "priority": 4,
+      "params": {
+        "wildOnly": true,
+        "searchRadius": 8,
+        "checkIntervalTicks": 200,
+        "chance": 0.2,
+        "cooldownTicks": 600,
+        "allowLevers": false,
+        "phase": true
+      }
+    },
+    {
+      "id": "melt_snow",
+      "enabled": true,
+      "species": [
+        "entei"
+      ],
+      "priority": 3,
+      "params": {
+        "wildOnly": false,
+        "radius": 4,
+        "maxPerPass": 8,
+        "chance": 1.0,
+        "includeIce": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "melt_snow",
+      "enabled": true,
+      "types": [
+        "fire"
+      ],
+      "priority": 3,
+      "params": {
+        "wildOnly": false,
+        "radius": 2,
+        "maxPerPass": 4,
+        "chance": 0.6,
+        "includeIce": false,
+        "icon": false
+      }
+    },
+    {
+      "id": "aggro_display",
+      "enabled": true,
+      "types": [
+        "fighting",
+        "dark",
+        "fire",
+        "dragon",
+        "rock",
+        "ground",
+        "steel"
+      ],
+      "priority": 3,
+      "params": {
+        "minIntervalTicks": 100,
+        "maxIntervalTicks": 300,
+        "sound": false
+      }
+    },
+    {
+      "id": "aggro_display",
+      "enabled": true,
+      "species": [
+        "*"
+      ],
+      "priority": 3,
+      "params": {
+        "minIntervalTicks": 140,
+        "maxIntervalTicks": 400,
+        "sound": false
+      }
+    },
+    {
+      "id": "retaliate",
+      "enabled": true,
+      "species": [
+        "zapdos"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "lightning",
+        "chance": 1.0,
+        "cooldownTicks": 100,
+        "damage": 6.0,
+        "realBolt": false,
+        "playersOnly": true,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "retaliate",
+      "enabled": true,
+      "species": [
+        "articuno"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "ice_cage",
+        "chance": 1.0,
+        "firstHitOnly": true,
+        "cooldownTicks": 200,
+        "durationTicks": 100,
+        "radius": 1,
+        "block": "minecraft:packed_ice",
+        "playersOnly": true,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "retaliate",
+      "enabled": true,
+      "species": [
+        "moltres"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "flame",
+        "chance": 1.0,
+        "cooldownTicks": 100,
+        "fireSeconds": 6,
+        "playersOnly": true,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "retaliate",
+      "enabled": true,
+      "species": [
+        "torkoal"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "smoke",
+        "chance": 0.7,
+        "cooldownTicks": 120,
+        "blindSeconds": 5,
+        "contactRange": 8.0,
+        "playersOnly": true,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "retaliate",
+      "enabled": true,
+      "species": [
+        "camerupt"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "magma",
+        "chance": 1.0,
+        "cooldownTicks": 80,
+        "heatRadius": 4,
+        "shotSpeed": 0.8,
+        "damage": 4.0,
+        "fireSeconds": 4,
+        "leaveTicks": 100,
+        "playersOnly": true,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "retaliate",
+      "enabled": true,
+      "species": [
+        "wobbuffet",
+        "wynaut"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "counter",
+        "chance": 1.0,
+        "firstHitOnly": true,
+        "counterFraction": 0.5,
+        "cooldownTicks": 40,
+        "playersOnly": false,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "retaliate",
+      "enabled": true,
+      "species": [
+        "sandshrew",
+        "sandslash",
+        "ferroseed",
+        "ferrothorn",
+        "pineco",
+        "qwilfish"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "thorns",
+        "chance": 1.0,
+        "damage": 2.0,
+        "contactRange": 3.5,
+        "cooldownTicks": 10,
+        "playersOnly": false,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "retaliate",
+      "enabled": true,
+      "species": [
+        "butterfree",
+        "vileplume",
+        "paras",
+        "parasect",
+        "shroomish",
+        "breloom"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "spores",
+        "chance": 0.6,
+        "contactRange": 6.0,
+        "sporeRadius": 3.0,
+        "sporeSeconds": 5,
+        "sleepChance": 0.3,
+        "cooldownTicks": 100,
+        "playersOnly": true,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "retaliate",
+      "enabled": true,
+      "species": [
+        "snorlax",
+        "munchlax",
+        "slowbro"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "rage",
+        "chance": 1.0,
+        "hitsRequired": 4,
+        "hitWindowTicks": 600,
+        "rageSeconds": 15,
+        "rageKnockback": 1.4,
+        "cooldownTicks": 1200,
+        "playersOnly": true,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "retaliate",
+      "enabled": true,
+      "types": [
+        "poison"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "poison",
+        "chance": 0.5,
+        "cooldownTicks": 60,
+        "contactRange": 4.0,
+        "poisonSeconds": 5,
+        "poisonAmplifier": 0,
+        "stunChance": 0.25,
+        "stunTicks": 40,
+        "playersOnly": true,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "retaliate",
+      "enabled": true,
+      "species": [
+        "psyduck"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "psychic",
+        "escapeBelowLevel": 30,
+        "burstHealth": 0.3,
+        "headacheHits": 4,
+        "heavyHitFraction": 0.35,
+        "fleeHealth": 0.2,
+        "fleeDelayTicks": 15,
+        "warnNauseaTicks": 60,
+        "chance": 1.0,
+        "cooldownTicks": 400,
+        "burstRadius": 5.0,
+        "knockback": 1.2,
+        "launchUp": 0.85,
+        "xpMaxLevel": 50,
+        "knockbackMax": 1.6,
+        "launchUpMax": 1.2,
+        "burstDamage": 1.0,
+        "burstDamageMax": 3.0,
+        "slowFall": false,
+        "dizzy": true,
+        "levitateTicks": 0,
+        "stunTicks": 60,
+        "nauseaTicks": 100,
+        "selfTeleport": false,
+        "escapeTeleportMin": 12.0,
+        "escapeTeleportMax": 20.0,
+        "healFraction": 0.25,
+        "playersOnly": false,
+        "wildOnly": true,
+        "chargeEnabled": false,
+        "chargeHits": 6,
+        "armorPerHit": 2.0,
+        "maxChargeArmor": 10.0,
+        "chargeBurstDamage": 4.0,
+        "recoveryTicks": 100,
+        "hitWindowTicks": 200,
+        "vortexTicks": 60,
+        "pulseIntervalTicks": 4,
+        "criticalHealthFraction": 0.15,
+        "pullStrength": 0.12,
+        "maxPull": 0.25,
+        "maxTargets": 8,
+        "particlesPerPulse": 12,
+        "spiralArms": 3,
+        "radiansPerTick": 0.15,
+        "spiralHeight": 3,
+        "maxBurstDamage": 12,
+        "maxKnockback": 1.5,
+        "baseLaunch": 0.25,
+        "launchPerLevel": 0.002,
+        "maxLaunch": 0.7,
+        "levelDivisor": 50,
+        "maxLevel": 100,
+        "maxLevelScale": 2
+      },
+      "_comment": "Psyduck headache: each real hit makes it worse (headacheHits within hitWindowTicks); then it bursts, launching nearby players and Pokemon into the air and leaving them dizzy (stunTicks). It only teleports away after a heavy hit (heavyHitFraction of its max HP), at low health (fleeHealth) or below escapeBelowLevel, and never before bursting. Experimental charge/vortex mode remains opt-in. The burst grows with the experience LEVEL of each player it hits: knockback, launch height and magic damage (never lethal, ignores armor) go from the base values at level 0 to knockbackMax, launchUpMax and burstDamageMax at xpMaxLevel (0 turns the scaling off). slowFall false means no slow-falling cushion, so the landing hurts (less with Feather Falling); set it true for the old soft landing."
+    },
+    {
+      "id": "lure",
+      "enabled": true,
+      "species": [
+        "litwick"
+      ],
+      "priority": 2,
+      "params": {
+        "sparkle": true,
+        "triggerRange": 14.0,
+        "keepMin": 7.0,
+        "keepMax": 12.0,
+        "loseRange": 24.0,
+        "speed": 0.9,
+        "fleeSpeed": 1.25,
+        "maxTicks": 1200,
+        "cooldownTicks": 600,
+        "nightOnly": false,
+        "glow": true,
+        "dodgeBalls": true,
+        "dodgeChance": 0.6,
+        "dodgeRange": 6.0,
+        "dodgeCooldownTicks": 20,
+        "dodgeTeleport": false,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "magnetize",
+      "enabled": true,
+      "species": [
+        "magnemite",
+        "magneton",
+        "magnezone"
+      ],
+      "priority": 3,
+      "params": {
+        "range": 12.0,
+        "holdRadius": 0.9,
+        "pull": 0.35,
+        "maxItems": 8,
+        "holdTicks": 300,
+        "regrabCooldownTicks": 200,
+        "scanIntervalTicks": 10,
+        "itemPatterns": [
+          "iron"
+        ],
+        "items": [
+          "minecraft:bucket",
+          "minecraft:water_bucket",
+          "minecraft:lava_bucket",
+          "minecraft:milk_bucket",
+          "minecraft:powder_snow_bucket",
+          "minecraft:minecart",
+          "minecraft:chain",
+          "minecraft:shears",
+          "minecraft:compass",
+          "minecraft:flint_and_steel",
+          "minecraft:hopper",
+          "minecraft:cauldron",
+          "minecraft:anvil",
+          "minecraft:chainmail_helmet",
+          "minecraft:chainmail_chestplate",
+          "minecraft:chainmail_leggings",
+          "minecraft:chainmail_boots"
+        ],
+        "excludePatterns": [],
+        "wildOnly": false,
+        "shrapnel": false,
+        "alphaTags": [
+          "cobbleinstincts.alpha"
+        ],
+        "shrapnelDamage": 3.0,
+        "shrapnelSpeed": 0.6,
+        "shrapnelTicks": 20,
+        "shrapnelCooldownTicks": 200,
+        "flingLevel": 30,
+        "flingSpeed": 0.45,
+        "icon": false
+      },
+      "_comment": "Experimental shrapnel=false by default: only wild Pokemon with an alphaTags tag and a hostile target launch real dropped iron items. Never removes equipped gear. Items keep their stacks and ownership and receive a finite extended despawn lifetime; external destruction remains possible."
+    },
+    {
+      "id": "smelt_ore",
+      "enabled": true,
+      "species": [
+        "slugma",
+        "magcargo",
+        "torkoal",
+        "numel",
+        "camerupt",
+        "magby",
+        "magmar",
+        "magmortar",
+        "heatmor",
+        "heatran",
+        "carkol",
+        "coalossal",
+        "turtonator",
+        "volcanion",
+        "entei",
+        "groudon"
+      ],
+      "priority": 3,
+      "params": {
+        "radius": 2.5,
+        "maxPerPass": 2,
+        "handSmelt": true,
+        "handRange": 2.5,
+        "requireSneak": true,
+        "dryOnly": true,
+        "experience": true,
+        "itemPatterns": [
+          "raw_"
+        ],
+        "items": [],
+        "wildOnly": false,
+        "smeltTicks": 40,
+        "throwOnHit": true,
+        "throwRange": 10.0,
+        "throwDamage": 1.5,
+        "throwDamageStep": 1.5,
+        "throwMaxDamage": 7.0,
+        "hitWindowTicks": 200,
+        "icon": false
+      },
+      "_comment": "Fire types smelt raw ore dropped near them (or held by a sneaking player). Hit in the wild, they throw nearby ore at the attacker: a light hit first, harder with every hit in the window. Thrown ore drops back as an item."
+    },
+    {
+      "id": "heat_shy",
+      "enabled": true,
+      "types": [
+        "ice"
+      ],
+      "priority": 1,
+      "params": {
+        "dimensions": [],
+        "stickDistance": 2.5,
+        "teleportDistance": 12.0,
+        "speed": 1.3,
+        "recallOnHurt": true,
+        "recallOnFire": true,
+        "drip": true,
+        "notify": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "kamikaze",
+      "enabled": true,
+      "species": [
+        "voltorb",
+        "electrode"
+      ],
+      "priority": 0,
+      "params": {
+        "combat": true,
+        "ambush": true,
+        "ambushRange": 12.0,
+        "ambushChance": 0.08,
+        "targetCreative": false,
+        "minLevel": 1,
+        "loseRange": 28.0,
+        "rollSpeed": 1.1,
+        "rollSpeedMax": 1.9,
+        "rollRampTicks": 40,
+        "maxRollTicks": 260,
+        "spinDegreesPerTick": 40.0,
+        "fuseRange": 2.2,
+        "fuseTicks": 25,
+        "fuseBreakRange": 5.0,
+        "maxFuseResets": 3,
+        "swell": 0.25,
+        "power": 2.5,
+        "breakBlocks": false,
+        "cooldownTicks": 1200,
+        "wildOnly": true,
+        "smoke": true
+      }
+    },
+    {
+      "id": "kamikaze",
+      "enabled": true,
+      "species": [
+        "koffing",
+        "weezing"
+      ],
+      "priority": 0,
+      "params": {
+        "combat": true,
+        "ambush": false,
+        "lastResortHealth": 0.25,
+        "loseRange": 20.0,
+        "rollSpeed": 1.0,
+        "rollSpeedMax": 1.5,
+        "fuseRange": 2.2,
+        "fuseTicks": 30,
+        "swell": 0.3,
+        "power": 1.5,
+        "breakBlocks": false,
+        "poisonCloud": true,
+        "cloudRadius": 3.0,
+        "cloudSeconds": 8,
+        "cloudPoisonSeconds": 5,
+        "cloudAmplifier": 0,
+        "spinDegreesPerTick": 0.0,
+        "cooldownTicks": 1200,
+        "wildOnly": true,
+        "smoke": true
+      }
+    },
+    {
+      "id": "kamikaze",
+      "enabled": true,
+      "species": [
+        "graveler",
+        "golem"
+      ],
+      "priority": 0,
+      "params": {
+        "combat": true,
+        "ambush": false,
+        "lastResortHealth": 0.2,
+        "loseRange": 20.0,
+        "rollSpeed": 1.1,
+        "rollSpeedMax": 1.7,
+        "fuseRange": 2.2,
+        "fuseTicks": 30,
+        "swell": 0.2,
+        "power": 2.5,
+        "breakBlocks": false,
+        "spinDegreesPerTick": 30.0,
+        "cooldownTicks": 1200,
+        "wildOnly": true,
+        "smoke": true
+      }
+    },
+    {
+      "id": "shell_up",
+      "enabled": true,
+      "species": [
+        "shuckle"
+      ],
+      "priority": 1,
+      "params": {
+        "shellTicks": 120,
+        "resistance": 3,
+        "spikeChance": 0.0,
+        "cooldownTicks": 200,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "shell_up",
+      "enabled": true,
+      "species": [
+        "cloyster",
+        "forretress",
+        "turtonator"
+      ],
+      "priority": 1,
+      "params": {
+        "shellTicks": 100,
+        "resistance": 2,
+        "spikeChance": 0.35,
+        "spikeDamage": 2.0,
+        "spikeRange": 3.0,
+        "cooldownTicks": 200,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "harass",
+      "enabled": true,
+      "species": [
+        "haunter",
+        "gengar",
+        "shuppet",
+        "mimikyu"
+      ],
+      "priority": 2,
+      "params": {
+        "mode": "prank",
+        "triggerRange": 16.0,
+        "startChance": 0.01,
+        "stalkSpeed": 0.9,
+        "escapeSpeed": 1.4,
+        "behindDistance": 2.2,
+        "turnWaitTicks": 100,
+        "lookDot": 0.75,
+        "escapeDistance": 14.0,
+        "cooldownTicks": 3600,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "hang_from_leaves",
+      "enabled": true,
+      "species": [
+        "zubat",
+        "woobat",
+        "noibat"
+      ],
+      "priority": 2,
+      "params": {
+        "anchor": "ceiling",
+        "leafBornOnly": false,
+        "snapOnSpawn": true,
+        "spawnSearchRadius": 12,
+        "searchRadius": 8,
+        "maxSearchHeight": 10,
+        "maxLight": 7,
+        "dropRange": 6.0,
+        "swoopSpeed": 0.9,
+        "hangTicks": 6000,
+        "cooldownTicks": 600,
+        "attemptIntervalTicks": 100,
+        "chance": 0.6,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "mimic_tree",
+      "enabled": true,
+      "species": [
+        "geodude",
+        "roggenrola",
+        "rolycoly"
+      ],
+      "priority": 3,
+      "params": {
+        "shape": "rock",
+        "rockBlock": "auto",
+        "revealRange": 2.5,
+        "stareRange": 4.0,
+        "stareDot": 0.94,
+        "revealTicks": 20,
+        "fleeSpeed": 1.3,
+        "fleeDistance": 16,
+        "searchRadius": 6,
+        "cooldownTicks": 1200,
+        "startChance": 0.05,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "log_fort",
+      "enabled": true,
+      "species": [
+        "forretress"
+      ],
+      "priority": 2,
+      "params": {
+        "triggerRange": 7.0,
+        "releaseRange": 14.0,
+        "startChance": 0.1,
+        "calmTicks": 80,
+        "maxHiddenTicks": 2400,
+        "cooldownTicks": 1500,
+        "buildPerTick": 2,
+        "breakPerTick": 3,
+        "requireFlat": true,
+        "logs": [
+          "minecraft:oak_log",
+          "minecraft:spruce_log",
+          "minecraft:birch_log",
+          "minecraft:dark_oak_log"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "leaf_nest",
+      "enabled": true,
+      "species": [
+        "leavanny"
+      ],
+      "priority": 3,
+      "params": {
+        "searchRadius": 16,
+        "shareRadius": 32,
+        "height": 3,
+        "nestTicks": 24000,
+        "weaveIntervalTicks": 4,
+        "visitTicks": 200,
+        "cooldownTicks": 2400,
+        "attemptIntervalTicks": 200,
+        "chance": 0.3,
+        "speed": 0.9,
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "gathering",
+      "enabled": true,
+      "species": [
+        "butterfree"
+      ],
+      "priority": 2,
+      "params": {
+        "regionSize": 96,
+        "minIntervalDays": 30,
+        "maxIntervalDays": 50,
+        "startTick": 1000,
+        "durationTicks": 9000,
+        "joinRange": 64.0,
+        "minGroup": 2,
+        "groupSpecies": [
+          "butterfree"
+        ],
+        "requireClear": true,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "checkIntervalTicks": 100,
+        "flySpeed": 0.2,
+        "acceleration": 0.04,
+        "hoverHeight": 3.5,
+        "orbitRadiusMin": 1.5,
+        "orbitRadiusMax": 5.0,
+        "sowRadius": 7.0,
+        "sowIntervalTicks": 60,
+        "sowChance": 0.6,
+        "treeChance": 0.04,
+        "maxSowsPerSession": 30,
+        "plants": [
+          "minecraft:grass",
+          "minecraft:short_grass",
+          "minecraft:dandelion",
+          "minecraft:poppy",
+          "minecraft:azure_bluet",
+          "minecraft:oxeye_daisy",
+          "minecraft:cornflower",
+          "minecraft:allium",
+          "minecraft:red_tulip",
+          "minecraft:orange_tulip",
+          "minecraft:white_tulip",
+          "minecraft:pink_tulip",
+          "minecraft:lily_of_the_valley"
+        ],
+        "saplings": [
+          "minecraft:oak_sapling",
+          "minecraft:birch_sapling"
+        ],
+        "wildOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "arrival_fx",
+      "enabled": true,
+      "species": [
+        "zapdos"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "lightning",
+        "range": 64.0,
+        "realBolt": false,
+        "icon": false
+      }
+    },
+    {
+      "id": "arrival_fx",
+      "enabled": true,
+      "species": [
+        "articuno"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "snow",
+        "range": 64.0,
+        "icon": false
+      }
+    },
+    {
+      "id": "arrival_fx",
+      "enabled": true,
+      "species": [
+        "moltres"
+      ],
+      "priority": 3,
+      "params": {
+        "effect": "flame",
+        "range": 64.0,
+        "icon": false
+      }
+    },
+    {
+      "id": "pollinate",
+      "enabled": true,
+      "species": [
+        "celebi"
+      ],
+      "priority": 3,
+      "params": {
+        "wildOnly": false,
+        "ownerRange": 12.0,
+        "hover": true,
+        "chance": 0.9,
+        "cooldownTicks": 400,
+        "applications": 3,
+        "spreadRadius": 3,
+        "spreadBlocks": 4,
+        "trailChance": 0.2,
+        "icon": false
+      }
+    },
+    {
+      "id": "pollinate",
+      "enabled": true,
+      "species": [
+        "shaymin"
+      ],
+      "priority": 3,
+      "params": {
+        "wildOnly": false,
+        "ownerRange": 12.0,
+        "hover": false,
+        "chance": 0.9,
+        "cooldownTicks": 400,
+        "applications": 3,
+        "spreadRadius": 3,
+        "spreadBlocks": 4,
+        "icon": false
+      }
+    },
+    {
+      "id": "lullaby",
+      "enabled": true,
+      "species": [
+        "jigglypuff"
+      ],
+      "priority": 3,
+      "params": {
+        "wildOnly": true,
+        "range": 8.0,
+        "chance": 0.3,
+        "attemptIntervalTicks": 100,
+        "singTicks": 60,
+        "dreamTicks": 100,
+        "skipHours": 8,
+        "bedRadius": 12.0,
+        "playerCooldownTicks": 6000,
+        "requireSafe": true,
+        "cooldownTicks": 200
+      }
+    },
+    {
+      "id": "lullaby",
+      "enabled": true,
+      "species": [
+        "hypno"
+      ],
+      "priority": 3,
+      "params": {
+        "wildOnly": true,
+        "range": 8.0,
+        "chance": 0.3,
+        "attemptIntervalTicks": 100,
+        "singTicks": 60,
+        "dreamTicks": 120,
+        "skipHours": 8,
+        "requireBedRadius": 6.0,
+        "bedRadius": 8.0,
+        "instrument": "bell",
+        "playerCooldownTicks": 6000,
+        "requireSafe": true,
+        "cooldownTicks": 200
+      }
+    },
+    {
+      "id": "dream_eat",
+      "enabled": true,
+      "species": [
+        "drowzee",
+        "hypno"
+      ],
+      "priority": 2,
+      "params": {
+        "wildOnly": true,
+        "range": 24.0,
+        "attemptIntervalTicks": 10,
+        "hearts": 3.0,
+        "drainIntervalTicks": 8,
+        "minHealth": 1.0,
+        "appear": true,
+        "vanishOnWake": true,
+        "vanishMin": 16.0,
+        "vanishMax": 32.0,
+        "lingerTicks": 20,
+        "maxTicks": 2400,
+        "bedSleep": true,
+        "lullabySleep": true,
+        "playerCooldownTicks": 12000,
+        "cooldownTicks": 200,
+        "hoverOverBed": true,
+        "hoverHeight": 1.2
+      }
+    },
+    {
+      "id": "threat_response",
+      "enabled": true,
+      "species": [
+        "trapinch",
+        "sandile",
+        "krokorok",
+        "krookodile",
+        "silicobra",
+        "sandaconda",
+        "hippopotas",
+        "hippowdon",
+        "sandshrew",
+        "sandslash",
+        "drilbur",
+        "excadrill",
+        "nincada",
+        "larvitar"
+      ],
+      "priority": 0,
+      "params": {
+        "response": "flee",
+        "triggerRange": 7.0,
+        "fleeHealthFraction": 0.5,
+        "fleeSpeed": 1.3,
+        "fleeDistance": 18.0,
+        "maxFleeTicks": 200,
+        "teleport": false,
+        "cooldownTicks": 100,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "pitfall",
+      "enabled": true,
+      "species": [
+        "trapinch",
+        "diglett",
+        "dugtrio",
+        "sandile",
+        "krokorok",
+        "krookodile",
+        "silicobra",
+        "sandaconda",
+        "hippopotas",
+        "hippowdon",
+        "sandshrew",
+        "sandslash",
+        "drilbur",
+        "excadrill",
+        "nincada",
+        "larvitar"
+      ],
+      "params": {
+        "wildOnly": true,
+        "intervalTicks": 60,
+        "maxActive": 2,
+        "depth": 2,
+        "digStone": false,
+        "armDelayTicks": 10,
+        "lifetimeTicks": 400,
+        "restoreTicks": 160,
+        "slowTicks": 60,
+        "slowAmplifier": 3,
+        "damage": 1.0,
+        "mobsTrigger": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "threat_response",
+      "enabled": true,
+      "species": [
+        "caterpie",
+        "weedle",
+        "wurmple",
+        "sewaddle",
+        "venipede",
+        "scatterbug",
+        "snom"
+      ],
+      "priority": 0,
+      "_comment": "Slow larvae step aside without sprinting. Calm presence alone does not trigger a prolonged retreat.",
+      "params": {
+        "response": "flee",
+        "triggerRange": 4.5,
+        "immediateRange": 1.5,
+        "calmRetriggerRange": 3.0,
+        "approachConfirmTicks": 20,
+        "approachingOnly": true,
+        "fleeHealthFraction": 0.25,
+        "allowSprint": false,
+        "fleeSpeed": 1.08,
+        "speedBonus": 0.0,
+        "maxSpeedMultiplier": 1.15,
+        "fleeDistance": 7.0,
+        "maxFleeTicks": 100,
+        "cooldownTicks": 240,
+        "wildOnly": true
+      }
+    },
+    {
+      "id": "threat_response",
+      "enabled": true,
+      "species": [
+        "*"
+      ],
+      "priority": 0,
+      "params": {
+        "response": "hide",
+        "csOnly": true,
+        "hideTicks": 100,
+        "hideSearchRadius": 8,
+        "fleeSpeed": 1.3,
+        "fleeDistance": 16.0,
+        "cooldownTicks": 100,
+        "wildOnly": true
+      },
+      "excludeSpecies": [
+        "caterpie",
+        "weedle",
+        "wurmple",
+        "sewaddle",
+        "venipede",
+        "scatterbug",
+        "snom",
+        "metapod",
+        "kakuna",
+        "silcoon",
+        "cascoon",
+        "spewpa",
+        "swadloon",
+        "burmy",
+        "pineco"
+      ]
+    },
+    {
+      "id": "living_lantern",
+      "enabled": true,
+      "_comment": "Bioluminescent and flame-tailed Pokemon drop temporary light blocks around them in the dark.",
+      "species": [
+        "charmander",
+        "charmeleon",
+        "charizard",
+        "cyndaquil",
+        "quilava",
+        "typhlosion",
+        "chinchou",
+        "lanturn",
+        "mareep",
+        "flaaffy",
+        "ampharos",
+        "volbeat",
+        "illumise",
+        "litwick",
+        "lampent",
+        "chandelure",
+        "morelull",
+        "shiinotic",
+        "lumineon"
+      ],
+      "priority": 3,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "lightLevel": 12,
+        "durationTicks": 80,
+        "maxAmbientLight": 7,
+        "placeGapTicks": 10,
+        "icon": false
+      }
+    },
+    {
+      "id": "steam_vent",
+      "enabled": true,
+      "_comment": "Hot Pokemon hiss and release steam in rain or water; set periodicVent to also vent in the dry.",
+      "species": [
+        "torkoal",
+        "camerupt",
+        "numel",
+        "volcanion",
+        "coalossal",
+        "carkol",
+        "slugma",
+        "magcargo"
+      ],
+      "priority": 3,
+      "params": {
+        "perf": "free",
+        "wildOnly": false,
+        "chance": 0.45,
+        "cooldownTicks": 60,
+        "particleCount": 12,
+        "soundVolume": 0.45,
+        "triggerInRain": true,
+        "triggerInWater": true,
+        "periodicVent": false,
+        "icon": false
+      }
+    },
+    {
+      "id": "static_discharge",
+      "enabled": true,
+      "_comment": "Electric Pokemon crackle with static sparks (more in storms) and briefly shock players standing too close.",
+      "types": [
+        "electric"
+      ],
+      "priority": 3,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "chance": 0.25,
+        "stormChanceMultiplier": 2.0,
+        "cooldownTicks": 100,
+        "shockRange": 2.2,
+        "damage": 1.0,
+        "slownessTicks": 40,
+        "particleCount": 15,
+        "icon": false
+      }
+    },
+    {
+      "id": "ice_slide",
+      "enabled": true,
+      "_comment": "Arctic and round Pokemon slide on their bellies across ice and snow.",
+      "species": [
+        "spheal",
+        "sealeo",
+        "walrein",
+        "piplup",
+        "prinplup",
+        "empoleon",
+        "delibird",
+        "eiscue",
+        "swinub",
+        "piloswine",
+        "snorunt",
+        "cetoddle",
+        "cubchoo",
+        "bergmite"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "chance": 0.25,
+        "slideTicks": 50,
+        "cooldownTicks": 160,
+        "slideSpeed": 0.3,
+        "icon": false
+      }
+    },
+    {
+      "id": "moon_howl",
+      "enabled": true,
+      "_comment": "Canine and lunar Pokemon stop on clear nights to look up and howl at the moon (more often on full-moon nights).",
+      "species": [
+        "poochyena",
+        "mightyena",
+        "houndour",
+        "houndoom",
+        "rockruff",
+        "lycanroc",
+        "electrike",
+        "manectric",
+        "riolu",
+        "lucario",
+        "zorua",
+        "zoroark",
+        "zacian",
+        "zamazenta",
+        "greavard",
+        "houndstone",
+        "maschiff",
+        "mabosstiff",
+        "umbreon",
+        "absol"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "free",
+        "wildOnly": false,
+        "chance": 0.15,
+        "fullMoonMultiplier": 2.5,
+        "howlTicks": 60,
+        "cooldownTicks": 600,
+        "soundVolume": 1.0,
+        "icon": false
+      }
+    },
+    {
+      "id": "moth_to_flame",
+      "enabled": true,
+      "_comment": "Moth and nocturnal bug Pokemon are drawn to bright torches and lanterns at night.",
+      "species": [
+        "venomoth",
+        "venonat",
+        "dustox",
+        "mothim",
+        "volcarona",
+        "larvesta",
+        "frosmoth",
+        "snom",
+        "cutiefly",
+        "ribombee",
+        "masquerain",
+        "beautifly",
+        "ledian",
+        "ledyba",
+        "vikavolt",
+        "illumise",
+        "volbeat"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "chance": 0.35,
+        "searchRange": 12,
+        "minLightLevel": 12,
+        "speed": 0.9,
+        "stayTicks": 140,
+        "cooldownTicks": 200,
+        "nightOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "mark_territory",
+      "enabled": true,
+      "_comment": "Territorial Pokemon mark their turf with a dust ring and growl at, or swipe, players who step inside.",
+      "species": [
+        "ursaring",
+        "ursaluna",
+        "beartic",
+        "pangoro",
+        "zangoose",
+        "seviper",
+        "nidoking",
+        "nidoqueen",
+        "arcanine",
+        "houndoom",
+        "mightyena",
+        "stoutland",
+        "luxray",
+        "pyroar",
+        "incineroar",
+        "annihilape",
+        "primeape",
+        "mabosstiff"
+      ],
+      "priority": 3,
+      "params": {
+        "aggroTicks": 200,
+        "giveUpRange": 16.0,
+        "perf": "light",
+        "wildOnly": true,
+        "chance": 0.35,
+        "cooldownTicks": 160,
+        "territoryRadius": 6.5,
+        "maxAnchorDrift": 24.0,
+        "damage": 2.0,
+        "icon": false
+      }
+    },
+    {
+      "id": "water_play",
+      "enabled": true,
+      "_comment": "Playful water and amphibious Pokemon wade into shallow water and hop around splashing (same engine as bathe, plus hops).",
+      "species": [
+        "marill",
+        "azumarill",
+        "azurill",
+        "wooper",
+        "quagsire",
+        "clodsire",
+        "psyduck",
+        "buizel",
+        "floatzel",
+        "oshawott",
+        "popplio",
+        "quaxly",
+        "mudkip",
+        "totodile",
+        "poliwag",
+        "poliwhirl",
+        "lotad",
+        "lombre",
+        "ludicolo"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "hopBoost": 0.28,
+        "chance": 0.3,
+        "cooldownTicks": 1800,
+        "icon": false
+      }
+    },
+    {
+      "id": "fairy_ring",
+      "enabled": true,
+      "_comment": "Mushroom and Fairy Pokemon sprout temporary fairy rings of mushrooms and small flowers around them when resting.",
+      "species": [
+        "paras",
+        "parasect",
+        "shroomish",
+        "breloom",
+        "foongus",
+        "amoonguss",
+        "morelull",
+        "shiinotic",
+        "toedscool",
+        "toedscruel",
+        "clefairy",
+        "clefable",
+        "flabebe",
+        "floette",
+        "florges",
+        "comfey",
+        "hatenna",
+        "impidimp",
+        "morgrem"
+      ],
+      "priority": 3,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "chance": 0.2,
+        "cooldownTicks": 400,
+        "durationTicks": 600,
+        "ringRadius": 2,
+        "includeFlowers": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "crop_watering",
+      "enabled": true,
+      "_comment": "Friendly Water Pokemon visit dry farmland to hydrate the soil and gently boost crop growth.",
+      "species": [
+        "squirtle",
+        "wartortle",
+        "blastoise",
+        "lotad",
+        "lombre",
+        "ludicolo",
+        "marill",
+        "azumarill",
+        "politoed",
+        "pelipper",
+        "ducklett",
+        "swanna",
+        "sobble",
+        "drizzile",
+        "quaxly",
+        "simipour",
+        "panpour",
+        "vaporeon"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "chance": 0.35,
+        "searchRange": 10,
+        "waterRadius": 2,
+        "growChance": 0.25,
+        "speed": 0.9,
+        "cooldownTicks": 240,
+        "icon": false
+      }
+    },
+    {
+      "id": "frost_walker",
+      "enabled": true,
+      "_comment": "Sub-zero Ice Pokemon freeze the surface water beneath their feet into temporary frosted ice.",
+      "species": [
+        "suicune",
+        "articuno",
+        "regice",
+        "kyurem",
+        "glastrier",
+        "chienpao",
+        "glaceon",
+        "aurorus",
+        "amaura",
+        "avalugg",
+        "cryogonal",
+        "froslass",
+        "glalie",
+        "abomasnow",
+        "beartic",
+        "weavile"
+      ],
+      "priority": 3,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "freezeRadius": 2,
+        "durationTicks": 160,
+        "iceBlock": "minecraft:ice",
+        "freezeOwner": true,
+        "ownerRange": 10.0,
+        "wildPlayerRange": 0.0,
+        "icon": false
+      }
+    },
+    {
+      "id": "toxic_puddle",
+      "enabled": true,
+      "_comment": "Sludge and liquid-poison Pokemon leave short-lived bubbling puddles that briefly poison players who step in them.",
+      "species": [
+        "grimer",
+        "muk",
+        "gulpin",
+        "swalot",
+        "trubbish",
+        "garbodor",
+        "skrelp",
+        "dragalge",
+        "mareanie",
+        "toxapex",
+        "salandit",
+        "salazzle",
+        "poipole",
+        "clodsire",
+        "shroodle",
+        "grafaiai",
+        "glimmet"
+      ],
+      "priority": 3,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "chance": 0.35,
+        "cooldownTicks": 140,
+        "puddleRadius": 1.8,
+        "puddleDurationTicks": 100,
+        "poisonTicks": 60,
+        "icon": false
+      }
+    },
+    {
+      "id": "snowball_play",
+      "enabled": true,
+      "_comment": "Playful Pokemon standing on snow pack harmless snowballs and toss them at nearby players.",
+      "species": [
+        "delibird",
+        "snover",
+        "abomasnow",
+        "cubchoo",
+        "sneasel",
+        "weavile",
+        "piplup",
+        "spheal",
+        "snorunt",
+        "vanillite",
+        "eiscue",
+        "aipom",
+        "ambipom",
+        "chimchar",
+        "grookey"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "chance": 0.25,
+        "cooldownTicks": 160,
+        "throwRange": 10.0,
+        "throwVelocity": 1.1,
+        "throwInaccuracy": 6.0,
+        "knockback": 0.4,
+        "icon": false
+      }
+    },
+    {
+      "id": "ignite_fire",
+      "enabled": true,
+      "_comment": "Fire Pokemon relight unlit campfires nearby; igniteGround also lets them leave brief flames underfoot (off by default).",
+      "types": [
+        "fire"
+      ],
+      "priority": 3,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "chance": 0.3,
+        "cooldownTicks": 200,
+        "campfireSearchRange": 6,
+        "lightCampfires": true,
+        "igniteGround": false,
+        "fireDurationTicks": 60,
+        "icon": false
+      }
+    },
+    {
+      "id": "campfire_warmth",
+      "enabled": true,
+      "_comment": "On cold nights or in the rain, Fire and Normal type Pokemon gather at a safe distance around lit campfires to warm up and slowly heal. Seats never touch fire, campfires, magma or lava; a Pokemon that gets burned anyway jumps back and avoids that seat for a while.",
+      "types": [
+        "fire",
+        "normal"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "chance": 0.4,
+        "searchRange": 12,
+        "speed": 0.85,
+        "restTicks": 300,
+        "cooldownTicks": 300,
+        "healAmount": 1.0,
+        "coldOnly": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "campfire_warmth",
+      "enabled": true,
+      "_comment": "Ice type Pokemon move away from lit campfires at any hour, dripping as they go.",
+      "types": [
+        "ice"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "avoid": true,
+        "avoidRange": 6.0,
+        "fleeDistance": 10,
+        "searchRange": 12,
+        "speed": 1.1,
+        "cooldownTicks": 200,
+        "icon": false
+      }
+    },
+    {
+      "id": "scare_creepers",
+      "enabled": true,
+      "_comment": "Feline Pokemon hiss at nearby Creepers, cancelling their fuse and making them flee.",
+      "species": [
+        "meowth",
+        "persian",
+        "perrserker",
+        "skitty",
+        "delcatty",
+        "glameow",
+        "purugly",
+        "purrloin",
+        "liepard",
+        "espurr",
+        "meowstic",
+        "litten",
+        "torracat",
+        "incineroar",
+        "sprigatito",
+        "floragato",
+        "meowscarada",
+        "shinx",
+        "luxio",
+        "luxray",
+        "espeon",
+        "umbreon"
+      ],
+      "priority": 3,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "scareRadius": 8.0,
+        "fleeSpeed": 1.35,
+        "cooldownTicks": 30,
+        "defuseSwelling": true,
+        "icon": false
+      }
+    },
+    {
+      "id": "phantom_hunter",
+      "enabled": true,
+      "_comment": "Raptors, bats and Electric Pokemon intercept or zap Phantoms swooping down at night (Electric types zap from range).",
+      "species": [
+        "pidgeot",
+        "fearow",
+        "noctowl",
+        "crobat",
+        "golbat",
+        "swellow",
+        "staraptor",
+        "honchkrow",
+        "braviary",
+        "mandibuzz",
+        "talonflame",
+        "hawlucha",
+        "noivern",
+        "corviknight",
+        "kilowattrel",
+        "gliscor",
+        "aerodactyl",
+        "zapdos",
+        "raichu",
+        "luxray"
+      ],
+      "priority": 3,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "detectRange": 18.0,
+        "strikeRange": 3.5,
+        "zapRange": 10.0,
+        "speed": 1.2,
+        "damage": 6.0,
+        "cooldownTicks": 100,
+        "icon": false
+      }
+    },
+    {
+      "id": "warden_sense",
+      "enabled": true,
+      "_comment": "Pokemon sense a nearby Warden and freeze in dead silence so they do not trigger sculk vibrations.",
+      "eggGroups": [
+        "field",
+        "fairy",
+        "monster",
+        "flying",
+        "bug",
+        "human_like",
+        "mineral"
+      ],
+      "priority": 1,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "detectRange": 24.0,
+        "cowerTicks": 200,
+        "cooldownTicks": 80,
+        "scanIntervalTicks": 30,
+        "shrinkScale": 0.88,
+        "icon": false
+      }
+    },
+    {
+      "id": "village_guardian",
+      "enabled": true,
+      "_comment": "Noble, golem and fighting Pokemon defend Villagers and Iron Golems from zombies and raiders (never bosses). A guardian turns on any monster that hits it and fights until defeated: it never flees (holdHealth > 0 lets it give up below that health fraction).",
+      "species": [
+        "golurk",
+        "golett",
+        "lucario",
+        "riolu",
+        "arcanine",
+        "growlithe",
+        "stoutland",
+        "machamp",
+        "machoke",
+        "conkeldurr",
+        "hariyama",
+        "gallade",
+        "gardevoir",
+        "aegislash",
+        "corviknight",
+        "baxcalibur",
+        "kommoo",
+        "aggron",
+        "metagross",
+        "chesnaught",
+        "bewear"
+      ],
+      "priority": 2,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "guardRadius": 16.0,
+        "threatRange": 10.0,
+        "speed": 1.2,
+        "damage": 5.0,
+        "maxTargetHealth": 60.0,
+        "scanIntervalTicks": 40,
+        "cooldownTicks": 60,
+        "holdHealth": 0.0,
+        "icon": false
+      }
+    },
+    {
+      "id": "sheepdog_herd",
+      "enabled": true,
+      "_comment": "Herding-dog Pokemon circle behind stray sheep, Wooloo and Mareep and bark to guide them back to the flock.",
+      "species": [
+        "yamper",
+        "boltund",
+        "lillipup",
+        "herdier",
+        "stoutland",
+        "furfrou",
+        "growlithe",
+        "arcanine",
+        "rockruff",
+        "lycanroc",
+        "electrike",
+        "manectric",
+        "fidough",
+        "dachsbun",
+        "snubbull",
+        "granbull",
+        "poochyena",
+        "mightyena"
+      ],
+      "priority": 5,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "chance": 0.4,
+        "herdSearchRange": 16.0,
+        "maxStrayDistance": 5.5,
+        "speed": 1.15,
+        "scanIntervalTicks": 60,
+        "cooldownTicks": 160,
+        "flock": [
+          "wooloo",
+          "dubwool",
+          "mareep",
+          "flaaffy"
+        ],
+        "icon": false
+      }
+    },
+    {
+      "id": "shared_beehive",
+      "enabled": true,
+      "_comment": "Bee and pollinator Pokemon visit vanilla Beehives and Bee Nests by day and raise their honey level.",
+      "species": [
+        "combee",
+        "vespiquen",
+        "beedrill",
+        "cutiefly",
+        "ribombee",
+        "beautifly",
+        "butterfree",
+        "vivillon",
+        "mothim",
+        "flabebe",
+        "floette",
+        "comfey"
+      ],
+      "priority": 5,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "chance": 0.35,
+        "searchRange": 12,
+        "speed": 0.95,
+        "workTicks": 80,
+        "cooldownTicks": 300,
+        "icon": false
+      }
+    },
+    {
+      "id": "predation",
+      "enabled": true,
+      "_comment": "Insectivore, avian and anteater Pokemon hunt vanilla pests (Silverfish, Endermites, Cave Spiders) as prey.",
+      "species": [
+        "heatmor",
+        "sandshrew",
+        "sandslash",
+        "ekans",
+        "arbok",
+        "persian",
+        "taillow",
+        "swellow",
+        "starly",
+        "staravia",
+        "pidove",
+        "tranquill",
+        "fletchling",
+        "rookidee",
+        "frogadier",
+        "greninja",
+        "politoed",
+        "lickitung",
+        "kecleon",
+        "salandit"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "light",
+        "vanillaPrey": [
+          "minecraft:silverfish",
+          "minecraft:endermite",
+          "minecraft:cave_spider"
+        ],
+        "wildOnly": true,
+        "huntRange": 12.0,
+        "speed": 1.3,
+        "attackDamage": 4.0,
+        "cooldownTicks": 200,
+        "icon": false
+      }
+    },
+    {
+      "id": "petting",
+      "enabled": true,
+      "_comment": "A crouching, empty-handed player staring at a close Pokemon pets it: purring, hearts and a short Regeneration. Owned Pokemon only by default.",
+      "species": [
+        "*"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "light",
+        "ownedOnly": true,
+        "interactRange": 2.6,
+        "petTicks": 50,
+        "cooldownTicks": 120,
+        "regenTicks": 80,
+        "staringDot": 0.85,
+        "wildFriendly": true
+      }
+    },
+    {
+      "id": "affection_gift",
+      "enabled": true,
+      "_comment": "Owned Pokemon bring a gift from the loot table cobbleinstincts:gameplay/affection_gift to a nearby player now and then.",
+      "species": [
+        "*"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "light",
+        "ownedOnly": true,
+        "chance": 0.3,
+        "playerRange": 10.0,
+        "speed": 1.05,
+        "cooldownTicks": 6000,
+        "lootTable": "cobbleinstincts:gameplay/affection_gift"
+      }
+    },
+    {
+      "id": "bed_companion",
+      "enabled": true,
+      "_comment": "Small cats and dogs climb onto the bed of a sleeping owner and curl up until they wake.",
+      "species": [
+        "eevee",
+        "meowth",
+        "skitty",
+        "glameow",
+        "purrloin",
+        "espurr",
+        "litten",
+        "sprigatito",
+        "growlithe",
+        "lillipup",
+        "yamper",
+        "rockruff",
+        "snubbull",
+        "pikachu",
+        "pawmi"
+      ],
+      "priority": 5,
+      "params": {
+        "perf": "light",
+        "ownedOnly": true,
+        "searchRange": 12.0,
+        "speed": 1.0,
+        "cooldownTicks": 100,
+        "regenTicks": 200,
+        "icon": false
+      }
+    },
+    {
+      "id": "fetch_stick",
+      "enabled": true,
+      "_comment": "Dogs fetch a stick that a player throws with right click and bring it back. The click is only used when a fetcher is within 32 blocks. They start at minSpeed and accelerate over accelerationTicks to their cruise speed: speed scaled by speedMode (speed_stat = the Pokemon's Speed stat against speedStatRef, size = its width, fixed) and clamped to minSpeed-maxSpeed. While fetching they sprint, which shows the running pose (ground_run / ride_ground_run) on models that have one.",
+      "species": [
+        "growlithe",
+        "arcanine",
+        "lillipup",
+        "herdier",
+        "stoutland",
+        "poochyena",
+        "mightyena",
+        "rockruff",
+        "lycanroc",
+        "yamper",
+        "boltund",
+        "fidough",
+        "dachsbun",
+        "houndour",
+        "snubbull",
+        "granbull",
+        "furfrou"
+      ],
+      "priority": 5,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "searchRange": 20.0,
+        "speed": 0.9,
+        "cooldownTicks": 80,
+        "minSpeed": 0.55,
+        "maxSpeed": 1.1,
+        "accelerationTicks": 30,
+        "speedMode": "speed_stat",
+        "speedStatRef": 200.0
+      }
+    },
+    {
+      "id": "barter",
+      "enabled": true,
+      "_comment": "Shiny-loving Pokemon trade: drop them gold, an emerald or an amethyst shard and they hand something back (loot table cobbleinstincts:gameplay/barter). thrownOnly (0.12.0): only items a player threw count as payment, never what drops on death, from a broken chest or as loot.",
+      "species": [
+        "meowth",
+        "persian",
+        "perrserker",
+        "murkrow",
+        "honchkrow",
+        "nickit",
+        "thievul",
+        "sableye",
+        "pawniard",
+        "bisharp"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "searchRange": 8.0,
+        "speed": 1.0,
+        "inspectTicks": 60,
+        "cooldownTicks": 200,
+        "scanIntervalTicks": 40,
+        "thrownOnly": true,
+        "lootTable": "cobbleinstincts:gameplay/barter",
+        "currencyItems": [
+          "minecraft:gold_nugget",
+          "minecraft:gold_ingot",
+          "minecraft:emerald",
+          "minecraft:amethyst_shard"
+        ]
+      }
+    },
+    {
+      "id": "bait_feeding",
+      "enabled": true,
+      "_comment": "Pokemon walk to food dropped on the ground, eat it, heal, calm down and sometimes leave a small reward. Empty baitItems = any food.",
+      "eggGroups": [
+        "field",
+        "monster",
+        "flying",
+        "bug",
+        "grass",
+        "fairy",
+        "water1"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "searchRange": 10.0,
+        "speed": 1.05,
+        "eatTicks": 40,
+        "cooldownTicks": 140,
+        "scanIntervalTicks": 40,
+        "healAmount": 4.0,
+        "bonusLootChance": 0.35,
+        "lootTable": "cobbleinstincts:gameplay/bait_reward",
+        "baitItems": []
+      }
+    },
+    {
+      "id": "treasure_scent",
+      "enabled": true,
+      "_comment": "Sniffing dogs and diggers dig up small treasures from open dirt and sand when a player is near. Each spot is exhausted for a Minecraft day.",
+      "species": [
+        "growlithe",
+        "arcanine",
+        "lillipup",
+        "herdier",
+        "stoutland",
+        "poochyena",
+        "mightyena",
+        "rockruff",
+        "lycanroc",
+        "yamper",
+        "boltund",
+        "fidough",
+        "dachsbun",
+        "houndour",
+        "snubbull",
+        "granbull",
+        "furfrou",
+        "diglett",
+        "dugtrio",
+        "sandshrew",
+        "sandslash",
+        "bidoof",
+        "bibarel",
+        "meowth"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "chance": 0.2,
+        "searchRange": 10.0,
+        "playerRange": 16.0,
+        "speed": 1.0,
+        "digTicks": 60,
+        "cooldownTicks": 900,
+        "spotCooldownTicks": 24000,
+        "lootTable": "cobbleinstincts:gameplay/treasure_scent"
+      }
+    },
+    {
+      "id": "resource_production",
+      "enabled": true,
+      "_comment": "Wool Pokemon shed wool now and then when a player is near.",
+      "species": [
+        "wooloo",
+        "dubwool",
+        "mareep",
+        "flaaffy"
+      ],
+      "priority": 8,
+      "params": {
+        "perf": "light",
+        "ownedOnly": false,
+        "chance": 0.2,
+        "cooldownTicks": 2400,
+        "requirePlayerRange": 24.0,
+        "lootTable": "cobbleinstincts:gameplay/production/wool",
+        "icon": false
+      }
+    },
+    {
+      "id": "resource_production",
+      "enabled": true,
+      "_comment": "Egg-laying Pokemon lay an egg now and then when a player is near.",
+      "species": [
+        "chansey",
+        "blissey"
+      ],
+      "priority": 8,
+      "params": {
+        "perf": "light",
+        "ownedOnly": false,
+        "chance": 0.2,
+        "cooldownTicks": 2400,
+        "requirePlayerRange": 24.0,
+        "lootTable": "cobbleinstincts:gameplay/production/egg",
+        "icon": false
+      }
+    },
+    {
+      "id": "resource_production",
+      "enabled": true,
+      "_comment": "Bee Pokemon leave honeycomb now and then when a player is near.",
+      "species": [
+        "combee",
+        "vespiquen"
+      ],
+      "priority": 8,
+      "params": {
+        "perf": "light",
+        "ownedOnly": false,
+        "chance": 0.2,
+        "cooldownTicks": 2400,
+        "requirePlayerRange": 24.0,
+        "lootTable": "cobbleinstincts:gameplay/production/honey",
+        "icon": false
+      }
+    },
+    {
+      "id": "resource_production",
+      "enabled": true,
+      "_comment": "Goo Pokemon leave slime now and then when a player is near.",
+      "species": [
+        "goomy",
+        "sliggoo",
+        "goodra"
+      ],
+      "priority": 8,
+      "params": {
+        "perf": "light",
+        "ownedOnly": false,
+        "chance": 0.2,
+        "cooldownTicks": 2400,
+        "requirePlayerRange": 24.0,
+        "lootTable": "cobbleinstincts:gameplay/production/slime",
+        "icon": false
+      }
+    },
+    {
+      "id": "symbiosis",
+      "enabled": true,
+      "_comment": "Remoraid and Mantine are a symbiotic pair: they find each other, stay side by side a moment and both get Speed and Regeneration.",
+      "species": [
+        "remoraid"
+      ],
+      "priority": 5,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "searchRange": 14.0,
+        "speed": 1.1,
+        "togetherTicks": 60,
+        "buffTicks": 200,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "partners": [
+          "mantine",
+          "mantyke"
+        ],
+        "icon": false
+      }
+    },
+    {
+      "id": "symbiosis",
+      "enabled": true,
+      "_comment": "Remoraid and Mantine are a symbiotic pair: they find each other, stay side by side a moment and both get Speed and Regeneration.",
+      "species": [
+        "mantine",
+        "mantyke"
+      ],
+      "priority": 5,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "searchRange": 14.0,
+        "speed": 1.1,
+        "togetherTicks": 60,
+        "buffTicks": 200,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "partners": [
+          "remoraid"
+        ],
+        "icon": false
+      }
+    },
+    {
+      "id": "symbiosis",
+      "enabled": true,
+      "_comment": "Tatsugiri and Dondozo are a symbiotic pair: they find each other, stay side by side a moment and both get Speed and Regeneration.",
+      "species": [
+        "tatsugiri"
+      ],
+      "priority": 5,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "searchRange": 14.0,
+        "speed": 1.1,
+        "togetherTicks": 60,
+        "buffTicks": 200,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "partners": [
+          "dondozo"
+        ],
+        "icon": false
+      }
+    },
+    {
+      "id": "symbiosis",
+      "enabled": true,
+      "_comment": "Tatsugiri and Dondozo are a symbiotic pair: they find each other, stay side by side a moment and both get Speed and Regeneration.",
+      "species": [
+        "dondozo"
+      ],
+      "priority": 5,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "searchRange": 14.0,
+        "speed": 1.1,
+        "togetherTicks": 60,
+        "buffTicks": 200,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "partners": [
+          "tatsugiri"
+        ],
+        "icon": false
+      }
+    },
+    {
+      "id": "symbiosis",
+      "enabled": true,
+      "_comment": "Combee and Vespiquen are a symbiotic pair: they find each other, stay side by side a moment and both get Speed and Regeneration.",
+      "species": [
+        "combee"
+      ],
+      "priority": 5,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "searchRange": 14.0,
+        "speed": 1.1,
+        "togetherTicks": 60,
+        "buffTicks": 200,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "partners": [
+          "vespiquen"
+        ],
+        "icon": false
+      }
+    },
+    {
+      "id": "symbiosis",
+      "enabled": true,
+      "_comment": "Combee and Vespiquen are a symbiotic pair: they find each other, stay side by side a moment and both get Speed and Regeneration.",
+      "species": [
+        "vespiquen"
+      ],
+      "priority": 5,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "searchRange": 14.0,
+        "speed": 1.1,
+        "togetherTicks": 60,
+        "buffTicks": 200,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "partners": [
+          "combee"
+        ],
+        "icon": false
+      }
+    },
+    {
+      "id": "natural_rivalry",
+      "enabled": true,
+      "_comment": "Zangoose and Seviper are natural enemies: a short scuffle on sight, never to the death (the loser flees, the winner lets it go), never against player Pokemon.",
+      "species": [
+        "zangoose"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "detectRange": 12.0,
+        "speed": 1.1,
+        "damage": 2.0,
+        "skirmishTicks": 120,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "retreatHealth": 0.4,
+        "rivals": [
+          "seviper"
+        ],
+        "retreatTicks": 100,
+        "icon": false,
+        "startSpeed": 0.7,
+        "accelerationTicks": 30,
+        "retreatSpeedFactor": 1.05
+      }
+    },
+    {
+      "id": "natural_rivalry",
+      "enabled": true,
+      "_comment": "Zangoose and Seviper are natural enemies: a short scuffle on sight, never to the death (the loser flees, the winner lets it go), never against player Pokemon.",
+      "species": [
+        "seviper"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "detectRange": 12.0,
+        "speed": 1.1,
+        "damage": 2.0,
+        "skirmishTicks": 120,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "retreatHealth": 0.4,
+        "rivals": [
+          "zangoose"
+        ],
+        "retreatTicks": 100,
+        "icon": false,
+        "startSpeed": 0.7,
+        "accelerationTicks": 30,
+        "retreatSpeedFactor": 1.05
+      }
+    },
+    {
+      "id": "natural_rivalry",
+      "enabled": true,
+      "_comment": "Heatmor and Durant are natural enemies: a short scuffle on sight, never to the death (the loser flees, the winner lets it go), never against player Pokemon.",
+      "species": [
+        "heatmor"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "detectRange": 12.0,
+        "speed": 1.1,
+        "damage": 2.0,
+        "skirmishTicks": 120,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "retreatHealth": 0.4,
+        "rivals": [
+          "durant"
+        ],
+        "retreatTicks": 100,
+        "icon": false,
+        "startSpeed": 0.7,
+        "accelerationTicks": 30,
+        "retreatSpeedFactor": 1.05
+      }
+    },
+    {
+      "id": "natural_rivalry",
+      "enabled": true,
+      "_comment": "Heatmor and Durant are natural enemies: a short scuffle on sight, never to the death (the loser flees, the winner lets it go), never against player Pokemon.",
+      "species": [
+        "durant"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "detectRange": 12.0,
+        "speed": 1.1,
+        "damage": 2.0,
+        "skirmishTicks": 120,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "retreatHealth": 0.4,
+        "rivals": [
+          "heatmor"
+        ],
+        "retreatTicks": 100,
+        "icon": false,
+        "startSpeed": 0.7,
+        "accelerationTicks": 30,
+        "retreatSpeedFactor": 1.05
+      }
+    },
+    {
+      "id": "natural_rivalry",
+      "enabled": true,
+      "_comment": "Sableye and Carbink are natural enemies: a short scuffle on sight, never to the death (the loser flees, the winner lets it go), never against player Pokemon.",
+      "species": [
+        "sableye"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "detectRange": 12.0,
+        "speed": 1.1,
+        "damage": 2.0,
+        "skirmishTicks": 120,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "retreatHealth": 0.4,
+        "rivals": [
+          "carbink"
+        ],
+        "retreatTicks": 100,
+        "icon": false,
+        "startSpeed": 0.7,
+        "accelerationTicks": 30,
+        "retreatSpeedFactor": 1.05
+      }
+    },
+    {
+      "id": "natural_rivalry",
+      "enabled": true,
+      "_comment": "Sableye and Carbink are natural enemies: a short scuffle on sight, never to the death (the loser flees, the winner lets it go), never against player Pokemon.",
+      "species": [
+        "carbink"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "detectRange": 12.0,
+        "speed": 1.1,
+        "damage": 2.0,
+        "skirmishTicks": 120,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "retreatHealth": 0.4,
+        "rivals": [
+          "sableye"
+        ],
+        "retreatTicks": 100,
+        "icon": false,
+        "startSpeed": 0.7,
+        "accelerationTicks": 30,
+        "retreatSpeedFactor": 1.05
+      }
+    },
+    {
+      "id": "natural_rivalry",
+      "enabled": true,
+      "_comment": "Mareanie and Corsola are natural enemies: a short scuffle on sight, never to the death (the loser flees, the winner lets it go), never against player Pokemon.",
+      "species": [
+        "mareanie"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "detectRange": 12.0,
+        "speed": 1.1,
+        "damage": 2.0,
+        "skirmishTicks": 120,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "retreatHealth": 0.4,
+        "rivals": [
+          "corsola"
+        ],
+        "retreatTicks": 100,
+        "icon": false,
+        "startSpeed": 0.7,
+        "accelerationTicks": 30,
+        "retreatSpeedFactor": 1.05
+      }
+    },
+    {
+      "id": "natural_rivalry",
+      "enabled": true,
+      "_comment": "Mareanie and Corsola are natural enemies: a short scuffle on sight, never to the death (the loser flees, the winner lets it go), never against player Pokemon.",
+      "species": [
+        "corsola"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "detectRange": 12.0,
+        "speed": 1.1,
+        "damage": 2.0,
+        "skirmishTicks": 120,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "retreatHealth": 0.4,
+        "rivals": [
+          "mareanie"
+        ],
+        "retreatTicks": 100,
+        "icon": false,
+        "startSpeed": 0.7,
+        "accelerationTicks": 30,
+        "retreatSpeedFactor": 1.05
+      }
+    },
+    {
+      "id": "natural_rivalry",
+      "enabled": true,
+      "_comment": "Pinsir and Heracross are natural enemies: a short scuffle on sight, never to the death (the loser flees, the winner lets it go), never against player Pokemon.",
+      "species": [
+        "pinsir"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "detectRange": 12.0,
+        "speed": 1.1,
+        "damage": 2.0,
+        "skirmishTicks": 120,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "retreatHealth": 0.4,
+        "rivals": [
+          "heracross"
+        ],
+        "retreatTicks": 100,
+        "icon": false,
+        "startSpeed": 0.7,
+        "accelerationTicks": 30,
+        "retreatSpeedFactor": 1.05
+      }
+    },
+    {
+      "id": "natural_rivalry",
+      "enabled": true,
+      "_comment": "Pinsir and Heracross are natural enemies: a short scuffle on sight, never to the death (the loser flees, the winner lets it go), never against player Pokemon.",
+      "species": [
+        "heracross"
+      ],
+      "priority": 4,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "detectRange": 12.0,
+        "speed": 1.1,
+        "damage": 2.0,
+        "skirmishTicks": 120,
+        "cooldownTicks": 600,
+        "scanIntervalTicks": 60,
+        "retreatHealth": 0.4,
+        "rivals": [
+          "pinsir"
+        ],
+        "retreatTicks": 100,
+        "icon": false,
+        "startSpeed": 0.7,
+        "accelerationTicks": 30,
+        "retreatSpeedFactor": 1.05
+      }
+    },
+    {
+      "id": "schooling",
+      "enabled": true,
+      "_comment": "Fish of the same family keep together in a school: they swim back toward the group leader when they drift apart.",
+      "species": [
+        "finneon",
+        "lumineon"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "groupSpecies": [
+          "finneon",
+          "lumineon"
+        ],
+        "range": 14.0,
+        "cohesionRange": 5.0,
+        "cohesionSpeed": 1.0,
+        "cohesionIntervalTicks": 40,
+        "icon": false
+      }
+    },
+    {
+      "id": "schooling",
+      "enabled": true,
+      "_comment": "Fish of the same family keep together in a school: they swim back toward the group leader when they drift apart.",
+      "species": [
+        "goldeen",
+        "seaking"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "groupSpecies": [
+          "goldeen",
+          "seaking"
+        ],
+        "range": 14.0,
+        "cohesionRange": 5.0,
+        "cohesionSpeed": 1.0,
+        "cohesionIntervalTicks": 40,
+        "icon": false
+      }
+    },
+    {
+      "id": "schooling",
+      "enabled": true,
+      "_comment": "Fish of the same family keep together in a school: they swim back toward the group leader when they drift apart.",
+      "species": [
+        "magikarp"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "groupSpecies": [
+          "magikarp"
+        ],
+        "range": 14.0,
+        "cohesionRange": 5.0,
+        "cohesionSpeed": 1.0,
+        "cohesionIntervalTicks": 40,
+        "icon": false
+      }
+    },
+    {
+      "id": "schooling",
+      "enabled": true,
+      "_comment": "Fish of the same family keep together in a school: they swim back toward the group leader when they drift apart.",
+      "species": [
+        "luvdisc"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "groupSpecies": [
+          "luvdisc"
+        ],
+        "range": 14.0,
+        "cohesionRange": 5.0,
+        "cohesionSpeed": 1.0,
+        "cohesionIntervalTicks": 40,
+        "icon": false
+      }
+    },
+    {
+      "id": "schooling",
+      "enabled": true,
+      "_comment": "Fish of the same family keep together in a school: they swim back toward the group leader when they drift apart.",
+      "species": [
+        "basculin"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "groupSpecies": [
+          "basculin"
+        ],
+        "range": 14.0,
+        "cohesionRange": 5.0,
+        "cohesionSpeed": 1.0,
+        "cohesionIntervalTicks": 40,
+        "icon": false
+      }
+    },
+    {
+      "id": "schooling",
+      "enabled": true,
+      "_comment": "Fish of the same family keep together in a school: they swim back toward the group leader when they drift apart.",
+      "species": [
+        "wishiwashi"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "groupSpecies": [
+          "wishiwashi"
+        ],
+        "range": 14.0,
+        "cohesionRange": 5.0,
+        "cohesionSpeed": 1.0,
+        "cohesionIntervalTicks": 40,
+        "icon": false
+      }
+    },
+    {
+      "id": "schooling",
+      "enabled": true,
+      "_comment": "Fish of the same family keep together in a school: they swim back toward the group leader when they drift apart.",
+      "species": [
+        "arrokuda"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "groupSpecies": [
+          "arrokuda"
+        ],
+        "range": 14.0,
+        "cohesionRange": 5.0,
+        "cohesionSpeed": 1.0,
+        "cohesionIntervalTicks": 40,
+        "icon": false
+      }
+    },
+    {
+      "id": "schooling",
+      "enabled": true,
+      "_comment": "Fish of the same family keep together in a school: they swim back toward the group leader when they drift apart.",
+      "species": [
+        "chinchou",
+        "lanturn"
+      ],
+      "priority": 7,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "groupSpecies": [
+          "chinchou",
+          "lanturn"
+        ],
+        "range": 14.0,
+        "cohesionRange": 5.0,
+        "cohesionSpeed": 1.0,
+        "cohesionIntervalTicks": 40,
+        "icon": false
+      }
+    },
+    {
+      "id": "magikarp_flop",
+      "enabled": true,
+      "_comment": "Out of the water a Magikarp or Feebas flops around: a few small hops and now and then a big one.",
+      "species": [
+        "magikarp",
+        "feebas"
+      ],
+      "priority": 5,
+      "params": {
+        "perf": "free",
+        "wildOnly": false,
+        "chance": 0.45,
+        "flopBoost": 0.4,
+        "highJumpChance": 0.08,
+        "highJumpBoost": 0.8,
+        "flopCount": 3,
+        "flopIntervalTicks": 14,
+        "cooldownTicks": 100,
+        "icon": false
+      }
+    },
+    {
+      "id": "tree_glide",
+      "enabled": true,
+      "_comment": "Gliders standing in the treetops jump and glide in a straight line to a lower tree, taking no fall damage.",
+      "species": [
+        "emolga",
+        "gligar",
+        "gliscor",
+        "rowlet",
+        "dartrix",
+        "decidueye",
+        "pachirisu",
+        "dedenne"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "chance": 0.3,
+        "searchRange": 14,
+        "glideSpeed": 0.4,
+        "sink": 0.06,
+        "maxGlideTicks": 80,
+        "cooldownTicks": 240,
+        "icon": false
+      }
+    },
+    {
+      "id": "boat_escort",
+      "enabled": true,
+      "_comment": "Swimming Pokemon escort a player sailing a boat: they keep at its side and now and then leap out of the water.",
+      "species": [
+        "finizen",
+        "palafin",
+        "lapras",
+        "mantine",
+        "mantyke",
+        "buizel",
+        "floatzel",
+        "wailmer",
+        "spheal",
+        "sealeo",
+        "walrein"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "searchRange": 18.0,
+        "speed": 1.3,
+        "leapChance": 0.3,
+        "escortTicks": 240,
+        "cooldownTicks": 200,
+        "icon": false
+      }
+    },
+    {
+      "id": "cleaner_symbiote",
+      "enabled": true,
+      "_comment": "Groomers walk to an injured or poisoned Pokemon of the same kind (wild with wild, owned with owned), clear its negative effects and heal it a little.",
+      "species": [
+        "minccino",
+        "cinccino",
+        "audino",
+        "comfey",
+        "indeedee"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": false,
+        "searchRange": 10.0,
+        "speed": 1.05,
+        "healAmount": 2.0,
+        "hurtBelow": 0.7,
+        "cleanTicks": 40,
+        "cooldownTicks": 300,
+        "scanIntervalTicks": 60,
+        "icon": false
+      }
+    },
+    {
+      "id": "tactical_retreat",
+      "enabled": true,
+      "_comment": "Agile Pokemon badly hurt jump back in a puff of smoke and run away with a Speed boost.",
+      "species": [
+        "greninja",
+        "frogadier",
+        "weavile",
+        "sneasel",
+        "zoroark",
+        "zorua",
+        "mienshao",
+        "accelgor",
+        "lokix",
+        "ninjask"
+      ],
+      "priority": 2,
+      "params": {
+        "perf": "free",
+        "wildOnly": true,
+        "lowHealth": 0.35,
+        "dashStrength": 0.75,
+        "speed": 1.35,
+        "retreatTicks": 60,
+        "cooldownTicks": 300,
+        "icon": false
+      }
+    },
+    {
+      "id": "intimidate_presence",
+      "enabled": true,
+      "_comment": "Apex Pokemon let out a roar that weakens and scares off smaller wild Pokemon and animals nearby. Never affects player Pokemon.",
+      "species": [
+        "gyarados",
+        "tyranitar",
+        "salamence",
+        "krookodile",
+        "hydreigon",
+        "haxorus",
+        "garchomp",
+        "ursaring",
+        "incineroar",
+        "rhyperior"
+      ],
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "chance": 0.35,
+        "radius": 8.0,
+        "playerRange": 40.0,
+        "weaknessTicks": 100,
+        "cooldownTicks": 400,
+        "icon": false
+      }
+    },
+    {
+      "id": "blinding_ink",
+      "enabled": true,
+      "_comment": "Ink squirters react to a real close-range hit (even mid-fight with Cobble Strike): ink clouds the attacker and whoever targets them (Blindness and Slowness), they jump away, and at low health they also flee.",
+      "species": [
+        "octillery",
+        "inkay",
+        "malamar",
+        "tentacool",
+        "tentacruel",
+        "clobbopus",
+        "grapploct",
+        "horsea",
+        "seadra"
+      ],
+      "priority": 2,
+      "params": {
+        "perf": "free",
+        "wildOnly": true,
+        "inkRadius": 4.5,
+        "blindnessTicks": 80,
+        "slownessTicks": 60,
+        "escape": 0.7,
+        "cooldownTicks": 240,
+        "chance": 0.75,
+        "fleeHealth": 0.35,
+        "fleeTicks": 100,
+        "icon": false
+      }
+    },
+    {
+      "id": "sap_tree",
+      "enabled": true,
+      "_comment": "Bugs and bears gather at a tree trunk to lick sap in peace: they drop their target, stay a while and heal a little.",
+      "species": [
+        "heracross",
+        "pinsir",
+        "combee",
+        "teddiursa",
+        "ursaring",
+        "aipom",
+        "burmy",
+        "wormadam",
+        "grubbin",
+        "ledyba",
+        "spinarak"
+      ],
+      "priority": 6,
+      "params": {
+        "perf": "light",
+        "wildOnly": true,
+        "chance": 0.35,
+        "searchRange": 10,
+        "speed": 0.95,
+        "lickTicks": 160,
+        "healAmount": 2.0,
+        "cooldownTicks": 600,
+        "icon": false
+      }
+    },
+    {
+      "id": "progressive_rage",
+      "enabled": true,
+      "_comment": "Every new hit stacks rage (Strength and Speed). With too many stacks the Pokemon burns out: it drops its attacker, gets Slowness and Weakness and walks away.",
+      "species": [
+        "mankey",
+        "primeape",
+        "annihilape",
+        "ursaring",
+        "ursaluna",
+        "tauros",
+        "pangoro"
+      ],
+      "params": {
+        "perf": "free",
+        "wildOnly": true,
+        "maxStacks": 6,
+        "decayTicks": 200,
+        "exhaustTicks": 200
+      }
+    },
+    {
+      "id": "nature_traits",
+      "enabled": true,
+      "_comment": "Personality by Nature: each individual's Nature scales its other instincts (a Timid one runs from farther away, a Brave one never runs). Applied once when the instincts attach, no per-tick cost. Scale categories: range, speed, chance, cooldown, damage, duration; \"*\" means every instinct; \"disable\" turns instincts off.",
+      "species": [
+        "*"
+      ],
+      "priority": 0,
+      "params": {
+        "perf": "free",
+        "nearPlayerGate": false,
+        "wildOnly": false,
+        "natures": {
+          "timid": {
+            "scale": {
+              "flee_from_player": {
+                "range": 1.4,
+                "speed": 1.15
+              },
+              "watch": {
+                "range": 0.7
+              },
+              "charge": {
+                "chance": 0.6
+              }
+            }
+          },
+          "brave": {
+            "disable": [
+              "flee_from_player",
+              "threat_response"
+            ],
+            "scale": {
+              "charge": {
+                "damage": 1.25,
+                "chance": 1.2
+              },
+              "retaliate": {
+                "chance": 1.2
+              }
+            }
+          },
+          "jolly": {
+            "scale": {
+              "follow_player": {
+                "range": 1.5,
+                "cooldown": 0.6,
+                "chance": 1.3
+              }
+            }
+          },
+          "hasty": {
+            "scale": {
+              "*": {
+                "speed": 1.1,
+                "cooldown": 0.85
+              }
+            }
+          },
+          "relaxed": {
+            "scale": {
+              "*": {
+                "cooldown": 1.3
+              },
+              "rest": {
+                "chance": 1.5
+              }
+            }
+          },
+          "lax": {
+            "scale": {
+              "rest": {
+                "chance": 1.3
+              }
+            }
+          },
+          "quiet": {
+            "scale": {
+              "rest": {
+                "chance": 1.3
+              }
+            }
+          },
+          "calm": {
+            "disable": [
+              "harass",
+              "charge"
+            ],
+            "scale": {
+              "flee_from_player": {
+                "range": 0.8
+              }
+            }
+          },
+          "gentle": {
+            "disable": [
+              "harass",
+              "kamikaze"
+            ],
+            "scale": {
+              "heal_nearby_player": {
+                "chance": 1.3
+              }
+            }
+          },
+          "careful": {
+            "scale": {
+              "flee_from_player": {
+                "range": 1.15
+              }
+            }
+          },
+          "bold": {
+            "scale": {
+              "flee_from_player": {
+                "range": 0.8
+              }
+            }
+          },
+          "sassy": {
+            "scale": {
+              "harass": {
+                "chance": 1.4
+              }
+            }
+          },
+          "impish": {
+            "scale": {
+              "harass": {
+                "chance": 1.3
+              }
+            }
+          },
+          "naughty": {
+            "scale": {
+              "steal_item": {
+                "chance": 1.4
+              },
+              "harass": {
+                "chance": 1.2
+              }
+            }
+          },
+          "rash": {
+            "scale": {
+              "charge": {
+                "chance": 1.3
+              }
+            }
+          },
+          "adamant": {
+            "scale": {
+              "charge": {
+                "damage": 1.15
+              },
+              "retaliate": {
+                "chance": 1.15
+              }
+            }
+          },
+          "lonely": {
+            "disable": [
+              "pack",
+              "swarm",
+              "formation",
+              "schooling"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "mimikyu_disguise",
+      "enabled": true,
+      "_comment": "Mimikyu walks around disguised as a Pikachu (Pikachu's own model, same species, stats and identity). The first hit from a creature is swallowed (no damage) and breaks the disguise; a battle also reveals it. Then Mimikyu slips away from the players' eyes and sews it back after mendTicks unwatched. maxBrokenTicks is only a fallback that mends it when it is always in sight.",
+      "species": [
+        "mimikyu"
+      ],
+      "priority": 1,
+      "params": {
+        "perf": "free",
+        "wildOnly": false,
+        "fleeSpeed": 1.35,
+        "safeDistance": 10.0,
+        "mendTicks": 100,
+        "cooldownTicks": 600,
+        "brokenScale": 0.85,
+        "stareDot": 0.5,
+        "brokenPitch": -16.0,
+        "maxBrokenTicks": 2400
+      }
+    },
+    {
+      "id": "ditto_transform",
+      "enabled": true,
+      "_comment": "A wild Ditto disguises itself as another nearby Pokemon for a while. With DittoForms installed, DittoForms draws it (only the species it has enabled); without it, Cobblemon's own Transform look is used (the same as the move, any species). It gives itself away when time runs out, when it is hit, when a player gets very close or when it enters a battle. visual: \"auto\" (DittoForms if installed, else Cobblemon's own Transform look), \"dittoforms\" or \"native\".",
+      "species": [
+        "ditto"
+      ],
+      "priority": 3,
+      "params": {
+        "perf": "light",
+        "nearPlayerGate": false,
+        "wildOnly": true,
+        "chance": 0.35,
+        "searchRange": 12.0,
+        "playerRange": 32.0,
+        "revealRange": 2.5,
+        "durationTicks": 2400,
+        "cooldownTicks": 1200,
+        "scanIntervalTicks": 100,
+        "icon": false,
+        "visual": "auto"
+      }
+    },
+    {
+      "id": "wish_grant",
+      "enabled": true,
+      "_comment": "At night, a player who crouches while looking at Jirachi (or looks at it holding a catalyst) gets a wish: Luck, Regeneration and Absorption, and sometimes a star shard. Long cooldown per Jirachi.",
+      "species": [
+        "jirachi"
+      ],
+      "priority": 2,
+      "params": {
+        "perf": "light",
+        "nightOnly": true,
+        "range": 6.0,
+        "stareDot": 0.6,
+        "ritualTicks": 60,
+        "buffDurationTicks": 2400,
+        "cooldownTicks": 6000,
+        "scanIntervalTicks": 20,
+        "chance": 0.5,
+        "catalystItems": [
+          "minecraft:amethyst_shard",
+          "minecraft:nether_star"
+        ],
+        "rewardItem": "minecraft:amethyst_shard"
+      }
+    },
+    {
+      "id": "lunar_ward",
+      "enabled": true,
+      "_comment": "Cresselia walks to a sleeping player, cleanses bad effects, gives Regeneration and keeps Dream Eaters (dream_eat) away: it pushes off the one that is feeding and nobody can feed on that player for a while.",
+      "species": [
+        "cresselia"
+      ],
+      "priority": 1,
+      "params": {
+        "perf": "light",
+        "range": 16.0,
+        "walkSpeed": 1.15,
+        "repelForce": 0.65,
+        "wardDurationTicks": 120,
+        "buffTicks": 600,
+        "shieldTicks": 6000,
+        "cooldownTicks": 400,
+        "scanIntervalTicks": 20,
+        "icon": false
+      }
+    },
+    {
+      "id": "agility",
+      "enabled": false,
+      "_comment": "Experimental opt-in: three collision-checked zigzag dashes after a real attack, then seeks cover. Does not turn a player camera or strip items.",
+      "species": [
+        "pichu",
+        "pikachu",
+        "raichu",
+        "eevee",
+        "pachirisu",
+        "emolga"
+      ],
+      "priority": 0,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "lowHealth": 1.0,
+        "dashCount": 3,
+        "dashTicks": 5,
+        "dashDistanceMin": 4.5,
+        "dashDistanceMax": 7.0,
+        "zigzagAngleDegrees": 36.0,
+        "coverRadius": 6,
+        "speed": 1.35,
+        "retreatTicks": 100,
+        "cooldownTicks": 300,
+        "icon": false
+      }
+    },
+    {
+      "id": "glyph_pattern",
+      "enabled": false,
+      "_comment": "Experimental opt-in: rotating geometric rings or stone-wall glyphs. Precious-item lures are ItemDisplay images: no pickup, recipes, hoppers or valuable drops. They turn into junk images then vanish. Orphans are removed when their chunk loads.",
+      "species": [
+        "unown"
+      ],
+      "priority": 2,
+      "params": {
+        "perf": "heavy",
+        "wildOnly": true,
+        "range": 12.0,
+        "ringRadius": 3.0,
+        "ringSpeed": 0.025,
+        "ringChance": 0.5,
+        "speed": 0.15,
+        "chance": 0.3,
+        "minMembers": 3,
+        "maxMembers": 8,
+        "durationTicks": 200,
+        "cooldownTicks": 400,
+        "scanIntervalTicks": 60,
+        "wallSearchRadius": 6,
+        "illusionTicks": 100,
+        "illusionCount": 2,
+        "groupSpecies": [
+          "unown"
+        ],
+        "wallBlocks": [
+          "minecraft:stone",
+          "minecraft:stone_bricks",
+          "minecraft:mossy_stone_bricks",
+          "minecraft:cracked_stone_bricks",
+          "minecraft:chiseled_stone_bricks",
+          "minecraft:cobblestone",
+          "minecraft:mossy_cobblestone",
+          "minecraft:deepslate",
+          "minecraft:deepslate_bricks"
+        ],
+        "icon": false
+      }
+    },
+    {
+      "id": "coraza",
+      "enabled": false,
+      "species": [
+        "*"
+      ],
+      "priority": 2,
+      "_comment": "Forge/NeoForge only; unsupported on Fabric. Opt-in Harden defense for equipped moves, six valid impacts up to 90%, holds for 10s then decays over 10s. Mutually exclusive with CI shell/psychic armor; never changes external effects.",
+      "params": {
+        "perf": "free",
+        "wildOnly": false,
+        "requiredMoves": [
+          "harden"
+        ],
+        "maxStacks": 6,
+        "maxReduction": 0.9,
+        "holdTicks": 200,
+        "decayTicks": 200,
+        "minDamage": 0.05,
+        "icon": false
+      }
+    },
+    {
+      "id": "group_fusion",
+      "enabled": false,
+      "species": [
+        "diglett"
+      ],
+      "priority": 2,
+      "params": {
+        "wildOnly": true,
+        "sourceSpecies": "diglett",
+        "groupSpecies": [
+          "diglett"
+        ],
+        "resultSpecies": "dugtrio",
+        "hitsRequired": 3,
+        "hitWindowTicks": 200,
+        "searchRadius": 12,
+        "arriveRange": 1.5,
+        "speed": 0.8,
+        "gatherTicks": 40,
+        "gatherTimeoutTicks": 200,
+        "maxConcurrentFusions": 8,
+        "cooldownTicks": 1200
+      },
+      "_comment": "Experimental: exactly three eligible wild actors. Confirm evolution before consuming either ally. Disabled pending live tests."
+    },
+    {
+      "id": "retaliate",
+      "enabled": false,
+      "species": [
+        "pelipper"
+      ],
+      "priority": 2,
+      "params": {
+        "livingProjectile": true,
+        "effect": "lightning",
+        "projectileSpecies": [
+          "pikachu"
+        ],
+        "projectileSearchRadius": 12,
+        "createTemporary": false,
+        "temporarySpecies": "pikachu",
+        "chance": 0.35,
+        "cooldownTicks": 400,
+        "playersOnly": false,
+        "wildOnly": true,
+        "projectileDamage": 3,
+        "launchSpeed": 0.8,
+        "launchLift": 0.2,
+        "flightTicks": 40,
+        "flightGravity": 0.02,
+        "maxFlightSpeed": 1.2,
+        "maxStepLength": 0.25,
+        "maxSweepsPerTick": 8,
+        "globalFlights": 8
+      },
+      "_comment": "Experimental launch mode. Borrowed actors are returned. Temporary spawning requires an additional explicit opt-in. Enable the separate lightning entry for the secondary reaction."
+    },
+    {
+      "id": "retaliate",
+      "enabled": false,
+      "species": [
+        "pikachu",
+        "raichu"
+      ],
+      "priority": 2,
+      "params": {
+        "effect": "lightning",
+        "chance": 0.85,
+        "cooldownTicks": 80,
+        "damage": 4,
+        "realBolt": false,
+        "playersOnly": false,
+        "wildOnly": true
+      },
+      "_comment": "Experimental non-destructive lightning retaliation; separate from the launcher."
+    },
+    {
+      "id": "attach",
+      "enabled": false,
+      "species": [
+        "heracross"
+      ],
+      "priority": 2,
+      "params": {
+        "targetSpecies": [
+          "bulbasaur",
+          "ivysaur",
+          "venusaur"
+        ],
+        "anchor": "back",
+        "wildOnly": true,
+        "targetWildOnly": true,
+        "searchRadius": 10,
+        "speed": 0.8,
+        "holdTicks": 100,
+        "sipIntervalTicks": 25,
+        "sipHeal": 1.5,
+        "annoyHostAfterTicks": 80,
+        "shakeStrength": 0.25,
+        "consumeShellder": false,
+        "cooldownTicks": 600,
+        "icon": false
+      },
+      "_comment": "Experimental nectar sipping; one host shake ends the attachment. No host health drain."
+    },
+    {
+      "id": "molt_decoy",
+      "enabled": false,
+      "species": [
+        "nincada",
+        "ninjask"
+      ],
+      "priority": 2,
+      "params": {
+        "wildOnly": true,
+        "resultSpecies": "ninjask",
+        "evolveChance": 0.35,
+        "maxDecoys": 3,
+        "decoyTicks": 160,
+        "absorbedContacts": 5,
+        "weakAttackTypes": [
+          "fire",
+          "flying",
+          "rock",
+          "ghost",
+          "dark"
+        ],
+        "cooldownTicks": 600,
+        "icon": false
+      },
+      "_comment": "UNAVAILABLE: fails closed until PRE capture/battle and every loot/XP path are accredited for all loaders. No decoys or source mutations are created by this factory."
+    },
+    {
+      "id": "lineage_raid",
+      "enabled": false,
+      "species": [
+        "weedle",
+        "kakuna",
+        "beedrill"
+      ],
+      "priority": 2,
+      "params": {
+        "captureMilestone": 50,
+        "repeatCaptureMilestone": false,
+        "dailyHitThreshold": 15,
+        "captureReceiptWindow": 128,
+        "globalRaidCap": 2,
+        "playerRaidCap": 1,
+        "globalMemberCap": 48,
+        "playerMemberCap": 24,
+        "raidMemberCap": 24,
+        "waveSizes": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "waveIntervalTicks": 35,
+        "durationTicks": 1200,
+        "cooldownTicks": 24000,
+        "spawnMin": 20,
+        "spawnMax": 28,
+        "commanders": 1,
+        "level": 35,
+        "lineage": "beedrill",
+        "lineageSpecies": [
+          "weedle",
+          "kakuna",
+          "beedrill"
+        ],
+        "raidSpecies": [
+          "beedrill",
+          "beedrill",
+          "beedrill"
+        ]
+      },
+      "_comment": "Experimental persistent event module. Global caps/thresholds come from the first enabled lineage entry. Capture milestone 50 triggers once by default; earned intents survive load/cooldown deferral."
+    },
+    {
+      "id": "lineage_raid",
+      "enabled": false,
+      "species": [
+        "pichu",
+        "pikachu",
+        "raichu"
+      ],
+      "priority": 2,
+      "params": {
+        "captureMilestone": 50,
+        "repeatCaptureMilestone": false,
+        "dailyHitThreshold": 15,
+        "captureReceiptWindow": 128,
+        "globalRaidCap": 2,
+        "playerRaidCap": 1,
+        "globalMemberCap": 48,
+        "playerMemberCap": 24,
+        "raidMemberCap": 24,
+        "waveSizes": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "waveIntervalTicks": 35,
+        "durationTicks": 1200,
+        "cooldownTicks": 24000,
+        "spawnMin": 20,
+        "spawnMax": 28,
+        "commanders": 1,
+        "level": 35,
+        "lineage": "pikachu",
+        "lineageSpecies": [
+          "pichu",
+          "pikachu",
+          "raichu"
+        ],
+        "raidSpecies": [
+          "pichu",
+          "pikachu",
+          "raichu"
+        ]
+      },
+      "_comment": "Experimental persistent event module. Global caps/thresholds come from the first enabled lineage entry. Capture milestone 50 triggers once by default; earned intents survive load/cooldown deferral."
+    },
+    {
+      "id": "lineage_raid",
+      "enabled": false,
+      "species": [
+        "houndour",
+        "houndoom"
+      ],
+      "priority": 2,
+      "params": {
+        "captureMilestone": 50,
+        "repeatCaptureMilestone": false,
+        "dailyHitThreshold": 15,
+        "captureReceiptWindow": 128,
+        "globalRaidCap": 2,
+        "playerRaidCap": 1,
+        "globalMemberCap": 48,
+        "playerMemberCap": 24,
+        "raidMemberCap": 24,
+        "waveSizes": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "waveIntervalTicks": 35,
+        "durationTicks": 1200,
+        "cooldownTicks": 24000,
+        "spawnMin": 20,
+        "spawnMax": 28,
+        "commanders": 1,
+        "level": 35,
+        "lineage": "houndoom",
+        "lineageSpecies": [
+          "houndour",
+          "houndoom"
+        ],
+        "raidSpecies": [
+          "houndour",
+          "houndoom"
+        ]
+      },
+      "_comment": "Experimental persistent event module. Global caps/thresholds come from the first enabled lineage entry. Capture milestone 50 triggers once by default; earned intents survive load/cooldown deferral."
+    },
+    {
+      "id": "lineage_raid",
+      "enabled": false,
+      "species": [
+        "poochyena",
+        "mightyena"
+      ],
+      "priority": 2,
+      "params": {
+        "captureMilestone": 50,
+        "repeatCaptureMilestone": false,
+        "dailyHitThreshold": 15,
+        "captureReceiptWindow": 128,
+        "globalRaidCap": 2,
+        "playerRaidCap": 1,
+        "globalMemberCap": 48,
+        "playerMemberCap": 24,
+        "raidMemberCap": 24,
+        "waveSizes": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "waveIntervalTicks": 35,
+        "durationTicks": 1200,
+        "cooldownTicks": 24000,
+        "spawnMin": 20,
+        "spawnMax": 28,
+        "commanders": 1,
+        "level": 35,
+        "lineage": "mightyena",
+        "lineageSpecies": [
+          "poochyena",
+          "mightyena"
+        ],
+        "raidSpecies": [
+          "poochyena",
+          "mightyena"
+        ]
+      },
+      "_comment": "Experimental persistent event module. Global caps/thresholds come from the first enabled lineage entry. Capture milestone 50 triggers once by default; earned intents survive load/cooldown deferral."
+    },
+    {
+      "id": "befriend",
+      "enabled": false,
+      "species": [
+        "eevee",
+        "skitty",
+        "meowth",
+        "glameow",
+        "pikachu",
+        "pichu",
+        "teddiursa",
+        "buneary"
+      ],
+      "priority": 2,
+      "params": {
+        "wildOnly": true,
+        "favoriteFood": [
+          "#cobblemon:berries",
+          "#minecraft:fishes",
+          "minecraft:sweet_berries",
+          "minecraft:honey_bottle",
+          "minecraft:cookie"
+        ],
+        "throwRange": 10.0,
+        "speed": 1.2,
+        "allyTicks": 6000,
+        "maxDistance": 32.0,
+        "followStart": 6.0,
+        "followStop": 3.0,
+        "defendRange": 24.0,
+        "defendWindowTicks": 100,
+        "biteDamage": 2.0,
+        "biteCooldownTicks": 20
+      },
+      "_comment": "DISABLED BY DEFAULT. Throw one of the favorite foods near the Pokemon: it eats it and becomes your ally for allyTicks (6000 = 5 minutes): it follows you and fights whoever attacks you (other wild Pokemon and hostile mobs, never players or owned Pokemon). More food renews it; it ends when you get farther than maxDistance. Holding the food in your hand only makes it come close and look (follow_player). biteDamage is used only when neither Fight or Flight nor Cobble Strike is installed."
+    },
+    {
+      "id": "befriend",
+      "enabled": false,
+      "species": [
+        "growlithe",
+        "arcanine",
+        "poochyena",
+        "mightyena",
+        "lillipup",
+        "herdier",
+        "stoutland",
+        "rockruff",
+        "lycanroc",
+        "vulpix",
+        "delcatty",
+        "purrloin",
+        "litten",
+        "espurr",
+        "snubbull",
+        "granbull",
+        "zigzagoon",
+        "linoone"
+      ],
+      "priority": 2,
+      "params": {
+        "wildOnly": true,
+        "favoriteFood": [
+          "minecraft:beef",
+          "minecraft:cooked_beef",
+          "minecraft:porkchop",
+          "minecraft:cooked_porkchop",
+          "minecraft:chicken",
+          "minecraft:cooked_chicken",
+          "minecraft:mutton",
+          "minecraft:cooked_mutton",
+          "minecraft:bone"
+        ],
+        "throwRange": 10.0,
+        "speed": 1.2,
+        "allyTicks": 6000,
+        "maxDistance": 32.0,
+        "followStart": 6.0,
+        "followStop": 3.0,
+        "defendRange": 24.0,
+        "defendWindowTicks": 100,
+        "biteDamage": 2.0,
+        "biteCooldownTicks": 20
+      },
+      "_comment": "DISABLED BY DEFAULT. Throw one of the favorite foods near the Pokemon: it eats it and becomes your ally for allyTicks (6000 = 5 minutes): it follows you and fights whoever attacks you (other wild Pokemon and hostile mobs, never players or owned Pokemon). More food renews it; it ends when you get farther than maxDistance. Holding the food in your hand only makes it come close and look (follow_player). biteDamage is used only when neither Fight or Flight nor Cobble Strike is installed."
+    },
+    {
+      "id": "befriend",
+      "enabled": false,
+      "species": [
+        "abra",
+        "rattata",
+        "raticate",
+        "bidoof",
+        "bibarel",
+        "pidgey",
+        "pidgeotto",
+        "starly",
+        "staravia",
+        "wingull",
+        "taillow"
+      ],
+      "priority": 2,
+      "params": {
+        "wildOnly": true,
+        "favoriteFood": [
+          "#cobblemon:berries",
+          "minecraft:sweet_berries",
+          "minecraft:apple",
+          "minecraft:wheat_seeds",
+          "minecraft:bread"
+        ],
+        "throwRange": 10.0,
+        "speed": 1.2,
+        "allyTicks": 6000,
+        "maxDistance": 32.0,
+        "followStart": 6.0,
+        "followStop": 3.0,
+        "defendRange": 24.0,
+        "defendWindowTicks": 100,
+        "biteDamage": 2.0,
+        "biteCooldownTicks": 20
+      },
+      "_comment": "DISABLED BY DEFAULT. Throw one of the favorite foods near the Pokemon: it eats it and becomes your ally for allyTicks (6000 = 5 minutes): it follows you and fights whoever attacks you (other wild Pokemon and hostile mobs, never players or owned Pokemon). More food renews it; it ends when you get farther than maxDistance. Holding the food in your hand only makes it come close and look (follow_player). biteDamage is used only when neither Fight or Flight nor Cobble Strike is installed."
+    },
+    {
+      "id": "follow_player",
+      "enabled": false,
+      "species": [
+        "rattata",
+        "raticate",
+        "bidoof",
+        "bibarel",
+        "pidgey",
+        "pidgeotto",
+        "starly",
+        "staravia",
+        "wingull",
+        "taillow"
+      ],
+      "priority": 3,
+      "params": {
+        "wildOnly": true,
+        "range": 12.0,
+        "chance": 0.0,
+        "minTicks": 200,
+        "maxTicks": 500,
+        "cooldownTicks": 1200,
+        "favoriteFood": [
+          "#cobblemon:berries",
+          "minecraft:sweet_berries",
+          "minecraft:apple",
+          "minecraft:wheat_seeds",
+          "minecraft:bread"
+        ],
+        "temptRange": 10.0,
+        "temptChance": 0.7,
+        "temptMaxTicks": 2400,
+        "temptGraceTicks": 40
+      },
+      "_comment": "DISABLED BY DEFAULT. Tempt only: it walks up to you and watches while you hold one of favoriteFood (this also stops it from fleeing from you). chance 0 = no curiosity following without food."
+    },
+    {
+      "id": "befriend",
+      "enabled": false,
+      "species": [
+        "mankey",
+        "primeape",
+        "aipom",
+        "ambipom",
+        "chimchar",
+        "monferno",
+        "infernape",
+        "pansage",
+        "pansear",
+        "panpour",
+        "simisage",
+        "simisear",
+        "simipour",
+        "grookey",
+        "thwackey",
+        "rillaboom",
+        "oranguru",
+        "passimian"
+      ],
+      "priority": 2,
+      "params": {
+        "wildOnly": true,
+        "favoriteFood": [
+          "#cobblemon:berries",
+          "minecraft:apple",
+          "minecraft:melon_slice",
+          "minecraft:sweet_berries",
+          "minecraft:glow_berries",
+          "minecraft:honey_bottle",
+          "minecraft:cookie"
+        ],
+        "throwRange": 10.0,
+        "speed": 1.2,
+        "allyTicks": 6000,
+        "maxDistance": 32.0,
+        "followStart": 6.0,
+        "followStop": 3.0,
+        "defendRange": 24.0,
+        "defendWindowTicks": 100,
+        "biteDamage": 2.0,
+        "biteCooldownTicks": 20,
+        "crowdGroup": "simians",
+        "crowdChance": 0.12,
+        "crowdMax": 4,
+        "crowdValidTicks": 1800
+      },
+      "_comment": "DISABLED BY DEFAULT. Throw one of the favorite foods near the Pokemon: it eats it and becomes your ally for allyTicks (6000 = 5 minutes): it follows you and fights whoever attacks you (other wild Pokemon and hostile mobs, never players or owned Pokemon). More food renews it; it ends when you get farther than maxDistance. Holding the food in your hand only makes it come close and look (follow_player). biteDamage is used only when neither Fight or Flight nor Cobble Strike is installed."
+    },
+    {
+      "id": "follow_player",
+      "enabled": false,
+      "species": [
+        "mankey",
+        "primeape",
+        "aipom",
+        "ambipom",
+        "chimchar",
+        "monferno",
+        "infernape",
+        "pansage",
+        "pansear",
+        "panpour",
+        "simisage",
+        "simisear",
+        "simipour",
+        "grookey",
+        "thwackey",
+        "rillaboom",
+        "oranguru",
+        "passimian"
+      ],
+      "priority": 3,
+      "params": {
+        "wildOnly": true,
+        "range": 12.0,
+        "chance": 0.04,
+        "minTicks": 200,
+        "maxTicks": 500,
+        "cooldownTicks": 1200,
+        "favoriteFood": [
+          "#cobblemon:berries",
+          "minecraft:apple",
+          "minecraft:melon_slice",
+          "minecraft:sweet_berries",
+          "minecraft:glow_berries",
+          "minecraft:honey_bottle",
+          "minecraft:cookie"
+        ],
+        "temptRange": 10.0,
+        "temptChance": 0.7,
+        "temptMaxTicks": 2400,
+        "temptGraceTicks": 40
+      },
+      "_comment": "DISABLED BY DEFAULT. Tempt only: it walks up to you and watches while you hold one of favoriteFood (this also stops it from fleeing from you). chance 0 = no curiosity following without food."
+    },
+    {
+      "id": "crowd_beg",
+      "enabled": false,
+      "species": [
+        "mankey",
+        "primeape",
+        "aipom",
+        "ambipom",
+        "chimchar",
+        "monferno",
+        "infernape",
+        "pansage",
+        "pansear",
+        "panpour",
+        "simisage",
+        "simisear",
+        "simipour",
+        "grookey",
+        "thwackey",
+        "rillaboom",
+        "oranguru",
+        "passimian"
+      ],
+      "priority": 3,
+      "params": {
+        "wildOnly": true,
+        "group": "simians",
+        "callRange": 28.0,
+        "radius": 3.0,
+        "speed": 1.25,
+        "orbitSpeed": 0.06,
+        "maxTicks": 1200,
+        "cooldownTicks": 3000,
+        "scanIntervalTicks": 20,
+        "foodRange": 8.0
+      },
+      "_comment": "DISABLED BY DEFAULT. Rare: when a monkey becomes your friend (befriend, crowdChance) others of the same group within callRange come and circle you insistently until you drop any food (one eats it, they all leave), maxTicks pass, or you hit one. They never hurt or steal."
+    }
+  ]
+}
