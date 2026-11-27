@@ -357,15 +357,38 @@ def main():
                     with open(local_cfg, "rb") as f:
                         client.write_file_bytes(f"/{rel_norm}", f.read())
 
+    # Cobbleworkers has no server-only metadata that AutoModpack 4 recognizes.
+    automodpack_config_changed = False
+    if any(name.startswith("cobbleworkers-") for name in expected_srv_mods):
+        config_path = "/automodpack/automodpack-server.json"
+        exclusion = "!/mods/cobbleworkers-*.jar"
+        config_bytes = client.get_file_bytes(config_path)
+        if config_bytes is None:
+            raise RuntimeError(f"Could not read {config_path}")
+        config = json.loads(config_bytes)
+        for key in ("syncedFiles", "forceCopyFilesToStandardLocation"):
+            rules = config[key]
+            if exclusion not in rules:
+                rules.append(exclusion)
+                automodpack_config_changed = True
+        if automodpack_config_changed:
+            print("Excluding Cobbleworkers from AutoModpack client downloads")
+            if not dry_run:
+                config_bytes = (json.dumps(config, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
+                client.write_file_bytes(config_path, config_bytes)
+
     if not dry_run:
+        if automodpack_config_changed:
+            client.send_command("automodpack config reload").raise_for_status()
+
         if server_mods_changed or datapacks_changed:
             print("Server mods or datapacks changed -> Sending 'automodpack generate' and restarting server...")
             client.send_command("automodpack generate")
             time.sleep(3)
             client.send_power("restart").raise_for_status()
-        elif any_modpack_changed:
+        elif any_modpack_changed or automodpack_config_changed:
             print("Client mods/packs changed -> Sending 'automodpack generate' to server console...")
-            client.send_command("automodpack generate")
+            client.send_command("automodpack generate").raise_for_status()
             if ftbquests_changed:
                 print("FTB Quests also changed -> Sending 'ftbquests reload' to server console...")
                 client.send_command("ftbquests reload")
