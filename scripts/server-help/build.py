@@ -23,6 +23,8 @@ LIBRARIES = (
     "com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar",
     "com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar",
     "com/google/code/gson/gson/2.11.0/gson-2.11.0.jar",
+    "io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar",
+    "io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar",
 )
 
 
