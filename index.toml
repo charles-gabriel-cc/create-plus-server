@@ -1846,7 +1846,7 @@ hash = "b14b41c59a13a72079bcb505ab560dd43dfe19247c165867d7fd5dc9f515dafe"
 
 [[files]]
 file = "config/mythsandlegends/config.toml"
-hash = "f12d04ef8268e316464d98bcfd07d6cbd6b0e26fcbb7d5cec1274c6c42f1206a"
+hash = "674661fdc0904482308ddebe16d34f979c94f4cefea80fbc3bf5eca2de1ff017"
 
 [[files]]
 file = "config/mythsandlegends/debts.json"
@@ -3597,6 +3597,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/drigo-3d-lanterns-x-punchy.pw.toml"
 hash = "3466632b79809bc95ab36476c606f6d4f5920b2960780a7cc6a02fb45fc09bda"
+metafile = true
+
+[[files]]
+file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
+hash = "d8a3c60f0546b1a836b4a1c79348fda338a4ad72e9126638c0291d09a0077cea"
 metafile = true
 
 [[files]]
