@@ -48,16 +48,17 @@ public final class ServerHelp {
         );
     }
 
+    private static final String DIVIDER = "════════════════════════════";
+
     private static void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
         if (!(event.getEntity() instanceof ServerPlayer player)) {
             return;
         }
         MutableComponent msg = Component.empty();
-        msg.append(Component.literal("══════════ ").withStyle(ChatFormatting.DARK_GRAY))
-            .append(Component.literal("Bem-vindo ao Certamente é um servidor!").withStyle(ChatFormatting.GOLD, ChatFormatting.BOLD))
-            .append(Component.literal(" ══════════\n").withStyle(ChatFormatting.DARK_GRAY));
-
-        msg.append(Component.literal("Comandos úteis: ").withStyle(ChatFormatting.GRAY))
+        msg.append(Component.literal(DIVIDER + "\n").withStyle(ChatFormatting.DARK_GRAY))
+            .append(Component.literal("  Bem-vindo ao ").withStyle(ChatFormatting.GOLD))
+            .append(Component.literal("Certamente é um servidor!\n").withStyle(ChatFormatting.GOLD, ChatFormatting.BOLD))
+            .append(Component.literal("  ").withStyle(ChatFormatting.GRAY))
             .append(quickCmd("/tpa", "/tpa "))
             .append(Component.literal(" • ").withStyle(ChatFormatting.DARK_GRAY))
             .append(quickCmd("/tpahere", "/tpahere "))
@@ -65,10 +66,8 @@ public final class ServerHelp {
             .append(quickCmd("/sethome", "/sethome "))
             .append(Component.literal(" • ").withStyle(ChatFormatting.DARK_GRAY))
             .append(quickCmd("/home", "/home"))
-            .append(Component.literal(" (máx. 2)").withStyle(ChatFormatting.GRAY))
-            .append(Component.literal("\n"));
-
-        msg.append(Component.literal("Use ").withStyle(ChatFormatting.GRAY))
+            .append(Component.literal(" (máx. 2)\n").withStyle(ChatFormatting.GRAY))
+            .append(Component.literal("  Use ").withStyle(ChatFormatting.GRAY))
             .append(Component.literal("/comandos").withStyle(style -> style
                 .withColor(ChatFormatting.YELLOW)
                 .withBold(true)
@@ -86,7 +85,8 @@ public final class ServerHelp {
                     HoverEvent.Action.SHOW_TEXT,
                     Component.literal("Clique para ver todos os comandos").withStyle(ChatFormatting.YELLOW)
                 ))))
-            .append(Component.literal(" para ver a lista completa.").withStyle(ChatFormatting.GRAY));
+            .append(Component.literal(" para ver detalhes.\n").withStyle(ChatFormatting.GRAY))
+            .append(Component.literal(DIVIDER).withStyle(ChatFormatting.DARK_GRAY));
 
         player.displayClientMessage(msg, false);
     }
@@ -201,21 +201,22 @@ public final class ServerHelp {
     private static int sendHelp(CommandSourceStack source) {
         MutableComponent msg = Component.empty();
 
-        msg.append(Component.literal("══════════ ").withStyle(ChatFormatting.DARK_GRAY))
-            .append(Component.literal("Certamente é um servidor • Comandos").withStyle(ChatFormatting.GOLD, ChatFormatting.BOLD))
-            .append(Component.literal(" ══════════\n").withStyle(ChatFormatting.DARK_GRAY));
+        msg.append(Component.literal(DIVIDER + "\n").withStyle(ChatFormatting.DARK_GRAY))
+            .append(Component.literal("  Certamente é um servidor ").withStyle(ChatFormatting.GOLD, ChatFormatting.BOLD))
+            .append(Component.literal("• Comandos\n").withStyle(ChatFormatting.YELLOW))
+            .append(Component.literal(DIVIDER + "\n").withStyle(ChatFormatting.DARK_GRAY));
 
         msg.append(section("Teleporte"));
-        msg.append(cmd("/tpa <jogador>", "/tpa ", "Pede para ir até um jogador", "warmup 4s"));
-        msg.append(cmd("/tpahere <jogador>", "/tpahere ", "Convida um jogador até você", "warmup 4s"));
-        msg.append(cmd("/tpaccept", "/tpaccept", "Aceita um pedido de teleporte", null));
-        msg.append(cmd("/tpdeny", "/tpdeny", "Recusa um pedido de teleporte", null));
-        msg.append(cmd("/sethome [nome]", "/sethome ", "Marca sua home atual", "máx. 2 homes"));
-        msg.append(cmd("/home [nome]", "/home", "Vai para sua home", "warmup 5s"));
-        msg.append(cmd("/delhome [nome]", "/delhome ", "Apaga uma home", null));
-        msg.append(cmd("/warp <nome>", "/warp ", "Vai para um warp público", "warmup 5s"));
+        msg.append(cmd("/tpa <jogador>", "/tpa ", "Ir até um jogador", "4s"));
+        msg.append(cmd("/tpahere <jogador>", "/tpahere ", "Chamar até você", "4s"));
+        msg.append(cmd("/sethome [nome]", "/sethome ", "Salvar home", "máx. 2"));
+        msg.append(cmd("/home [nome]", "/home", "Ir para sua home", "5s"));
+        msg.append(cmd("/delhome [nome]", "/delhome ", "Apagar uma home", null));
+        msg.append(cmd("/listhomes", "/listhomes", "Ver suas homes", null));
+        msg.append(cmd("/warp <nome>", "/warp ", "Ir para um warp", "5s"));
 
-        msg.append(Component.literal("\nDica: clique em qualquer comando para preencher no chat.").withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
+        msg.append(Component.literal("\n  Dica: clique em um comando para preencher.\n").withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC))
+            .append(Component.literal(DIVIDER).withStyle(ChatFormatting.DARK_GRAY));
 
         source.sendSuccess(() -> msg, false);
         return 1;
