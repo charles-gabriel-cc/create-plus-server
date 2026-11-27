@@ -357,8 +357,13 @@ def main():
                     with open(local_cfg, "rb") as f:
                         client.write_file_bytes(f"/{rel_norm}", f.read())
 
-    # Cobbleworkers has no server-only metadata that AutoModpack 4 recognizes.
+    # Remove the old AutoModpack exclusion for Cobbleworkers' required client channels.
     automodpack_config_changed = False
+    cobbleworkers_missing_from_pack = any(
+        f"/mods/{name}" not in remote_sha1
+        for name in expected_srv_mods
+        if name.startswith("cobbleworkers-")
+    )
     if any(name.startswith("cobbleworkers-") for name in expected_srv_mods):
         config_path = "/automodpack/automodpack-server.json"
         exclusion = "!/mods/cobbleworkers-*.jar"
@@ -368,17 +373,17 @@ def main():
         config = json.loads(config_bytes)
         for key in ("syncedFiles", "forceCopyFilesToStandardLocation"):
             rules = config[key]
-            if exclusion not in rules:
-                rules.append(exclusion)
+            if exclusion in rules:
+                config[key] = [rule for rule in rules if rule != exclusion]
                 automodpack_config_changed = True
         if automodpack_config_changed:
-            print("Excluding Cobbleworkers from AutoModpack client downloads")
+            print("Including Cobbleworkers in AutoModpack client downloads")
             if not dry_run:
                 config_bytes = (json.dumps(config, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
                 client.write_file_bytes(config_path, config_bytes)
 
     if not dry_run:
-        if automodpack_config_changed:
+        if automodpack_config_changed or cobbleworkers_missing_from_pack:
             client.send_command("automodpack config reload").raise_for_status()
 
         if server_mods_changed or datapacks_changed:
@@ -386,7 +391,7 @@ def main():
             client.send_command("automodpack generate")
             time.sleep(3)
             client.send_power("restart").raise_for_status()
-        elif any_modpack_changed or automodpack_config_changed:
+        elif any_modpack_changed or automodpack_config_changed or cobbleworkers_missing_from_pack:
             print("Client mods/packs changed -> Sending 'automodpack generate' to server console...")
             client.send_command("automodpack generate").raise_for_status()
             if ftbquests_changed:

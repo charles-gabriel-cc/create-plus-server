@@ -2463,6 +2463,11 @@ hash = "63338ce7e20f31e1aef44bf82ea0377dc66ae2dfc5724ad4617e5212e09235e0"
 metafile = true
 
 [[files]]
+file = "mods/cobbleworkers.pw.toml"
+hash = "47421b05b6281bce597708c7202b3c9a40741b0f7fd4245a35c87ebef7553762"
+metafile = true
+
+[[files]]
 file = "mods/codxlib.pw.toml"
 hash = "10c5766cfee693bb3843ecd60334400b239b961c24fd4b9db60aceca272e3e17"
 metafile = true
