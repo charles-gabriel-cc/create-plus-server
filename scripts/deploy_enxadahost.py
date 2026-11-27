@@ -13,6 +13,7 @@ API_KEY = os.environ.get("ENXADA_API_KEY", "").strip()
 BASE_URL = f"https://painel.enxadahost.com/api/client/servers/{SERVER_ID}"
 
 sha1_file = sync_packwiz.sha1_file
+GLOBAL_DATAPACK_DIR = "/moonlight-global-datapacks"
 
 
 def load_mod_pw_sides(repo_root: str) -> dict[str, str]:
@@ -99,7 +100,7 @@ class EnxadaClient:
         )
         r.raise_for_status()
 
-    def upload_file(self, remote_dir: str, local_path: str):
+    def upload_file(self, remote_dir: str, local_path: str, download_url: str = ""):
         fname = os.path.basename(local_path)
         for attempt in range(3):
             try:
@@ -115,10 +116,29 @@ class EnxadaClient:
                     )
                 if ru.status_code in (200, 204):
                     return
+                if ru.status_code == 413 and download_url:
+                    break
+                ru.raise_for_status()
             except Exception as e:
                 print(f"  [retry {attempt+1}/3] Error uploading {fname}: {e}")
                 time.sleep(2)
-        raise RuntimeError(f"Failed to upload {local_path} to {remote_dir}")
+        else:
+            raise RuntimeError(f"Failed to upload {local_path} to {remote_dir}")
+
+        # Wings can download pinned releases that exceed its multipart upload limit.
+        r = self.s.post(
+            f"{BASE_URL}/files/pull",
+            json={
+                "directory": remote_dir,
+                "filename": fname,
+                "url": download_url,
+                "foreground": True,
+            },
+            timeout=300,
+        )
+        r.raise_for_status()
+        if self.list_dir(remote_dir).get(fname) != os.path.getsize(local_path):
+            raise RuntimeError(f"Remote download size mismatch for {remote_dir}/{fname}")
 
     def delete_files(self, remote_dir: str, filenames: list[str]):
         if not filenames:
@@ -146,6 +166,11 @@ def main():
     repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     sync_packwiz.ensure_local_binaries_from_pw_toml(repo_root, allow_prune=False)
     pw_sides = load_mod_pw_sides(repo_root)
+    mod_download_urls = {
+        data["filename"]: data.get("download", {}).get("url", "")
+        for path, data in sync_packwiz.scan_pw_files(repo_root).items()
+        if path.startswith("mods/") and data.get("filename")
+    }
     client = EnxadaClient(API_KEY)
 
     remote_sha1 = {}
@@ -212,7 +237,7 @@ def main():
         if needs_upload:
             print(f"Uploading server mod -> /mods/{fname} ({local_sz} bytes)")
             if not dry_run:
-                client.upload_file("/mods", fpath)
+                client.upload_file("/mods", fpath, mod_download_urls.get(fname, ""))
             server_mods_changed = True
             any_modpack_changed = True
 
@@ -265,9 +290,40 @@ def main():
                     client.upload_file(rem_dir, fpath)
                 any_modpack_changed = True
 
-    # Sync changed config/ files from latest git commit if running in git
+    # Moonlight loads global datapacks on startup for existing and new worlds.
+    remote_datapacks = client.list_dir(GLOBAL_DATAPACK_DIR)
+    local_datapack_dir = os.path.join(repo_root, GLOBAL_DATAPACK_DIR.lstrip("/"))
+    local_datapacks = {}
+    if os.path.isdir(local_datapack_dir):
+        local_datapacks = {
+            filename: os.path.join(local_datapack_dir, filename)
+            for filename in sorted(os.listdir(local_datapack_dir))
+            if filename.startswith("createplus-") and filename.endswith(".zip")
+            and os.path.isfile(os.path.join(local_datapack_dir, filename))
+        }
+    removed_datapacks = [
+        filename for filename in remote_datapacks
+        if filename.startswith("createplus-") and filename.endswith(".zip") and filename not in local_datapacks
+    ]
+    datapacks_changed = bool(removed_datapacks)
+    if removed_datapacks:
+        print(f"Deleting from {GLOBAL_DATAPACK_DIR}: {removed_datapacks}")
+        if not dry_run:
+            client.delete_files(GLOBAL_DATAPACK_DIR, removed_datapacks)
+
+    for filename, path in local_datapacks.items():
+        remote_path = f"{GLOBAL_DATAPACK_DIR}/{filename}"
+        if remote_datapacks.get(filename) == os.path.getsize(path):
+            with open(path, "rb") as f:
+                if client.get_file_bytes(remote_path) == f.read():
+                    continue
+        print(f"Uploading datapack -> {remote_path}")
+        if not dry_run:
+            client.upload_file(GLOBAL_DATAPACK_DIR, path)
+        datapacks_changed = True
+
+    # Sync changed config/ files from latest git commit if running in git.
     ftbquests_changed = False
-    other_config_changed = False
     try:
         diff_out = subprocess.check_output(
             ["git", "diff", "--name-status", "HEAD~1", "HEAD", "--", "config/"],
@@ -275,38 +331,38 @@ def main():
             text=True,
             stderr=subprocess.DEVNULL,
         )
-        for line in diff_out.splitlines():
-            parts = line.strip().split("\t")
-            if len(parts) >= 2:
-                status, rel_path = parts[0], parts[-1]
-                rel_norm = rel_path.replace("\\", "/")
-                if "config/ftbquests/" in rel_norm:
-                    ftbquests_changed = True
-                else:
-                    other_config_changed = True
+    except (OSError, subprocess.CalledProcessError):
+        diff_out = ""
 
-                if status.startswith("D"):
-                    parent = "/" + os.path.dirname(rel_norm)
-                    fname = os.path.basename(rel_norm)
-                    print(f"Deleting removed config on server: {rel_norm}")
-                    if not dry_run:
-                        client.delete_files(parent, [fname])
-                else:
-                    local_cfg = os.path.join(repo_root, rel_norm)
-                    if os.path.isfile(local_cfg):
-                        print(f"Uploading changed config to server: /{rel_norm}")
-                        if not dry_run:
-                            with open(local_cfg, "rb") as f:
-                                client.write_file_bytes(f"/{rel_norm}", f.read())
-    except Exception:
-        pass
+    for line in diff_out.splitlines():
+        parts = line.strip().split("\t")
+        if len(parts) < 2:
+            continue
+        status, rel_path = parts[0], parts[-1]
+        rel_norm = rel_path.replace("\\", "/")
+        if "config/ftbquests/" in rel_norm:
+            ftbquests_changed = True
+
+        if status.startswith("D"):
+            parent = "/" + os.path.dirname(rel_norm)
+            fname = os.path.basename(rel_norm)
+            print(f"Deleting removed config on server: {rel_norm}")
+            if not dry_run:
+                client.delete_files(parent, [fname])
+        else:
+            local_cfg = os.path.join(repo_root, rel_norm)
+            if os.path.isfile(local_cfg):
+                print(f"Uploading changed config to server: /{rel_norm}")
+                if not dry_run:
+                    with open(local_cfg, "rb") as f:
+                        client.write_file_bytes(f"/{rel_norm}", f.read())
 
     if not dry_run:
-        if server_mods_changed:
-            print("Server mods changed -> Sending 'automodpack generate' and restarting server...")
+        if server_mods_changed or datapacks_changed:
+            print("Server mods or datapacks changed -> Sending 'automodpack generate' and restarting server...")
             client.send_command("automodpack generate")
             time.sleep(3)
-            client.send_power("restart")
+            client.send_power("restart").raise_for_status()
         elif any_modpack_changed:
             print("Client mods/packs changed -> Sending 'automodpack generate' to server console...")
             client.send_command("automodpack generate")

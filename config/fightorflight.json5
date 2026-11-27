@@ -1,0 +1,6 @@
+{
+  "do_pokemon_attack": true,
+  "do_pokemon_attack_unprovoked": false,
+  "aggression_level_base_value": 20.0,
+  "do_pokemon_defend_owner": true
+}

@@ -697,6 +697,10 @@ file = "config/brick_and_mortar.json"
 hash = "6ba25b17d218c13aecd7773fb0dd9f01783997854cc7123891e526e82490662e"
 
 [[files]]
+file = "config/c2me.toml"
+hash = "3a286fc04d5fd45fe28676e90ac296bf595785257a7cfed0e6af36b578421a7a"
+
+[[files]]
 file = "config/cardboarded_conveynience.json"
 hash = "0f60e4f61887bac819d9d8b21b7cd4bde87ee46b2b338beed18e33dd0484fac4"
 
@@ -747,6 +751,10 @@ hash = "e198750061411cf7fca624e38b894ca104ca2cf2c2940da0409ce4240dcc2503"
 [[files]]
 file = "config/chunky/config.json"
 hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
+
+[[files]]
+file = "config/cobbleworkers/cobbleworkers.json"
+hash = "7604cebc230318b3f6a65d5c7ccfc34e603aeccc34cb66591cd07f53e113f5dd"
 
 [[files]]
 file = "config/codxlib.json"
@@ -1471,6 +1479,10 @@ hash = "eae90793a2b7d3b5e632ffd83c0bd82864d0aa048745fcd02ac2169c0d7469d5"
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686"
+
+[[files]]
+file = "config/fightorflight.json5"
+hash = "7531e179e0f3b488f7ea4e6012c6f2f1c663b06073a9331fccda34a5f30eb255"
 
 [[files]]
 file = "config/firstperson.json"
@@ -2431,6 +2443,26 @@ hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
+file = "mods/cobble-instincts.pw.toml"
+hash = "d2ccf00ea88006db91ac067ceb1aaa01d43fc1ed36ca793e5787d2cbdf1ecf14"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
+hash = "203b09369730be8f355512075738357c977555302e6ea640289f0d71396f46ec"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-myths-and-legends-sidemod.pw.toml"
+hash = "908805e81c181be33244a3594475ebb5d4e9d88fc8912024420ae621d2f51367"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon.pw.toml"
+hash = "63338ce7e20f31e1aef44bf82ea0377dc66ae2dfc5724ad4617e5212e09235e0"
+metafile = true
+
+[[files]]
 file = "mods/codxlib.pw.toml"
 hash = "10c5766cfee693bb3843ecd60334400b239b961c24fd4b9db60aceca272e3e17"
 metafile = true
@@ -2453,6 +2485,11 @@ metafile = true
 [[files]]
 file = "mods/companion.pw.toml"
 hash = "62960c4bdf7d3fc4a60b4959360342b7a3af5b7ac054091121b336b8716887ba"
+metafile = true
+
+[[files]]
+file = "mods/complete-cobblemon-collection-myths-and-legends-compat.pw.toml"
+hash = "504e1c016abd88c7c2a3420aa9250476c81cbf6bec4b94accfac2eddd2dfe008"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Cobble Instincts"
+filename = "cobbleinstincts-neoforge-0.16.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SkiOYs4m/versions/iuplSJcx/cobbleinstincts-neoforge-0.16.2.jar"
+hash-format = "sha512"
+hash = "d8a7bb2ef525f474a4ee9999d22497398cb9913130dbe5af0086f8210d329e202eb3d66042e16f79e9050d9886b0d6f6cf4b88747cbbcb689c56cf36f663bf23"
+
+[update]
+[update.modrinth]
+mod-id = "SkiOYs4m"
+version = "iuplSJcx"

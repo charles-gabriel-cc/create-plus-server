@@ -29,7 +29,7 @@ jobs:
       - name: Sync Packwiz metadata and export .mrpack
         run: python scripts/sync_packwiz.py --export-mrpack Create+.mrpack
 
-      - name: Sync mods, resourcepacks, shaderpacks and config to EnxadaHost
+      - name: Sync mods, resourcepacks, shaderpacks, datapacks and config to EnxadaHost
         env:
           ENXADA_API_KEY: ${{ secrets.ENXADA_API_KEY }}
           ENXADA_SERVER_ID: "b31b9e05"

@@ -77,3 +77,15 @@
 /config/rocketnautics-server.toml
 /config/thaumaturge-server.toml
 /config/visualworkbench-server.toml
+
+# Cobblemon client/server jars are fetched from pinned Packwiz metadata.
+/mods/Cobblemon-neoforge-*.jar
+/mods/MythsAndLegends-neoforge-*.jar
+/mods/fightorflight-neoforge-*.jar
+/mods/cobbleinstincts-neoforge-*.jar
+/mods/modccc-*.jar
+
+# Global datapacks installed by the server deploy.
+!/moonlight-global-datapacks/
+/moonlight-global-datapacks/*
+!/moonlight-global-datapacks/createplus-*.zip
