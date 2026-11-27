@@ -1,13 +1,13 @@
 name = "Smart Block Placement"
-filename = "SmartBlockPlacement-2.0.jar"
+filename = "smartblockplacement-neoforge-2.1+1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/WVehudAZ/versions/OjOphpLn/SmartBlockPlacement-2.0.jar"
+url = "https://cdn.modrinth.com/data/WVehudAZ/versions/VjUaHrbl/smartblockplacement-neoforge-2.1%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "27a6156c1794ed2fc57c6277f4375385967f3a9b68c5baa5f0271f6e3ef8b94a6e7ac44600045cfbe403958a36b2da5888a71cfef75fa67180d33069ddf5db0e"
+hash = "23dfbeab71afbdbe01ea6d31b8b808da411f2d2f7308dfd547132f04851f870e8d652cf6631f8e4c0033e13b0bae1c73add8a026f53c3ebd1332c3fe642ea52b"
 
 [update]
 [update.modrinth]
 mod-id = "WVehudAZ"
-version = "OjOphpLn"
+version = "VjUaHrbl"

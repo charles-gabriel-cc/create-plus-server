@@ -1,13 +1,13 @@
 name = "Create: Radars"
-filename = "create_radar-5.0.3-1.21.1.jar"
+filename = "create_radar-5.1.3-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/BLu2Yqfq/versions/q723aMHO/create_radar-5.0.3-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/BLu2Yqfq/versions/ayKJWhGv/create_radar-5.1.3-1.21.1.jar"
 hash-format = "sha512"
-hash = "24c736e371f163bfcdf1f777096f4397ae8204e0f4d3545698766ee5d5bbe0ca00991a5e0d6e27b2cca232a47553a9762e81160e5371a6f783f0e62698d3bc71"
+hash = "ec7901d75bf16ca6c1f0507840a0d8e65629e67940b4959401d776b68e45ef3c4e07c329a2507cb9ec70eb1ea4e1bbaf84435585e28e04acc40ce08f0313802a"
 
 [update]
 [update.modrinth]
 mod-id = "BLu2Yqfq"
-version = "q723aMHO"
+version = "ayKJWhGv"

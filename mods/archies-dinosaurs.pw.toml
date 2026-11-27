@@ -1,13 +1,13 @@
 name = "Archie's Dinosaurs"
-filename = "ec_ad-neoforge-1.21.1-1.0.4.jar"
+filename = "ec_ad-neoforge-1.21.1-1.0.8.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/RQU6eQq9/versions/6cG0pOQF/ec_ad-neoforge-1.21.1-1.0.4.jar"
+url = "https://cdn.modrinth.com/data/RQU6eQq9/versions/OhFiFZWb/ec_ad-neoforge-1.21.1-1.0.8.jar"
 hash-format = "sha512"
-hash = "1d696a8fe8ff9bafc1ceb29fac86bb50fc33c93df1a3c5595d7c05999c621b13c68cfbd5140a670994eab0f4b6b629e56dee47e3ea4bb01db05b7301b09daa25"
+hash = "a510b65bbb4343afc8afd7dc0e0bb7c468fabe51e258159dd1fa5ac32b4e7131ec482e99a3384131630b0eee34ab0a18ee3d6335d0013594666bec1ac63e4fcb"
 
 [update]
 [update.modrinth]
 mod-id = "RQU6eQq9"
-version = "6cG0pOQF"
+version = "OhFiFZWb"

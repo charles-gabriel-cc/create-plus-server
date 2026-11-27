@@ -1,13 +1,13 @@
 name = "Diegesis"
-filename = "diegesis-neoforge-1.21.1-1.0.0-beta.13.jar"
+filename = "diegesis-neoforge-1.21.1-1.0.0-beta.19.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/pyljrXOa/versions/TmLxGEPz/diegesis-neoforge-1.21.1-1.0.0-beta.13.jar"
+url = "https://cdn.modrinth.com/data/pyljrXOa/versions/jRSe4cga/diegesis-neoforge-1.21.1-1.0.0-beta.19.4.jar"
 hash-format = "sha512"
-hash = "dc8dca6e6e657b9add148afd8ae56bf6b7921d750ea110e1f66c0221028d8ebaacf6bc44aaf7d5abb2eee3b0501651ab04e98e0f085fdc03672096dc10ee0459"
+hash = "dec981552d5ce41236789d705a3e21de67bf10b006247ff10e887a9b08c4723dbccd075a380301e92021abd32ed843b9f916fb6aaf60ed73e4b1b6023f60d7f6"
 
 [update]
 [update.modrinth]
 mod-id = "pyljrXOa"
-version = "TmLxGEPz"
+version = "jRSe4cga"
