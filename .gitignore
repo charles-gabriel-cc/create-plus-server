@@ -30,8 +30,10 @@
 /mods/*.tmp
 /mods/*.bak
 
-# Ignore unpacked shaderpack folders (e.g. Euphoria Patcher runtime folder)
+# Ignore unpacked shaderpack folders and runtime logs (e.g. Euphoria Patcher)
 /shaderpacks/*/
+/shaderpacks/*.txt
+/shaderpacks/*.log
 
 # Ignore local backups, Spark temp files, and Xaero client settings
 /config/*.bak

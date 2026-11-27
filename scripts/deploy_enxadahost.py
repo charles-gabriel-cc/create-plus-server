@@ -244,7 +244,7 @@ def main():
         if os.path.exists(local_sub):
             for fname in sorted(os.listdir(local_sub)):
                 fpath = os.path.join(local_sub, fname)
-                if os.path.isfile(fpath) and not fname.startswith("."):
+                if os.path.isfile(fpath) and not fname.startswith(".") and not fname.lower().endswith((".txt", ".log")):
                     expected_sub[fname] = fpath
 
         to_del = [f for f in rem_map if f not in expected_sub]
