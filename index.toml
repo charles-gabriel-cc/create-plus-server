@@ -3193,7 +3193,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-sable-compat-1.0.0-neoforge-1.21.1.jar"
-hash = "d9ca1293449eadcecbcafea022232a3f8529f300a0e3f2571a94fa489fa0806b"
+hash = "ad5ce214238890d6d5d87907462a217ddf92111a00a2e6d69eed96f6c1d02e1b"
 
 [[files]]
 file = "mods/punchymoves.pw.toml"
