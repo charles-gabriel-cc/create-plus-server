@@ -60,16 +60,12 @@ public final class ServerHelp {
         msg.append(Component.literal("Comandos úteis: ").withStyle(ChatFormatting.GRAY))
             .append(quickCmd("/tpa", "/tpa "))
             .append(Component.literal(" • ").withStyle(ChatFormatting.DARK_GRAY))
-            .append(quickCmd("/sethome", "/sethome"))
+            .append(quickCmd("/tpahere", "/tpahere "))
+            .append(Component.literal(" • ").withStyle(ChatFormatting.DARK_GRAY))
+            .append(quickCmd("/sethome", "/sethome "))
             .append(Component.literal(" • ").withStyle(ChatFormatting.DARK_GRAY))
             .append(quickCmd("/home", "/home"))
             .append(Component.literal(" (máx. 2)").withStyle(ChatFormatting.GRAY))
-            .append(Component.literal(" • ").withStyle(ChatFormatting.DARK_GRAY))
-            .append(quickCmd("/spawn", "/spawn"))
-            .append(Component.literal(" • ").withStyle(ChatFormatting.DARK_GRAY))
-            .append(quickCmd("/claim", "/claim"))
-            .append(Component.literal(" • ").withStyle(ChatFormatting.DARK_GRAY))
-            .append(quickCmd("/party", "/party"))
             .append(Component.literal("\n"));
 
         msg.append(Component.literal("Use ").withStyle(ChatFormatting.GRAY))
@@ -217,15 +213,7 @@ public final class ServerHelp {
         msg.append(cmd("/sethome [nome]", "/sethome ", "Marca sua home atual", "máx. 2 homes"));
         msg.append(cmd("/home [nome]", "/home", "Vai para sua home", "warmup 5s"));
         msg.append(cmd("/delhome [nome]", "/delhome ", "Apaga uma home", null));
-        msg.append(cmd("/spawn", "/spawn", "Volta para o spawn", "warmup 5s"));
         msg.append(cmd("/warp <nome>", "/warp ", "Vai para um warp público", "warmup 5s"));
-
-        msg.append(section("Terrenos e Party"));
-        msg.append(cmd("/claim", "/claim", "Protege o chunk atual", null));
-        msg.append(cmd("/unclaim", "/unclaim", "Remove a proteção do chunk atual", null));
-        msg.append(cmd("/claims", "/claims", "Gerencia seus terrenos protegidos", null));
-        msg.append(cmd("/party", "/party", "Cria ou gerencia sua party", null));
-        msg.append(cmd("/pchat <msg>", "/pchat ", "Envia mensagem no chat da party", null));
 
         msg.append(Component.literal("\nDica: clique em qualquer comando para preencher no chat.").withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
 
