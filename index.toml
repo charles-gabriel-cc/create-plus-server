@@ -1494,7 +1494,7 @@ hash = "ff948dae7d0099f110078808f880e64f8d6df4f9eecf8a1a8a403dfac5e9100b"
 
 [[files]]
 file = "config/ftbessentials.snbt"
-hash = "b00c7ee18d7227826e7889cfe582a6d6a49a18be34ec00f8164781d6a7c2bfd9"
+hash = "114ae0f16a7b0995af7e2d8819dec02fd0ad53ca61034ea464af272b5903cc09"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
@@ -2090,7 +2090,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "f3364bf487fad6cc0b36e5ff0b7f6453f7b14919c3e01cbd8664c2dd9d5fb84f"
+hash = "afc7a43479b27942381dad3953bb369f26f5bfdd8c7dc26aa5a5cc9f0a14df12"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -2230,7 +2230,7 @@ hash = "463b2a2eae356e13dd63e76ee18d6a948e8f4f7efcd61c5c9ec1887addcda856"
 
 [[files]]
 file = "config/voxy-config.json"
-hash = "29be84d58baa56d7dfc07e1bb918a10f40381c1ccc19ec6e323193eb64d29e38"
+hash = "e2286ae65e747d549ae2b22ed16845842cd4325cfd9257a67f1f9ada21c8526d"
 
 [[files]]
 file = "config/yacl.json5"
