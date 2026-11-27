@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft 1.21.1" />
   <img src="https://img.shields.io/badge/Loader-NeoForge%2021.1.265-E05A2B?style=for-the-badge" alt="NeoForge 21.1.265" />
-  <img src="https://img.shields.io/badge/Mods-250%20Client%20%2B%205%20Server-3B82F6?style=for-the-badge" alt="Mods" />
+  <img src="https://img.shields.io/badge/Mods-250%20Client%20%2B%207%20Server-3B82F6?style=for-the-badge" alt="Mods" />
   <img src="https://img.shields.io/badge/FTB%20Quests-458%20Quests%20%7C%2013%20Cap%C3%ADtulos-F59E0B?style=for-the-badge" alt="FTB Quests" />
   <img src="https://img.shields.io/badge/Deploy-EnxadaHost%20%2B%20AutoModpack-8B5CF6?style=for-the-badge" alt="EnxadaHost + AutoModpack" />
 </p>
@@ -20,6 +20,7 @@
 
 - [✨ Destaques do Modpack](#-destaques-do-modpack)
 - [🏰 Mods Próprios & Server-Side](#-mods-próprios--server-side)
+- [💬 Comandos do Servidor](#-comandos-do-servidor)
 - [📖 Livro de Quests (FTB Quests)](#-livro-de-quests-ftb-quests)
 - [⌨️ Teclas Padrão do Servidor (Create: Lanterns)](#-teclas-padrão-do-servidor-create-lanterns)
 - [🎨 Resource Packs & Shaders Inclusos](#-resource-packs--shaders-inclusos)
@@ -51,7 +52,25 @@ O servidor roda mods próprios desenvolvidos especificamente para o **Create+**,
 | **`sculksaur-loot`** | `scripts/sculksaur-loot/` | Faz o Sculksaur dropar também o loot do Warden. |
 | **`sky-throttle`** | `scripts/sky-throttle/` | Otimização de desempenho do céu do Cosmonautics. |
 | **`createplus-required-packs`** | `server-mods/` | Gerenciamento de packs obrigatórios no servidor. |
-| **Segurança & Infra** | `server-mods/` | `DirectAuth` (autenticação), `AntiXray`, `MinerTrack` e `friendsandfoes-statue-fix`. |
+| **`createplus-server-help`** | `server-mods/` | Mensagem de boas-vindas ao entrar, comandos `/comandos` e `/ajuda`, feedback no `/tpaccept` e tradução PT-BR das mensagens do FTB Essentials. |
+| **Segurança & Infra** | `server-mods/` | `DirectAuth` (autenticação), `AntiXray`, `MinerTrack`, `FTB Essentials` e `friendsandfoes-statue-fix`. |
+
+---
+
+## 💬 Comandos do Servidor
+
+Os comandos de teleporte são fornecidos pelo **FTB Essentials** (sem cooldown) com mensagens traduzidas em português e ajuda interativa via `/comandos` ou `/ajuda`:
+
+| Comando | Função | Observação |
+| :--- | :--- | :--- |
+| `/tpa <jogador>` | Pede para teleportar até um jogador | Warmup 4s |
+| `/tpahere <jogador>` | Convida um jogador para teleportar até você | Warmup 4s |
+| `/sethome [nome]` | Salva sua home na posição atual | Máx. 2 homes |
+| `/home [nome]` | Teleporta para uma home salva | Warmup 5s |
+| `/delhome [nome]` | Apaga uma home salva | — |
+| `/listhomes` | Lista suas homes salvas | — |
+| `/warp <nome>` | Teleporta para um warp público | Warmup 5s |
+| `/comandos` ou `/ajuda` | Exibe a lista clicável de comandos no chat | — |
 
 ---
 
@@ -192,3 +211,4 @@ Repositório sincronizado diretamente com o perfil **Create+** (`D:\Modrinth\pro
 | `python scripts/sync_packwiz.py` | Sincroniza manualmente os metadados do Packwiz (`*.pw.toml`, `index.toml`, `pack.toml`). |
 | `python scripts/generate_ftb_quests.py` | Regera o livro de FTB Quests a partir dos mods instalados. |
 | `python scripts/keybind-defaults/build.py` | Recompila `mods/createplus-keybind-defaults-1.0.0.jar`. |
+| `python scripts/server-help/build.py` | Recompila `server-mods/createplus-server-help-1.0.0.jar`. |
