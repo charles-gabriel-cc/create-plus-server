@@ -1,0 +1,8 @@
+{
+  "removed": [
+    "item:adventurers_harness:iron_harness_arm",
+    "item:adventurers_harness:iron_harness",
+    "item:adventurers_harness:diamond_harness_arm",
+    "item:adventurers_harness:diamond_harness"
+  ]
+}

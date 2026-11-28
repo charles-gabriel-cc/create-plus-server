@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "adventurers_harness:iron_harness_arm",
+    "adventurers_harness:iron_harness",
+    "adventurers_harness:diamond_harness_arm",
+    "adventurers_harness:diamond_harness"
+  ]
+}

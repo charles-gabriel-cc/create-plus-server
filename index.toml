@@ -845,6 +845,10 @@ file = "config/create-server.toml"
 hash = "6996d95c1df2028b0fd06517fa22afb63507e8036cc54ebcd36a3bb7c6db1bd1"
 
 [[files]]
+file = "config/create_adventurers_harness-client.toml"
+hash = "c631c3d5b49c868340a2bd4ef7ff4cd8de56b5cbe088bc7c359588c6db654fa3"
+
+[[files]]
 file = "config/create_aeronautics_automated_logistics-client.toml"
 hash = "cd6181fdd2cae5bb30600e5ac10a765af5c3f60fff9fb8cc07a125d2c79f10f2"
 
@@ -2912,7 +2916,7 @@ hash = "2472d82d807a2592b1c0e8adc9a3814abc67607ac854be4763a63230b2f89247"
 
 [[files]]
 file = "mods/createplus-harness-recipes-1.0.0.jar"
-hash = "494c973f58608a4b30c9db1949cde2840efacaf0c371b080db55336fd63f6152"
+hash = "d686e598bab0e73c0433631ebbdbc5d9656fb549c76addab57179b8acca33035"
 
 [[files]]
 file = "mods/createplus-keybind-defaults-1.0.0.jar"

@@ -113,9 +113,17 @@ HARDENED_RECIPES = {
 }
 
 
+HIDDEN_ITEMS = (
+    "adventurers_harness:iron_harness_arm",
+    "adventurers_harness:iron_harness",
+    "adventurers_harness:diamond_harness_arm",
+    "adventurers_harness:diamond_harness",
+)
+
+
 def main():
     parser = argparse.ArgumentParser(
-        description="Package Create+ Harness Recipes (disables non-Create harnesses and hardens Create harness recipes)."
+        description="Package Create+ Harness Recipes (disables non-Create harnesses, hides them in EMI, and hardens Create recipes)."
     )
     parser.add_argument(
         "--output",
@@ -134,6 +142,21 @@ def main():
         target = SOURCE / rel
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(json.dumps(recipe, indent=2) + "\n", encoding="utf-8")
+
+    # Hide disabled Iron/Diamond harnesses & arms from EMI (and generic recipe viewers)
+    emi_hide = SOURCE / "assets/emi/index/stacks/createplus_harness_hidden.json"
+    emi_hide.parent.mkdir(parents=True, exist_ok=True)
+    emi_hide.write_text(
+        json.dumps({"removed": [f"item:{item}" for item in HIDDEN_ITEMS]}, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    tag_hide = SOURCE / "data/c/tags/item/hidden_from_recipe_viewers.json"
+    tag_hide.parent.mkdir(parents=True, exist_ok=True)
+    tag_hide.write_text(
+        json.dumps({"replace": False, "values": list(HIDDEN_ITEMS)}, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
     files = sorted(path for path in SOURCE.rglob("*") if path.is_file())
     for path in files:
