@@ -942,7 +942,7 @@ hash = "84fb94d093a477f2a32993eb47417ae34ce9516a0fee0349af873dffd9f058a8"
 
 [[files]]
 file = "config/createlanterns-server.toml"
-hash = "6363d6ba4def330973ab10099fa58242b3b78bec722b0c11d46be06f301c8d91"
+hash = "1d98eb5605b5d6e81e2f1f4597ee61ebba8307d720f20f7929f7f70021121d88"
 
 [[files]]
 file = "config/createlanterns/recipes/README.md"
@@ -2470,6 +2470,10 @@ hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
+file = "mods/clanternsadditions-1.4.2.jar"
+hash = "af7a3d7b39a9d5e35b80a7baa6dd6afe06d69f02f25230371a7983d01be7bd69"
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
@@ -2660,6 +2664,11 @@ hash = "59ca697b09cd2339e6bbd524828fed73fa842083846e950a555aa081fedb6c63"
 metafile = true
 
 [[files]]
+file = "mods/create-deep-seas.pw.toml"
+hash = "2e66c6b8dfb44b6e011076265ffa7bbb334da429ab889af7e0e0e8558108b129"
+metafile = true
+
+[[files]]
 file = "mods/create-diesel-generators.pw.toml"
 hash = "c9a4c5929341af6f88616f13151b3efdc44eb868db7d9c01ba5300ef96d9b8a3"
 metafile = true
@@ -2760,8 +2769,13 @@ hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
-file = "mods/createlanterns-alpha-20.50.jar"
-hash = "90601390ae0c3b9c200a28977421de6af522fccadf93c33b6b90c1f81475f5bf"
+file = "mods/createlanterns-alpha-20.63.jar"
+hash = "52181391f103bd735110dc8420e999d04105ce4236c23901e552bbfd69b19394"
+
+[[files]]
+file = "mods/createnuclear.pw.toml"
+hash = "446a3631f3fd84dfc49d79102149cc9ef42ae6bcdfd771ea6391b496db3649a2"
+metafile = true
 
 [[files]]
 file = "mods/createplus-keybind-defaults-1.0.0.jar"
@@ -3072,6 +3086,10 @@ hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
 
 [[files]]
+file = "mods/lantersbaterias-1.0.0.jar"
+hash = "2cb5aa73a1a3ceb03cafabe05b1a52150c4b933b517ebbdd886e7ed2af947b3c"
+
+[[files]]
 file = "mods/let_it_walk-0.1.5.jar"
 hash = "0abb45d5c2d30660dc10b3625d68d5245e03dbb1dece97b39c09d393b994d7fd"
 
@@ -3197,6 +3215,10 @@ hash = "9afcf3f619cc9c7fef09f3b44527c61630ad273c29f72d204e7dc7e301267bb2"
 file = "mods/particle-effects.pw.toml"
 hash = "f0f705a89c898c2ce838675a33997c6c61fd69c152437518161266bb01e4b2c5"
 metafile = true
+
+[[files]]
+file = "mods/planetary_expansion-1.0.4.1.jar"
+hash = "1a4195c821efa6f985c04a9ad206bfa7eac654811e84bb8449b4152df712dafd"
 
 [[files]]
 file = "mods/playeranimator.pw.toml"

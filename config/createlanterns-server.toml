@@ -388,16 +388,16 @@
 	#How many blocks one construct can hold for a new bearer.
 	# Default: 32
 	# Range: 1 ~ 16384
-	baseParts = 32
+	baseParts = 1024
 	#How many more blocks it can hold for each point of the bearer's emotional strength (0 to 100). 32
 	#plus 10 a point makes 1032 for a master, before what time with the ring adds (ring.blockGrowthMax).
 	# Default: 10.0
 	# Range: 0.0 ~ 1000.0
-	partsPerWill = 10.0
+	partsPerWill = 30.0
 	#The most blocks any construct can hold, however strong its bearer is (16384 is the most a design can record). A bigger construct takes longer to form and costs more to save, send and move.
 	# Default: 4096
 	# Range: 1 ~ 16384
-	mostParts = 4096
+	mostParts = 8192
 	#The widest a construct can be along any axis, in blocks (64 is the most a design can record).
 	# Default: 64
 	# Range: 1 ~ 64
@@ -415,12 +415,12 @@
 	#before a stronger bearer pays less).
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
-	formCost = 1.0
+	formCost = 0.5
 	#What a construct costs to keep out, compared to the default (1 is 0.005 a second for each
 	#block).
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
-	upkeepCost = 1.0
+	upkeepCost = 0.5
 	#How many pages of constructs a bearer gets. Each page is a wheel of slotsPerPage. Constructs on pages
 	#past these are kept, but you can't reach them until the world has those pages again.
 	# Default: 4
@@ -446,7 +446,7 @@
 	#less.
 	# Default: 0.2
 	# Range: 0.0 ~ 1000.0
-	machineFuelCost = 0.2
+	machineFuelCost = 0.1
 	#If true, a construct's fires (campfires, magma, fire, lava, hot-air burners) set fire to whatever
 	#touches them, burning in the light of the ring that made it. If false, they just burn what's in them.
 	fireSetsAlight = true

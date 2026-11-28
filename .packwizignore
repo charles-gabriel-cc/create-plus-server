@@ -33,7 +33,8 @@ mods/*.jar
 resourcepacks/*.zip
 
 # Non-Modrinth files included directly in Packwiz index / .mrpack overrides:
-!mods/createlanterns-alpha-20.50.jar
+!mods/clanternsadditions-1.4.2.jar
+!mods/createlanterns-alpha-20.63.jar
 !mods/createplus-keybind-defaults-1.0.0.jar
 !mods/createplus-sculksaur-loot-1.0.0.jar
 !mods/createplus-sky-throttle-1.0.0.jar
@@ -41,9 +42,11 @@ resourcepacks/*.zip
 !mods/ftb-library-neoforge-2101.1.39.jar
 !mods/ftb-quests-neoforge-2101.1.38.jar
 !mods/ftb-teams-neoforge-2101.1.12.jar
+!mods/lantersbaterias-1.0.0.jar
 !mods/let_it_walk-0.1.5.jar
 !mods/openui-mc-neoforge-1.21.1-0.0.16.jar
 !mods/packetweave-neoforge-1.21.1-0.1.5.jar
+!mods/planetary_expansion-1.0.4.1.jar
 !mods/punchy-sable-compat-1.0.0-neoforge-1.21.1.jar
 !mods/simplyspeakers-neoforge-1.21.1-0.10.2.jar
 !mods/spectral_hub-v4.jar
