@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft 1.21.1" />
   <img src="https://img.shields.io/badge/Loader-NeoForge%2021.1.265-E05A2B?style=for-the-badge" alt="NeoForge 21.1.265" />
-  <img src="https://img.shields.io/badge/Mods-250%20Client%20%2B%207%20Server-3B82F6?style=for-the-badge" alt="Mods" />
+  <img src="https://img.shields.io/badge/Mods-265%20Client%20%2B%207%20Server-3B82F6?style=for-the-badge" alt="Mods" />
   <img src="https://img.shields.io/badge/FTB%20Quests-458%20Quests%20%7C%2013%20Cap%C3%ADtulos-F59E0B?style=for-the-badge" alt="FTB Quests" />
   <img src="https://img.shields.io/badge/Deploy-EnxadaHost%20%2B%20AutoModpack-8B5CF6?style=for-the-badge" alt="EnxadaHost + AutoModpack" />
 </p>
@@ -33,10 +33,11 @@
 
 | Pilar | Conteúdo Principal |
 | :--- | :--- |
-| ⚙️ **Engenharia & Indústria** | **Create** e ecossistema completo: ferrovias e rotas (*Create Railways Navigator*), energia, automação logística, aeronáutica/física (*Valkyrien Skies / Clockwork*), artilharia e radares (*Create Big Cannons*, *Create Radar*). |
-| 💚 **Create: Lanterns** | Anéis energéticos, roda de construções, traje, agarrar/lançar entidades, voo com giro no ar e habilidades especiais — já configurado com teclas padrão livres de conflito. |
+| ⚙️ **Engenharia & Indústria** | **Create** e ecossistema completo: ferrovias e rotas (*Create Railways Navigator*), energia e fissão (*Create: Nuclear*), automação logística, aeronáutica/física (*Sable / Aeronautics*), submarinos (*Create: Deep Seas*), artilharia e radares (*Create Big Cannons*, *Create Radar*). |
+| 💚 **Create: Lanterns 20.63** | Anéis energéticos, roda de construções (até 1024–8192 blocos com custo reduzido), roda de poderes (`Alt Esquerdo + B`), **Create: Lanterns - Additions**, **Baterias Centrais** nos planetas das Tropas (Oa, Korugar, Odym, Okaara, Ryut, Ysmault e Zamaron) e suporte espacial integrado ao Cosmonautics. |
+| ⚡ **Cobblemon** | **Cobblemon 1.8.4** com *CobbleInstincts*, *Fight or Flight*, *Myths and Legends*, *Cobbleworkers*, *Cobblemon: Create Industries* e ícones no minimapa (*E19 Cobblemon Minimap Icons*). |
 | ⚔️ **Combate & Chefes** | **Better Combat**, **Better Mob Combat: Reimagined**, **Punchy Moves**, **L_Ender's Cataclysm**, **Mowzie's Mobs**, **Bosses of Mass Destruction** e **Deeper and Darker**. |
-| 🌍 **Exploração & Dimensões** | Novos biomas, estruturas, oceanos vivos (*Hybrid Aquatic*), *The Otherside* (*Deeper and Darker*) e exploração espacial (*Cosmonautics*). |
+| 🌍 **Exploração & Dimensões** | Novos biomas, estruturas, oceanos vivos (*Hybrid Aquatic*, *Create: Deep Seas*), *The Otherside* (*Deeper and Darker*), exploração espacial (*Cosmonautics* + *Planetary Expansion*) e os 7 planetas das Tropas dos Lanternas. |
 | 🍲 **Gastronomia & Economia** | **Farmer's Delight** e expansões culinárias + moeda oficial com **Create: Numismatics**. |
 | 🎙️ **Social & Qualidade de Vida** | **Simple Voice Chat**, **Xaero's Minimap/World Map**, **Map Atlases**, **Sophisticated Backpacks**, **Quark**, **Supplementaries**, **Zume** (zoom) e **Sodium + Iris + Voxy** para alto desempenho visual. |
 
@@ -109,7 +110,7 @@ Para evitar conflitos com os atalhos do **Create: Lanterns**, o modpack já apli
 | Agarrar / Montar (`grip`) | `V` |
 | Girar Construção (`grip_turn`) | `Tab` |
 | Giro no Ar — Esquerda / Direita (`roll_left` / `roll_right`) | `Z` / `C` |
-| Usar Poder (`power`) | `B` |
+| Usar Poder / Roda de Poderes (`power`) | `B` / `Alt Esquerdo + B` |
 | Modificadora (`modifier`) | `Alt Esquerdo` |
 
 ### 🔀 Teclas Reorganizadas (livres de conflito)
@@ -136,12 +137,13 @@ Para evitar conflitos com os atalhos do **Create: Lanterns**, o modpack já apli
 ## 🎨 Resource Packs & Shaders Inclusos
 
 <details>
-<summary><b>📦 Resource Packs (9)</b></summary>
+<summary><b>📦 Resource Packs (10)</b></summary>
 
 - `FreshAnimations_v1.10.4.zip` + `FA+Quivers-v2.2.zip`
 - `HyperPunchy-v2.8.zip`
 - `Modded Swords x Punchy! 1.21.1 v1.3.2.zip`
 - `Drigo 3D Lantern's x Punchy.zip`
+- `E19 Cobblemon Minimap Icons.zip`
 - `Fluid & Foolish 1.0.1.zip`
 - `Visual Effects+.zip`
 - `Better-Leaves-9.6.zip`
