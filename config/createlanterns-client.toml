@@ -106,3 +106,8 @@ rollView = "TURN_OVER"
 	#If true, the title screen shows the Create: Lanterns logo where the game's Minecraft logo goes,
 	#with no Java Edition under it. If false, the game's own logo and Java Edition show, as they do without the mod.
 	titleLogo = false
+	#If true, the title screen's buttons and the panel behind them are drawn in the mod's own pixel style,
+	#in the green light's colours with gold touches. It stays the game's own look when Essential or FancyMenu is installed, or when
+	#another mod adds a widget to the title screen, takes one away or moves one. If false, the title screen's buttons look as they do
+	#without the mod.
+	fancyTitle = true

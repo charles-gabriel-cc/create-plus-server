@@ -1,0 +1,65 @@
+#.
+#Allow telemetry sessions to record this module.
+#When false, the module is skipped by /cn telemetry start, even if named explicitly.
+enabled = true
+#.
+#Ticks between two writes of this module's metrics to the session (20 ticks = 1 second).
+# Default: 200
+# Range: 1 ~ 72000
+metrics_interval_ticks = 200
+#.
+#Ticks between two checks of this module's invariants (20 ticks = 1 second).
+# Default: 20
+# Range: 1 ~ 72000
+health_check_interval_ticks = 20
+#.
+#Number of most recent invariant checks used to compute the SLI (share of healthy checks).
+# Default: 100
+# Range: 10 ~ 100000
+slo_window_checks = 100
+#.
+#SLO: target share of healthy checks over the window. 0.99 means 99% of checks must pass.
+#The error budget is 1 - slo_target. A burn rate above 1 means the budget is used up too fast, and raises an alert.
+# Default: 0.99
+# Range: 0.5 ~ 1.0
+slo_target = 0.99
+#.
+#Most verbose level recorded for 'reactor/assembly'. OFF records nothing.
+#Assembly, disassembly, controller removal and IO blocks.
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+level_assembly = "INFO"
+#.
+#Most verbose level recorded for 'reactor/state'. OFF records nothing.
+#canRun and ACTIVE changes, danger transitions, meltdown.
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+level_state = "INFO"
+#.
+#Most verbose level recorded for 'reactor/output'. OFF records nothing.
+#Output speed changes (DEBUG) and orphan outputs.
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+level_output = "INFO"
+#.
+#Most verbose level recorded for 'reactor/fuel'. OFF records nothing.
+#Fuel rods consumed and fluid consumption (DEBUG).
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+level_fuel = "INFO"
+#.
+#Most verbose level recorded for 'reactor/heat'. OFF records nothing.
+#Heat variations, up to every tick (TRACE).
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+level_heat = "INFO"
+#.
+#Most verbose level recorded for 'reactor/health'. OFF records nothing.
+#Invariant violations, SLI and burn-rate alerts.
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+level_health = "INFO"
+#.
+#Most verbose level recorded for 'reactor/metrics'. OFF records nothing.
+#Periodic dump of counters, gauges and histograms.
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+level_metrics = "INFO"
+#.
+#Ticks after an output is loaded during which a missing controller is not yet reported as orphan_output_spinning (20 ticks = 1 second).
+# Default: 100
+# Range: 0 ~ 6000
+orphan_grace_ticks = 100

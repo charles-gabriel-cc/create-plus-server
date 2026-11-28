@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "accept_mirrored": false,
+  "pattern": [
+    "PSPSP",
+    "SPCPS",
+    "PSPSP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "S": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "createlanterns:glove_mount",
+    "count": 1
+  },
+  "show_notification": false
+}

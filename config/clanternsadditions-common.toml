@@ -1,0 +1,3 @@
+[ad_astra_compatibility]
+	#Are the custom Lanterns planets enabled when Ad Astra is loaded?
+	adAstraPlanets = true

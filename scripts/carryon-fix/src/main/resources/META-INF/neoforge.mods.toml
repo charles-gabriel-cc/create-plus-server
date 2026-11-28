@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "createplus_carryon_fix"
+version = "1.0.0"
+displayName = "Create+ Carry On Fix"
+description = "Fixes Carry On infinite slowness when a carried player dismounts and stabilizes carried mob rendering to prevent flickering."
+
+[[mixins]]
+config = "createplus_carryon_fix.mixins.json"
+
+[[dependencies.createplus_carryon_fix]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.createplus_carryon_fix]]
+modId = "carryon"
+type = "required"
+versionRange = "[2.2,)"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,0 +1,25 @@
+#.
+#Length of a telemetry session, in seconds, when /cn telemetry start is given no duration.
+# Default: 300
+# Range: 10 ~ 86400
+default_session_seconds = 300
+#.
+#Maximum length of a telemetry session, in seconds. Longer requests are shortened to this value.
+#A session always stops by itself after this time, even if it was forgotten.
+# Default: 1800
+# Range: 10 ~ 86400
+max_session_seconds = 1800
+#.
+#Minimum level of the telemetry events copied to the game log by the 'log' sink. OFF copies nothing.
+#latest.log only shows INFO and above; DEBUG and TRACE go to debug.log.
+#Read when a session starts. The session file always contains every recorded event, whatever this value.
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+latest_log_level = "WARN"
+#.
+#Write telemetry sessions to the 'log' sink.
+#Copies the events at or above latest_log_level to the game log.
+sink_log = true
+#.
+#Write telemetry sessions to the 'text' sink.
+#Writes every recorded event to telemetry.log in the session folder.
+sink_text = true

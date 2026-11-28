@@ -1,0 +1,53 @@
+#.
+#Allow telemetry sessions to record this module.
+#When false, the module is skipped by /cn telemetry start, even if named explicitly.
+enabled = true
+#.
+#Ticks between two writes of this module's metrics to the session (20 ticks = 1 second).
+# Default: 200
+# Range: 1 ~ 72000
+metrics_interval_ticks = 200
+#.
+#Ticks between two checks of this module's invariants (20 ticks = 1 second).
+# Default: 20
+# Range: 1 ~ 72000
+health_check_interval_ticks = 20
+#.
+#Number of most recent invariant checks used to compute the SLI (share of healthy checks).
+# Default: 100
+# Range: 10 ~ 100000
+slo_window_checks = 100
+#.
+#SLO: target share of healthy checks over the window. 0.99 means 99% of checks must pass.
+#The error budget is 1 - slo_target. A burn rate above 1 means the budget is used up too fast, and raises an alert.
+# Default: 0.99
+# Range: 0.5 ~ 1.0
+slo_target = 0.99
+#.
+#Most verbose level recorded for 'environment/server'. OFF records nothing.
+#Versions, server type and mod list, once per session.
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+level_server = "INFO"
+#.
+#Most verbose level recorded for 'environment/players'. OFF records nothing.
+#Changes of the number of online players (never names).
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+level_players = "INFO"
+#.
+#Most verbose level recorded for 'environment/health'. OFF records nothing.
+#Invariant violations, SLI and burn-rate alerts.
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+level_health = "INFO"
+#.
+#Most verbose level recorded for 'environment/metrics'. OFF records nothing.
+#Periodic dump of counters, gauges and histograms.
+#Allowed Values: OFF, ERROR, WARN, INFO, DEBUG, TRACE
+level_metrics = "INFO"
+#.
+#Add the Java version to the 'environment' event. Off by default: it describes the user's machine.
+include_java_version = false
+#.
+#Average tick time over the last 100 ticks, in milliseconds, above which the tick_over_budget invariant is violated. 50 ms = 20 TPS.
+# Default: 50.0
+# Range: 1.0 ~ 10000.0
+tick_budget_ms = 50.0

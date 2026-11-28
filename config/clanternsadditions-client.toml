@@ -1,0 +1,65 @@
+[additions]
+	#Does recharging from lantern show you the oath in action bar? (Only you)
+	oathInActionBar = true
+	#Does the ring warn you verbally on low power?
+	voiceLowerPower = true
+	#Disable Lantern's SMP button
+	disableSMPButton = false
+	#Fix SMP button's capitalization
+	fixSMPButton = true
+	#Disable main mod's title logo
+	disableTitleLogo = false
+
+	[action_bar_oaths.green]
+		#Action bar opening line for the green lantern oath.
+		start = "In brightest day, in blackest night, no evil shall escape my sight..."
+		#Action bar closing line for the green lantern oath.
+		finish = "...Let those who worship evil's might, beware my power: GREEN LANTERN'S LIGHT!"
+
+	[action_bar_oaths.yellow]
+		#Action bar opening line for the yellow lantern oath.
+		start = "In blackest day, in brightest night, beware your fears made into light..."
+		#Action bar closing line for the yellow lantern oath.
+		finish = "...Let those who try to stop what's right, burn like his power: SINESTRO'S MIGHT!"
+
+	[action_bar_oaths.red]
+		#Action bar opening line for the red lantern oath.
+		start = "With blood and rage of crimson red, ripped from a corpse so freshly dead..."
+		#Action bar closing line for the red lantern oath.
+		finish = "...Together with our hellish hate, we'll burn you all: THAT IS YOUR FATE!"
+
+	[action_bar_oaths.blue]
+		#Action bar opening line for the blue lantern oath.
+		start = "In fearful day, in raging night, with strong hearts full, our souls ignite..."
+		#Action bar closing line for the blue lantern oath.
+		finish = "...When all seems lost in the War of Light, look to the stars: FOR HOPE BURNS BRIGHT!"
+
+	[action_bar_oaths.violet]
+		#Action bar opening line for the violet lantern oath.
+		start = "For hearts long lost and full of fright, for those alone in blackest night..."
+		#Action bar closing line for the violet lantern oath.
+		finish = "...Accept our ring and join our fight, for love conquers all: WITH VIOLET LIGHT!"
+
+	[action_bar_oaths.orange]
+		#Action bar opening line for the orange lantern oath.
+		start = "What's mine is mine and mine and mine, and mine and mine and mine..."
+		#Action bar closing line for the orange lantern oath.
+		finish = "...NOT YOURS!"
+
+	[action_bar_oaths.indigo]
+		#Action bar opening line for the indigo lantern oath.
+		start = "Tor lorek san, bor nakka mur, natromo faan tornek wot ur..."
+		#Action bar closing line for the indigo lantern oath.
+		finish = "...Ter lantern lo abiv kar!"
+
+	[action_bar_oaths.black]
+		#Action bar opening line for the black lantern oath.
+		start = "The Blackest Night falls from the skies, the darkness grows as all light dies..."
+		#Action bar closing line for the black lantern oath.
+		finish = "...By my black hand, the dead shall rise!"
+
+	[action_bar_oaths.white]
+		#Action bar opening line for the white lantern oath.
+		start = "In brightest day, in darkest night, let there be light..."
+		#Action bar closing line for the white lantern oath.
+		finish = "...LIVE!"

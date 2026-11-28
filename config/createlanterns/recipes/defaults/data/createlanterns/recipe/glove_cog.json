@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "accept_mirrored": false,
+  "pattern": [
+    " SPS ",
+    "SPPPS",
+    "PPGPP",
+    "SPCPS",
+    " SPS "
+  ],
+  "key": {
+    "S": {
+      "item": "create:brass_sheet"
+    },
+    "P": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "G": {
+      "item": "create:cogwheel"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "createlanterns:glove_cog",
+    "count": 1
+  },
+  "show_notification": false
+}

@@ -753,6 +753,14 @@ file = "config/chunky/config.json"
 hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
 [[files]]
+file = "config/clanternsadditions-client.toml"
+hash = "5a5690e2395e86e76095bc46ffda787cf51c77d3c044909a03a10ca111a673e9"
+
+[[files]]
+file = "config/clanternsadditions-common.toml"
+hash = "040bb9a621301e04d3331e0cea6978ffe527bb3811bd3b048c26f39d50bfc649"
+
+[[files]]
 file = "config/cobbleinstincts/behaviors.json"
 hash = "4e8affc9f4a73ab93700248bd3005a35f2fcd48f1f1c2baa1679dceffa93af6b"
 
@@ -889,6 +897,10 @@ file = "config/create_flight_control-server.toml"
 hash = "72c2fdc64644d543385d7285fbc4c0683155e1c478870be095931ad3e541520f"
 
 [[files]]
+file = "config/create_high_seas-client.toml"
+hash = "b9f4d44210733ee498ddcca37808d971d40fcd444415a256817ddfbd4eb4ddec"
+
+[[files]]
 file = "config/create_optical-client.toml"
 hash = "d0bc89392f5ef00512bc1fecdb208a7510277d39c78ed5adea3b241f69731491"
 
@@ -907,6 +919,26 @@ hash = "817347288c8082b0a2da18e381d80548b6c6b86ffcb2b820ffdd54f600205d83"
 [[files]]
 file = "config/create_radar-server.toml"
 hash = "895466c8745c84ae0791231ca18c2cde7a3676cf0a058f74b76bec87a92c35e7"
+
+[[files]]
+file = "config/create_submarine-client.toml"
+hash = "135d44efa524e073edf820b41debe493e663b1b0dd953174dc2e0a7f6a2b439e"
+
+[[files]]
+file = "config/create_submarine-common.toml"
+hash = "2006c2386eb1b281d3b2e64aeaf73f9970a84a680d0c15d54cf9b134e4c29b15"
+
+[[files]]
+file = "config/create_submarine-server.toml"
+hash = "51253ab0a90355a32b78d846ac38d323e4bdb97e7af7c00e52d65537f00f2e7a"
+
+[[files]]
+file = "config/create_submarine-vortex.toml"
+hash = "5816a50e08976e4cc6f84c47faf331f56b5627fcece6b1de475738ac15f8cc7e"
+
+[[files]]
+file = "config/create_submarine_client_state.json"
+hash = "ed4ac1a0d823839c176b28023a3a133870fe3cb93a09b68ca8d50dbea4466c13"
 
 [[files]]
 file = "config/createbigcannons-client.toml"
@@ -934,7 +966,7 @@ hash = "bb9da0f55c9e3d6cfeea47506caaa5725df6cf1526c9dd431bb738fc45756b81"
 
 [[files]]
 file = "config/createlanterns-client.toml"
-hash = "38d02e5016857bb92a902f16fd8d72446bf37e286e64e0f53cf9c5891845b48c"
+hash = "b10e517d92c9e6bba7230cd5dce50735f132362daa4fc06e677c34441fe95f56"
 
 [[files]]
 file = "config/createlanterns-common.toml"
@@ -959,6 +991,10 @@ hash = "d608bf50b94b1b44f72ef0ddb35a91f00f0882be1bddeeb95f3c9bb6c889ca97"
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/blue_power_battery.json"
 hash = "d5c97bc3e9489a4c8182ed5d80e1ccd76381c81f654beebc751fad35b3242991"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/boxing_glove.json"
+hash = "0539ad3e986147b71d4791652ade7cdeb0c76cbf097574bb29f01d0d0cf17cbb"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/black_dust_smelting.json"
@@ -993,12 +1029,28 @@ file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/i
 hash = "01d5a09ef301db8b9ae7063250c1d5d7247350db0fd4a89396d21dd9926cbcf5"
 
 [[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/miku_dust_smelting.json"
+hash = "0046987bc449ef2d28df9b305ee79a675471bf41733c250e034510c3e7285c25"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/miku_dust_smoking.json"
+hash = "3f7fd5af444ff45bc412538f7ab9f9b1a90749cd6726121e404e8fa079958aa8"
+
+[[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/orange_dust_smelting.json"
 hash = "9a3e1ecb4963274fb4f69e89a1e538cf347035752a186e7e1bbad966fb3ccce9"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/orange_dust_smoking.json"
 hash = "a451969301c45a5a1dfe8b2286cc25f86cba8b3b3e496d963659add3f3f20bcc"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/playstation_dust_smelting.json"
+hash = "dbd655ba28db0a62af1af7a7b958096abcdfb695ced02a9890e51dfe07401beb"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/playstation_dust_smoking.json"
+hash = "a51976468f97ced71085521df66a4289cc72a17f281cbb2fea4fe2448380fafd"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/red_dust_smelting.json"
@@ -1009,12 +1061,28 @@ file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/r
 hash = "a7710437b2e1c098cd3fe6769fdaa7a5dfd1e4a7e628148a919d18c175a753ce"
 
 [[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/steam_dust_smelting.json"
+hash = "cc8803fdfbbfc44884d474b8d64d37d0c85aeff39927c356478ced660fff3d01"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/steam_dust_smoking.json"
+hash = "3bb891649e959bfc62db0032f582503f3f259d654f389209d019b1304ee91dbd"
+
+[[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/violet_dust_smelting.json"
 hash = "4958f73ed713a755bd92243ef4df5e92412de4096fe904ec491d41f2410a474f"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/violet_dust_smoking.json"
 hash = "0bf3400e0f62fc183e65abe4cd75fe82e8c7e714dc29e7fb3fee43e6f0aea2d2"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/whatsapp_dust_smelting.json"
+hash = "3f97967037bb32b86879b600a688a4357b6bd48f42ebcc0bd9ea2f79e10ce61f"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/whatsapp_dust_smoking.json"
+hash = "a33bc99ed8f0576350e48e0dafc0e0fc11cd6dac93bcc9f0ac62f800d6457bfc"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/white_dust_smelting.json"
@@ -1025,12 +1093,28 @@ file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/w
 hash = "b48dfacd83701bfab174c3968c38f371daa8d40316e9c65fb564eaf95e87dc75"
 
 [[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/xbox_dust_smelting.json"
+hash = "2adf85efe8294b1e53468b5e23a1cc7076b81409a123090a1c271c1e4e282842"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/xbox_dust_smoking.json"
+hash = "4c4f26bab22093ce2252b490aa069fb509f2cb10b29b22239738efd78c105978"
+
+[[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/yellow_dust_smelting.json"
 hash = "f166dae005bd2c5dbe4e9f1b69263114eb1ee22a42b85e093848c8e9dd405c29"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/dust/yellow_dust_smoking.json"
 hash = "9b968db039e32477539c8187e0f58d8c2a7099cd31b7ca014c7d6ad607f42546"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/glove_cog.json"
+hash = "2aa12ce54ccaa34072f01f1f6d2bf995b47580b7de1a773a0c1d5bb74153cca0"
+
+[[files]]
+file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/glove_mount.json"
+hash = "fa33bb30a112b687e45b4db13cc44552914ec46d29693fa7704d790438da797e"
 
 [[files]]
 file = "config/createlanterns/recipes/defaults/data/createlanterns/recipe/gold_display_case.json"
@@ -1219,6 +1303,26 @@ hash = "fa80f9ef9f5a642c278020330952602e10a2f8659b92a56c3ab24be568db8f41"
 [[files]]
 file = "config/createlanterns/summon-keys.properties"
 hash = "5b3f59faa1c71379dced35c0fbda2613b52d24a5c1ac40109f08163a56eb2d89"
+
+[[files]]
+file = "config/createnuclear-client.toml"
+hash = "ee4c0a04b5e2401333f366f46d75bb07ebac4f0cca06af74459fa44be28208be"
+
+[[files]]
+file = "config/createnuclear-common.toml"
+hash = "ef9b50ce5f607ca8cd2ee3ad7335c120857b1da899d260efacf97a43622bce64"
+
+[[files]]
+file = "config/createnuclear-telemetry-environment.toml"
+hash = "494f3fb386fc7f50ce95c28294fa4cddb769fd58cb9733eb4f1cd29005b0c15d"
+
+[[files]]
+file = "config/createnuclear-telemetry-reactor.toml"
+hash = "f98454e53218aaa196ae749679a666adf27bdbf27ff144b1d97980b912f7ef72"
+
+[[files]]
+file = "config/createnuclear-telemetry.toml"
+hash = "48edcfbaba0209cf94840843088870bb56b596f52dc8f77f2433c64661b32607"
 
 [[files]]
 file = "config/createplus_required_packs.json"
@@ -2213,6 +2317,10 @@ file = "config/stylisheffects-client.toml"
 hash = "a8a09363154cb398dacd5a3707f705ad8333d95b2ba8021abd9af7eb360fd7ef"
 
 [[files]]
+file = "config/submarine_hull.json"
+hash = "cf7266edafa11c346bb9277c182905e00acb80d88e984cf1b0cdd14c4dec1968"
+
+[[files]]
 file = "config/supplementaries-client.toml"
 hash = "f10f58bfca926aff0703db5c58c21f638cc7eac55a00322bd7f4bfcc64ebddbf"
 
@@ -2303,6 +2411,15 @@ hash = "40e50a47bf33581ac76d4bcacad08ed8ec433709dda814759b65224f0f4de5ac"
 [[files]]
 file = "config/zume.json5"
 hash = "8e23412c587a2350337de184b152a297778b3760f8b40dc5c2aac29f4b7a8cd3"
+
+[[files]]
+file = "mods/adventurers_harness-1.3-NeoForge-1.21.1.jar"
+hash = "a2f5feea3feed0ee78ba70e3400ce7e8bfab82d172881dd2b38b3f5566c39069"
+
+[[files]]
+file = "mods/aero_cam_sync.pw.toml"
+hash = "05d7fc1975485e44ed23c67f33d4f691523da2bacef29464f04433154929e6f8"
+metafile = true
 
 [[files]]
 file = "mods/aeroclaims.pw.toml"
@@ -2778,6 +2895,10 @@ hash = "446a3631f3fd84dfc49d79102149cc9ef42ae6bcdfd771ea6391b496db3649a2"
 metafile = true
 
 [[files]]
+file = "mods/createplus-carryon-fix-1.0.0.jar"
+hash = "2472d82d807a2592b1c0e8adc9a3814abc67607ac854be4763a63230b2f89247"
+
+[[files]]
 file = "mods/createplus-keybind-defaults-1.0.0.jar"
 hash = "9b28d712eab2d04f5480b6c398027c0cd9e263f895e8d0c2ba2b303e5930dd78"
 
@@ -2867,6 +2988,11 @@ metafile = true
 [[files]]
 file = "mods/edf-remastered.pw.toml"
 hash = "aa893b812f2075ff2bf084ddb869f9355313b9d763fb679aca86ceff835d5d58"
+metafile = true
+
+[[files]]
+file = "mods/emf-compat-carry-on.pw.toml"
+hash = "6399da8b0afe5fcb43d68bc1fa6e73f7c0533a319c42eb0cc7d10ace46040725"
 metafile = true
 
 [[files]]
