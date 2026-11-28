@@ -1713,26 +1713,26 @@
 	#before they reach it, as far ahead as seconds says, nearest first (with Distant Horizons on the server, its far terrain gets
 	#built ahead of them first). If false, the land loads like it does for anyone, around them as they go, a
 	#few chunks at a time.
-	enabled = true
+	enabled = false
 	#How far ahead the land gets made, in seconds of flight at the fastest they went over the last that many
 	#seconds (so someone held back at the edge of the land still gets land made as fast as they flew). At 300 blocks a
 	#second, 4 is 1200 blocks ahead. At 18 (a construct ridden flat out, by default) it's 72.
 	# Default: 4.0
 	# Range: 0.5 ~ 30.0
-	seconds = 4.0
+	seconds = 2.0
 	#The most chunks requested ahead in one server tick, for all fliers together.
 	# Default: 8
 	# Range: 1 ~ 256
-	chunksPerTick = 8
+	chunksPerTick = 2
 	#The most chunks kept loaded along one flier's path at once (each with the
 	#chunks around it fully made). At 1000 blocks a second, 128 is about two seconds of flight.
 	# Default: 128
 	# Range: 1 ~ 4096
-	chunksPerFlier = 128
+	chunksPerFlier = 32
 	#The most chunks kept loaded along the paths of all fliers together.
 	# Default: 512
 	# Range: 1 ~ 65536
-	mostChunks = 512
+	mostChunks = 128
 
 #A light's dust. Cooking a bucket of its liquid light in a furnace or a smoker makes it (Willpower Dust, Fear Dust
 #and so on). Taking it heightens that light for a while.
