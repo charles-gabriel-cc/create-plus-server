@@ -35,8 +35,10 @@ resourcepacks/*.zip
 # Non-Modrinth files included directly in Packwiz index / .mrpack overrides:
 !mods/adventurers_harness-1.3-NeoForge-1.21.1.jar
 !mods/clanternsadditions-1.4.2.jar
+!mods/create_adventurers_harness-1.2-NeoForge-1.21.1.jar
 !mods/createlanterns-alpha-20.63.jar
 !mods/createplus-carryon-fix-1.0.0.jar
+!mods/createplus-harness-recipes-1.0.0.jar
 !mods/createplus-keybind-defaults-1.0.0.jar
 !mods/createplus-sculksaur-loot-1.0.0.jar
 !mods/createplus-sky-throttle-1.0.0.jar

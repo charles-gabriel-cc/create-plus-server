@@ -85,6 +85,14 @@ file = "config/accurateblockplacement.properties"
 hash = "16f49a3684b5eb25831b59787fc958ace9d1a7093fd1ed940541302246b8b93e"
 
 [[files]]
+file = "config/adventurers_harness-client.toml"
+hash = "51717ebee58e85e9b4af977fc107095fe4018ca71188401983c381adc2823150"
+
+[[files]]
+file = "config/aero_cam_sync-client.toml"
+hash = "43c766c084c6919984fbc5975c47e8565297781dd7f661503f59829cd3fc00fb"
+
+[[files]]
 file = "config/aeroclaims-server.toml"
 hash = "ef26e10f607261f755cdcf0ece96da201d8d1af0ac6bd6d3bff5dbf80ba81a85"
 
@@ -1618,7 +1626,7 @@ hash = "e236ec86219100c4d003a5eb9b76f9445fd8c8af064d4c12b9b368bbfbfe3745"
 
 [[files]]
 file = "config/flywheel-client.toml"
-hash = "9a8019a2819cf8f27a30c0788b458ed7e9b6d749faea23d8feafa0424c4bb568"
+hash = "4331a7885fe5049d578461d13aaf3358706fc112952f8734f38d74aef1a442e3"
 
 [[files]]
 file = "config/fml.toml"
@@ -1858,7 +1866,7 @@ hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
 
 [[files]]
 file = "config/lambdynlights.toml"
-hash = "2bfedfcb4558da68069b8648b601a5a9420a436cb9c2360a57d4fec6fabd224b"
+hash = "9b505a32cad9cb1bb69580bcf7a92a48875e3c3c04d51fce593c0991e6e891d7"
 
 [[files]]
 file = "config/let_it_walk-client.toml"
@@ -2394,7 +2402,7 @@ hash = "463b2a2eae356e13dd63e76ee18d6a948e8f4f7efcd61c5c9ec1887addcda856"
 
 [[files]]
 file = "config/voxy-config.json"
-hash = "e2286ae65e747d549ae2b22ed16845842cd4325cfd9257a67f1f9ada21c8526d"
+hash = "153afab3c698f9e45bae66030549746c1b460c3d5372963489532280eb4cfdf7"
 
 [[files]]
 file = "config/yacl.json5"
@@ -2886,6 +2894,10 @@ hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
+file = "mods/create_adventurers_harness-1.2-NeoForge-1.21.1.jar"
+hash = "ba6b2c5d9f446a4d0125cf5be90767a392a96e4f8f8cf164a38605287f574a5a"
+
+[[files]]
 file = "mods/createlanterns-alpha-20.63.jar"
 hash = "52181391f103bd735110dc8420e999d04105ce4236c23901e552bbfd69b19394"
 
@@ -2897,6 +2909,10 @@ metafile = true
 [[files]]
 file = "mods/createplus-carryon-fix-1.0.0.jar"
 hash = "2472d82d807a2592b1c0e8adc9a3814abc67607ac854be4763a63230b2f89247"
+
+[[files]]
+file = "mods/createplus-harness-recipes-1.0.0.jar"
+hash = "494c973f58608a4b30c9db1949cde2840efacaf0c371b080db55336fd63f6152"
 
 [[files]]
 file = "mods/createplus-keybind-defaults-1.0.0.jar"

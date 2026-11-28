@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ISI",
+    "CPC",
+    "AGA"
+  ],
+  "key": {
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "P": {
+      "item": "create:mechanical_piston"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "G": {
+      "item": "create:large_cogwheel"
+    }
+  },
+  "result": {
+    "id": "create_adventurers_harness:andesite_harness_arm"
+  }
+}

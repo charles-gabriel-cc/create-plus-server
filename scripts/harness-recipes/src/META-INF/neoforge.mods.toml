@@ -1,0 +1,23 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "createplus_harness_recipes"
+version = "1.0.0"
+displayName = "Create+ Harness Recipes"
+description = "Keeps only the Create: Adventurer's Harness (Andesite and Brass) craftable and increases their recipe difficulty."
+
+[[dependencies.createplus_harness_recipes]]
+modId = "adventurers_harness"
+type = "required"
+versionRange = "[1.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.createplus_harness_recipes]]
+modId = "create_adventurers_harness"
+type = "required"
+versionRange = "[1.0,)"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,0 +1,106 @@
+[visuals]
+	#Draw your own harness arms in first person.
+	firstPersonArms = true
+	#How solid your own arms look in first person, from 0 (invisible) to 1.0 (fully solid,
+	#with no fading near the camera).
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	firstPersonOpacity = 0.4
+	#Hide the harness itself (the frame on the back and chest) on every wearer. The arms are still drawn.
+	hideHarnessModel = false
+	#Make the harness entirely invisible on every wearer: the frame, the arms and the guns on them,
+	#and the guns' flashes. The grapple's hooks and cables still show, and everything still works.
+	invisibleHarness = false
+	#Draw the Netherite Warrior's Harness's arms as the Netherite Harness's: pistons, two up each side
+	#and two up the middle (unless a tank on the back needs the middle clear).
+	warriorArmsLookNetherite = false
+	#Draw the six-armed Netherite Harness's arms as the Netherite Warrior's Harness's: stacked slim links,
+	#three down each side of the back.
+	netheriteArmsLookWarrior = false
+	#Draw Mining's job boxes and Building's shapes and preview in the world.
+	worldMarks = true
+	#The beating diamond around the crosshair while Mining or Building is on.
+	crosshairReticle = true
+	#The leg arcs around the crosshair in Climbing Mode.
+	legArcs = true
+	#The icon over a mob that a press of the Grapple key would grab.
+	grabIcon = true
+	#Dust where Climbing Mode's legs strike their holds.
+	stepDust = true
+	#The small fuel gauge beside the hotbar while a harness is worn.
+	fuelGauge = true
+
+#The Marksman's Helmet and Goggles display.
+[hud]
+	#Draw the HUD while the Marksman's Helmet or Goggles are worn.
+	enabled = true
+	#How strong the HUD's lines are (1.0 is full strength).
+	# Default: 0.8
+	# Range: 0.1 ~ 1.0
+	opacity = 0.8
+	#How far the HUD's edges lag behind as you move and turn (0 keeps them still).
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	sway = 1.0
+
+#Volumes of the harness's sounds, as a multiple of normal (0 is silent).
+[sounds]
+	#Every harness sound.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	master = 1.0
+	#Arm motors moving.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	servos = 1.0
+	#Climbing Mode's legs stepping.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	steps = 1.0
+	#The drill while Mining.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	drill = 1.0
+	#Heads clamping onto blocks and foes.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	clamps = 1.0
+	#Grapple launches, the cable winch, creak and reel.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	cable = 1.0
+	#The slingshot's tightening and release.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	slingshot = 1.0
+	#The harness powering down when out of fuel.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	powerDown = 1.0
+	#TaCZ guns on the arms firing (and the Minigun's barrels spinning).
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	gunShots = 1.0
+	#TaCZ guns on the arms reloading and working their bolts.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	gunReloads = 1.0
+	#At most this many of one sound play at once (a mob hurt by every round of several guns, say),
+	#so Minecraft's sound channels never fill up and drop the guns' sounds. Gun and harness sounds are never held back. 0 turns it off.
+	# Default: 6
+	# Range: 0 ~ 64
+	sameSoundLimit = 6
+
+[controls]
+	#Holding the Grapple key this long (in ticks, 20 a second) swings; a shorter tap zips.
+	# Default: 5
+	# Range: 2 ~ 40
+	grappleHoldTicks = 5
+	#Holding Attack this long (in ticks) in Mining Mode starts a box selection; a shorter click digs one block.
+	# Default: 5
+	# Range: 2 ~ 40
+	miningHoldTicks = 5
+	#Manual Fire: how much holding Use widens the view (0.15 is 15% wider; a negative number zooms in instead).
+	# Default: -0.5
+	# Range: -0.5 ~ 0.5
+	manualFireViewChange = -0.5

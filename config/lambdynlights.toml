@@ -27,6 +27,13 @@ chunk_rebuild_scheduler = "culling"
 	# Enables dynamic lighting of Guardian's lasers. This also can be toggled off by disabling Guardian dynamic lighting.
 	guardian_laser = false
 
+			[light_sources.settings.entities.createnuclear]
+				irradiated_wolf = true
+				irradiated_cat = true
+				irradiated_chicken = true
+				irradiated_cow = true
+				nuclear_explosion = true
+
 			[light_sources.settings.entities.spell_engine]
 				spell_projectile = true
 				spell_model_effect = true
@@ -314,6 +321,10 @@ chunk_rebuild_scheduler = "culling"
 				ring_seeker = true
 				rage_plasma = true
 
+			[light_sources.settings.entities.create_high_seas]
+				helm_seat = true
+				buoy_seat = true
+
 			[light_sources.settings.entities.aeronautics]
 				propeller_bearing_contraption = true
 				gust = true
@@ -365,6 +376,18 @@ chunk_rebuild_scheduler = "culling"
 				conductor = true
 				benchcart = true
 				jukeboxcart = true
+
+			[light_sources.settings.entities.bosses_of_mass_destruction]
+				blue_fireball = true
+				lich = true
+				spore_ball = true
+				obsidilith = true
+				petal_blade = true
+				charged_ender_pearl = true
+				comet = true
+				gauntlet = true
+				soul_star = true
+				void_blossom = true
 
 			[light_sources.settings.entities.archers_expansion]
 				explosive_barrel = true
@@ -572,6 +595,33 @@ chunk_rebuild_scheduler = "culling"
 
 			[light_sources.settings.entities.another_furniture]
 				seat = true
+
+			[light_sources.settings.entities.planetary_expansion]
+				tholin_ruminant = true
+				fang_arrow = true
+				blind_stalker = true
+				glider = true
+				magma_snail = true
+				spire_catcher = true
+				fulgurite_strider = true
+				lantern_fish = true
+				methane_eel = true
+				runner = true
+				ironjaw = true
+				lurker = true
+				mist_stalker = true
+				arc_crawler = true
+				grazer = true
+				croaker = true
+				vent_crab = true
+				ice_arrow = true
+				king_crab = true
+				ribbonfin = true
+				rust_worm = true
+				abyssal_stalker = true
+				hopper = true
+				magma_titan = true
+				harpoon = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				lifestealer_true_form = true
@@ -814,6 +864,7 @@ chunk_rebuild_scheduler = "culling"
 				lushsaur = true
 				sculkraptor = true
 				sculkraptor_nest = true
+				guardian_minion = true
 				obsidiceratops = true
 				sculkraptor_spit = true
 				therimoss_projectile = true
@@ -825,11 +876,31 @@ chunk_rebuild_scheduler = "culling"
 			[light_sources.settings.entities.mynethersdelight]
 				strider_rock = true
 
+			[light_sources.settings.entities.cobblemon]
+				empty_pokeball = true
+				npc = true
+				pokemon = true
+				generic_bedrock = true
+				chest_boat = true
+				poke_bobber = true
+				boat = true
+
 			[light_sources.settings.entities.forcemaster_rpg]
 				nen_sphere_beam = true
 
 			[light_sources.settings.entities.create_radar]
 				sky_radar_contraption = true
+
+			[light_sources.settings.entities.fightorflight]
+				bullet_projectile = true
+				tornado = true
+				floating_spike_projectile = true
+				magic_effect = true
+				tracing_bullet = true
+				whirlpool = true
+				arrow_projectile = true
+				spike_projectile = true
+				sticky_web = true
 
 			[light_sources.settings.entities.lne_paladins]
 				templars_sky_splitter = true
